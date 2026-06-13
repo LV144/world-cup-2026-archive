@@ -34,8 +34,11 @@ export async function fetchWithTimeout(url, opts = {}, timeoutMs = DEFAULT_TIMEO
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
+    // Spread opts first (method, body, …), then enforce signal/redirect and merge headers
+    // last so caller headers compose with the defaults instead of replacing the whole object.
     return await fetch(url, {
       redirect: "follow",
+      ...opts,
       signal: controller.signal,
       headers: {
         "User-Agent": BROWSER_UA,
@@ -43,7 +46,6 @@ export async function fetchWithTimeout(url, opts = {}, timeoutMs = DEFAULT_TIMEO
         "Accept-Language": "en-US,en;q=0.9",
         ...(opts.headers || {}),
       },
-      ...opts,
     });
   } finally {
     clearTimeout(timer);

@@ -106,6 +106,45 @@ npm run add -- "<url1>" "<url2>" "<url3>"
 Then review: open `data/items.json`, fill in `type` / `tags` / `importance` / `note`, and add a
 `backup` for anything you want to preserve.
 
+### Reddit links (and optional credentials)
+
+Since Reddit's 2023 API lockdown, Reddit blocks the public `.json` endpoint and serves a
+"please wait" bot-check from many IPs/User-Agents (datacenter IPs are hit hardest; your own
+laptop usually fares better). The tool handles this with a **fallback cascade** that needs no
+setup — for each Reddit URL it tries, in order:
+
+1. **Reddit OAuth API** — only if you've set credentials (see below).
+2. `www.reddit.com` page / Open Graph.
+3. `www.reddit.com/...json`.
+4. `old.reddit.com` page / `.json` (the old front-end is less gated).
+5. **Wayback Machine** snapshot (archive.org has an unblocked copy of the page).
+6. Reddit **oEmbed**.
+7. `old.reddit.com/....rss` (title only).
+8. **URL-derived** title from the post slug (always works; football inference still runs on it).
+
+So a Reddit link always saves something — at worst a slug-derived title plus the generic Reddit
+thumbnail — and never crashes the run.
+
+**For reliable Reddit metadata (recommended), add free OAuth credentials.** This is **optional**
+— everything above still works without it.
+
+1. Register a free app at <https://www.reddit.com/prefs/apps> (type **script** or **web app**).
+2. `cp .env.example .env` and fill in `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET`.
+3. Run `npm run add -- ...` as usual — it auto-detects the credentials and uses
+   `oauth.reddit.com` (≈100 requests/min, plenty).
+
+`.env` is git-ignored, so your secret is never committed. You can also export the variables in
+your shell instead of using `.env`:
+
+```powershell
+# PowerShell
+$env:REDDIT_CLIENT_ID="..."; $env:REDDIT_CLIENT_SECRET="..."; npm run add -- "<url>"
+```
+```bash
+# bash
+REDDIT_CLIENT_ID=... REDDIT_CLIENT_SECRET=... npm run add -- "<url>"
+```
+
 ---
 
 ## 4. How to refresh World Cup match data
@@ -217,8 +256,9 @@ Re-run `npm run add`, commit, and push to update.
 ## 11. Known limitations
 
 - **Reddit metadata may be incomplete** — Reddit rate-limits and blocks bots; the tool falls
-  back through several strategies and finally to URL-derived metadata, but some posts yield only
-  a title and a generic thumbnail.
+  back through several strategies (old.reddit → Wayback → oEmbed → RSS → URL-derived) and, for
+  the most reliable results, an **optional OAuth path** (see "Reddit links" above). Without
+  credentials, some posts still yield only a slug-derived title and a generic thumbnail.
 - **Some sites block scraping** — the item is still saved with whatever could be derived.
 - **Thumbnails can disappear** — remote images rot. Local copies in `assets/thumbs/` are more
   durable; commit them.

@@ -94,3 +94,26 @@ export function makeId(seed) {
 export function nowIso() {
   return new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
 }
+
+/**
+ * Minimal, dependency-free .env loader. Reads KEY=VALUE lines from the project-root `.env`
+ * (if present) into process.env without overwriting variables already set in the shell.
+ * Used for optional Reddit OAuth credentials — see .env.example.
+ */
+export async function loadDotEnv() {
+  const p = path.join(ROOT, ".env");
+  if (!(await fileExists(p))) return;
+  const raw = await fs.readFile(p, "utf8");
+  for (const line of raw.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue;
+    const eq = trimmed.indexOf("=");
+    if (eq === -1) continue;
+    const key = trimmed.slice(0, eq).trim();
+    let val = trimmed.slice(eq + 1).trim();
+    if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+      val = val.slice(1, -1);
+    }
+    if (key && process.env[key] === undefined) process.env[key] = val;
+  }
+}

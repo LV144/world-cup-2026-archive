@@ -10,7 +10,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import {
   PATHS, THUMBS_DIR, readJson, writeJson, backupFile, validateJsonFile,
-  ensureDir, makeId, nowIso,
+  ensureDir, makeId, nowIso, loadDotEnv,
 } from "./utils/file-utils.mjs";
 import { normalizeUrl } from "./utils/normalize-url.mjs";
 import { fetchMetadata } from "./utils/fetch-metadata.mjs";
@@ -93,6 +93,8 @@ function buildItem({ norm, meta, inferred, id }) {
 }
 
 async function main() {
+  await loadDotEnv(); // optional REDDIT_CLIENT_ID/SECRET etc. from project-root .env
+
   const urls = process.argv.slice(2).filter(Boolean);
   if (!urls.length) {
     console.error("Usage: npm run add -- <url1> <url2> ...");

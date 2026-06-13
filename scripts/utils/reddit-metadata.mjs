@@ -1,17 +1,26 @@
 // reddit-metadata.mjs
-// Reddit needs special handling: it blocks the default fetch User-Agent, rate-limits,
-// and serves an interstitial to bots. We try several no-auth strategies in order and
-// degrade gracefully — a blocked/empty Reddit response must never crash the run.
+// Reddit needs special handling: since the 2023 API lockdown it blocks the default fetch
+// User-Agent, rate-limits the public `.json` endpoint, and serves a "please wait" bot-check
+// interstitial — especially from datacenter IPs. We try several strategies in order and
+// degrade gracefully; a blocked/empty Reddit response must never crash the run.
 //
-// Order:
-//   1) Standard page / Open Graph metadata (via fetch-metadata).
-//   2) Reddit JSON endpoint (append `.json` to the permalink) with a custom UA.
-//   3) Reddit oEmbed endpoint.
-//   4) URL-derived metadata (subreddit + post id from the path).
+// Cascade (first source that yields a usable, non-interstitial title wins):
+//   0) OAuth API (oauth.reddit.com)      — OPT-IN, most reliable. Enabled when
+//      REDDIT_CLIENT_ID + REDDIT_CLIENT_SECRET are set (see .env.example). Never required.
+//   1) www.reddit.com page / Open Graph
+//   2) www.reddit.com `.json`
+//   3) old.reddit.com page / `.json`     — the old front-end is often less gated
+//   4) Wayback Machine snapshot          — archive.org has a real, unblocked copy of the page
+//   5) Reddit oEmbed                     — title + thumbnail
+//   6) old.reddit `.rss`                 — title only (RSS is less gated than JSON)
+//   7) URL-derived slug                  — last resort, always succeeds
+//
+// Authentication is OPTIONAL: with no credentials the no-auth strategies (1-7) still run.
 
 import { fetchMetadata, fetchWithTimeout } from "./fetch-metadata.mjs";
 
-const REDDIT_UA = "world-cup-archive/1.0 (static link archive; no auth)";
+const DEFAULT_UA = "world-cup-archive/1.0 (static link archive; +https://github.com/)";
+const redditUA = () => process.env.REDDIT_USER_AGENT || DEFAULT_UA;
 
 // A generic fallback thumbnail used when Reddit gives us nothing usable.
 // data: URI so it works offline and never 404s. Simple Reddit-orange square.
@@ -60,12 +69,8 @@ export function parseRedditPath(url) {
 function htmlDecode(s) {
   if (!s) return s;
   return s
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&#x27;/g, "'");
+    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&#x27;/g, "'");
 }
 
 function usableThumb(t) {
@@ -75,71 +80,175 @@ function usableThumb(t) {
   return htmlDecode(t);
 }
 
-// Reddit sometimes returns HTTP 200 with a bot-check / "please wait" interstitial that
-// still carries an og:title. Such titles (and the generic homepage title) are useless and
-// must not pre-empt the URL-derived fallback.
+// Reddit sometimes returns HTTP 200 with a bot-check / "please wait" interstitial that still
+// carries an og:title. Such titles (and the generic homepage title) must not pre-empt the
+// later strategies.
 function looksBlocked(s) {
   if (!s) return false;
   return /please wait|whoa there|verifying you are human|are you a robot|just a moment|enable javascript|access denied|you'?ve been blocked|dive into anything/i.test(s);
 }
 
-/** Strategy 2: the public .json endpoint. Returns partial metadata or null. */
-async function tryRedditJson(url) {
-  let jsonUrl = url.split("#")[0].split("?")[0];
-  jsonUrl = jsonUrl.replace(/\/+$/, "") + "/.json";
+/** Rebuild a Reddit URL on a different host (e.g. old.reddit.com). */
+function onHost(url, host) {
   try {
-    const res = await fetchWithTimeout(jsonUrl, { headers: { "User-Agent": REDDIT_UA, Accept: "application/json" } }, 10000);
-    if (!res.ok) return null;
-    const data = await res.json();
-    const post = data?.[0]?.data?.children?.[0]?.data;
-    if (!post) return null;
+    const u = new URL(url);
+    u.hostname = host;
+    return u.toString();
+  } catch {
+    return url;
+  }
+}
 
-    // Prefer the highest-resolution preview image, then media/oembed, then thumbnail.
-    let image =
-      usableThumb(post?.preview?.images?.[0]?.source?.url) ||
-      usableThumb(post?.secure_media?.oembed?.thumbnail_url) ||
-      usableThumb(post?.media?.oembed?.thumbnail_url) ||
-      usableThumb(post?.thumbnail) ||
-      (post?.url && /\.(jpg|jpeg|png|gif|webp)$/i.test(post.url) ? post.url : null);
+/** Shared: turn a Reddit post `data` object (from .json or OAuth) into partial metadata. */
+function extractPostData(post) {
+  if (!post) return null;
+  const image =
+    usableThumb(post?.preview?.images?.[0]?.source?.url) ||
+    usableThumb(post?.secure_media?.oembed?.thumbnail_url) ||
+    usableThumb(post?.media?.oembed?.thumbnail_url) ||
+    usableThumb(post?.thumbnail) ||
+    (post?.url && /\.(jpg|jpeg|png|gif|webp)$/i.test(post.url) ? post.url : null);
+  return {
+    title: htmlDecode(post.title) || null,
+    description: post.selftext ? htmlDecode(post.selftext).slice(0, 280) : null,
+    subreddit: post.subreddit || null,
+    image: image || null,
+    createdUtc: post.created_utc ? new Date(post.created_utc * 1000).toISOString() : null,
+    canonicalUrl: post.permalink ? `https://www.reddit.com${post.permalink}` : null,
+  };
+}
 
-    return {
-      title: htmlDecode(post.title) || null,
-      description: post.selftext ? htmlDecode(post.selftext).slice(0, 280) : null,
-      subreddit: post.subreddit || null,
-      image: image || null,
-      createdUtc: post.created_utc ? new Date(post.created_utc * 1000).toISOString() : null,
-      permalink: post.permalink ? `https://www.reddit.com${post.permalink}` : null,
-      over18: !!post.over_18,
-      linkUrl: post.url_overridden_by_dest || post.url || null,
-    };
+/* ----------------------------- OAuth (optional) ----------------------------- */
+
+let tokenCache = null; // { value, expiresAt }
+let oauthWarned = false;
+
+export function redditOauthConfigured() {
+  return !!(process.env.REDDIT_CLIENT_ID && process.env.REDDIT_CLIENT_SECRET);
+}
+
+async function getRedditToken() {
+  if (!redditOauthConfigured()) return null;
+  const now = Date.now();
+  if (tokenCache && tokenCache.expiresAt > now + 5000) return tokenCache.value;
+
+  const basic = Buffer.from(`${process.env.REDDIT_CLIENT_ID}:${process.env.REDDIT_CLIENT_SECRET}`).toString("base64");
+  const usePassword = process.env.REDDIT_USERNAME && process.env.REDDIT_PASSWORD;
+  const body = new URLSearchParams(
+    usePassword
+      ? { grant_type: "password", username: process.env.REDDIT_USERNAME, password: process.env.REDDIT_PASSWORD }
+      : { grant_type: "client_credentials" },
+  );
+  try {
+    const res = await fetchWithTimeout(
+      "https://www.reddit.com/api/v1/access_token",
+      { method: "POST", body: body.toString(), headers: { Authorization: `Basic ${basic}`, "Content-Type": "application/x-www-form-urlencoded", "User-Agent": redditUA() } },
+      10000,
+    );
+    if (!res.ok) {
+      if (!oauthWarned) {
+        oauthWarned = true;
+        console.warn(`  ⚠ Reddit OAuth token request failed (HTTP ${res.status}). Check REDDIT_CLIENT_ID/SECRET (and app type). Falling back to no-auth.`);
+      }
+      return null;
+    }
+    const j = await res.json();
+    if (!j.access_token) return null;
+    tokenCache = { value: j.access_token, expiresAt: now + (j.expires_in || 3600) * 1000 };
+    return tokenCache.value;
   } catch {
     return null;
   }
 }
 
-/** Strategy 3: the oEmbed endpoint. Returns partial metadata or null. */
-async function tryRedditOembed(url) {
-  const oembed = `https://www.reddit.com/oembed?url=${encodeURIComponent(url)}`;
+async function tryOauth(postId) {
+  if (!postId) return null;
+  const token = await getRedditToken();
+  if (!token) return null;
   try {
-    const res = await fetchWithTimeout(oembed, { headers: { "User-Agent": REDDIT_UA, Accept: "application/json" } }, 9000);
+    const res = await fetchWithTimeout(
+      `https://oauth.reddit.com/api/info?id=t3_${postId}&raw_json=1`,
+      { headers: { Authorization: `Bearer ${token}`, "User-Agent": redditUA() } },
+      10000,
+    );
     if (!res.ok) return null;
     const data = await res.json();
-    return {
-      title: htmlDecode(data.title) || null,
-      subreddit: null,
-      image: usableThumb(data.thumbnail_url),
-      author: data.author_name || null,
-    };
+    return extractPostData(data?.data?.children?.[0]?.data);
   } catch {
     return null;
   }
 }
 
-/**
- * Fetch Reddit metadata via the cascade.
- * Always resolves to a normalized metadata object shaped like fetchMetadata's output
- * plus `subreddit`, `createdUtc`, and `strategiesTried`.
- */
+/* ----------------------------- No-auth strategies ----------------------------- */
+
+async function tryOg(url) {
+  try {
+    const og = await fetchMetadata(url);
+    return { title: og.title, description: og.description, image: og.image, canonicalUrl: og.canonicalUrl };
+  } catch {
+    return null;
+  }
+}
+
+async function tryJson(url, host = "www.reddit.com") {
+  try {
+    const u = new URL(url);
+    u.hostname = host;
+    const jsonUrl = u.origin + u.pathname.replace(/\/+$/, "") + "/.json";
+    const res = await fetchWithTimeout(jsonUrl, { headers: { "User-Agent": redditUA(), Accept: "application/json" } }, 10000);
+    if (!res.ok) return null;
+    const data = await res.json();
+    return extractPostData(data?.[0]?.data?.children?.[0]?.data);
+  } catch {
+    return null;
+  }
+}
+
+async function tryWayback(url) {
+  try {
+    const api = `https://archive.org/wayback/available?url=${encodeURIComponent(url)}`;
+    const res = await fetchWithTimeout(api, { headers: { Accept: "application/json" } }, 9000);
+    if (!res.ok) return null;
+    const snap = (await res.json())?.archived_snapshots?.closest;
+    if (!snap?.available || !snap.url) return null;
+    const og = await fetchMetadata(snap.url.replace(/^http:/, "https:"));
+    const title = og.title && !looksBlocked(og.title) ? og.title.replace(/\s*[:|-]\s*reddit$/i, "") : null;
+    return { title, description: og.description, image: og.image };
+  } catch {
+    return null;
+  }
+}
+
+async function tryOembed(url) {
+  try {
+    const res = await fetchWithTimeout(`https://www.reddit.com/oembed?url=${encodeURIComponent(url)}`, { headers: { "User-Agent": redditUA(), Accept: "application/json" } }, 9000);
+    if (!res.ok) return null;
+    const data = await res.json();
+    return { title: htmlDecode(data.title) || null, image: usableThumb(data.thumbnail_url) };
+  } catch {
+    return null;
+  }
+}
+
+async function tryRss(url) {
+  try {
+    const u = new URL(url);
+    u.hostname = "old.reddit.com"; // old.reddit RSS is less aggressively gated
+    const rssUrl = u.origin + u.pathname.replace(/\/+$/, "") + "/.rss";
+    const res = await fetchWithTimeout(rssUrl, { headers: { "User-Agent": redditUA(), Accept: "application/atom+xml, application/rss+xml, text/xml" } }, 9000);
+    if (!res.ok) return null;
+    const xml = await res.text();
+    const m = xml.match(/<title[^>]*>([\s\S]*?)<\/title>/i); // feed-level title == post title for a comments feed
+    if (!m) return null;
+    const t = htmlDecode(m[1].replace(/<!\[CDATA\[|\]\]>/g, "").trim());
+    return t && !looksBlocked(t) ? { title: t, image: null } : null;
+  } catch {
+    return null;
+  }
+}
+
+/* ----------------------------- Cascade ----------------------------- */
+
 export async function fetchRedditMetadata(url) {
   const fromPath = parseRedditPath(url);
   const result = {
@@ -149,59 +258,58 @@ export async function fetchRedditMetadata(url) {
     title: null,
     description: null,
     siteName: "Reddit",
-    canonicalUrl: fromPath.postId
-      ? `https://www.reddit.com/r/${fromPath.subreddit}/comments/${fromPath.postId}`
-      : null,
+    canonicalUrl: fromPath.postId ? `https://www.reddit.com/r/${fromPath.subreddit}/comments/${fromPath.postId}` : null,
     image: null,
     subreddit: fromPath.subreddit || null,
     createdUtc: null,
     usedPlaceholder: false,
+    usedOauth: false,
     strategiesTried: [],
     error: null,
   };
 
-  // Strategy 1: standard OG metadata — but reject bot-check interstitial titles/images so
-  // we fall through to the structured / URL-derived strategies below.
-  try {
-    const og = await fetchMetadata(url);
-    result.strategiesTried.push("opengraph");
-    const ogUsable = og.title && !looksBlocked(og.title);
-    if (ogUsable) {
-      result.title = result.title || og.title;
-      if (og.image) result.image = result.image || og.image;
-      if (og.canonicalUrl) result.canonicalUrl = og.canonicalUrl;
-    }
-    if (og.description && !looksBlocked(og.description)) result.description = result.description || og.description;
-  } catch {
-    /* keep going */
+  // Fill missing fields from a partial result; never overwrite what we already have.
+  const absorb = (p) => {
+    if (!p) return;
+    if (!result.title && p.title && !looksBlocked(p.title)) result.title = p.title;
+    if (!result.description && p.description && !looksBlocked(p.description)) result.description = p.description;
+    if (!result.image && p.image) result.image = p.image;
+    if (!result.subreddit && p.subreddit) result.subreddit = p.subreddit;
+    if (!result.createdUtc && p.createdUtc) result.createdUtc = p.createdUtc;
+    if (p.canonicalUrl) result.canonicalUrl = p.canonicalUrl;
+  };
+
+  // "Rich" strategies return title AND image together; the first that yields a real title
+  // is authoritative (its image, or lack of one, is trusted) so we stop there.
+  const rich = [
+    { name: "oauth", run: () => tryOauth(fromPath.postId), oauth: true },
+    { name: "opengraph", run: () => tryOg(url) },
+    { name: "json", run: () => tryJson(url, "www.reddit.com") },
+    { name: "old.reddit", run: () => tryOg(onHost(url, "old.reddit.com")) },
+    { name: "old.json", run: () => tryJson(url, "old.reddit.com") },
+    { name: "wayback", run: tryWayback },
+  ];
+
+  for (const s of rich) {
+    if (s.oauth && !(redditOauthConfigured() && fromPath.postId)) continue;
+    result.strategiesTried.push(s.name);
+    absorb(await s.run());
+    if (s.oauth && result.title) result.usedOauth = true;
+    if (result.title) break; // first real title wins (image came with it, or stays null → placeholder)
   }
 
-  // Strategy 2: JSON endpoint (best structured source).
-  const j = await tryRedditJson(url);
-  result.strategiesTried.push("json");
-  if (j) {
-    result.title = result.title || j.title;
-    result.description = result.description || j.description;
-    result.image = result.image || j.image;
-    result.subreddit = result.subreddit || j.subreddit;
-    result.createdUtc = result.createdUtc || j.createdUtc;
-    if (j.permalink) result.canonicalUrl = j.permalink;
-  }
-
-  // Strategy 3: oEmbed (title + thumbnail).
-  if (!result.title || !result.image) {
-    const o = await tryRedditOembed(url);
-    result.strategiesTried.push("oembed");
-    if (o) {
-      result.title = result.title || o.title;
-      result.image = result.image || o.image;
-    }
-  }
-
-  // Strategy 4: URL-derived fallback.
+  // "Thin" strategies: title-focused fallbacks when nothing above worked.
   if (!result.title) {
-    result.title = fromPath.titleFromSlug || (fromPath.subreddit ? `Reddit post in r/${fromPath.subreddit}` : "Reddit post");
+    result.strategiesTried.push("oembed");
+    absorb(await tryOembed(url));
+  }
+  if (!result.title) {
+    result.strategiesTried.push("rss");
+    absorb(await tryRss(url));
+  }
+  if (!result.title) {
     result.strategiesTried.push("url-derived");
+    result.title = fromPath.titleFromSlug || (fromPath.subreddit ? `Reddit post in r/${fromPath.subreddit}` : "Reddit post");
   }
 
   // Generic Reddit thumbnail when nothing usable was found.
