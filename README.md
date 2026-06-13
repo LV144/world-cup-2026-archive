@@ -1,0 +1,270 @@
+# World Cup 2026 Internet Archive
+
+A small, durable, **static** website for collecting and sharing World Cup 2026 internet
+posts — mainly Reddit links, but also articles, videos, social media posts, images, and any
+other URL. Paste links, let the tooling fetch web metadata and infer football context, and
+publish a clean, filterable card archive to any static host.
+
+No database, no backend, no paid APIs, no authentication. All data lives in plain, editable
+JSON files.
+
+---
+
+## 1. What this project is
+
+You run one command:
+
+```bash
+npm run add -- <url1> <url2> <url3>
+```
+
+…and the project will, for each URL:
+
+1. Normalize the URL and skip duplicates.
+2. Fetch web metadata (title, description, source, canonical URL, thumbnail) via Open Graph,
+   Twitter Card, JSON-LD, oEmbed, and `<title>` fallbacks.
+3. Handle Reddit specially (page metadata → public `.json` endpoint → oEmbed → URL-derived).
+4. Infer World Cup metadata when possible: stage, group, match, teams, team codes, score (only
+   if the match has finished), and goals.
+5. Download a local copy of the thumbnail when feasible.
+6. Store everything in `data/items.json`.
+7. Mark anything uncertain with `needsReview: true` instead of inventing facts.
+
+The frontend (`index.html` + `styles.css` + `app.js`) reads the JSON and renders a responsive,
+filterable, sortable archive. It works even when metadata is missing.
+
+> **Important:** This archive stores **metadata, links, notes, and thumbnails** — not full
+> copyrighted article text. For Reddit, the `backup` field is available for your own
+> screenshots or copied excerpts.
+
+---
+
+## 2. How the data model works
+
+### `data/items.json` — archived links (array)
+
+| Field | Meaning |
+| --- | --- |
+| `id` | Stable id (derived from the normalized URL). |
+| `title`, `description` | From page metadata. |
+| `url` | Original submitted URL, normalized. |
+| `canonicalUrl` | Canonical URL from metadata, if any. |
+| `source`, `sourceDetail` | e.g. `Reddit` / `r/worldcup`, `YouTube`, `Article`. |
+| `thumbnailRemoteUrl` | Image URL from metadata. |
+| `thumbnailLocalPath` | Local copy under `assets/thumbs/`, if downloaded. |
+| `dateSaved` | ISO timestamp. |
+| `matchId`, `matchLabel` | Linked match (e.g. `Mexico vs South Africa`), if confidently inferred. |
+| `stage`, `group` | Canonical stage / group letter. |
+| `teams`, `teamCodes` | Teams involved + FIFA-style codes. |
+| `scoreLabel` | e.g. `Mexico 2–0 South Africa` (only when the match is completed). |
+| `goals` | Copied from the match if available. |
+| `candidateMatches` | Possible matches when inference is uncertain. |
+| `type`, `tags` | `meme`, `analysis`, `match thread`, `highlight`, etc. **(manual)** |
+| `importance` | `must-save` / `good` / `maybe`. **(manual)** |
+| `note`, `backup` | Your context + preservation field. **(manual)** |
+| `metadataConfidence` | `{ match, teams, stage, score }`, each `0`–`1`. |
+| `needsReview` | `true` when metadata is incomplete or uncertain. |
+
+**Manual fields** (`type`, `tags`, `importance`, `note`, `backup`) are **never overwritten** by
+the scripts.
+
+### `data/matches.json` — structured match data (array)
+
+Each match: `matchId`, `stage`, `group`, `round`, `kickoffUtc`, `status`
+(`scheduled` / `completed`), `homeTeam`/`awayTeam` (`{name, code}`), `score` (`null` until
+played), `goals`, `venue`, `sourceUrls`, `lastUpdated`.
+
+Canonical stages (use these exactly): `Group stage`, `Round of 32`, `Round of 16`,
+`Quarter-finals`, `Semi-finals`, `Third-place play-off`, `Final`.
+
+> The shipped `matches.json` contains a few **clearly-labeled sample matches** (`"sample": true`)
+> so the tooling and frontend work out of the box. They are placeholders, not verified results —
+> run `npm run update-matches` (or edit the file) to replace them with real data. Successfully
+> fetched real data automatically removes the sample rows.
+
+### `data/team-aliases.json` & `data/stage-aliases.json`
+
+Editable maps from spellings/abbreviations/nicknames to canonical team names + FIFA codes, and
+from common stage terms to canonical stage values. Add or fix entries freely — the inference
+engine reads them on every run. The team list is reference data (common nations + hosts), not a
+claim about the final 48; edit it to match the actual field.
+
+---
+
+## 3. How to add links
+
+```bash
+npm run add -- "https://www.reddit.com/r/worldcup/comments/abc123/some_post/"
+npm run add -- "<url1>" "<url2>" "<url3>"
+```
+
+- Duplicates (by URL, canonical URL, or normalized variants) are skipped and reported.
+- One bad/blocked URL never aborts the batch — partial success is preserved.
+- After writing, `items.json` is re-validated as JSON; a `.bak` backup is kept.
+- The summary prints what was added, what was inferred, and what needs review.
+
+Then review: open `data/items.json`, fill in `type` / `tags` / `importance` / `note`, and add a
+`backup` for anything you want to preserve.
+
+---
+
+## 4. How to refresh World Cup match data
+
+```bash
+npm run update-matches
+```
+
+Fetches fixtures/results from a free, no-auth public source and merges them into
+`data/matches.json` by stable `matchId`.
+
+- **Source:** the primary adapter pulls structured JSON from the community **openfootball**
+  dataset on GitHub (no scraping). A **Wikipedia** fallback hook exists but is left as a clearly
+  marked stub — extend `scripts/utils/match-sources.mjs` to enable it. Both parsers are isolated
+  in that one file, so swapping/fixing a source is a one-function change.
+- A field is only overwritten when the source supplies a non-null value — manual fields, venues,
+  and hand-entered scores are never wiped.
+- If no source is reachable, `matches.json` is **left untouched** and the script exits cleanly.
+- Scores stay `null` until a match is actually played; scorers/minutes are only stored when the
+  source provides them. Nothing is invented.
+
+> If openfootball hasn't published the 2026 dataset (or the path has moved), the script will
+> report "no source returned usable data." In that case, edit `data/matches.json` by hand or add
+> a parser to `match-sources.mjs`.
+
+---
+
+## 5. How to enrich existing items after matches finish
+
+```bash
+npm run enrich
+```
+
+After updating matches, this refreshes archived items:
+
+- Items **with** a `matchId`: refresh `stage`, `group`, `teams`, `teamCodes`, `scoreLabel`,
+  `goals` from `matches.json`.
+- Items **without** a `matchId`: retry inference; link only if it now resolves confidently.
+- Manual fields (`type`, `tags`, `importance`, `note`, `backup`) are never touched.
+
+So a "match thread" you saved before kickoff will pick up the final score automatically once the
+match data updates.
+
+---
+
+## 6. How to manually edit metadata
+
+All data is plain JSON — edit `data/items.json` and `data/matches.json` in any editor.
+
+- Fix or fill `stage`, `teams`, `note`, `tags`, `importance`, etc.
+- Set `needsReview` to `false` once you've checked an item.
+- To force a match link, set the item's `matchId` to a real `matchId` from `matches.json` and run
+  `npm run enrich` to populate the rest.
+- Add aliases to `data/team-aliases.json` so future inference recognizes a team/spelling.
+- Run `npm run validate` after editing to catch mistakes.
+
+---
+
+## 7. How to preview locally
+
+```bash
+npm install        # one-time, installs cheerio
+npm run serve      # serves the folder at http://localhost:8080
+```
+
+Open <http://localhost:8080>. (Opening `index.html` directly via `file://` won't work because
+browsers block `fetch` of local files — use the served URL.)
+
+---
+
+## 8. How to deploy to GitHub Pages
+
+1. Create a GitHub repo and push this folder:
+   ```bash
+   git init && git add . && git commit -m "World Cup 2026 archive"
+   git branch -M main
+   git remote add origin https://github.com/<you>/world-cup-2026-archive.git
+   git push -u origin main
+   ```
+2. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**,
+   branch `main`, folder `/ (root)`. Save.
+3. Your site appears at `https://<you>.github.io/world-cup-2026-archive/`.
+
+Because the site is plain static files and uses **relative** `data/...` paths, it works on a
+project subpath with no configuration. Commit `assets/thumbs/` so local thumbnails are served.
+Re-run `npm run add`, commit, and push to update.
+
+---
+
+## 9. How to deploy to Netlify
+
+- **Drag-and-drop:** zip/drag the project folder onto <https://app.netlify.com/drop>.
+- **Git:** "Add new site → Import an existing project", pick the repo. There is no build step:
+  - Build command: *(leave empty)*
+  - Publish directory: `.` (the repo root)
+
+---
+
+## 10. How to deploy to Cloudflare Pages
+
+1. **Workers & Pages → Create → Pages → Connect to Git**, select the repo.
+2. Framework preset: **None**. Build command: *(empty)*. Build output directory: `/` (root).
+3. Deploy. Updates ship automatically on every push.
+
+(You can also use `npx wrangler pages deploy .` for a direct upload.)
+
+---
+
+## 11. Known limitations
+
+- **Reddit metadata may be incomplete** — Reddit rate-limits and blocks bots; the tool falls
+  back through several strategies and finally to URL-derived metadata, but some posts yield only
+  a title and a generic thumbnail.
+- **Some sites block scraping** — the item is still saved with whatever could be derived.
+- **Thumbnails can disappear** — remote images rot. Local copies in `assets/thumbs/` are more
+  durable; commit them.
+- **Goal-scorer data may not be available** — scores update without scorers; goals stay `[]`.
+- **The archive stores metadata and links, not full copyrighted articles.**
+- **Football inference is best-effort** — uncertain items are flagged `needsReview`, never
+  guessed. Match data quality depends entirely on `matches.json`.
+
+---
+
+## 12. Preservation notes
+
+- For important Reddit posts, manually add **screenshots, copied excerpts, or archive links**
+  (e.g. a [web.archive.org](https://web.archive.org) URL) in the item's `backup` field.
+- **Remote thumbnails are convenient but local thumbnails are more durable** — the `add` script
+  downloads a local copy when it can; keep `assets/thumbs/` committed.
+- Run `npm run validate` regularly, and keep the `.bak` files around until you're confident a
+  rewrite went well.
+
+---
+
+## Project layout
+
+```
+world-cup-2026-archive/
+  index.html  styles.css  app.js          # static frontend
+  package.json  README.md  .gitignore
+  data/
+    items.json          # archived links
+    matches.json        # WC 2026 matches (sample seed + scraped/updated)
+    team-aliases.json   # team name/code/alias map (editable)
+    stage-aliases.json  # stage term map (editable)
+  scripts/
+    add-links.mjs  update-matches.mjs  enrich-items.mjs  validate.mjs
+    utils/
+      fetch-metadata.mjs  reddit-metadata.mjs  match-inference.mjs
+      normalize-url.mjs   file-utils.mjs       match-sources.mjs
+  assets/thumbs/          # downloaded thumbnails (committed)
+```
+
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `npm run add -- <urls…>` | Fetch metadata + infer football data, append items. |
+| `npm run update-matches` | Refresh `matches.json` from a public source. |
+| `npm run enrich` | Re-apply match data to existing items. |
+| `npm run validate` | Check JSON validity, duplicates, references, stages. |
+| `npm run serve` | Preview locally at `http://localhost:8080`. |

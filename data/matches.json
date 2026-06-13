@@ -1,0 +1,72 @@
+[
+  {
+    "matchId": "MEX-RSA-2026-06-11",
+    "sample": true,
+    "note": "SAMPLE fixture for demonstration only — not a verified result. Replace real data with `npm run update-matches` or by editing this file.",
+    "stage": "Group stage",
+    "group": "A",
+    "round": null,
+    "kickoffUtc": "2026-06-11T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": { "name": "Mexico", "code": "MEX" },
+    "awayTeam": { "name": "South Africa", "code": "RSA" },
+    "score": null,
+    "goals": [],
+    "venue": null,
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-13T12:00:00Z"
+  },
+  {
+    "matchId": "USA-CRC-2026-06-12",
+    "sample": true,
+    "note": "SAMPLE fixture for demonstration only — not a verified fixture. Replace with `npm run update-matches` or by editing this file.",
+    "stage": "Group stage",
+    "group": "B",
+    "round": null,
+    "kickoffUtc": "2026-06-12T23:00:00Z",
+    "status": "scheduled",
+    "homeTeam": { "name": "United States", "code": "USA" },
+    "awayTeam": { "name": "Costa Rica", "code": "CRC" },
+    "score": null,
+    "goals": [],
+    "venue": null,
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-13T12:00:00Z"
+  },
+  {
+    "matchId": "CAN-CRO-2026-06-12",
+    "sample": true,
+    "note": "SAMPLE completed fixture for demonstration only — the score and goal below are illustrative placeholders, NOT a real result. Replace with `npm run update-matches` or by editing this file.",
+    "stage": "Group stage",
+    "group": "C",
+    "round": null,
+    "kickoffUtc": "2026-06-12T20:00:00Z",
+    "status": "completed",
+    "homeTeam": { "name": "Canada", "code": "CAN" },
+    "awayTeam": { "name": "Croatia", "code": "CRO" },
+    "score": { "home": 1, "away": 0 },
+    "goals": [
+      { "team": "Canada", "player": null, "minute": null, "ownGoal": false, "penalty": false }
+    ],
+    "venue": null,
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-13T12:00:00Z"
+  },
+  {
+    "matchId": "ARG-BRA-2026-07-11",
+    "sample": true,
+    "note": "SAMPLE knockout fixture for demonstration only — not a verified fixture. Replace with `npm run update-matches` or by editing this file.",
+    "stage": "Quarter-finals",
+    "group": null,
+    "round": "Quarter-final 1",
+    "kickoffUtc": "2026-07-11T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": { "name": "Argentina", "code": "ARG" },
+    "awayTeam": { "name": "Brazil", "code": "BRA" },
+    "score": null,
+    "goals": [],
+    "venue": null,
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-13T12:00:00Z"
+  }
+]

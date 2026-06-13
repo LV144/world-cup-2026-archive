@@ -1,0 +1,20 @@
+{
+  "name": "world-cup-2026-archive",
+  "version": "1.0.0",
+  "description": "A durable, static archive for collecting and sharing World Cup 2026 internet posts (Reddit, articles, videos, social media, images).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "add": "node scripts/add-links.mjs",
+    "update-matches": "node scripts/update-matches.mjs",
+    "enrich": "node scripts/enrich-items.mjs",
+    "validate": "node scripts/validate.mjs",
+    "serve": "npx http-server . -c-1 -p 8080"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

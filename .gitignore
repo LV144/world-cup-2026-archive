@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# JSON backups written before rewrites
+*.bak
+data/*.bak
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# NOTE: assets/thumbs/ is intentionally NOT ignored.
+# Local thumbnails are the durable copies of the archive and must be
+# committed so they are served on GitHub Pages / Netlify / Cloudflare Pages.

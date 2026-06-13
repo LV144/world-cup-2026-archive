@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Cup 2026 Internet Archive</title>
+    <meta
+      name="description"
+      content="A curated archive of posts, reactions, analysis, memes, and links from the 2026 FIFA World Cup."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%BD%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <h1>World Cup 2026 Internet Archive ⚽</h1>
+        <p class="subtitle">
+          A curated archive of posts, reactions, analysis, memes, and links from the 2026 FIFA World Cup.
+        </p>
+        <p class="disclaimer">
+          Metadata is fetched automatically and may be incomplete. Items marked
+          <span class="badge badge-review">Needs review</span> have uncertain or partial football metadata.
+        </p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="controls" aria-label="Filters and sorting">
+        <div class="control control-search">
+          <label for="f-search">Search</label>
+          <input type="search" id="f-search" placeholder="Search title, teams, notes…" />
+        </div>
+        <div class="control"><label for="f-source">Source</label><select id="f-source"></select></div>
+        <div class="control"><label for="f-stage">Stage</label><select id="f-stage"></select></div>
+        <div class="control"><label for="f-group">Group</label><select id="f-group"></select></div>
+        <div class="control"><label for="f-match">Match</label><select id="f-match"></select></div>
+        <div class="control"><label for="f-team">Team</label><select id="f-team"></select></div>
+        <div class="control"><label for="f-type">Type / Tag</label><select id="f-type"></select></div>
+        <div class="control"><label for="f-importance">Importance</label><select id="f-importance"></select></div>
+        <div class="control"><label for="f-review">Review</label>
+          <select id="f-review">
+            <option value="">All items</option>
+            <option value="yes">Needs review</option>
+            <option value="no">Reviewed / OK</option>
+          </select>
+        </div>
+        <div class="control"><label for="f-sort">Sort by</label>
+          <select id="f-sort">
+            <option value="dateSaved-desc">Date saved (newest)</option>
+            <option value="dateSaved-asc">Date saved (oldest)</option>
+            <option value="kickoff-asc">Match kickoff (earliest)</option>
+            <option value="kickoff-desc">Match kickoff (latest)</option>
+            <option value="stage">Stage</option>
+            <option value="source">Source</option>
+            <option value="importance">Importance</option>
+            <option value="title">Title (A–Z)</option>
+          </select>
+        </div>
+        <button id="f-reset" type="button" class="reset-btn">Reset</button>
+      </section>
+
+      <p id="result-count" class="result-count" aria-live="polite"></p>
+      <section id="cards" class="cards" aria-live="polite"></section>
+      <p id="empty-state" class="empty-state" hidden>
+        No items yet. Add some with <code>npm run add -- &lt;url&gt;</code>, then reload this page.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Static archive · data lives in <code>data/items.json</code> &amp; <code>data/matches.json</code>.</p>
+      </div>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
