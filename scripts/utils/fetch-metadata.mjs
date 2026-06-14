@@ -59,9 +59,19 @@ function firstString(...vals) {
   return null;
 }
 
-/** Pull name/headline/image out of any JSON-LD blocks (handles arrays + @graph). */
+/** Parse a date string to a normalized ISO timestamp, or null if absent/implausible. */
+export function normalizeDate(s) {
+  if (!s || typeof s !== "string") return null;
+  const d = new Date(s.trim());
+  if (isNaN(d.getTime())) return null;
+  const y = d.getUTCFullYear();
+  if (y < 1990 || y > 2100) return null; // guard against garbage parses
+  return d.toISOString().replace(/\.\d{3}Z$/, "Z");
+}
+
+/** Pull name/headline/image/date out of any JSON-LD blocks (handles arrays + @graph). */
 function parseJsonLd($) {
-  const out = { name: null, description: null, image: null };
+  const out = { name: null, description: null, image: null, datePublished: null };
   $('script[type="application/ld+json"]').each((_, el) => {
     let data;
     try {
@@ -82,6 +92,7 @@ function parseJsonLd($) {
     for (const n of nodes) {
       out.name = out.name || firstString(n.headline, n.name, n.title);
       out.description = out.description || firstString(n.description);
+      out.datePublished = out.datePublished || firstString(n.datePublished, n.uploadDate, n.dateCreated);
       if (!out.image) {
         const img = n.image || n.thumbnailUrl;
         if (typeof img === "string") out.image = img;
@@ -117,6 +128,7 @@ export async function fetchMetadata(url, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}
     siteName: null,
     canonicalUrl: null,
     image: null,
+    postDate: null,
     oembedUrl: null,
     error: null,
   };
@@ -193,6 +205,20 @@ export async function fetchMetadata(url, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}
         $('link[type="text/json+oembed"]').attr("href"),
       ),
       result.finalUrl,
+    );
+    result.postDate = normalizeDate(
+      firstString(
+        meta('meta[property="article:published_time"]'),
+        meta('meta[property="og:article:published_time"]'),
+        meta('meta[name="article:published_time"]'),
+        meta('meta[itemprop="datePublished"]'),
+        meta('meta[name="date"]'),
+        meta('meta[name="pubdate"]'),
+        meta('meta[name="publish-date"]'),
+        meta('meta[name="parsely-pub-date"]'),
+        $("time[datetime]").first().attr("datetime"),
+        jsonLd.datePublished,
+      ),
     );
 
     if (!result.source && result.siteName) result.source = result.siteName;

@@ -69,6 +69,7 @@ function buildItem({ norm, meta, inferred, id }) {
     thumbnailRemoteUrl: meta.image || null,
     thumbnailLocalPath: inferred._thumbLocal || null,
     archivedUrl: meta.archivedUrl || null,
+    postDate: meta.postDate || meta.createdUtc || null,
     dateSaved: nowIso(),
 
     matchId: inferred.matchId,
@@ -150,6 +151,7 @@ async function main() {
           description: meta.description,
           url: norm.normalized,
           subreddit: meta.subreddit,
+          postDate: meta.postDate || meta.createdUtc || null,
           dateSaved: nowIso(),
         },
         idx,

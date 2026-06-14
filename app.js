@@ -12,6 +12,11 @@ const state = { items: [], matchesById: new Map(), filtered: [] };
 const $ = (sel) => document.querySelector(sel);
 const esc = (s) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmtDate = (iso) => {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return isNaN(d.getTime()) ? "" : d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+};
 
 async function loadJson(path) {
   const res = await fetch(path, { cache: "no-cache" });
@@ -103,6 +108,7 @@ function applyFilters() {
   const sign = dir === "asc" ? 1 : -1;
   const cmp = {
     dateSaved: (a, b) => String(a.dateSaved).localeCompare(String(b.dateSaved)) * sign,
+    postDate: (a, b) => String(a.postDate || "0").localeCompare(String(b.postDate || "0")) * sign,
     kickoff: (a, b) => String(kickoffOf(a) || "9999").localeCompare(String(kickoffOf(b) || "9999")) * sign,
     stage: (a, b) => (STAGE_ORDER.indexOf(a.stage) + 1 || 99) - (STAGE_ORDER.indexOf(b.stage) + 1 || 99),
     source: (a, b) => String(a.source || "~").localeCompare(String(b.source || "~")),
@@ -144,7 +150,8 @@ function cardHtml(item) {
   if (item.importance) badges.push(`<span class="badge badge-importance">${esc(item.importance)}</span>`);
   if (item.needsReview) badges.push(`<span class="badge badge-review">Needs review</span>`);
 
-  const date = item.dateSaved ? new Date(item.dateSaved).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }) : "";
+  const savedDate = fmtDate(item.dateSaved);
+  const postDate = fmtDate(item.postDate);
 
   return `<article class="card">
     ${thumbHtml(item)}
@@ -155,8 +162,9 @@ function cardHtml(item) {
       ${item.note ? `<p class="note">${esc(item.note)}</p>` : ""}
       ${!item.note && item.description ? `<p class="desc">${esc(item.description.slice(0, 160))}${item.description.length > 160 ? "…" : ""}</p>` : ""}
       ${badges.length ? `<div class="meta-row">${badges.join("")}</div>` : ""}
+      ${postDate ? `<div class="post-date">Posted ${esc(postDate)}</div>` : ""}
       <div class="card-footer">
-        <span class="date-saved">${esc(date)}</span>
+        <span class="date-saved" title="Date saved to the archive">Saved ${esc(savedDate)}</span>
         <span class="footer-links">
           ${item.archivedUrl ? `<a class="archived-link" href="${esc(item.archivedUrl)}" target="_blank" rel="noopener noreferrer" title="Archived snapshot (Wayback Machine)">Archived</a>` : ""}
           <a class="open-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Open ↗</a>

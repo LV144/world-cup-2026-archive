@@ -184,7 +184,7 @@ async function tryOauth(postId) {
 async function tryOg(url) {
   try {
     const og = await fetchMetadata(url);
-    return { title: og.title, description: og.description, image: og.image, canonicalUrl: og.canonicalUrl };
+    return { title: og.title, description: og.description, image: og.image, canonicalUrl: og.canonicalUrl, postDate: og.postDate };
   } catch {
     return null;
   }
@@ -226,7 +226,7 @@ async function waybackAvailable(url) {
 async function metaFromSnapshot(snapshotUrl) {
   try {
     const og = await fetchMetadata(snapshotUrl);
-    return { title: og.title && !looksBlocked(og.title) ? stripReddit(og.title) : null, description: og.description, image: og.image };
+    return { title: og.title && !looksBlocked(og.title) ? stripReddit(og.title) : null, description: og.description, image: og.image, postDate: og.postDate };
   } catch {
     return null;
   }
@@ -247,7 +247,7 @@ async function tryWaybackSave(url) {
     if (!snapshotUrl) snapshotUrl = await waybackAvailable(url); // SPN didn't redirect; re-check
     const title = og.title && !looksBlocked(og.title) ? stripReddit(og.title) : null;
     if (!snapshotUrl && !title && !og.image) return null;
-    return { title, description: og.description, image: og.image, snapshotUrl };
+    return { title, description: og.description, image: og.image, postDate: og.postDate, snapshotUrl };
   } catch {
     return null;
   }
@@ -296,6 +296,7 @@ export async function fetchRedditMetadata(url) {
     image: null,
     subreddit: fromPath.subreddit || null,
     createdUtc: null,
+    postDate: null,
     archivedUrl: null,
     usedPlaceholder: false,
     usedOauth: false,
@@ -311,6 +312,7 @@ export async function fetchRedditMetadata(url) {
     if (!result.image && p.image) result.image = p.image;
     if (!result.subreddit && p.subreddit) result.subreddit = p.subreddit;
     if (!result.createdUtc && p.createdUtc) result.createdUtc = p.createdUtc;
+    if (!result.postDate && (p.postDate || p.createdUtc)) result.postDate = p.postDate || p.createdUtc;
     if (p.canonicalUrl) result.canonicalUrl = p.canonicalUrl;
   };
 

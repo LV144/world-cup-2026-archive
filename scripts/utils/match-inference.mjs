@@ -211,6 +211,7 @@ export function inferMatch(signals, idx) {
   const description = signals.description || "";
   const url = signals.url || "";
   const subreddit = signals.subreddit || "";
+  const postDate = signals.postDate || "";
   const dateSaved = signals.dateSaved || "";
 
   const text = [title, ogTitle, description, subreddit].filter(Boolean).join("  ·  ");
@@ -234,7 +235,9 @@ export function inferMatch(signals, idx) {
   const explicit = detectExplicitOrder(text, teamsDetected, idx);
   const stageDetected = detectStage(text, idx);
   const groupDetected = detectGroup(text);
-  const dateDetected = detectDate(url, text) || dateOnly(dateSaved);
+  // Date signal priority: an explicit date in the URL/text, then the post's own date, then
+  // (weakest) when it was saved. The post date is a genuine corroborator for "which match".
+  const dateDetected = detectDate(url, text) || dateOnly(postDate) || dateOnly(dateSaved);
 
   // Soft stage/group from text (only used when no authoritative match is linked).
   if (stageDetected) {

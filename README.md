@@ -53,7 +53,8 @@ filterable, sortable archive. It works even when metadata is missing.
 | `thumbnailRemoteUrl` | Image URL from metadata. |
 | `thumbnailLocalPath` | Local copy under `assets/thumbs/`, if downloaded. |
 | `archivedUrl` | Wayback Machine snapshot of the link (auto-captured for Reddit), if any. |
-| `dateSaved` | ISO timestamp. |
+| `postDate` | When the post itself was published — inferred from the post (Reddit `created_utc`, `article:published_time`, JSON-LD `datePublished`/`uploadDate`, `<time>`). `null` if not found. |
+| `dateSaved` | When the item was added to this archive (ISO timestamp). |
 | `matchId`, `matchLabel` | Linked match (e.g. `Mexico vs South Africa`), if confidently inferred. |
 | `stage`, `group` | Canonical stage / group letter. |
 | `teams`, `teamCodes` | Teams involved + FIFA-style codes. |
