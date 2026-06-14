@@ -59,10 +59,15 @@ function firstString(...vals) {
   return null;
 }
 
-/** Parse a date string to a normalized ISO timestamp, or null if absent/implausible. */
+/** Parse a date string (ISO or unix epoch s/ms) to a normalized ISO timestamp, or null. */
 export function normalizeDate(s) {
-  if (!s || typeof s !== "string") return null;
-  const d = new Date(s.trim());
+  if (s == null) return null;
+  const str = String(s).trim();
+  if (!str) return null;
+  let d;
+  if (/^\d{10}$/.test(str)) d = new Date(Number(str) * 1000); // unix seconds
+  else if (/^\d{13}$/.test(str)) d = new Date(Number(str)); // unix millis
+  else d = new Date(str);
   if (isNaN(d.getTime())) return null;
   const y = d.getUTCFullYear();
   if (y < 1990 || y > 2100) return null; // guard against garbage parses
@@ -216,7 +221,8 @@ export async function fetchMetadata(url, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}
         meta('meta[name="pubdate"]'),
         meta('meta[name="publish-date"]'),
         meta('meta[name="parsely-pub-date"]'),
-        $("time[datetime]").first().attr("datetime"),
+        $("[created-timestamp]").first().attr("created-timestamp"), // new reddit <shreddit-post>
+        $("time[datetime]").first().attr("datetime"), // old.reddit tagline, articles
         jsonLd.datePublished,
       ),
     );

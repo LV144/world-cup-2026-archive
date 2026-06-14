@@ -53,7 +53,7 @@ filterable, sortable archive. It works even when metadata is missing.
 | `thumbnailRemoteUrl` | Image URL from metadata. |
 | `thumbnailLocalPath` | Local copy under `assets/thumbs/`, if downloaded. |
 | `archivedUrl` | Wayback Machine snapshot of the link (auto-captured for Reddit), if any. |
-| `postDate` | When the post itself was published — inferred from the post (Reddit `created_utc`, `article:published_time`, JSON-LD `datePublished`/`uploadDate`, `<time>`). `null` if not found. |
+| `postDate` | When the post itself was published — scraped from the post's HTML/metadata. Reddit: `created-timestamp` (new reddit), the `<time>` tag (old.reddit), or `created_utc` (API). Articles/video: `article:published_time`, JSON-LD `datePublished`/`uploadDate`, `<time>`. Accepts ISO or unix-epoch values; `null` if not found. |
 | `dateSaved` | When the item was added to this archive (ISO timestamp). |
 | `matchId`, `matchLabel` | Linked match (e.g. `Mexico vs South Africa`), if confidently inferred. |
 | `stage`, `group` | Canonical stage / group letter. |
