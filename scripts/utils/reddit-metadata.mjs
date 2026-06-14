@@ -204,16 +204,50 @@ async function tryJson(url, host = "www.reddit.com") {
   }
 }
 
-async function tryWayback(url) {
+const stripReddit = (t) => (t ? t.replace(/\s*[-|:]\s*reddit$/i, "").trim() : t);
+
+// "Save Page Now" preservation is ON by default. Set WAYBACK_SAVE=off to skip *creating* new
+// snapshots (existing snapshots are still looked up and linked either way).
+const wantArchive = () => process.env.WAYBACK_SAVE !== "off";
+
+/** Look up an existing Wayback snapshot URL for `url` (read-only, no archiving). */
+async function waybackAvailable(url) {
   try {
-    const api = `https://archive.org/wayback/available?url=${encodeURIComponent(url)}`;
-    const res = await fetchWithTimeout(api, { headers: { Accept: "application/json" } }, 9000);
+    const res = await fetchWithTimeout(`https://archive.org/wayback/available?url=${encodeURIComponent(url)}`, { headers: { Accept: "application/json" } }, 9000);
     if (!res.ok) return null;
     const snap = (await res.json())?.archived_snapshots?.closest;
-    if (!snap?.available || !snap.url) return null;
-    const og = await fetchMetadata(snap.url.replace(/^http:/, "https:"));
-    const title = og.title && !looksBlocked(og.title) ? og.title.replace(/\s*[:|-]\s*reddit$/i, "") : null;
-    return { title, description: og.description, image: og.image };
+    return snap?.available && snap.url ? snap.url.replace(/^http:/, "https:") : null;
+  } catch {
+    return null;
+  }
+}
+
+/** Read metadata from an already-archived snapshot page. */
+async function metaFromSnapshot(snapshotUrl) {
+  try {
+    const og = await fetchMetadata(snapshotUrl);
+    return { title: og.title && !looksBlocked(og.title) ? stripReddit(og.title) : null, description: og.description, image: og.image };
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Trigger archive.org "Save Page Now" to create a fresh snapshot (no auth), then read metadata
+ * from the captured page. Slow (~10-30s) and rate-limited, so used only when no snapshot exists.
+ * This is the key post-2026 fix: brand-new Reddit posts that nothing else can reach get archived
+ * on the spot — durable preservation plus a readable copy. Best effort; never throws.
+ * Returns { title, description, image, snapshotUrl } or null.
+ */
+async function tryWaybackSave(url) {
+  console.log(`  📸 Save Page Now: archiving ${url} … (first capture, may take ~10-30s)`);
+  try {
+    const og = await fetchMetadata(`https://web.archive.org/save/${url}`, { timeoutMs: 35000 });
+    let snapshotUrl = /\/web\/\d+/.test(og.finalUrl || "") ? og.finalUrl : null;
+    if (!snapshotUrl) snapshotUrl = await waybackAvailable(url); // SPN didn't redirect; re-check
+    const title = og.title && !looksBlocked(og.title) ? stripReddit(og.title) : null;
+    if (!snapshotUrl && !title && !og.image) return null;
+    return { title, description: og.description, image: og.image, snapshotUrl };
   } catch {
     return null;
   }
@@ -262,6 +296,7 @@ export async function fetchRedditMetadata(url) {
     image: null,
     subreddit: fromPath.subreddit || null,
     createdUtc: null,
+    archivedUrl: null,
     usedPlaceholder: false,
     usedOauth: false,
     strategiesTried: [],
@@ -287,7 +322,6 @@ export async function fetchRedditMetadata(url) {
     { name: "json", run: () => tryJson(url, "www.reddit.com") },
     { name: "old.reddit", run: () => tryOg(onHost(url, "old.reddit.com")) },
     { name: "old.json", run: () => tryJson(url, "old.reddit.com") },
-    { name: "wayback", run: tryWayback },
   ];
 
   for (const s of rich) {
@@ -297,6 +331,22 @@ export async function fetchRedditMetadata(url) {
     if (s.oauth && result.title) result.usedOauth = true;
     if (result.title) break; // first real title wins (image came with it, or stays null → placeholder)
   }
+
+  // Wayback Machine: doubles as a metadata fallback (when still untitled) AND durable
+  // preservation. Reuse an existing snapshot if there is one; otherwise create one with
+  // Save Page Now so even brand-new posts get archived. archivedUrl is stored on the item.
+  result.strategiesTried.push("wayback");
+  let snapshotUrl = await waybackAvailable(url);
+  if (snapshotUrl && !result.title) absorb(await metaFromSnapshot(snapshotUrl));
+  if (!snapshotUrl && wantArchive()) {
+    result.strategiesTried.push("wayback-save");
+    const saved = await tryWaybackSave(url);
+    if (saved) {
+      snapshotUrl = saved.snapshotUrl;
+      absorb(saved);
+    }
+  }
+  result.archivedUrl = snapshotUrl || null;
 
   // "Thin" strategies: title-focused fallbacks when nothing above worked.
   if (!result.title) {

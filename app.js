@@ -157,7 +157,10 @@ function cardHtml(item) {
       ${badges.length ? `<div class="meta-row">${badges.join("")}</div>` : ""}
       <div class="card-footer">
         <span class="date-saved">${esc(date)}</span>
-        <a class="open-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Open ↗</a>
+        <span class="footer-links">
+          ${item.archivedUrl ? `<a class="archived-link" href="${esc(item.archivedUrl)}" target="_blank" rel="noopener noreferrer" title="Archived snapshot (Wayback Machine)">Archived</a>` : ""}
+          <a class="open-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Open ↗</a>
+        </span>
       </div>
     </div>
   </article>`;

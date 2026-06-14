@@ -68,6 +68,7 @@ function buildItem({ norm, meta, inferred, id }) {
     description: meta.description || null,
     thumbnailRemoteUrl: meta.image || null,
     thumbnailLocalPath: inferred._thumbLocal || null,
+    archivedUrl: meta.archivedUrl || null,
     dateSaved: nowIso(),
 
     matchId: inferred.matchId,
@@ -198,6 +199,7 @@ async function main() {
     const c = item.metadataConfidence;
     console.log(`    conf:   match=${c.match} teams=${c.teams} stage=${c.stage} score=${c.score}`);
     console.log(`    thumb:  ${item.thumbnailLocalPath ? "local " + item.thumbnailLocalPath : item.thumbnailRemoteUrl ? "remote only" : "none"}`);
+    if (item.archivedUrl) console.log(`    archived: ${item.archivedUrl}`);
     if (meta.error) console.log(`    note:   metadata partial (${meta.error})`);
     if (item.needsReview) console.log(`    ⚑ needs review`);
     console.log("");

@@ -52,6 +52,7 @@ filterable, sortable archive. It works even when metadata is missing.
 | `source`, `sourceDetail` | e.g. `Reddit` / `r/worldcup`, `YouTube`, `Article`. |
 | `thumbnailRemoteUrl` | Image URL from metadata. |
 | `thumbnailLocalPath` | Local copy under `assets/thumbs/`, if downloaded. |
+| `archivedUrl` | Wayback Machine snapshot of the link (auto-captured for Reddit), if any. |
 | `dateSaved` | ISO timestamp. |
 | `matchId`, `matchLabel` | Linked match (e.g. `Mexico vs South Africa`), if confidently inferred. |
 | `stage`, `group` | Canonical stage / group letter. |
@@ -125,8 +126,36 @@ setup — for each Reddit URL it tries, in order:
 So a Reddit link always saves something — at worst a slug-derived title plus the generic Reddit
 thumbnail — and never crashes the run.
 
-**For reliable Reddit metadata (recommended), add free OAuth credentials.** This is **optional**
-— everything above still works without it.
+#### Auto-archiving (Save Page Now)
+
+For every Reddit link, the tool also ensures a **Wayback Machine snapshot** exists, stored in the
+item's `archivedUrl` (shown as an "Archived" link on each card):
+
+- If archive.org already has a snapshot of the URL, it's linked.
+- If not (e.g. a brand-new post), the tool calls archive.org's **Save Page Now** to create one on
+  the spot — no auth, no approval. This both **preserves** the post (Reddit posts get deleted or
+  blocked) and gives the cascade a readable copy to pull metadata from.
+
+Save Page Now is slow (~10–30s) and rate-limited, so it only fires when no snapshot exists yet.
+To skip *creating* new snapshots (existing ones are still linked), set `WAYBACK_SAVE=off`:
+
+```powershell
+$env:WAYBACK_SAVE="off"; npm run add -- "<url>"   # PowerShell
+```
+```bash
+WAYBACK_SAVE=off npm run add -- "<url>"            # bash
+```
+
+This is now the most reliable durability mechanism for Reddit, given Reddit's API is effectively
+closed to self-serve apps as of mid-2026 (see below).
+
+**Optional: Reddit OAuth credentials.** If you can still create a Reddit app, OAuth gives the
+cleanest metadata. **Heads-up:** as of mid-2026 Reddit's self-serve app creation at
+`prefs/apps` is widely reported broken (the "create app" button silently fails / resets the
+captcha) and Data API access is gated behind a manual approval process. Reddit's Devvit platform
+is for apps that run *on* Reddit and does **not** help an external script like this. So treat
+OAuth as a nice-to-have — the no-auth cascade + auto-archiving above is the supported path here.
+If you do have working credentials:
 
 1. Register a free app at <https://www.reddit.com/prefs/apps> (type **script** or **web app**).
 2. `cp .env.example .env` and fill in `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET`.
@@ -271,8 +300,9 @@ Re-run `npm run add`, commit, and push to update.
 
 ## 12. Preservation notes
 
-- For important Reddit posts, manually add **screenshots, copied excerpts, or archive links**
-  (e.g. a [web.archive.org](https://web.archive.org) URL) in the item's `backup` field.
+- Reddit links are **auto-archived to the Wayback Machine** on add (`archivedUrl`), so most posts
+  are already preserved. For extra-important ones, also add **screenshots or copied excerpts** in
+  the item's `backup` field (and you can paste additional archive links there too).
 - **Remote thumbnails are convenient but local thumbnails are more durable** — the `add` script
   downloads a local copy when it can; keep `assets/thumbs/` committed.
 - Run `npm run validate` regularly, and keep the `.bak` files around until you're confident a

@@ -159,6 +159,9 @@ body {
   white-space: nowrap;
 }
 .open-btn:hover { filter: brightness(1.1); }
+.footer-links { display: flex; align-items: center; gap: 10px; }
+.archived-link { font-size: 0.74rem; color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--border); white-space: nowrap; }
+.archived-link:hover { color: var(--text); }
 
 .badge {
   font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 999px;
