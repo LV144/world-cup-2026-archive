@@ -56,5 +56,267 @@
       "score": 1
     },
     "needsReview": false
+  },
+  {
+    "id": "453529037564",
+    "title": "Mexico [2] - 0 South Africa - Raúl Jiménez 67'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3anmt/mexico_2_0_south_africa_ra%C3%BAl_jim%C3%A9nez_67",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3anmt/mexico_2_0_south_africa_ra%C3%BAl_jim%C3%A9nez_67/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/gbogaz • 3,972 points and 288 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/HF4A2IckCT9m7oJM2lQZ31APpSyTyQc5-v5pXmaG3e0.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-11T20:34:42Z",
+    "dateSaved": "2026-06-14T13:16:46Z",
+    "matchId": "MEX-RSA-2026-06-11",
+    "matchLabel": "Mexico vs South Africa",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Mexico",
+      "South Africa"
+    ],
+    "teamCodes": [
+      "MEX",
+      "RSA"
+    ],
+    "scoreLabel": "Mexico 2–0 South Africa",
+    "goals": [
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": 9,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Mexico",
+        "player": "Raúl Jiménez",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "r/soccer"
+    ],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "4d3ddb0cd56f",
+    "title": "South Korea [2]-1 Czechia - Hyeon-gyu Oh 80'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3k7m5/south_korea_21_czechia_hyeongyu_oh_80",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3k7m5/south_korea_21_czechia_hyeongyu_oh_80/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 1,810 points and 192 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/4d3ddb0cd56f.png",
+    "archivedUrl": "https://web.archive.org/web/20260612035001/https://www.reddit.com/r/soccer/comments/1u3k7m5/south_korea_21_czechia_hyeongyu_oh_80/",
+    "postDate": "2026-06-12T03:38:40Z",
+    "dateSaved": "2026-06-14T13:16:49Z",
+    "matchId": "KOR-CZE-2026-06-11",
+    "matchLabel": "South Korea vs Czech Republic",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "South Korea",
+      "Czech Republic"
+    ],
+    "teamCodes": [
+      "KOR",
+      "CZE"
+    ],
+    "scoreLabel": "South Korea 2–1 Czech Republic",
+    "goals": [
+      {
+        "team": "South Korea",
+        "player": "Hwang In-Beom",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "South Korea",
+        "player": "Oh Hyeon-Gyu",
+        "minute": 80,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Czech Republic",
+        "player": "Ladislav Krejcí",
+        "minute": 59,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "r/soccer"
+    ],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "ebeef2e28713",
+    "title": "South Korea [1]-1 Czechia - Hwang In-beom 67'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3k0hx/south_korea_11_czechia_hwang_inbeom_67",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3k0hx/south_korea_11_czechia_hwang_inbeom_67/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 4,776 points and 327 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/uINJZJPlh6jHu5mYJGjBaUOXfl7_IGYjmgmKBWdcIRc.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "archivedUrl": "https://web.archive.org/web/20260612034734/https://www.reddit.com/r/soccer/comments/1u3k0hx/south_korea_11_czechia_hwang_inbeom_67/",
+    "postDate": "2026-06-12T03:28:30Z",
+    "dateSaved": "2026-06-14T13:16:57Z",
+    "matchId": "KOR-CZE-2026-06-11",
+    "matchLabel": "South Korea vs Czech Republic",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "South Korea",
+      "Czech Republic"
+    ],
+    "teamCodes": [
+      "KOR",
+      "CZE"
+    ],
+    "scoreLabel": "South Korea 2–1 Czech Republic",
+    "goals": [
+      {
+        "team": "South Korea",
+        "player": "Hwang In-Beom",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "South Korea",
+        "player": "Oh Hyeon-Gyu",
+        "minute": 80,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Czech Republic",
+        "player": "Ladislav Krejcí",
+        "minute": 59,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "r/soccer"
+    ],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "73a1da7885aa",
+    "title": "Mexican fans spot a South Korean fan and immediately adopt him",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3cj9p/mexican_fans_spot_a_south_korean_fan_and",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3cj9p/mexican_fans_spot_a_south_korean_fan_and/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Heisenberg1_007 • 34,806 points and 844 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NnpreHM4cjA1cTZoMa6iSPx5WRAYHwM-VUA52etYAAlnGAH3uInTf0ouhHol.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "archivedUrl": "https://web.archive.org/web/20260612000041/https://www.reddit.com/r/soccer/comments/1u3cj9p/mexican_fans_spot_a_south_korean_fan_and/",
+    "postDate": "2026-06-11T21:47:19Z",
+    "dateSaved": "2026-06-14T13:17:02Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "r/soccer"
+    ],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e054f8781450",
+    "title": "The South Korean fans couldn't bring the tequila bottle inside the stadium, so they started drinking it all together outside and also invited the Mexican fans to join them.",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3lcpy/the_south_korean_fans_couldnt_bring_the_tequila",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3lcpy/the_south_korean_fans_couldnt_bring_the_tequila/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/OptimusCloyster • 11,216 points and 315 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/bTBhODJmMDc2czZoMXwBxXZz0N6-KHkVAAqDjwhl113zCjTazFJH5s-Lg5JM.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "archivedUrl": "https://web.archive.org/web/20260612051616/https://www.reddit.com/r/soccer/comments/1u3lcpy/the_south_korean_fans_couldnt_bring_the_tequila/",
+    "postDate": "2026-06-12T04:37:33Z",
+    "dateSaved": "2026-06-14T13:17:10Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "r/soccer"
+    ],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
   }
 ]
