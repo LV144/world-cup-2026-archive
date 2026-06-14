@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "3a388d35eddd",
+    "title": "Mexico 1-0 South Africa - Julián Quiñones 9'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u38ii8/mexico_10_south_africa_juli%C3%A1n_qui%C3%B1ones_9",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u38ii8/mexico_10_south_africa_juli%C3%A1n_qui%C3%B1ones_9/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 7,618 points and 697 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/3a388d35eddd.png",
+    "archivedUrl": "https://web.archive.org/web/20260611205954/https://www.reddit.com/r/soccer/comments/1u38ii8/mexico_10_south_africa_juli%C3%A1n_qui%C3%B1ones_9/",
+    "postDate": "2026-06-11T19:14:47Z",
+    "dateSaved": "2026-06-14T12:41:57Z",
+    "matchId": "MEX-RSA-2026-06-11",
+    "matchLabel": "Mexico vs South Africa",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Mexico",
+      "South Africa"
+    ],
+    "teamCodes": [
+      "MEX",
+      "RSA"
+    ],
+    "scoreLabel": "Mexico 1–0 South Africa",
+    "goals": [
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": 9,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "r/soccer"
+    ],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  }
+]

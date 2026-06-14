@@ -1,20 +1,20 @@
 [
   {
     "matchId": "MEX-RSA-2026-06-11",
-    "sample": true,
-    "note": "SAMPLE fixture for demonstration only — not a verified result. Replace real data with `npm run update-matches` or by editing this file.",
     "stage": "Group stage",
     "group": "A",
     "round": null,
     "kickoffUtc": "2026-06-11T19:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": { "name": "Mexico", "code": "MEX" },
     "awayTeam": { "name": "South Africa", "code": "RSA" },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 0 },
+    "goals": [
+      { "team": "Mexico", "player": "Julián Quiñones", "minute": 9, "ownGoal": false, "penalty": false }
+    ],
     "venue": null,
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-13T12:00:00Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1u38ii8/mexico_10_south_africa_juli%C3%A1n_qui%C3%B1ones_9/"],
+    "lastUpdated": "2026-06-14T12:45:00Z"
   },
   {
     "matchId": "USA-CRC-2026-06-12",
