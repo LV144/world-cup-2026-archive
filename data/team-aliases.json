@@ -63,5 +63,8 @@
   "Chile": { "code": "CHI", "aliases": ["Chile", "CHI", "La Roja de Chile", "Chileans"] },
   "Bolivia": { "code": "BOL", "aliases": ["Bolivia", "BOL", "La Verde", "Bolivians"] },
   "Venezuela": { "code": "VEN", "aliases": ["Venezuela", "VEN", "La Vinotinto", "Vinotinto"] },
-  "New Zealand": { "code": "NZL", "aliases": ["New Zealand", "NZL", "All Whites", "Kiwis"] }
+  "New Zealand": { "code": "NZL", "aliases": ["New Zealand", "NZL", "All Whites", "Kiwis"] },
+  "Bosnia & Herzegovina": { "code": "BIH", "aliases": ["Bosnia & Herzegovina", "Bosnia and Herzegovina", "Bosnia-Herzegovina", "Bosnia", "BIH", "Zmajevi"] },
+  "DR Congo": { "code": "COD", "aliases": ["DR Congo", "Congo DR", "Democratic Republic of the Congo", "DRC", "COD", "Leopards"] },
+  "Iraq": { "code": "IRQ", "aliases": ["Iraq", "IRQ", "Lions of Mesopotamia"] }
 }

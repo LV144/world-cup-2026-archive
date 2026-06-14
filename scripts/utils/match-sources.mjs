@@ -3,21 +3,20 @@
 // public sources and return them already mapped to OUR matches.json schema.
 //
 // Primary  : openfootball (community-maintained structured JSON on GitHub) — no scraping.
-// Fallback : Wikipedia fixture tables (HTML scrape; fragile, isolated, easy to fix/replace).
+//            https://github.com/openfootball/world-cup.json (2026)
+// Fallback : Wikipedia fixture tables (HTML scrape; left as an isolated stub).
 //
-// If every adapter fails, fetchMatchesFromSources() returns { ok:false } and the caller
-// leaves matches.json untouched. Keeping each parser in its own function means a broken
-// source is a one-function fix, not a rewrite.
+// Knockout matches whose teams aren't decided yet use placeholder slots ("1A", "2B",
+// "W73", "3A/B/C/D/F"). We SKIP those until the teams are known — re-running update-matches
+// adds each knockout fixture once openfootball fills in the real teams. If every adapter
+// fails, fetchMatchesFromSources() returns { ok:false } and the caller leaves matches.json
+// untouched.
 
 import { fetchWithTimeout } from "./fetch-metadata.mjs";
 import { CANONICAL_STAGES } from "./match-inference.mjs";
 
-// openfootball naming has drifted across tournaments/repos, so try a few known shapes.
-const OPENFOOTBALL_CANDIDATES = [
-  "https://raw.githubusercontent.com/openfootball/world-cup.json/master/2026/worldcup.json",
-  "https://raw.githubusercontent.com/openfootball/world-cup.json/master/2026--north-america/worldcup.json",
-  "https://raw.githubusercontent.com/openfootball/football.json/master/2026-world-cup/worldcup.json",
-];
+const OPENFOOTBALL_MATCHES = "https://raw.githubusercontent.com/openfootball/world-cup.json/master/2026/worldcup.json";
+const OPENFOOTBALL_TEAMS = "https://raw.githubusercontent.com/openfootball/world-cup.json/master/2026/worldcup.teams.json";
 
 function mapStage(roundName, stageAliases) {
   if (!roundName) return null;
@@ -29,101 +28,142 @@ function mapStage(roundName, stageAliases) {
   return CANONICAL_STAGES.includes(roundName) ? roundName : null;
 }
 
-function makeCodeResolver(teamAliases) {
+/** Fallback name→{name,code} resolver built from our team-aliases.json. */
+function makeAliasResolver(teamAliases) {
   const byAlias = {};
   for (const [canonical, info] of Object.entries(teamAliases || {})) {
-    if (info?.code) {
-      byAlias[canonical.toLowerCase()] = { name: canonical, code: info.code };
-      byAlias[info.code.toLowerCase()] = { name: canonical, code: info.code };
-    }
-    for (const a of info?.aliases || []) byAlias[String(a).toLowerCase()] = { name: canonical, code: info?.code || null };
+    const entry = { name: canonical, code: info?.code || null };
+    byAlias[canonical.toLowerCase()] = entry;
+    if (info?.code) byAlias[info.code.toLowerCase()] = entry;
+    for (const a of info?.aliases || []) byAlias[String(a).toLowerCase()] = entry;
   }
-  return (rawName, rawCode) => {
-    const hit = byAlias[String(rawName || "").toLowerCase()] || (rawCode && byAlias[String(rawCode).toLowerCase()]);
-    if (hit) return { name: hit.name, code: hit.code || rawCode || null };
-    const fallbackCode = rawCode || String(rawName || "").replace(/[^a-z]/gi, "").slice(0, 3).toUpperCase() || null;
-    return { name: rawName || null, code: fallbackCode };
-  };
+  return (name) => byAlias[String(name || "").toLowerCase()] || null;
 }
 
-/** Turn one openfootball match row into our schema. */
-function normalizeOpenfootball(raw, roundName, ctx) {
-  const home = ctx.resolveCode(raw.team1?.name || raw.team1, raw.team1?.code);
-  const away = ctx.resolveCode(raw.team2?.name || raw.team2, raw.team2?.code);
-  const date = raw.date || null;
-  if (!home.name || !away.name || !date) return null;
-
-  const time = raw.time && /^\d{1,2}:\d{2}$/.test(raw.time) ? raw.time : null;
-  const kickoffUtc = `${date}T${time ? time + ":00" : "00:00:00"}Z`;
-
-  const ft = raw.score?.ft || raw.score1 != null && [raw.score1, raw.score2] || null;
-  let score = null;
-  let status = "scheduled";
-  let goals = [];
-  if (Array.isArray(ft) && ft[0] != null && ft[1] != null) {
-    score = { home: Number(ft[0]), away: Number(ft[1]) };
-    status = "completed";
-    // openfootball sometimes carries goal events; copy only what's actually present.
-    if (Array.isArray(raw.goals1) || Array.isArray(raw.goals2)) {
-      const mk = (g, teamName) => ({
-        team: teamName,
-        player: g.name || g.player || null,
-        minute: g.minute != null ? Number(g.minute) : null,
-        ownGoal: !!g.owngoal,
-        penalty: !!g.penalty,
-      });
-      goals = [...(raw.goals1 || []).map((g) => mk(g, home.name)), ...(raw.goals2 || []).map((g) => mk(g, away.name))];
-    }
+/** Authoritative name→{name,code} map from openfootball teams.json. */
+function buildTeamMap(teamsJson) {
+  const map = {};
+  const arr = Array.isArray(teamsJson) ? teamsJson : Object.values(teamsJson || {});
+  for (const t of arr) {
+    if (!t || !t.name) continue;
+    const entry = { name: t.name, code: t.fifa_code || null };
+    map[t.name.toLowerCase()] = entry;
+    if (t.name_normalised) map[t.name_normalised.toLowerCase()] = entry;
+    if (t.fifa_code) map[t.fifa_code.toLowerCase()] = entry;
   }
+  return map;
+}
 
-  const stage = mapStage(roundName, ctx.stageAliases);
-  const groupMatch = String(roundName || "").match(/group\s+([a-l])/i) || String(raw.group || "").match(/([a-l])/i);
+// A "team" string that is actually a bracket slot, not a decided team.
+function isPlaceholder(name) {
+  if (!name || typeof name !== "string") return true;
+  const s = name.trim();
+  return (
+    /^\d+[a-l]$/i.test(s) ||      // 1A, 2B (group position)
+    /^[wl]\d+$/i.test(s) ||       // W73 (winner of match 73), L101 (loser)
+    /^3[a-l]\/[a-l/]+$/i.test(s) || // 3A/B/C/D/F (third-place permutations)
+    s.includes("/") ||
+    /^(winner|loser|runner|tbd)/i.test(s)
+  );
+}
+
+function resolveTeam(name, teamMap, fallback) {
+  if (isPlaceholder(name)) return null;
+  return teamMap[String(name).toLowerCase()] || fallback(name) || null;
+}
+
+/** Convert openfootball "13:00 UTC-6" + date to an ISO UTC timestamp. */
+function parseKickoffUtc(date, time) {
+  if (!date) return null;
+  const m = time && String(time).match(/(\d{1,2}):(\d{2})\s*UTC([+-]\d{1,2})(\d{2})?/i);
+  if (!m) return `${date}T00:00:00Z`;
+  const hh = +m[1], mm = +m[2], offH = +m[3], offMM = m[4] ? +m[4] : 0;
+  const offsetMin = offH * 60 + (offH < 0 ? -offMM : offMM); // local = UTC + offset
+  const dt = new Date(`${date}T00:00:00Z`);
+  dt.setUTCMinutes(hh * 60 + mm - offsetMin); // UTC = local - offset; rollover handled
+  return dt.toISOString().replace(/\.\d{3}Z$/, "Z");
+}
+
+function mapGoals(arr, teamName) {
+  return (arr || []).map((g) => {
+    const name = g?.name || g?.player || null;
+    const min = g?.minute != null ? parseInt(g.minute, 10) : NaN;
+    return {
+      team: teamName,
+      player: name,
+      minute: Number.isFinite(min) ? min : null,
+      ownGoal: /\(o\.?g\.?\)|own[ -]?goal/i.test(name || "") || !!g?.owngoal,
+      penalty: /\(pen\.?\)|penalty/i.test(name || "") || !!g?.penalty,
+    };
+  });
+}
+
+/** Map one openfootball match to our schema, or null if its teams aren't decided yet. */
+function normalizeOpenfootball(m, teamMap, fallback, stageAliases) {
+  const home = resolveTeam(m.team1, teamMap, fallback);
+  const away = resolveTeam(m.team2, teamMap, fallback);
+  if (!home || !away || !home.code || !away.code || !m.date) return null;
+
+  const stage = mapStage(m.round, stageAliases);
+  const ft = m.score?.ft;
+  const completed = Array.isArray(ft) && ft[0] != null && ft[1] != null;
+  const groupLetter = stage === "Group stage" ? String(m.group || "").match(/([a-l])\b/i)?.[1] : null;
 
   return {
-    matchId: `${home.code}-${away.code}-${date}`,
+    matchId: `${home.code}-${away.code}-${m.date}`,
     stage,
-    group: stage === "Group stage" && groupMatch ? groupMatch[1].toUpperCase() : null,
-    round: stage && stage !== "Group stage" ? roundName || null : null,
-    kickoffUtc,
-    status,
+    group: groupLetter ? groupLetter.toUpperCase() : null,
+    round: stage && stage !== "Group stage" ? m.round || null : null,
+    kickoffUtc: parseKickoffUtc(m.date, m.time),
+    status: completed ? "completed" : "scheduled",
     homeTeam: { name: home.name, code: home.code },
     awayTeam: { name: away.name, code: away.code },
-    score,
-    goals,
-    venue: raw.stadium?.name || raw.city || null,
+    score: completed ? { home: ft[0], away: ft[1] } : null,
+    goals: completed ? [...mapGoals(m.goals1, home.name), ...mapGoals(m.goals2, away.name)] : [],
+    venue: m.ground || null,
     sourceUrls: [],
   };
 }
 
 async function tryOpenfootball(ctx, log) {
-  for (const url of OPENFOOTBALL_CANDIDATES) {
-    try {
-      const res = await fetchWithTimeout(url, { headers: { Accept: "application/json" } }, 12000);
-      if (!res.ok) continue;
-      const data = await res.json();
-      const rounds = data.rounds || [];
-      const out = [];
-      for (const round of rounds) {
-        for (const m of round.matches || []) {
-          const norm = normalizeOpenfootball(m, round.name, ctx);
-          if (norm) out.push(norm);
-        }
-      }
-      if (out.length) {
-        log(`  openfootball: parsed ${out.length} matches from ${url}`);
-        return out;
-      }
-    } catch (err) {
-      log(`  openfootball: ${url} -> ${err.message}`);
+  let teamsJson = null;
+  try {
+    const tr = await fetchWithTimeout(OPENFOOTBALL_TEAMS, { headers: { Accept: "application/json" } }, 12000);
+    if (tr.ok) teamsJson = await tr.json();
+  } catch (err) {
+    log(`  openfootball teams.json: ${err.message}`);
+  }
+
+  let matchesJson;
+  try {
+    const mr = await fetchWithTimeout(OPENFOOTBALL_MATCHES, { headers: { Accept: "application/json" } }, 12000);
+    if (!mr.ok) {
+      log(`  openfootball worldcup.json: HTTP ${mr.status}`);
+      return null;
     }
+    matchesJson = await mr.json();
+  } catch (err) {
+    log(`  openfootball worldcup.json: ${err.message}`);
+    return null;
+  }
+
+  const teamMap = teamsJson ? buildTeamMap(teamsJson) : {};
+  const out = [];
+  let skipped = 0;
+  for (const m of matchesJson.matches || []) {
+    const norm = normalizeOpenfootball(m, teamMap, ctx.resolveCode, ctx.stageAliases);
+    if (norm) out.push(norm);
+    else skipped++;
+  }
+  if (out.length) {
+    log(`  openfootball: ${out.length} matches with decided teams (${skipped} undecided knockout slots skipped)`);
+    return out;
   }
   return null;
 }
 
-// Wikipedia fallback is intentionally a clearly-marked, isolated stub. Wikipedia's fixture
-// markup changes often; rather than ship a brittle parser that silently produces wrong data
-// (violating "do not invent facts"), we return null and tell the user to extend this function
-// or edit matches.json by hand. Swap in a real parser here without touching the rest of the code.
+// Wikipedia fallback is intentionally a clearly-marked, isolated stub. Swap in a real parser
+// here without touching the rest of the code.
 async function tryWikipedia(ctx, log) {
   log("  wikipedia: fallback parser not implemented (edit scripts/utils/match-sources.mjs to add one)");
   return null;
@@ -134,7 +174,7 @@ async function tryWikipedia(ctx, log) {
  * `matches` are already in matches.json schema (minus lastUpdated, which the caller stamps).
  */
 export async function fetchMatchesFromSources({ teamAliases, stageAliases, log = () => {} }) {
-  const ctx = { resolveCode: makeCodeResolver(teamAliases), stageAliases };
+  const ctx = { resolveCode: makeAliasResolver(teamAliases), stageAliases };
 
   log("Trying source: openfootball …");
   const off = await tryOpenfootball(ctx, log);

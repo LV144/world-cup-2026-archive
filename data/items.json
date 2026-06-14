@@ -24,12 +24,19 @@
       "MEX",
       "RSA"
     ],
-    "scoreLabel": "Mexico 1–0 South Africa",
+    "scoreLabel": "Mexico 2–0 South Africa",
     "goals": [
       {
         "team": "Mexico",
         "player": "Julián Quiñones",
         "minute": 9,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Mexico",
+        "player": "Raúl Jiménez",
+        "minute": 67,
         "ownGoal": false,
         "penalty": false
       }

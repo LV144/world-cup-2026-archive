@@ -186,19 +186,23 @@ npm run update-matches
 Fetches fixtures/results from a free, no-auth public source and merges them into
 `data/matches.json` by stable `matchId`.
 
-- **Source:** the primary adapter pulls structured JSON from the community **openfootball**
-  dataset on GitHub (no scraping). A **Wikipedia** fallback hook exists but is left as a clearly
-  marked stub — extend `scripts/utils/match-sources.mjs` to enable it. Both parsers are isolated
-  in that one file, so swapping/fixing a source is a one-function change.
+- **Source:** the primary adapter pulls structured JSON from the community
+  [openfootball/world-cup.json](https://github.com/openfootball/world-cup.json) dataset on GitHub
+  (no scraping) — fixtures, results, goals, venues, and FIFA codes. A **Wikipedia** fallback hook
+  exists but is left as a clearly marked stub. Both parsers are isolated in
+  `scripts/utils/match-sources.mjs`, so swapping/fixing a source is a one-function change.
+- **Knockout matches are added only once their teams are decided.** openfootball uses bracket
+  placeholders (`1A`, `2B`, `W73`, `3A/B/C/D/F`) for undecided slots; the parser skips those, so a
+  fresh seed yields the 72 group-stage fixtures, and each knockout fixture appears on the next
+  run after its teams are known. (Match IDs are `HOMECODE-AWAYCODE-YYYY-MM-DD`, e.g. `MEX-RSA-2026-06-11`.)
 - A field is only overwritten when the source supplies a non-null value — manual fields, venues,
-  and hand-entered scores are never wiped.
+  and hand-entered scores are never wiped. `sourceUrls` are merged, not replaced.
+- Scores stay `null` until a match is played; scorers/minutes are only stored when the source
+  provides them. Nothing is invented.
 - If no source is reachable, `matches.json` is **left untouched** and the script exits cleanly.
-- Scores stay `null` until a match is actually played; scorers/minutes are only stored when the
-  source provides them. Nothing is invented.
 
-> If openfootball hasn't published the 2026 dataset (or the path has moved), the script will
-> report "no source returned usable data." In that case, edit `data/matches.json` by hand or add
-> a parser to `match-sources.mjs`.
+> After updating matches, run `npm run enrich` to push new scores/stages/goals into any archived
+> items linked to those matches.
 
 ---
 

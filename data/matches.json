@@ -6,67 +6,1676 @@
     "round": null,
     "kickoffUtc": "2026-06-11T19:00:00Z",
     "status": "completed",
-    "homeTeam": { "name": "Mexico", "code": "MEX" },
-    "awayTeam": { "name": "South Africa", "code": "RSA" },
-    "score": { "home": 1, "away": 0 },
+    "homeTeam": {
+      "name": "Mexico",
+      "code": "MEX"
+    },
+    "awayTeam": {
+      "name": "South Africa",
+      "code": "RSA"
+    },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
     "goals": [
-      { "team": "Mexico", "player": "Julián Quiñones", "minute": 9, "ownGoal": false, "penalty": false }
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": 9,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Mexico",
+        "player": "Raúl Jiménez",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
-    "venue": null,
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1u38ii8/mexico_10_south_africa_juli%C3%A1n_qui%C3%B1ones_9/"],
-    "lastUpdated": "2026-06-14T12:45:00Z"
+    "venue": "Mexico City",
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u38ii8/mexico_10_south_africa_juli%C3%A1n_qui%C3%B1ones_9/"
+    ],
+    "lastUpdated": "2026-06-14T13:03:43Z"
   },
   {
-    "matchId": "USA-CRC-2026-06-12",
-    "sample": true,
-    "note": "SAMPLE fixture for demonstration only — not a verified fixture. Replace with `npm run update-matches` or by editing this file.",
+    "matchId": "KOR-CZE-2026-06-11",
+    "stage": "Group stage",
+    "group": "A",
+    "round": null,
+    "kickoffUtc": "2026-06-12T02:00:00Z",
+    "status": "completed",
+    "homeTeam": {
+      "name": "South Korea",
+      "code": "KOR"
+    },
+    "awayTeam": {
+      "name": "Czech Republic",
+      "code": "CZE"
+    },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "goals": [
+      {
+        "team": "South Korea",
+        "player": "Hwang In-Beom",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "South Korea",
+        "player": "Oh Hyeon-Gyu",
+        "minute": 80,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Czech Republic",
+        "player": "Ladislav Krejcí",
+        "minute": 59,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "venue": "Guadalajara (Zapopan)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "CAN-BIH-2026-06-12",
     "stage": "Group stage",
     "group": "B",
     "round": null,
-    "kickoffUtc": "2026-06-12T23:00:00Z",
-    "status": "scheduled",
-    "homeTeam": { "name": "United States", "code": "USA" },
-    "awayTeam": { "name": "Costa Rica", "code": "CRC" },
-    "score": null,
-    "goals": [],
-    "venue": null,
+    "kickoffUtc": "2026-06-12T19:00:00Z",
+    "status": "completed",
+    "homeTeam": {
+      "name": "Canada",
+      "code": "CAN"
+    },
+    "awayTeam": {
+      "name": "Bosnia & Herzegovina",
+      "code": "BIH"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "goals": [
+      {
+        "team": "Canada",
+        "player": "Cyle Larin",
+        "minute": 78,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Bosnia & Herzegovina",
+        "player": "Jovo Lukić",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "venue": "Toronto",
     "sourceUrls": [],
-    "lastUpdated": "2026-06-13T12:00:00Z"
+    "lastUpdated": "2026-06-14T13:03:43Z"
   },
   {
-    "matchId": "CAN-CRO-2026-06-12",
-    "sample": true,
-    "note": "SAMPLE completed fixture for demonstration only — the score and goal below are illustrative placeholders, NOT a real result. Replace with `npm run update-matches` or by editing this file.",
+    "matchId": "USA-PAR-2026-06-12",
+    "stage": "Group stage",
+    "group": "D",
+    "round": null,
+    "kickoffUtc": "2026-06-13T01:00:00Z",
+    "status": "completed",
+    "homeTeam": {
+      "name": "USA",
+      "code": "USA"
+    },
+    "awayTeam": {
+      "name": "Paraguay",
+      "code": "PAR"
+    },
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Damian Bobadilla",
+        "minute": 7,
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 31,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 45,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Giovanni Reyna",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Paraguay",
+        "player": "Mauricio",
+        "minute": 73,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "venue": "Los Angeles (Inglewood)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "QAT-SUI-2026-06-13",
+    "stage": "Group stage",
+    "group": "B",
+    "round": null,
+    "kickoffUtc": "2026-06-13T19:00:00Z",
+    "status": "completed",
+    "homeTeam": {
+      "name": "Qatar",
+      "code": "QAT"
+    },
+    "awayTeam": {
+      "name": "Switzerland",
+      "code": "SUI"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "goals": [
+      {
+        "team": "Qatar",
+        "player": "Boualem Khoukhi",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Switzerland",
+        "player": "Breel Embolo",
+        "minute": 17,
+        "ownGoal": false,
+        "penalty": true
+      }
+    ],
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "BRA-MAR-2026-06-13",
     "stage": "Group stage",
     "group": "C",
     "round": null,
-    "kickoffUtc": "2026-06-12T20:00:00Z",
+    "kickoffUtc": "2026-06-13T22:00:00Z",
     "status": "completed",
-    "homeTeam": { "name": "Canada", "code": "CAN" },
-    "awayTeam": { "name": "Croatia", "code": "CRO" },
-    "score": { "home": 1, "away": 0 },
+    "homeTeam": {
+      "name": "Brazil",
+      "code": "BRA"
+    },
+    "awayTeam": {
+      "name": "Morocco",
+      "code": "MAR"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
     "goals": [
-      { "team": "Canada", "player": null, "minute": null, "ownGoal": false, "penalty": false }
+      {
+        "team": "Brazil",
+        "player": "Vinícius Júnior",
+        "minute": 32,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Morocco",
+        "player": "Ismael Saibari",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
-    "venue": null,
+    "venue": "New York/New Jersey (East Rutherford)",
     "sourceUrls": [],
-    "lastUpdated": "2026-06-13T12:00:00Z"
+    "lastUpdated": "2026-06-14T13:03:43Z"
   },
   {
-    "matchId": "ARG-BRA-2026-07-11",
-    "sample": true,
-    "note": "SAMPLE knockout fixture for demonstration only — not a verified fixture. Replace with `npm run update-matches` or by editing this file.",
-    "stage": "Quarter-finals",
-    "group": null,
-    "round": "Quarter-final 1",
-    "kickoffUtc": "2026-07-11T19:00:00Z",
+    "matchId": "HAI-SCO-2026-06-13",
+    "stage": "Group stage",
+    "group": "C",
+    "round": null,
+    "kickoffUtc": "2026-06-14T01:00:00Z",
+    "status": "completed",
+    "homeTeam": {
+      "name": "Haiti",
+      "code": "HAI"
+    },
+    "awayTeam": {
+      "name": "Scotland",
+      "code": "SCO"
+    },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "goals": [
+      {
+        "team": "Scotland",
+        "player": "John McGinn",
+        "minute": 28,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "venue": "Boston (Foxborough)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "AUS-TUR-2026-06-13",
+    "stage": "Group stage",
+    "group": "D",
+    "round": null,
+    "kickoffUtc": "2026-06-14T04:00:00Z",
+    "status": "completed",
+    "homeTeam": {
+      "name": "Australia",
+      "code": "AUS"
+    },
+    "awayTeam": {
+      "name": "Turkey",
+      "code": "TUR"
+    },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "goals": [
+      {
+        "team": "Australia",
+        "player": "Nestory Irankunda",
+        "minute": 27,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Australia",
+        "player": "Connor Metcalfe",
+        "minute": 75,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "venue": "Vancouver",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "GER-CUW-2026-06-14",
+    "stage": "Group stage",
+    "group": "E",
+    "round": null,
+    "kickoffUtc": "2026-06-14T17:00:00Z",
     "status": "scheduled",
-    "homeTeam": { "name": "Argentina", "code": "ARG" },
-    "awayTeam": { "name": "Brazil", "code": "BRA" },
+    "homeTeam": {
+      "name": "Germany",
+      "code": "GER"
+    },
+    "awayTeam": {
+      "name": "Curaçao",
+      "code": "CUW"
+    },
     "score": null,
     "goals": [],
-    "venue": null,
+    "venue": "Houston",
     "sourceUrls": [],
-    "lastUpdated": "2026-06-13T12:00:00Z"
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "NED-JPN-2026-06-14",
+    "stage": "Group stage",
+    "group": "F",
+    "round": null,
+    "kickoffUtc": "2026-06-14T20:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Netherlands",
+      "code": "NED"
+    },
+    "awayTeam": {
+      "name": "Japan",
+      "code": "JPN"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Dallas (Arlington)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "CIV-ECU-2026-06-14",
+    "stage": "Group stage",
+    "group": "E",
+    "round": null,
+    "kickoffUtc": "2026-06-14T23:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Ivory Coast",
+      "code": "CIV"
+    },
+    "awayTeam": {
+      "name": "Ecuador",
+      "code": "ECU"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Philadelphia",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "SWE-TUN-2026-06-14",
+    "stage": "Group stage",
+    "group": "F",
+    "round": null,
+    "kickoffUtc": "2026-06-15T02:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Sweden",
+      "code": "SWE"
+    },
+    "awayTeam": {
+      "name": "Tunisia",
+      "code": "TUN"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Monterrey (Guadalupe)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "ESP-CPV-2026-06-15",
+    "stage": "Group stage",
+    "group": "H",
+    "round": null,
+    "kickoffUtc": "2026-06-15T16:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Spain",
+      "code": "ESP"
+    },
+    "awayTeam": {
+      "name": "Cape Verde",
+      "code": "CPV"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Atlanta",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "BEL-EGY-2026-06-15",
+    "stage": "Group stage",
+    "group": "G",
+    "round": null,
+    "kickoffUtc": "2026-06-15T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Belgium",
+      "code": "BEL"
+    },
+    "awayTeam": {
+      "name": "Egypt",
+      "code": "EGY"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Seattle",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "KSA-URU-2026-06-15",
+    "stage": "Group stage",
+    "group": "H",
+    "round": null,
+    "kickoffUtc": "2026-06-15T22:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Saudi Arabia",
+      "code": "KSA"
+    },
+    "awayTeam": {
+      "name": "Uruguay",
+      "code": "URU"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Miami (Miami Gardens)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "IRN-NZL-2026-06-15",
+    "stage": "Group stage",
+    "group": "G",
+    "round": null,
+    "kickoffUtc": "2026-06-16T01:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Iran",
+      "code": "IRN"
+    },
+    "awayTeam": {
+      "name": "New Zealand",
+      "code": "NZL"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Los Angeles (Inglewood)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "FRA-SEN-2026-06-16",
+    "stage": "Group stage",
+    "group": "I",
+    "round": null,
+    "kickoffUtc": "2026-06-16T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "France",
+      "code": "FRA"
+    },
+    "awayTeam": {
+      "name": "Senegal",
+      "code": "SEN"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "New York/New Jersey (East Rutherford)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "IRQ-NOR-2026-06-16",
+    "stage": "Group stage",
+    "group": "I",
+    "round": null,
+    "kickoffUtc": "2026-06-16T22:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Iraq",
+      "code": "IRQ"
+    },
+    "awayTeam": {
+      "name": "Norway",
+      "code": "NOR"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Boston (Foxborough)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "ARG-ALG-2026-06-16",
+    "stage": "Group stage",
+    "group": "J",
+    "round": null,
+    "kickoffUtc": "2026-06-17T01:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Argentina",
+      "code": "ARG"
+    },
+    "awayTeam": {
+      "name": "Algeria",
+      "code": "ALG"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Kansas City",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "AUT-JOR-2026-06-16",
+    "stage": "Group stage",
+    "group": "J",
+    "round": null,
+    "kickoffUtc": "2026-06-17T04:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Austria",
+      "code": "AUT"
+    },
+    "awayTeam": {
+      "name": "Jordan",
+      "code": "JOR"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "POR-COD-2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "round": null,
+    "kickoffUtc": "2026-06-17T17:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Portugal",
+      "code": "POR"
+    },
+    "awayTeam": {
+      "name": "DR Congo",
+      "code": "COD"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Houston",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "ENG-CRO-2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "round": null,
+    "kickoffUtc": "2026-06-17T20:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "England",
+      "code": "ENG"
+    },
+    "awayTeam": {
+      "name": "Croatia",
+      "code": "CRO"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Dallas (Arlington)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "GHA-PAN-2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "round": null,
+    "kickoffUtc": "2026-06-17T23:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Ghana",
+      "code": "GHA"
+    },
+    "awayTeam": {
+      "name": "Panama",
+      "code": "PAN"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Toronto",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "UZB-COL-2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "round": null,
+    "kickoffUtc": "2026-06-18T02:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Uzbekistan",
+      "code": "UZB"
+    },
+    "awayTeam": {
+      "name": "Colombia",
+      "code": "COL"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Mexico City",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "CZE-RSA-2026-06-18",
+    "stage": "Group stage",
+    "group": "A",
+    "round": null,
+    "kickoffUtc": "2026-06-18T16:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Czech Republic",
+      "code": "CZE"
+    },
+    "awayTeam": {
+      "name": "South Africa",
+      "code": "RSA"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Atlanta",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "SUI-BIH-2026-06-18",
+    "stage": "Group stage",
+    "group": "B",
+    "round": null,
+    "kickoffUtc": "2026-06-18T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Switzerland",
+      "code": "SUI"
+    },
+    "awayTeam": {
+      "name": "Bosnia & Herzegovina",
+      "code": "BIH"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Los Angeles (Inglewood)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "CAN-QAT-2026-06-18",
+    "stage": "Group stage",
+    "group": "B",
+    "round": null,
+    "kickoffUtc": "2026-06-18T22:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Canada",
+      "code": "CAN"
+    },
+    "awayTeam": {
+      "name": "Qatar",
+      "code": "QAT"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Vancouver",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "MEX-KOR-2026-06-18",
+    "stage": "Group stage",
+    "group": "A",
+    "round": null,
+    "kickoffUtc": "2026-06-19T01:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Mexico",
+      "code": "MEX"
+    },
+    "awayTeam": {
+      "name": "South Korea",
+      "code": "KOR"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Guadalajara (Zapopan)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "USA-AUS-2026-06-19",
+    "stage": "Group stage",
+    "group": "D",
+    "round": null,
+    "kickoffUtc": "2026-06-19T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "USA",
+      "code": "USA"
+    },
+    "awayTeam": {
+      "name": "Australia",
+      "code": "AUS"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Seattle",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "SCO-MAR-2026-06-19",
+    "stage": "Group stage",
+    "group": "C",
+    "round": null,
+    "kickoffUtc": "2026-06-19T22:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Scotland",
+      "code": "SCO"
+    },
+    "awayTeam": {
+      "name": "Morocco",
+      "code": "MAR"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Boston (Foxborough)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "BRA-HAI-2026-06-19",
+    "stage": "Group stage",
+    "group": "C",
+    "round": null,
+    "kickoffUtc": "2026-06-20T00:30:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Brazil",
+      "code": "BRA"
+    },
+    "awayTeam": {
+      "name": "Haiti",
+      "code": "HAI"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Philadelphia",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "TUR-PAR-2026-06-19",
+    "stage": "Group stage",
+    "group": "D",
+    "round": null,
+    "kickoffUtc": "2026-06-20T03:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Turkey",
+      "code": "TUR"
+    },
+    "awayTeam": {
+      "name": "Paraguay",
+      "code": "PAR"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "NED-SWE-2026-06-20",
+    "stage": "Group stage",
+    "group": "F",
+    "round": null,
+    "kickoffUtc": "2026-06-20T17:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Netherlands",
+      "code": "NED"
+    },
+    "awayTeam": {
+      "name": "Sweden",
+      "code": "SWE"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Houston",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "GER-CIV-2026-06-20",
+    "stage": "Group stage",
+    "group": "E",
+    "round": null,
+    "kickoffUtc": "2026-06-20T20:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Germany",
+      "code": "GER"
+    },
+    "awayTeam": {
+      "name": "Ivory Coast",
+      "code": "CIV"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Toronto",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "ECU-CUW-2026-06-20",
+    "stage": "Group stage",
+    "group": "E",
+    "round": null,
+    "kickoffUtc": "2026-06-21T00:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Ecuador",
+      "code": "ECU"
+    },
+    "awayTeam": {
+      "name": "Curaçao",
+      "code": "CUW"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Kansas City",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "TUN-JPN-2026-06-20",
+    "stage": "Group stage",
+    "group": "F",
+    "round": null,
+    "kickoffUtc": "2026-06-21T04:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Tunisia",
+      "code": "TUN"
+    },
+    "awayTeam": {
+      "name": "Japan",
+      "code": "JPN"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Monterrey (Guadalupe)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "ESP-KSA-2026-06-21",
+    "stage": "Group stage",
+    "group": "H",
+    "round": null,
+    "kickoffUtc": "2026-06-21T16:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Spain",
+      "code": "ESP"
+    },
+    "awayTeam": {
+      "name": "Saudi Arabia",
+      "code": "KSA"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Atlanta",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "BEL-IRN-2026-06-21",
+    "stage": "Group stage",
+    "group": "G",
+    "round": null,
+    "kickoffUtc": "2026-06-21T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Belgium",
+      "code": "BEL"
+    },
+    "awayTeam": {
+      "name": "Iran",
+      "code": "IRN"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Los Angeles (Inglewood)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "URU-CPV-2026-06-21",
+    "stage": "Group stage",
+    "group": "H",
+    "round": null,
+    "kickoffUtc": "2026-06-21T22:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Uruguay",
+      "code": "URU"
+    },
+    "awayTeam": {
+      "name": "Cape Verde",
+      "code": "CPV"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Miami (Miami Gardens)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "NZL-EGY-2026-06-21",
+    "stage": "Group stage",
+    "group": "G",
+    "round": null,
+    "kickoffUtc": "2026-06-22T01:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "New Zealand",
+      "code": "NZL"
+    },
+    "awayTeam": {
+      "name": "Egypt",
+      "code": "EGY"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Vancouver",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "ARG-AUT-2026-06-22",
+    "stage": "Group stage",
+    "group": "J",
+    "round": null,
+    "kickoffUtc": "2026-06-22T17:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Argentina",
+      "code": "ARG"
+    },
+    "awayTeam": {
+      "name": "Austria",
+      "code": "AUT"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Dallas (Arlington)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "FRA-IRQ-2026-06-22",
+    "stage": "Group stage",
+    "group": "I",
+    "round": null,
+    "kickoffUtc": "2026-06-22T21:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "France",
+      "code": "FRA"
+    },
+    "awayTeam": {
+      "name": "Iraq",
+      "code": "IRQ"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Philadelphia",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "NOR-SEN-2026-06-22",
+    "stage": "Group stage",
+    "group": "I",
+    "round": null,
+    "kickoffUtc": "2026-06-23T00:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Norway",
+      "code": "NOR"
+    },
+    "awayTeam": {
+      "name": "Senegal",
+      "code": "SEN"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "New York/New Jersey (East Rutherford)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "JOR-ALG-2026-06-22",
+    "stage": "Group stage",
+    "group": "J",
+    "round": null,
+    "kickoffUtc": "2026-06-23T03:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Jordan",
+      "code": "JOR"
+    },
+    "awayTeam": {
+      "name": "Algeria",
+      "code": "ALG"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "POR-UZB-2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "round": null,
+    "kickoffUtc": "2026-06-23T17:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Portugal",
+      "code": "POR"
+    },
+    "awayTeam": {
+      "name": "Uzbekistan",
+      "code": "UZB"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Houston",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "ENG-GHA-2026-06-23",
+    "stage": "Group stage",
+    "group": "L",
+    "round": null,
+    "kickoffUtc": "2026-06-23T20:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "England",
+      "code": "ENG"
+    },
+    "awayTeam": {
+      "name": "Ghana",
+      "code": "GHA"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Boston (Foxborough)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "PAN-CRO-2026-06-23",
+    "stage": "Group stage",
+    "group": "L",
+    "round": null,
+    "kickoffUtc": "2026-06-23T23:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Panama",
+      "code": "PAN"
+    },
+    "awayTeam": {
+      "name": "Croatia",
+      "code": "CRO"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Toronto",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "COL-COD-2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "round": null,
+    "kickoffUtc": "2026-06-24T02:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Colombia",
+      "code": "COL"
+    },
+    "awayTeam": {
+      "name": "DR Congo",
+      "code": "COD"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Guadalajara (Zapopan)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "SUI-CAN-2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "round": null,
+    "kickoffUtc": "2026-06-24T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Switzerland",
+      "code": "SUI"
+    },
+    "awayTeam": {
+      "name": "Canada",
+      "code": "CAN"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Vancouver",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "BIH-QAT-2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "round": null,
+    "kickoffUtc": "2026-06-24T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Bosnia & Herzegovina",
+      "code": "BIH"
+    },
+    "awayTeam": {
+      "name": "Qatar",
+      "code": "QAT"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Seattle",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "SCO-BRA-2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "round": null,
+    "kickoffUtc": "2026-06-24T22:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Scotland",
+      "code": "SCO"
+    },
+    "awayTeam": {
+      "name": "Brazil",
+      "code": "BRA"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Miami (Miami Gardens)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "MAR-HAI-2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "round": null,
+    "kickoffUtc": "2026-06-24T22:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Morocco",
+      "code": "MAR"
+    },
+    "awayTeam": {
+      "name": "Haiti",
+      "code": "HAI"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Atlanta",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "CZE-MEX-2026-06-24",
+    "stage": "Group stage",
+    "group": "A",
+    "round": null,
+    "kickoffUtc": "2026-06-25T01:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Czech Republic",
+      "code": "CZE"
+    },
+    "awayTeam": {
+      "name": "Mexico",
+      "code": "MEX"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Mexico City",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "RSA-KOR-2026-06-24",
+    "stage": "Group stage",
+    "group": "A",
+    "round": null,
+    "kickoffUtc": "2026-06-25T01:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "South Africa",
+      "code": "RSA"
+    },
+    "awayTeam": {
+      "name": "South Korea",
+      "code": "KOR"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Monterrey (Guadalupe)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "CUW-CIV-2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "round": null,
+    "kickoffUtc": "2026-06-25T20:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Curaçao",
+      "code": "CUW"
+    },
+    "awayTeam": {
+      "name": "Ivory Coast",
+      "code": "CIV"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Philadelphia",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "ECU-GER-2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "round": null,
+    "kickoffUtc": "2026-06-25T20:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Ecuador",
+      "code": "ECU"
+    },
+    "awayTeam": {
+      "name": "Germany",
+      "code": "GER"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "New York/New Jersey (East Rutherford)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "JPN-SWE-2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "round": null,
+    "kickoffUtc": "2026-06-25T23:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Japan",
+      "code": "JPN"
+    },
+    "awayTeam": {
+      "name": "Sweden",
+      "code": "SWE"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Dallas (Arlington)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "TUN-NED-2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "round": null,
+    "kickoffUtc": "2026-06-25T23:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Tunisia",
+      "code": "TUN"
+    },
+    "awayTeam": {
+      "name": "Netherlands",
+      "code": "NED"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Kansas City",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "TUR-USA-2026-06-25",
+    "stage": "Group stage",
+    "group": "D",
+    "round": null,
+    "kickoffUtc": "2026-06-26T02:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Turkey",
+      "code": "TUR"
+    },
+    "awayTeam": {
+      "name": "USA",
+      "code": "USA"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Los Angeles (Inglewood)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "PAR-AUS-2026-06-25",
+    "stage": "Group stage",
+    "group": "D",
+    "round": null,
+    "kickoffUtc": "2026-06-26T02:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Paraguay",
+      "code": "PAR"
+    },
+    "awayTeam": {
+      "name": "Australia",
+      "code": "AUS"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "San Francisco Bay Area (Santa Clara)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "NOR-FRA-2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "round": null,
+    "kickoffUtc": "2026-06-26T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Norway",
+      "code": "NOR"
+    },
+    "awayTeam": {
+      "name": "France",
+      "code": "FRA"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Boston (Foxborough)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "SEN-IRQ-2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "round": null,
+    "kickoffUtc": "2026-06-26T19:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Senegal",
+      "code": "SEN"
+    },
+    "awayTeam": {
+      "name": "Iraq",
+      "code": "IRQ"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Toronto",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "CPV-KSA-2026-06-26",
+    "stage": "Group stage",
+    "group": "H",
+    "round": null,
+    "kickoffUtc": "2026-06-27T00:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Cape Verde",
+      "code": "CPV"
+    },
+    "awayTeam": {
+      "name": "Saudi Arabia",
+      "code": "KSA"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Houston",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "URU-ESP-2026-06-26",
+    "stage": "Group stage",
+    "group": "H",
+    "round": null,
+    "kickoffUtc": "2026-06-27T00:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Uruguay",
+      "code": "URU"
+    },
+    "awayTeam": {
+      "name": "Spain",
+      "code": "ESP"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Guadalajara (Zapopan)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "EGY-IRN-2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "round": null,
+    "kickoffUtc": "2026-06-27T03:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Egypt",
+      "code": "EGY"
+    },
+    "awayTeam": {
+      "name": "Iran",
+      "code": "IRN"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Seattle",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "NZL-BEL-2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "round": null,
+    "kickoffUtc": "2026-06-27T03:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "New Zealand",
+      "code": "NZL"
+    },
+    "awayTeam": {
+      "name": "Belgium",
+      "code": "BEL"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Vancouver",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "PAN-ENG-2026-06-27",
+    "stage": "Group stage",
+    "group": "L",
+    "round": null,
+    "kickoffUtc": "2026-06-27T21:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Panama",
+      "code": "PAN"
+    },
+    "awayTeam": {
+      "name": "England",
+      "code": "ENG"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "New York/New Jersey (East Rutherford)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "CRO-GHA-2026-06-27",
+    "stage": "Group stage",
+    "group": "L",
+    "round": null,
+    "kickoffUtc": "2026-06-27T21:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Croatia",
+      "code": "CRO"
+    },
+    "awayTeam": {
+      "name": "Ghana",
+      "code": "GHA"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Philadelphia",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "COL-POR-2026-06-27",
+    "stage": "Group stage",
+    "group": "K",
+    "round": null,
+    "kickoffUtc": "2026-06-27T23:30:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Colombia",
+      "code": "COL"
+    },
+    "awayTeam": {
+      "name": "Portugal",
+      "code": "POR"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Miami (Miami Gardens)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "COD-UZB-2026-06-27",
+    "stage": "Group stage",
+    "group": "K",
+    "round": null,
+    "kickoffUtc": "2026-06-27T23:30:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "DR Congo",
+      "code": "COD"
+    },
+    "awayTeam": {
+      "name": "Uzbekistan",
+      "code": "UZB"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Atlanta",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "ALG-AUT-2026-06-27",
+    "stage": "Group stage",
+    "group": "J",
+    "round": null,
+    "kickoffUtc": "2026-06-28T02:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Algeria",
+      "code": "ALG"
+    },
+    "awayTeam": {
+      "name": "Austria",
+      "code": "AUT"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Kansas City",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
+  },
+  {
+    "matchId": "JOR-ARG-2026-06-27",
+    "stage": "Group stage",
+    "group": "J",
+    "round": null,
+    "kickoffUtc": "2026-06-28T02:00:00Z",
+    "status": "scheduled",
+    "homeTeam": {
+      "name": "Jordan",
+      "code": "JOR"
+    },
+    "awayTeam": {
+      "name": "Argentina",
+      "code": "ARG"
+    },
+    "score": null,
+    "goals": [],
+    "venue": "Dallas (Arlington)",
+    "sourceUrls": [],
+    "lastUpdated": "2026-06-14T13:03:43Z"
   }
 ]
