@@ -67,20 +67,26 @@ export function canonicalizeTags(tags, compiled) {
 }
 
 /**
- * Merge freshly-derived auto tags with an item's existing + pinned tags:
- *   result = autoTags (taxonomy order) + pinned + preserved legacy manual tags (deduped).
+ * Merge freshly-derived auto tags with an item's existing + pinned − suppressed tags:
+ *   result = (autoTags (taxonomy order) + pinned + preserved legacy manual tags) − suppressed.
  * Drops stale taxonomy tags (re-derived each run) and legacy "r/<sub>" subreddit tags (the
- * subreddit already lives in `source` / `sourceDetail`). `pinned` always survive — that's the
- * durable channel for manual tags (e.g. a "Banger" the title doesn't keyword-match).
+ * subreddit already lives in `source` / `sourceDetail`). `pinned` always survive — the durable
+ * channel for manual tags (e.g. a "Banger" the title doesn't keyword-match). `suppressed` is the
+ * opposite durable channel: tags the user removed by hand stay removed across re-tagging
+ * (suppression wins over both auto and pinned). Matching is case-insensitive via canonical form.
  */
-export function mergeTags(existing, autoTags, compiled, pinned = []) {
+export function mergeTags(existing, autoTags, compiled, pinned = [], suppressed = []) {
   const managed = managedTagSet(compiled);
   const isSubreddit = (t) => /^r\//i.test(t);
   const pinnedCanon = canonicalizeTags(pinned, compiled);
+  const suppressedCanon = canonicalizeTags(suppressed, compiled);
+  const isSuppressed = (t) => suppressedCanon.some((s) => s.toLowerCase() === String(t).toLowerCase());
   const manual = (existing || []).filter(
     (t) => typeof t === "string" && t && !managed.has(t) && !isSubreddit(t) && !pinnedCanon.includes(t),
   );
   const out = [];
-  for (const t of [...(autoTags || []), ...pinnedCanon, ...manual]) if (!out.includes(t)) out.push(t);
+  for (const t of [...(autoTags || []), ...pinnedCanon, ...manual]) {
+    if (!out.includes(t) && !isSuppressed(t)) out.push(t);
+  }
   return out;
 }

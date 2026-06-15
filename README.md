@@ -265,10 +265,11 @@ Instead of hand-editing JSON, you can edit a post's properties directly on the p
 from your phone or the live site. It commits `data/items.json` for you via the GitHub API, and
 GitHub Pages rebuilds in ~1 minute.
 
-**What you can edit:** `importance`, `type`, `note`, `backup`, pinned tags, the linked **match**
-(a fixture picker that shows scores), the *lock match* flag (`matchLocked`), and `needsReview`.
-Auto `tags` and match-derived fields (score/goals/teams) are recomputed for you using the same
-logic as `npm run enrich`, so an edit stays consistent with `validate`.
+**What you can edit:** `importance`, `type`, `note`, `backup`, **tags** (add your own or remove
+unwanted ones — both stick through re-tagging via the `pinnedTags` / `suppressedTags` channels),
+the linked **match** (a fixture picker that shows scores), the *lock match* flag (`matchLocked`),
+and `needsReview`. Auto `tags` and match-derived fields (score/goals/teams) are recomputed for you
+using the same logic as `npm run enrich`, so an edit stays consistent with `validate`.
 
 **Setup (one time):**
 

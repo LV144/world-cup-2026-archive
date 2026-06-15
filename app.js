@@ -339,7 +339,8 @@ function render() {
  * so an edited item stays consistent with `npm run enrich` / `npm run validate`.
  */
 
-let edPinned = []; // pinned tags being edited in the open modal
+let edPinned = [];     // canonical pinned tags (always kept) for the open modal
+let edSuppressed = []; // canonical suppressed tags (always removed) for the open modal
 
 function reflectEditorLock() {
   const btn = $("#editor-toggle");
@@ -385,7 +386,7 @@ function lockEditor() {
 
 /** Mirror of enrich-items.mjs: recompute auto tags + match-derived fields for one item. */
 function recomputeItem(item) {
-  item.tags = mergeTags(item.tags, inferContentTags(item.title || "", state.compiledTags), state.compiledTags, item.pinnedTags || []);
+  item.tags = mergeTags(item.tags, inferContentTags(item.title || "", state.compiledTags), state.compiledTags, item.pinnedTags || [], item.suppressedTags || []);
   if (item.matchId) {
     const m = state.matchesById.get(item.matchId);
     if (m) {
@@ -431,26 +432,49 @@ function updateMatchPreview() {
   el.textContent = f.scoreLabel ? `Result: ${f.scoreLabel}` : `Linked: ${f.matchLabel} (no result recorded yet)`;
 }
 
-function renderPinned() {
-  $("#ed-pinned").innerHTML =
-    edPinned.map((t) => `<span class="chip chip-type">${esc(t)}<button type="button" class="chip-x" data-rm="${esc(t)}" title="Remove">×</button></span>`).join("")
-    || `<span class="ed-empty">none</span>`;
+/** Render the effective final tags (auto ∪ pinned − suppressed) as removable chips. */
+function renderTags() {
   const item = state.items.find((x) => x.id === state.editingId);
   const auto = inferContentTags(item?.title || "", state.compiledTags);
-  $("#ed-autotags").textContent = auto.length ? auto.join(", ") : "—";
+  const effective = mergeTags(item?.tags || [], auto, state.compiledTags, edPinned, edSuppressed);
+  const pinnedLow = new Set(edPinned.map((t) => t.toLowerCase()));
+  $("#ed-tags").innerHTML = effective.length
+    ? effective.map((t) => {
+        const pin = pinnedLow.has(t.toLowerCase()) ? "📌 " : "";
+        return `<span class="chip chip-type">${pin}${esc(t)}<button type="button" class="chip-x" data-rm="${esc(t)}" title="Remove">×</button></span>`;
+      }).join("")
+    : `<span class="ed-empty">none</span>`;
+  $("#ed-removed").innerHTML = edSuppressed.length
+    ? `Removed (click to restore): ` + edSuppressed.map((t) => `<button type="button" class="ed-restore" data-restore="${esc(t)}">${esc(t)} ↺</button>`).join(" ")
+    : "";
 }
 
-function addPinned(raw) {
-  const t = String(raw || "").replace(/^#/, "").trim();
-  if (t && !edPinned.some((x) => x.toLowerCase() === t.toLowerCase())) edPinned.push(t);
-  renderPinned();
+/** Add a tag: pins it (durable) and lifts any prior suppression of it. */
+function addTag(raw) {
+  const c = canonicalizeTags([raw], state.compiledTags)[0];
+  if (!c) return;
+  edSuppressed = edSuppressed.filter((s) => s.toLowerCase() !== c.toLowerCase());
+  if (!edPinned.some((p) => p.toLowerCase() === c.toLowerCase())) edPinned.push(c);
+  renderTags();
+}
+
+/** Remove a tag: un-pin if it was pinned, otherwise suppress it (durably, surviving enrich). */
+function removeTag(t) {
+  const low = t.toLowerCase();
+  if (edPinned.some((p) => p.toLowerCase() === low)) {
+    edPinned = edPinned.filter((p) => p.toLowerCase() !== low);
+  } else if (!edSuppressed.some((s) => s.toLowerCase() === low)) {
+    edSuppressed.push(t);
+  }
+  renderTags();
 }
 
 function openEditor(id) {
   const item = state.items.find((x) => x.id === id);
   if (!item || !canEdit()) return;
   state.editingId = id;
-  edPinned = [...(item.pinnedTags || [])];
+  edPinned = canonicalizeTags(item.pinnedTags || [], state.compiledTags);
+  edSuppressed = canonicalizeTags(item.suppressedTags || [], state.compiledTags);
   $("#ed-title").textContent = item.title || item.url || id;
   $("#ed-importance").value = item.importance || "";
   $("#ed-type").value = (item.type || []).join(", ");
@@ -460,7 +484,7 @@ function openEditor(id) {
   $("#ed-review").checked = !!item.needsReview;
   $("#ed-error").textContent = "";
   fillMatchSelect(item.matchId);
-  renderPinned();
+  renderTags();
   updateMatchPreview();
   $("#editor").showModal();
 }
@@ -484,6 +508,7 @@ async function saveEditor() {
   edited.note = $("#ed-note").value;
   edited.backup = $("#ed-backup").value;
   edited.pinnedTags = canonicalizeTags(edPinned, state.compiledTags);
+  edited.suppressedTags = canonicalizeTags(edSuppressed, state.compiledTags);
   edited.matchId = $("#ed-match").value || null;
   edited.matchLocked = $("#ed-locked").checked;
   recomputeItem(edited);
@@ -576,16 +601,20 @@ function wireEditor() {
   $("#ed-cancel").addEventListener("click", () => closeEditor());
   $("#ed-save").addEventListener("click", () => saveEditor());
   $("#ed-match").addEventListener("change", updateMatchPreview);
-  $("#ed-pinned-input").addEventListener("keydown", (e) => {
+  $("#ed-tag-input").addEventListener("keydown", (e) => {
     if (e.key === "Enter" || e.key === ",") {
       e.preventDefault();
-      addPinned(e.target.value);
+      addTag(e.target.value);
       e.target.value = "";
     }
   });
-  $("#ed-pinned").addEventListener("click", (e) => {
+  $("#ed-tags").addEventListener("click", (e) => {
     const x = e.target.closest("[data-rm]");
-    if (x) { edPinned = edPinned.filter((t) => t !== x.dataset.rm); renderPinned(); }
+    if (x) removeTag(x.dataset.rm);
+  });
+  $("#ed-removed").addEventListener("click", (e) => {
+    const r = e.target.closest("[data-restore]");
+    if (r) { edSuppressed = edSuppressed.filter((s) => s.toLowerCase() !== r.dataset.restore.toLowerCase()); renderTags(); }
   });
   dlg.addEventListener("click", (e) => { if (e.target === dlg) closeEditor(); }); // backdrop click
 }

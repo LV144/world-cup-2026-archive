@@ -91,6 +91,7 @@ function buildItem({ norm, meta, inferred, id, compiledTags, pinnedTags = [] }) 
     type: [],
     tags,
     pinnedTags: pinned,
+    suppressedTags: [],
     importance: null,
     note: "",
     backup: "",
