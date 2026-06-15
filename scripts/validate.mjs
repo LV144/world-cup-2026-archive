@@ -11,7 +11,7 @@ import { normalizeUrl } from "./utils/normalize-url.mjs";
 
 const LINK_THRESHOLD = 0.8;
 const REQUIRED_ITEM_FIELDS = ["id", "title", "url", "dateSaved", "metadataConfidence", "needsReview"];
-const ITEM_ARRAY_FIELDS = ["teams", "teamCodes", "tags", "type", "goals", "candidateMatches"];
+const ITEM_ARRAY_FIELDS = ["teams", "teamCodes", "tags", "pinnedTags", "type", "goals", "candidateMatches"];
 const REQUIRED_MATCH_FIELDS = ["matchId", "stage", "status", "kickoffUtc", "homeTeam", "awayTeam"];
 
 async function main() {

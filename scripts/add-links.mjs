@@ -17,7 +17,7 @@ import { fetchMetadata } from "./utils/fetch-metadata.mjs";
 import { fetchRedditMetadata, isRedditUrl } from "./utils/reddit-metadata.mjs";
 import { buildIndexes, inferMatch } from "./utils/match-inference.mjs";
 import { fetchWithTimeout } from "./utils/fetch-metadata.mjs";
-import { compileTagRules, inferContentTags, mergeTags } from "./utils/content-tags.mjs";
+import { compileTagRules, inferContentTags, mergeTags, canonicalizeTags } from "./utils/content-tags.mjs";
 
 const EXT_BY_TYPE = {
   "image/jpeg": "jpg", "image/jpg": "jpg", "image/png": "png", "image/gif": "gif",
@@ -56,10 +56,12 @@ async function downloadThumbnail(imageUrl, id) {
   }
 }
 
-function buildItem({ norm, meta, inferred, id, compiledTags }) {
-  // Content tags (Goal/Saves/Highlights/Vibes/…) derived from the title; editable via
+function buildItem({ norm, meta, inferred, id, compiledTags, pinnedTags = [] }) {
+  // Content tags (Goal/Saves/Highlights/Vibes/Banger/…) derived from the title; editable via
   // data/tag-rules.json. The subreddit is NOT a tag — it lives in source/sourceDetail.
-  const tags = mergeTags([], inferContentTags(meta.title || "", compiledTags), compiledTags);
+  // pinnedTags are manual tags written after the link; they always persist (survive enrich).
+  const pinned = canonicalizeTags(pinnedTags, compiledTags);
+  const tags = mergeTags([], inferContentTags(meta.title || "", compiledTags), compiledTags, pinned);
   return {
     id,
     title: meta.title || norm.original,
@@ -88,6 +90,7 @@ function buildItem({ norm, meta, inferred, id, compiledTags }) {
 
     type: [],
     tags,
+    pinnedTags: pinned,
     importance: null,
     note: "",
     backup: "",
@@ -100,11 +103,16 @@ function buildItem({ norm, meta, inferred, id, compiledTags }) {
 async function main() {
   await loadDotEnv(); // optional REDDIT_CLIENT_ID/SECRET etc. from project-root .env
 
-  const urls = process.argv.slice(2).filter(Boolean);
+  // Args are URLs (http/https) plus optional trailing tag words. Any non-URL token is a tag to
+  // pin on every item in this run, e.g.  npm run add -- "<url>" Banger
+  const args = process.argv.slice(2).filter(Boolean);
+  const urls = args.filter((a) => /^https?:\/\//i.test(a));
+  const pinnedTags = args.filter((a) => !/^https?:\/\//i.test(a));
   if (!urls.length) {
-    console.error("Usage: npm run add -- <url1> <url2> ...");
+    console.error('Usage: npm run add -- <url1> <url2> ... [Tag ...]   (non-URL words become pinned tags)');
     process.exit(1);
   }
+  if (pinnedTags.length) console.log(`  pinning tag(s) on all added items: ${pinnedTags.join(", ")}`);
 
   const [items, matches, teamAliases, stageAliases, tagRules] = await Promise.all([
     readJson(PATHS.items, []),
@@ -163,7 +171,7 @@ async function main() {
       );
       inferred._thumbLocal = thumbLocal;
 
-      const item = buildItem({ norm, meta, inferred, id, compiledTags });
+      const item = buildItem({ norm, meta, inferred, id, compiledTags, pinnedTags });
       items.push(item);
       for (const k of keysForItem(item)) seen.set(k, item.id);
 
@@ -203,6 +211,7 @@ async function main() {
     } else if (item.teams.length) {
       console.log(`    teams:  ${item.teams.join(", ")} (no fixture linked)`);
     }
+    if (item.tags.length) console.log(`    tags:   ${item.tags.join(", ")}${item.pinnedTags.length ? "  (pinned: " + item.pinnedTags.join(", ") + ")" : ""}`);
     const c = item.metadataConfidence;
     console.log(`    conf:   match=${c.match} teams=${c.teams} stage=${c.stage} score=${c.score}`);
     console.log(`    thumb:  ${item.thumbnailLocalPath ? "local " + item.thumbnailLocalPath : item.thumbnailRemoteUrl ? "remote only" : "none"}`);

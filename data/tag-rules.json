@@ -12,6 +12,19 @@
     "\\bbanger\\b",
     "\\bequali[sz]er\\b"
   ],
+  "Banger": [
+    "\\bbanger\\b",
+    "\\bworldie\\b",
+    "\\bscreamer\\b",
+    "\\bstunner\\b",
+    "\\brocket\\b",
+    "\\bthunderbolt\\b",
+    "\\bgola[zc]o\\b",
+    "\\bwonder ?goal\\b",
+    "\\btop corner\\b",
+    "\\btop bins\\b",
+    "\\bpostage stamp\\b"
+  ],
   "Saves": [
     "\\bsaves?\\b",
     "\\bsaved\\b",

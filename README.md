@@ -66,7 +66,8 @@ sorted by **date posted (newest first)** by default. A view toggle switches betw
 | `goals` | Copied from the match if available. |
 | `candidateMatches` | Possible matches when inference is uncertain. |
 | `type` | `meme`, `analysis`, `match thread`, etc. **(manual)** |
-| `tags` | Content tags — `Goal`, `Saves`, `Highlights`, `Vibes`, … — **auto-derived** from the title via `data/tag-rules.json` and refreshed on every `add`/`enrich`. Any hand-added tag outside that taxonomy is preserved. |
+| `tags` | Content tags — `Goal`, `Saves`, `Highlights`, `Vibes`, `Banger`, … — **auto-derived** from the title via `data/tag-rules.json` and refreshed on every `add`/`enrich`. Includes any **pinned** tags (see `pinnedTags`); any hand-added tag outside the taxonomy is also preserved. |
+| `pinnedTags` | Manual tags that **always persist** (never dropped by re-tagging). Set them by writing tag words after the URL when adding (e.g. `npm run add -- <url> Banger`), or by editing this array directly. Merged into `tags` on every run. |
 | `importance` | `must-save` / `good` / `maybe`. **(manual)** |
 | `note`, `backup` | Your context + preservation field. **(manual)** |
 | `metadataConfidence` | `{ match, teams, stage, score }`, each `0`–`1`. |
@@ -100,11 +101,16 @@ hosts), not a claim about the final 48; edit it to match the actual field.
 
 ### `data/tag-rules.json` — content-tag rules (editable)
 
-Maps each content tag (`Goal`, `Saves`, `Highlights`, `Vibes`, …) to a list of case-insensitive
-regular expressions. On every `add`/`enrich` run, a post's title is matched against these and the
-matching tags are written to the item's `tags`. To make a tag stick to a kind of post, add a
-keyword/pattern here rather than editing items by hand — it then applies everywhere. Add new tags
-by adding new keys; a bad regex is skipped, never fatal.
+Maps each content tag (`Goal`, `Saves`, `Highlights`, `Vibes`, `Banger`, …) to a list of
+case-insensitive regular expressions. On every `add`/`enrich` run, a post's title is matched
+against these and the matching tags are written to the item's `tags`. To make a tag stick to a
+kind of post, add a keyword/pattern here rather than editing items by hand — it then applies
+everywhere. Add new tags by adding new keys; a bad regex is skipped, never fatal.
+
+For one-off manual tagging (e.g. flagging a `Banger` the title doesn't keyword-match), write the
+tag word after the URL when adding — `npm run add -- <url> Banger` — which **pins** it (stored in
+`pinnedTags`, never dropped on re-tag). Tag words are matched case-insensitively to a taxonomy key
+when one exists (`banger` → `Banger`), otherwise kept as typed.
 
 ---
 

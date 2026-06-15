@@ -11,15 +11,20 @@ result-confirmation, and publishing steps around it.
 
 ## Steps
 
-1. **Collect URLs.** Take the URL(s) from the user's message (or the slash-command arguments).
-   If none were given, ask for them. Multiple URLs are fine in one run.
+1. **Collect URLs (and any tags).** Take the URL(s) from the user's message (or the slash-command
+   arguments). If none were given, ask for them. Multiple URLs are fine in one run. Any **non-URL
+   words** the user writes (e.g. `Banger`, `Vibes`) are **tags to pin** on the added item(s).
 
-2. **Add.** Run the script (it normalizes, dedupes, fetches metadata, infers the match,
-   downloads a thumbnail, scrapes the post date, and auto-archives Reddit links to the Wayback
-   Machine):
+2. **Add.** Run the script (it normalizes, dedupes, fetches metadata, infers the match, downloads
+   a thumbnail, scrapes the post date, and auto-archives Reddit links to the Wayback Machine).
+   Pass any tag words **after** the URLs — the script pins every non-URL token onto each item it
+   adds in that run, and pinned tags persist through future `enrich` runs:
    ```
-   npm run add -- "<url1>" "<url2>" ...
+   npm run add -- "<url1>" "<url2>" ... [Tag ...]
    ```
+   Pinned tags apply to **all** URLs in the run, so if different links need different tags, add
+   them in separate runs. To pin a tag on an **existing** item, add the tag to that item's
+   `pinnedTags` array in `data/items.json` and run `npm run enrich`.
 
 3. **Review.** Read `data/items.json` and, for each newly added item (the script lists the added
    URLs; they're also the most recent entries), report concisely:
@@ -66,10 +71,11 @@ result-confirmation, and publishing steps around it.
    ```
    The GitHub Pages site (https://lv144.github.io/world-cup-2026-archive/) rebuilds in ~1 minute.
 
-7. **Report.** Tell the user it's live, summarize what was added/inferred/needs-review, and remind
-   them they can hand-edit `type` / `importance` / `note` / `backup` for any item in
-   `data/items.json` (those manual fields are never overwritten by the scripts). Content `tags`
-   are auto-derived from the title via `data/tag-rules.json`; tune that file rather than the items.
+7. **Report.** Tell the user it's live, summarize what was added/inferred/needs-review (including
+   any pinned tags), and remind them they can hand-edit `type` / `importance` / `note` / `backup`
+   for any item in `data/items.json` (those manual fields are never overwritten by the scripts).
+   Content `tags` are auto-derived from the title via `data/tag-rules.json` (tune that file rather
+   than the items), plus any **pinned** tags they wrote after the link.
 
 ## Rules (mirror the project's core principle)
 
@@ -79,5 +85,6 @@ result-confirmation, and publishing steps around it.
 - Reddit is frequently blocked from some IPs; partial metadata (e.g. a slug-derived title) is
   expected and fine.
 - Never touch the manual fields (`type`, `importance`, `note`, `backup`). Content `tags` are
-  auto-managed (Goal/Saves/Highlights/Vibes/…) and refreshed each run; any hand-added tag outside
-  the `tag-rules.json` taxonomy is preserved.
+  auto-managed (Goal/Saves/Highlights/Vibes/Banger/…) and refreshed each run; tags in `pinnedTags`
+  (set from words written after the link) and any hand-added tag outside the `tag-rules.json`
+  taxonomy are always preserved.

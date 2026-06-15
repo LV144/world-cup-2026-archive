@@ -7,7 +7,7 @@ const STAGE_ORDER = [
 ];
 const IMPORTANCE_ORDER = ["must-save", "good", "maybe"];
 
-const state = { items: [], matchesById: new Map(), flagByTeam: new Map(), filtered: [], view: "list" };
+const state = { items: [], matchesById: new Map(), flagByTeam: new Map(), filtered: [], view: "grouped" };
 
 /** "🇲🇽 Mexico" when we know the team's flag (from matches.json), else just the name. */
 const teamWithFlag = (name) => {
@@ -310,7 +310,8 @@ function wireControls() {
 
 async function init() {
   wireControls();
-  try { state.view = localStorage.getItem("wc-view") === "grouped" ? "grouped" : "list"; } catch { /* ignore */ }
+  // Default to the grouped "By matchday" view; only an explicit saved "list" choice opts out.
+  try { state.view = localStorage.getItem("wc-view") === "list" ? "list" : "grouped"; } catch { state.view = "grouped"; }
   reflectViewButtons();
   try {
     const [items, matches] = await Promise.all([

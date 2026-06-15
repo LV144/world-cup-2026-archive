@@ -44,9 +44,9 @@ function applyMatchFields(item, match) {
   return before !== after;
 }
 
-/** Recompute content tags for an item (merging in preserved manual tags). Returns changed?. */
+/** Recompute content tags for an item (auto + pinned + preserved manual). Returns changed?. */
 function retag(item, compiledTags) {
-  const next = mergeTags(item.tags, inferContentTags(item.title || "", compiledTags), compiledTags);
+  const next = mergeTags(item.tags, inferContentTags(item.title || "", compiledTags), compiledTags, item.pinnedTags || []);
   if (JSON.stringify(next) !== JSON.stringify(item.tags || [])) {
     item.tags = next;
     return true;
