@@ -628,7 +628,7 @@
       "stage": 1,
       "score": 1
     },
-    "needsReview": true,
+    "needsReview": false,
     "matchLocked": false
   },
   {
@@ -747,6 +747,519 @@
     "pinnedTags": [
       "Banger"
     ],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "8be8ba299c2e",
+    "title": "Alternate angle of Balogun's goal against Paraguay 45+5'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4ed4q/alternate_angle_of_baloguns_goal_against_paraguay",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4ed4q",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:45:04Z",
+    "matchId": "USA-PAR-2026-06-12",
+    "matchLabel": "🇺🇸 USA vs 🇵🇾 Paraguay",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "USA",
+      "Paraguay"
+    ],
+    "teamCodes": [
+      "USA",
+      "PAR"
+    ],
+    "scoreLabel": "🇺🇸 USA 4–1 🇵🇾 Paraguay",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Damian Bobadilla",
+        "minute": 7,
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 31,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 45,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Giovanni Reyna",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Paraguay",
+        "player": "Mauricio",
+        "minute": 73,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "347f689dac00",
+    "title": "César Montes (Mexico) straight red card against South Africa 90+2'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3b9rw/c%C3%A9sar_montes_mexico_straight_red_card_against",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3b9rw",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:45:55Z",
+    "matchId": "MEX-RSA-2026-06-11",
+    "matchLabel": "🇲🇽 Mexico vs 🇿🇦 South Africa",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Mexico",
+      "South Africa"
+    ],
+    "teamCodes": [
+      "MEX",
+      "RSA"
+    ],
+    "scoreLabel": "🇲🇽 Mexico 2–0 🇿🇦 South Africa",
+    "goals": [
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": 9,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Mexico",
+        "player": "Raúl Jiménez",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Red card"
+    ],
+    "pinnedTags": [
+      "Red card"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "dbb31e90f48b",
+    "title": "[WC2026 Matchday 2] All Goals with Scoring Nation Commentary",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4kg9j/wc2026_matchday_2_all_goals_with_scoring_nation",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4kg9j",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:46:52Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": "Group stage",
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0.7,
+      "score": 0
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "faf8eaad4300",
+    "title": "Korea Republic 0-1  Czech Republic - Ladislav Krejci 59'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3jtvz/korea_republic_01_czech_republic_ladislav_krejci",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3jtvz",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:47:34Z",
+    "matchId": "KOR-CZE-2026-06-11",
+    "matchLabel": "🇰🇷 South Korea vs 🇨🇿 Czech Republic",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "South Korea",
+      "Czech Republic"
+    ],
+    "teamCodes": [
+      "KOR",
+      "CZE"
+    ],
+    "scoreLabel": "🇰🇷 South Korea 2–1 🇨🇿 Czech Republic",
+    "goals": [
+      {
+        "team": "South Korea",
+        "player": "Hwang In-Beom",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "South Korea",
+        "player": "Oh Hyeon-Gyu",
+        "minute": 80,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Czech Republic",
+        "player": "Ladislav Krejcí",
+        "minute": 59,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "d278a5177f8a",
+    "title": "Referee Wilton Pereira Sampaio explains the VAR decision to show a South African player a red card in the match against Mexico",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3blwm/referee_wilton_pereira_sampaio_explains_the_var",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3blwm",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260612025121/https://www.reddit.com/r/soccer/comments/1u3blwm/referee_wilton_pereira_sampaio_explains_the_var/",
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:47:38Z",
+    "matchId": "MEX-RSA-2026-06-11",
+    "matchLabel": "🇲🇽 Mexico vs 🇿🇦 South Africa",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Mexico",
+      "South Africa"
+    ],
+    "teamCodes": [
+      "MEX",
+      "RSA"
+    ],
+    "scoreLabel": "🇲🇽 Mexico 2–0 🇿🇦 South Africa",
+    "goals": [
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": 9,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Mexico",
+        "player": "Raúl Jiménez",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e8a92460bfb9",
+    "title": "South Africans weren't exactly thrilled with their World Cup opener.",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3fwk9/south_africans_werent_exactly_thrilled_with_their",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3fwk9",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260612150251/https://www.reddit.com/r/soccer/comments/1u3fwk9/south_africans_werent_exactly_thrilled_with_their/",
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:47:41Z",
+    "matchId": "MEX-RSA-2026-06-11",
+    "matchLabel": "🇲🇽 Mexico vs 🇿🇦 South Africa",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Mexico",
+      "South Africa"
+    ],
+    "teamCodes": [
+      "MEX",
+      "RSA"
+    ],
+    "scoreLabel": "🇲🇽 Mexico 2–0 🇿🇦 South Africa",
+    "goals": [
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": 9,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Mexico",
+        "player": "Raúl Jiménez",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "5603b1447fab",
+    "title": "Kim Seung-Gyu save against Czechia - 81'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3kcrs/kim_seunggyu_save_against_czechia_81",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3kcrs",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260612063119/https://www.reddit.com/r/soccer/comments/1u3kcrs/kim_seunggyu_save_against_czechia_81/",
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:47:44Z",
+    "matchId": "KOR-CZE-2026-06-11",
+    "matchLabel": "🇰🇷 South Korea vs 🇨🇿 Czech Republic",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "South Korea",
+      "Czech Republic"
+    ],
+    "teamCodes": [
+      "KOR",
+      "CZE"
+    ],
+    "scoreLabel": "🇰🇷 South Korea 2–1 🇨🇿 Czech Republic",
+    "goals": [
+      {
+        "team": "South Korea",
+        "player": "Hwang In-Beom",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "South Korea",
+        "player": "Oh Hyeon-Gyu",
+        "minute": 80,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Czech Republic",
+        "player": "Ladislav Krejcí",
+        "minute": 59,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Saves",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "fd6278fe4742",
+    "title": "Kim Seung-Gyu (South Korea) save against Czechia 90+3'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3km7g/kim_seunggyu_south_korea_save_against_czechia_903",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3km7g",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:48:22Z",
+    "matchId": "KOR-CZE-2026-06-11",
+    "matchLabel": "🇰🇷 South Korea vs 🇨🇿 Czech Republic",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "South Korea",
+      "Czech Republic"
+    ],
+    "teamCodes": [
+      "KOR",
+      "CZE"
+    ],
+    "scoreLabel": "🇰🇷 South Korea 2–1 🇨🇿 Czech Republic",
+    "goals": [
+      {
+        "team": "South Korea",
+        "player": "Hwang In-Beom",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "South Korea",
+        "player": "Oh Hyeon-Gyu",
+        "minute": 80,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Czech Republic",
+        "player": "Ladislav Krejcí",
+        "minute": 59,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Saves",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
     "importance": null,
     "note": "",
     "backup": "",
