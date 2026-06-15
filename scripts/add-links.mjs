@@ -70,6 +70,7 @@ function buildItem({ norm, meta, inferred, id, compiledTags }) {
     description: meta.description || null,
     thumbnailRemoteUrl: meta.image || null,
     thumbnailLocalPath: inferred._thumbLocal || null,
+    externalUrl: meta.externalUrl || null,
     archivedUrl: meta.archivedUrl || null,
     postDate: meta.postDate || meta.createdUtc || null,
     dateSaved: nowIso(),

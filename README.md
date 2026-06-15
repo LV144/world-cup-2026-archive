@@ -31,7 +31,8 @@ npm run add -- <url1> <url2> <url3>
 7. Mark anything uncertain with `needsReview: true` instead of inventing facts.
 
 The frontend (`index.html` + `styles.css` + `app.js`) reads the JSON and renders a responsive,
-filterable, sortable archive. It works even when metadata is missing.
+filterable, sortable **compact list** (no thumbnails — they added little but a lot of height),
+sorted by **date posted (newest first)** by default. It works even when metadata is missing.
 
 > **Important:** This archive stores **metadata, links, notes, and thumbnails** — not full
 > copyrighted article text. For Reddit, the `backup` field is available for your own
@@ -50,8 +51,9 @@ filterable, sortable archive. It works even when metadata is missing.
 | `url` | Original submitted URL, normalized. |
 | `canonicalUrl` | Canonical URL from metadata, if any. |
 | `source`, `sourceDetail` | e.g. `Reddit` / `r/worldcup`, `YouTube`, `Article`. |
-| `thumbnailRemoteUrl` | Image URL from metadata. |
+| `thumbnailRemoteUrl` | Image URL from metadata. (Stored, but the frontend list view doesn't render thumbnails.) |
 | `thumbnailLocalPath` | Local copy under `assets/thumbs/`, if downloaded. |
+| `externalUrl` | For a Reddit **link post**, the site it points out to (a video on streamff/streamja/dubz, a YouTube/X link, `i.redd.it`/`v.redd.it` media, …) — distinct from the Reddit permalink. `null` for self/text posts, or when Reddit blocks the `.json` lookup needed to read it. Shown as a `Watch ↗` / domain button. |
 | `archivedUrl` | Wayback Machine snapshot of the link (auto-captured for Reddit), if any. |
 | `postDate` | When the post itself was published — scraped from the post's HTML/metadata. Reddit: `created-timestamp` (new reddit), the `<time>` tag (old.reddit), or `created_utc` (API). Articles/video: `article:published_time`, JSON-LD `datePublished`/`uploadDate`, `<time>`. Accepts ISO or unix-epoch values; `null` if not found. |
 | `dateSaved` | When the item was added to this archive (ISO timestamp). |
@@ -340,6 +342,7 @@ world-cup-2026-archive/
     tag-rules.json      # content-tag keyword rules (editable)
   scripts/
     add-links.mjs  update-matches.mjs  enrich-items.mjs  validate.mjs
+    backfill-external.mjs   # backfill externalUrl on older items
     utils/
       fetch-metadata.mjs  reddit-metadata.mjs  match-inference.mjs
       normalize-url.mjs   file-utils.mjs       match-sources.mjs
@@ -356,3 +359,4 @@ world-cup-2026-archive/
 | `npm run enrich` | Re-apply match data to existing items. |
 | `npm run validate` | Check JSON validity, duplicates, references, stages. |
 | `npm run serve` | Preview locally at `http://localhost:8080`. |
+| `WAYBACK_SAVE=off node scripts/backfill-external.mjs` | Backfill `externalUrl` on older Reddit items (run where Reddit `.json` is reachable, e.g. your laptop / with OAuth). |

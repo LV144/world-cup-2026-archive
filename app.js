@@ -129,53 +129,55 @@ function applyFilters() {
 
 /* ---------- Rendering ---------- */
 
-function thumbHtml(item) {
-  const src = item.thumbnailLocalPath || item.thumbnailRemoteUrl;
-  const chip = item.source ? `<span class="source-chip">${esc(item.source)}</span>` : "";
-  if (src) {
-    return `<div class="thumb">${chip}<img src="${esc(src)}" alt="" loading="lazy"
-      onerror="this.parentNode.innerHTML='<div class=&quot;placeholder&quot;>⚽</div>${chip.replace(/"/g, "&quot;")}'" /></div>`;
-  }
-  return `<div class="thumb">${chip}<div class="placeholder">⚽</div></div>`;
+// Hosts whose external link is a video — labelled "Watch", everything else by domain.
+const VIDEO_HOSTS = /(?:streamff|streamja|streamin|streamye|streamwo|streamable|dubz|v\.redd\.it|youtube\.com|youtu\.be|twitter\.com|x\.com|twitch\.tv|kick\.com|tiktok\.com)/i;
+
+/** Link to the site a Reddit post points out to (usually a video), distinct from the post. */
+function externalLinkHtml(item) {
+  if (!item.externalUrl || item.externalUrl === item.url) return "";
+  let host = "";
+  try { host = new URL(item.externalUrl).hostname.replace(/^www\./, ""); } catch { /* ignore */ }
+  const label = VIDEO_HOSTS.test(item.externalUrl) ? "Watch ↗" : `${host || "Link"} ↗`;
+  return `<a class="external-link" href="${esc(item.externalUrl)}" target="_blank" rel="noopener noreferrer" title="Open the linked site${host ? " (" + esc(host) + ")" : ""}">${esc(label)}</a>`;
 }
 
 function cardHtml(item) {
   const url = item.url || "#";
-  const chips = [];
-  if (item.stage) chips.push(`<span class="chip chip-stage">${esc(item.stage)}</span>`);
-  if (item.group) chips.push(`<span class="chip chip-group">Group ${esc(item.group)}</span>`);
-  for (const t of item.teams || []) chips.push(`<span class="chip chip-team">${esc(teamWithFlag(t))}</span>`);
-  for (const t of [...(item.type || []), ...(item.tags || [])]) chips.push(`<span class="chip chip-type">${esc(t)}</span>`);
 
   let matchLine = "";
   if (item.scoreLabel) matchLine = `<div class="match-line"><span class="score">${esc(item.scoreLabel)}</span></div>`;
   else if (item.matchLabel) matchLine = `<div class="match-line">${esc(item.matchLabel)}</div>`;
   else if ((item.candidateMatches || []).length) matchLine = `<div class="match-line">Possible: ${esc(item.candidateMatches.map((c) => c.matchLabel).join(" / "))}</div>`;
 
-  const badges = [];
-  if (item.importance) badges.push(`<span class="badge badge-importance">${esc(item.importance)}</span>`);
-  if (item.needsReview) badges.push(`<span class="badge badge-review">Needs review</span>`);
+  const chips = [];
+  if (item.stage) chips.push(`<span class="chip chip-stage">${esc(item.stage)}</span>`);
+  if (item.group) chips.push(`<span class="chip chip-group">Group ${esc(item.group)}</span>`);
+  // Team chips are dropped in list view — teams already show (with flags) in the match line.
+  for (const t of [...(item.type || []), ...(item.tags || [])]) chips.push(`<span class="chip chip-type">${esc(t)}</span>`);
+  if (item.importance) chips.push(`<span class="badge badge-importance">${esc(item.importance)}</span>`);
+  if (item.needsReview) chips.push(`<span class="badge badge-review">Needs review</span>`);
 
-  const savedDate = fmtDate(item.dateSaved);
+  const source = item.sourceDetail || item.source;
   const postDate = fmtDate(item.postDate);
+  const savedDate = fmtDate(item.dateSaved);
+  const metaBits = [];
+  if (source) metaBits.push(`<span class="src">${esc(source)}</span>`);
+  if (postDate) metaBits.push(`<span title="Date posted">Posted ${esc(postDate)}</span>`);
+  if (savedDate) metaBits.push(`<span title="Date saved to the archive">Saved ${esc(savedDate)}</span>`);
 
   return `<article class="card">
-    ${thumbHtml(item)}
-    <div class="card-body">
+    <div class="row-main">
       <h2 class="card-title"><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(item.title || url)}</a></h2>
       ${matchLine}
       ${chips.length ? `<div class="meta-row">${chips.join("")}</div>` : ""}
       ${item.note ? `<p class="note">${esc(item.note)}</p>` : ""}
       ${!item.note && item.description ? `<p class="desc">${esc(item.description.slice(0, 160))}${item.description.length > 160 ? "…" : ""}</p>` : ""}
-      ${badges.length ? `<div class="meta-row">${badges.join("")}</div>` : ""}
-      ${postDate ? `<div class="post-date">Posted ${esc(postDate)}</div>` : ""}
-      <div class="card-footer">
-        <span class="date-saved" title="Date saved to the archive">Saved ${esc(savedDate)}</span>
-        <span class="footer-links">
-          ${item.archivedUrl ? `<a class="archived-link" href="${esc(item.archivedUrl)}" target="_blank" rel="noopener noreferrer" title="Archived snapshot (Wayback Machine)">Archived</a>` : ""}
-          <a class="open-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Open ↗</a>
-        </span>
-      </div>
+      <div class="row-meta">${metaBits.join('<span class="dot">·</span>')}</div>
+    </div>
+    <div class="row-links">
+      ${item.archivedUrl ? `<a class="archived-link" href="${esc(item.archivedUrl)}" target="_blank" rel="noopener noreferrer" title="Archived snapshot (Wayback Machine)">Archived</a>` : ""}
+      ${externalLinkHtml(item)}
+      <a class="open-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Open ↗</a>
     </div>
   </article>`;
 }
@@ -198,7 +200,7 @@ function wireControls() {
   }
   $("#f-reset").addEventListener("click", () => {
     for (const id of ids) $(id).value = "";
-    $("#f-sort").value = "dateSaved-desc";
+    $("#f-sort").value = "postDate-desc";
     applyFilters();
   });
 }

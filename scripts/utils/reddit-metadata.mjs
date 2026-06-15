@@ -99,6 +99,24 @@ function onHost(url, host) {
   }
 }
 
+/**
+ * The site a link-post points OUT to (a video on streamff/streamja/dubz, a YouTube/X link,
+ * an i.redd.it/v.redd.it media URL, …) — distinct from the Reddit permalink. null for self/text
+ * posts and for posts whose destination is just reddit.com.
+ */
+function externalUrlFrom(post) {
+  if (!post || post.is_self) return null;
+  const dest = post.url_overridden_by_dest || post.url || null;
+  if (!dest || !/^https?:\/\//i.test(dest)) return null;
+  try {
+    const h = new URL(dest).hostname.toLowerCase();
+    if (h === "reddit.com" || h.endsWith(".reddit.com")) return null; // the permalink, not a destination
+    return htmlDecode(dest);
+  } catch {
+    return null;
+  }
+}
+
 /** Shared: turn a Reddit post `data` object (from .json or OAuth) into partial metadata. */
 function extractPostData(post) {
   if (!post) return null;
@@ -115,6 +133,7 @@ function extractPostData(post) {
     image: image || null,
     createdUtc: post.created_utc ? new Date(post.created_utc * 1000).toISOString() : null,
     canonicalUrl: post.permalink ? `https://www.reddit.com${post.permalink}` : null,
+    externalUrl: externalUrlFrom(post),
   };
 }
 
@@ -297,6 +316,7 @@ export async function fetchRedditMetadata(url) {
     subreddit: fromPath.subreddit || null,
     createdUtc: null,
     postDate: null,
+    externalUrl: null,
     archivedUrl: null,
     usedPlaceholder: false,
     usedOauth: false,
@@ -313,6 +333,7 @@ export async function fetchRedditMetadata(url) {
     if (!result.subreddit && p.subreddit) result.subreddit = p.subreddit;
     if (!result.createdUtc && p.createdUtc) result.createdUtc = p.createdUtc;
     if (!result.postDate && (p.postDate || p.createdUtc)) result.postDate = p.postDate || p.createdUtc;
+    if (!result.externalUrl && p.externalUrl) result.externalUrl = p.externalUrl;
     if (p.canonicalUrl) result.canonicalUrl = p.canonicalUrl;
   };
 
@@ -332,6 +353,19 @@ export async function fetchRedditMetadata(url) {
     absorb(await s.run());
     if (s.oauth && result.title) result.usedOauth = true;
     if (result.title) break; // first real title wins (image came with it, or stays null → placeholder)
+  }
+
+  // Outbound destination (link posts → a video/article on another site). The OG/HTML path
+  // doesn't expose it and the title short-circuit above often stops before any JSON strategy
+  // runs, so fetch it explicitly when still unknown. One JSON hit is authoritative (it tells us
+  // the destination, or that it's a self/text post with none); only fall back to old.reddit if
+  // the first request is blocked. Stays null when Reddit blocks JSON from this IP.
+  if (!result.externalUrl) {
+    for (const host of ["www.reddit.com", "old.reddit.com"]) {
+      result.strategiesTried.push(`ext:${host}`);
+      const p = await tryJson(url, host);
+      if (p) { absorb(p); break; }
+    }
   }
 
   // Wayback Machine: doubles as a metadata fallback (when still untitled) AND durable
