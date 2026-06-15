@@ -1,5 +1,16 @@
 // app.js — renders the static archive from data/items.json + data/matches.json.
 // No framework, no backend. Degrades gracefully when metadata is missing.
+//
+// Optional owner-only edit mode (see editor section below): gated behind a GitHub
+// fine-grained token kept in localStorage; saves commit data/items.json via the
+// GitHub contents API. Friends without the token get a plain read-only archive.
+
+import { matchLabelFor, scoreLabelFor, fieldsFromMatch } from "./scripts/utils/match-inference.mjs";
+import { compileTagRules, inferContentTags, mergeTags, canonicalizeTags } from "./scripts/utils/content-tags.mjs";
+
+// Repo the editor commits to (must match the GitHub Pages source repo).
+const REPO = { owner: "LV144", repo: "world-cup-2026-archive", branch: "main", path: "data/items.json" };
+const TOKEN_KEY = "wc-gh-token";
 
 const STAGE_ORDER = [
   "Group stage", "Round of 32", "Round of 16",
@@ -7,13 +18,26 @@ const STAGE_ORDER = [
 ];
 const IMPORTANCE_ORDER = ["must-save", "good", "maybe"];
 
-const state = { items: [], matchesById: new Map(), flagByTeam: new Map(), filtered: [], view: "grouped" };
+const state = {
+  items: [], matchesById: new Map(), flagByTeam: new Map(), filtered: [], view: "grouped",
+  compiledTags: [], token: null, editingId: null,
+};
+
+/** Edit mode is unlocked iff a token is present in this browser. UI gating only. */
+const canEdit = () => !!state.token;
 
 /** "🇲🇽 Mexico" when we know the team's flag (from matches.json), else just the name. */
 const teamWithFlag = (name) => {
   const fl = state.flagByTeam.get(name);
   return fl ? `${fl} ${name}` : name;
 };
+
+/** Label a fixture with its score when completed ("🇺🇸 USA 4–1 🇵🇾 Paraguay"), else "A vs B". */
+function matchDisplayLabel(matchId, fallback = null) {
+  const m = state.matchesById.get(matchId);
+  if (m) return scoreLabelFor(m) || matchLabelFor(m);
+  return fallback || matchId || "";
+}
 
 const $ = (sel) => document.querySelector(sel);
 const esc = (s) =>
@@ -69,7 +93,7 @@ function buildFilters() {
   fillSelect("#f-group", uniqueSorted(items.map((i) => i.group)).map((g) => ({ value: g, label: `Group ${g}` })), "All groups");
 
   const matchMap = new Map();
-  for (const i of items) if (i.matchId && i.matchLabel) matchMap.set(i.matchId, i.matchLabel);
+  for (const i of items) if (i.matchId && i.matchLabel) matchMap.set(i.matchId, matchDisplayLabel(i.matchId, i.matchLabel));
   fillSelect("#f-match", [...matchMap.entries()].sort((a, b) => a[1].localeCompare(b[1])).map(([value, label]) => ({ value, label })), "All matches");
 
   fillSelect("#f-team", uniqueSorted(items.flatMap((i) => i.teams || [])).map((t) => ({ value: t, label: teamWithFlag(t) })), "All teams");
@@ -182,6 +206,7 @@ function cardHtml(item, opts = {}) {
       ${item.archivedUrl ? `<a class="archived-link" href="${esc(item.archivedUrl)}" target="_blank" rel="noopener noreferrer" title="Archived snapshot (Wayback Machine)">Archived</a>` : ""}
       ${externalLinkHtml(item)}
       <a class="open-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Open ↗</a>
+      ${canEdit() ? `<button type="button" class="edit-btn" data-edit-id="${esc(item.id)}" title="Edit properties">✎ Edit</button>` : ""}
     </div>
   </article>`;
 }
@@ -308,6 +333,263 @@ function render() {
   $("#empty-state").hidden = state.items.length !== 0;
 }
 
+/* ---------- Editor (owner-only, token-gated) ----------
+ * Saving commits data/items.json via the GitHub contents API. Derived fields are recomputed
+ * client-side using the SAME pure helpers the Node scripts use (match-inference + content-tags),
+ * so an edited item stays consistent with `npm run enrich` / `npm run validate`.
+ */
+
+let edPinned = []; // pinned tags being edited in the open modal
+
+function reflectEditorLock() {
+  const btn = $("#editor-toggle");
+  if (!btn) return;
+  btn.textContent = canEdit() ? "🔓 Lock editing" : "🔒 Unlock editing";
+  const status = $("#editor-status");
+  if (status) status.textContent = canEdit() ? "Editing as owner" : "";
+}
+
+async function tokenCanWrite(token) {
+  try {
+    const res = await fetch(`https://api.github.com/repos/${REPO.owner}/${REPO.repo}`, {
+      headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
+      cache: "no-store",
+    });
+    if (!res.ok) return false;
+    const j = await res.json();
+    return !!(j.permissions && j.permissions.push);
+  } catch { return false; }
+}
+
+async function unlockEditor() {
+  const token = (window.prompt("Paste your GitHub fine-grained token (stored only in this browser):") || "").trim();
+  if (!token) return;
+  if (!(await tokenCanWrite(token))) {
+    alert("That token can't write to this repo (or is invalid). Nothing was stored.");
+    return;
+  }
+  state.token = token;
+  try { localStorage.setItem(TOKEN_KEY, token); } catch { /* ignore */ }
+  reflectEditorLock();
+  applyFilters(); // re-render so edit buttons appear
+  toast("Editing unlocked");
+}
+
+function lockEditor() {
+  state.token = null;
+  try { localStorage.removeItem(TOKEN_KEY); } catch { /* ignore */ }
+  reflectEditorLock();
+  applyFilters();
+  toast("Editing locked");
+}
+
+/** Mirror of enrich-items.mjs: recompute auto tags + match-derived fields for one item. */
+function recomputeItem(item) {
+  item.tags = mergeTags(item.tags, inferContentTags(item.title || "", state.compiledTags), state.compiledTags, item.pinnedTags || []);
+  if (item.matchId) {
+    const m = state.matchesById.get(item.matchId);
+    if (m) {
+      const f = fieldsFromMatch(m);
+      Object.assign(item, {
+        matchLabel: f.matchLabel, stage: f.stage, group: f.group,
+        teams: f.teams, teamCodes: f.teamCodes, scoreLabel: f.scoreLabel, goals: f.goals,
+        candidateMatches: [], metadataConfidence: { match: 1, teams: 1, stage: 1, score: 1 },
+        needsReview: !item.title,
+      });
+    } else {
+      item.needsReview = true; // referenced match missing from matches.json
+    }
+  } else {
+    // No match linked: clear football-derived fields and team chips so validate.mjs is satisfied.
+    Object.assign(item, {
+      matchLabel: null, stage: null, group: null, teams: [], teamCodes: [],
+      scoreLabel: null, goals: [], candidateMatches: [],
+      metadataConfidence: { match: 0, teams: 0, stage: 0, score: 0 },
+      needsReview: !item.title,
+    });
+  }
+  return item;
+}
+
+function fillMatchSelect(currentId) {
+  const sel = $("#ed-match");
+  const opts = [...state.matchesById.values()]
+    .slice()
+    .sort((a, b) => String(a.kickoffUtc || "").localeCompare(String(b.kickoffUtc || "")))
+    .map((m) => `<option value="${esc(m.matchId)}">${esc(scoreLabelFor(m) || matchLabelFor(m))}</option>`)
+    .join("");
+  sel.innerHTML = `<option value="">— No match —</option>` + opts;
+  sel.value = currentId || "";
+}
+
+function updateMatchPreview() {
+  const id = $("#ed-match").value;
+  const el = $("#ed-match-preview");
+  const m = id ? state.matchesById.get(id) : null;
+  if (!m) { el.textContent = "No match linked — team & score fields will be cleared."; return; }
+  const f = fieldsFromMatch(m);
+  el.textContent = f.scoreLabel ? `Result: ${f.scoreLabel}` : `Linked: ${f.matchLabel} (no result recorded yet)`;
+}
+
+function renderPinned() {
+  $("#ed-pinned").innerHTML =
+    edPinned.map((t) => `<span class="chip chip-type">${esc(t)}<button type="button" class="chip-x" data-rm="${esc(t)}" title="Remove">×</button></span>`).join("")
+    || `<span class="ed-empty">none</span>`;
+  const item = state.items.find((x) => x.id === state.editingId);
+  const auto = inferContentTags(item?.title || "", state.compiledTags);
+  $("#ed-autotags").textContent = auto.length ? auto.join(", ") : "—";
+}
+
+function addPinned(raw) {
+  const t = String(raw || "").replace(/^#/, "").trim();
+  if (t && !edPinned.some((x) => x.toLowerCase() === t.toLowerCase())) edPinned.push(t);
+  renderPinned();
+}
+
+function openEditor(id) {
+  const item = state.items.find((x) => x.id === id);
+  if (!item || !canEdit()) return;
+  state.editingId = id;
+  edPinned = [...(item.pinnedTags || [])];
+  $("#ed-title").textContent = item.title || item.url || id;
+  $("#ed-importance").value = item.importance || "";
+  $("#ed-type").value = (item.type || []).join(", ");
+  $("#ed-note").value = item.note || "";
+  $("#ed-backup").value = item.backup || "";
+  $("#ed-locked").checked = !!item.matchLocked;
+  $("#ed-review").checked = !!item.needsReview;
+  $("#ed-error").textContent = "";
+  fillMatchSelect(item.matchId);
+  renderPinned();
+  updateMatchPreview();
+  $("#editor").showModal();
+}
+
+function closeEditor() {
+  state.editingId = null;
+  const dlg = $("#editor");
+  if (dlg.open) dlg.close();
+}
+
+async function saveEditor() {
+  const item = state.items.find((x) => x.id === state.editingId);
+  if (!item) return;
+  const err = $("#ed-error");
+  const saveBtn = $("#ed-save");
+  err.textContent = "";
+
+  const edited = JSON.parse(JSON.stringify(item));
+  edited.importance = $("#ed-importance").value || null;
+  edited.type = $("#ed-type").value.split(",").map((s) => s.trim()).filter(Boolean);
+  edited.note = $("#ed-note").value;
+  edited.backup = $("#ed-backup").value;
+  edited.pinnedTags = canonicalizeTags(edPinned, state.compiledTags);
+  edited.matchId = $("#ed-match").value || null;
+  edited.matchLocked = $("#ed-locked").checked;
+  recomputeItem(edited);
+  if ($("#ed-review").checked) edited.needsReview = true;
+
+  saveBtn.disabled = true;
+  saveBtn.textContent = "Saving…";
+  try {
+    await commitItem(edited);
+    const i = state.items.findIndex((x) => x.id === edited.id);
+    state.items[i] = edited;
+    buildFilters();
+    applyFilters();
+    closeEditor();
+    toast("Saved — the site rebuilds in ~1 min");
+  } catch (e) {
+    err.textContent = e.message || "Save failed";
+  } finally {
+    saveBtn.disabled = false;
+    saveBtn.textContent = "Save";
+  }
+}
+
+/* UTF-8-safe base64 (flag emojis / accents break raw btoa/atob). */
+function utf8ToBase64(str) {
+  const bytes = new TextEncoder().encode(str);
+  let bin = "";
+  const chunk = 0x8000;
+  for (let i = 0; i < bytes.length; i += chunk) bin += String.fromCharCode(...bytes.subarray(i, i + chunk));
+  return btoa(bin);
+}
+function base64ToUtf8(b64) {
+  const bin = atob(String(b64).replace(/\s/g, ""));
+  return new TextDecoder().decode(Uint8Array.from(bin, (c) => c.charCodeAt(0)));
+}
+
+/** Commit the edited item into data/items.json via the GitHub contents API. */
+async function commitItem(item) {
+  const api = `https://api.github.com/repos/${REPO.owner}/${REPO.repo}/contents/${REPO.path}`;
+  const headers = { Authorization: `Bearer ${state.token}`, Accept: "application/vnd.github+json" };
+
+  const attempt = async () => {
+    const getRes = await fetch(`${api}?ref=${REPO.branch}`, { headers, cache: "no-store" });
+    if (!getRes.ok) throw new Error(`Could not read items.json (HTTP ${getRes.status})`);
+    const meta = await getRes.json();
+    const arr = JSON.parse(base64ToUtf8(meta.content));
+    const idx = arr.findIndex((x) => x.id === item.id);
+    if (idx === -1) throw new Error("Item not found in remote items.json");
+    arr[idx] = item;
+    const json = JSON.stringify(arr, null, 2) + "\n";
+    return fetch(api, {
+      method: "PUT",
+      headers: { ...headers, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        message: `Edit: ${item.title ? item.title.slice(0, 60) : item.id}`,
+        content: utf8ToBase64(json),
+        sha: meta.sha,
+        branch: REPO.branch,
+      }),
+    });
+  };
+
+  let res = await attempt();
+  if (res.status === 409) res = await attempt(); // sha moved under us — refetch & retry once
+  if (!res.ok) {
+    const txt = await res.text().catch(() => "");
+    throw new Error(`Save failed (HTTP ${res.status}). ${txt.slice(0, 160)}`);
+  }
+}
+
+function toast(msg) {
+  let t = $("#toast");
+  if (!t) {
+    t = document.createElement("div");
+    t.id = "toast";
+    t.className = "toast";
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.classList.add("show");
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => t.classList.remove("show"), 3000);
+}
+
+function wireEditor() {
+  const toggle = $("#editor-toggle");
+  if (toggle) toggle.addEventListener("click", () => (canEdit() ? lockEditor() : unlockEditor()));
+  const dlg = $("#editor");
+  if (!dlg) return;
+  $("#ed-cancel").addEventListener("click", () => closeEditor());
+  $("#ed-save").addEventListener("click", () => saveEditor());
+  $("#ed-match").addEventListener("change", updateMatchPreview);
+  $("#ed-pinned-input").addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === ",") {
+      e.preventDefault();
+      addPinned(e.target.value);
+      e.target.value = "";
+    }
+  });
+  $("#ed-pinned").addEventListener("click", (e) => {
+    const x = e.target.closest("[data-rm]");
+    if (x) { edPinned = edPinned.filter((t) => t !== x.dataset.rm); renderPinned(); }
+  });
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) closeEditor(); }); // backdrop click
+}
+
 /* ---------- Init ---------- */
 
 function reflectViewButtons() {
@@ -337,19 +619,30 @@ function wireControls() {
   });
   $("#view-list").addEventListener("click", () => setView("list"));
   $("#view-grouped").addEventListener("click", () => setView("grouped"));
+
+  // Edit buttons are injected per-card; delegate so they survive re-render.
+  $("#cards").addEventListener("click", (e) => {
+    const btn = e.target.closest(".edit-btn");
+    if (btn) openEditor(btn.dataset.editId);
+  });
 }
 
 async function init() {
+  try { state.token = localStorage.getItem(TOKEN_KEY) || null; } catch { state.token = null; }
   wireControls();
+  wireEditor();
+  reflectEditorLock();
   // Default to the grouped "By matchday" view; only an explicit saved "list" choice opts out.
   try { state.view = localStorage.getItem("wc-view") === "list" ? "list" : "grouped"; } catch { state.view = "grouped"; }
   reflectViewButtons();
   try {
-    const [items, matches] = await Promise.all([
+    const [items, matches, tagRules] = await Promise.all([
       loadJson("data/items.json"),
       loadJson("data/matches.json").catch(() => []),
+      loadJson("data/tag-rules.json").catch(() => ({})),
     ]);
     state.items = Array.isArray(items) ? items : [];
+    state.compiledTags = compileTagRules(tagRules || {});
     state.matchesById = new Map((matches || []).map((m) => [m.matchId, m]));
     state.flagByTeam = new Map();
     for (const m of matches || []) {

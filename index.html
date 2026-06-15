@@ -81,8 +81,70 @@
     <footer class="site-footer">
       <div class="wrap">
         <p>Static archive · data lives in <code>data/items.json</code> &amp; <code>data/matches.json</code>.</p>
+        <p class="editor-control">
+          <button id="editor-toggle" type="button" class="editor-toggle">🔒 Unlock editing</button>
+          <span id="editor-status" class="editor-status"></span>
+        </p>
       </div>
     </footer>
+
+    <dialog id="editor" class="editor-dialog" aria-label="Edit post properties">
+      <form method="dialog" class="editor-form">
+        <h2 class="ed-heading">Edit post</h2>
+        <p id="ed-title" class="ed-title"></p>
+
+        <div class="ed-grid">
+          <label class="ed-field">
+            <span>Importance</span>
+            <select id="ed-importance">
+              <option value="">—</option>
+              <option value="must-save">must-save</option>
+              <option value="good">good</option>
+              <option value="maybe">maybe</option>
+            </select>
+          </label>
+
+          <label class="ed-field">
+            <span>Match</span>
+            <select id="ed-match"></select>
+          </label>
+        </div>
+        <p id="ed-match-preview" class="ed-preview"></p>
+
+        <label class="ed-field">
+          <span>Type <small>(comma-separated)</small></span>
+          <input type="text" id="ed-type" placeholder="e.g. video, meme" />
+        </label>
+
+        <div class="ed-field">
+          <span>Pinned tags <small>(always kept; press Enter or comma to add)</small></span>
+          <div id="ed-pinned" class="ed-chips"></div>
+          <input type="text" id="ed-pinned-input" placeholder="Add a tag…" />
+          <small class="ed-auto">Auto tags from title: <span id="ed-autotags">—</span></small>
+        </div>
+
+        <label class="ed-field">
+          <span>Note</span>
+          <textarea id="ed-note" rows="2" placeholder="Optional note shown on the card"></textarea>
+        </label>
+
+        <label class="ed-field">
+          <span>Backup <small>(e.g. mirror / download URL)</small></span>
+          <input type="text" id="ed-backup" placeholder="Optional backup link" />
+        </label>
+
+        <div class="ed-checks">
+          <label><input type="checkbox" id="ed-locked" /> Lock match (don't auto-infer)</label>
+          <label><input type="checkbox" id="ed-review" /> Needs review</label>
+        </div>
+
+        <p id="ed-error" class="ed-error" aria-live="polite"></p>
+        <div class="ed-actions">
+          <button type="button" id="ed-cancel" class="ed-btn-secondary">Cancel</button>
+          <button type="button" id="ed-save" class="ed-btn-primary">Save</button>
+        </div>
+      </form>
+    </dialog>
 
     <script src="app.js" type="module"></script>
   </body>

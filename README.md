@@ -259,6 +259,32 @@ All data is plain JSON — edit `data/items.json` and `data/matches.json` in any
 - Add aliases to `data/team-aliases.json` so future inference recognizes a team/spelling.
 - Run `npm run validate` after editing to catch mistakes.
 
+### In-page edit mode (owner only)
+
+Instead of hand-editing JSON, you can edit a post's properties directly on the page — including
+from your phone or the live site. It commits `data/items.json` for you via the GitHub API, and
+GitHub Pages rebuilds in ~1 minute.
+
+**What you can edit:** `importance`, `type`, `note`, `backup`, pinned tags, the linked **match**
+(a fixture picker that shows scores), the *lock match* flag (`matchLocked`), and `needsReview`.
+Auto `tags` and match-derived fields (score/goals/teams) are recomputed for you using the same
+logic as `npm run enrich`, so an edit stays consistent with `validate`.
+
+**Setup (one time):**
+
+1. Create a **fine-grained personal access token**: GitHub → Settings → Developer settings →
+   *Fine-grained tokens*. Scope it to **only this repository**, give it **Contents: Read and
+   write**, and set a short expiry.
+2. Open the site, click **🔒 Unlock editing** in the footer, and paste the token.
+
+The token is stored **only in your browser's `localStorage`** — never committed, never sent
+anywhere except GitHub. Click **🔓 Lock editing** to remove it from that browser, and revoke it
+anytime in GitHub settings.
+
+**Security note:** hiding the edit UI is just cosmetic — the site is public and anyone can read its
+code. The real boundary is the token: friends who load the site without it get a plain read-only
+archive and cannot write. Treat the token like a password; prefer a narrow scope and an expiry.
+
 ---
 
 ## 7. How to preview locally

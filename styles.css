@@ -221,3 +221,81 @@ code { background: #11152a; padding: 2px 6px; border-radius: 5px; font-size: 0.8
   .card { flex-direction: column; align-items: stretch; gap: 10px; }
   .row-links { justify-content: flex-end; }
 }
+
+/* ---------- Editor (owner-only) ---------- */
+.edit-btn {
+  font-size: 0.78rem; font-weight: 600; cursor: pointer;
+  background: var(--bg-soft); color: var(--accent);
+  border: 1px solid var(--border); border-radius: 8px; padding: 5px 10px; white-space: nowrap;
+}
+.edit-btn:hover { background: var(--card-hover); border-color: var(--accent); }
+
+.editor-control { display: flex; align-items: center; gap: 10px; margin: 10px 0 0; }
+.editor-toggle {
+  background: var(--card); color: var(--muted); cursor: pointer;
+  border: 1px solid var(--border); border-radius: 8px; padding: 5px 10px; font-size: 0.8rem;
+}
+.editor-toggle:hover { background: var(--card-hover); color: var(--text); }
+.editor-status { font-size: 0.8rem; color: var(--accent-2); }
+
+.editor-dialog {
+  width: min(560px, 94vw); max-height: 90vh; overflow: auto;
+  background: var(--card); color: var(--text);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 0;
+}
+.editor-dialog::backdrop { background: rgba(0, 0, 0, 0.55); }
+.editor-form { display: flex; flex-direction: column; gap: 14px; padding: 20px; }
+.ed-heading { margin: 0; font-size: 1.1rem; }
+.ed-title { margin: 0; color: var(--muted); font-size: 0.9rem; line-height: 1.35; }
+.ed-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.ed-field { display: flex; flex-direction: column; gap: 4px; }
+.ed-field > span { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); }
+.ed-field small { text-transform: none; letter-spacing: 0; opacity: 0.8; }
+.editor-form input,
+.editor-form select,
+.editor-form textarea {
+  background: var(--bg-soft); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
+  font-size: 0.9rem; font-family: inherit; width: 100%;
+}
+.editor-form input:focus,
+.editor-form select:focus,
+.editor-form textarea:focus { outline: 2px solid var(--accent); outline-offset: 0; }
+.ed-preview { margin: -4px 0 0; font-size: 0.82rem; color: var(--accent-2); min-height: 1em; }
+.ed-chips { display: flex; flex-wrap: wrap; gap: 6px; min-height: 1.6em; }
+.ed-chips .chip { display: inline-flex; align-items: center; gap: 4px; }
+.ed-empty { font-size: 0.78rem; color: var(--muted); }
+.chip-x {
+  background: none; border: none; color: inherit; cursor: pointer;
+  font-size: 1rem; line-height: 1; padding: 0; opacity: 0.7;
+}
+.chip-x:hover { opacity: 1; }
+.ed-auto { color: var(--muted); }
+.ed-checks { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; color: var(--text); }
+.ed-checks label { display: inline-flex; align-items: center; gap: 6px; }
+.ed-checks input { width: auto; }
+.ed-error { margin: 0; color: var(--warn); font-size: 0.84rem; min-height: 1em; }
+.ed-actions { display: flex; justify-content: flex-end; gap: 10px; }
+.ed-btn-primary, .ed-btn-secondary {
+  font-size: 0.88rem; font-weight: 600; cursor: pointer;
+  border-radius: 8px; padding: 8px 16px; border: 1px solid var(--border);
+}
+.ed-btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+.ed-btn-primary:hover { filter: brightness(1.1); }
+.ed-btn-primary:disabled { opacity: 0.6; cursor: default; }
+.ed-btn-secondary { background: var(--card); color: var(--text); }
+.ed-btn-secondary:hover { background: var(--card-hover); }
+
+.toast {
+  position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%) translateY(8px);
+  background: var(--bg-soft); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; box-shadow: var(--shadow);
+  padding: 10px 16px; font-size: 0.88rem; opacity: 0; pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease; z-index: 50;
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+@media (max-width: 560px) {
+  .ed-grid { grid-template-columns: 1fr; }
+}
