@@ -474,29 +474,36 @@
     "archivedUrl": null,
     "postDate": "2026-06-12T16:31:11Z",
     "dateSaved": "2026-06-15T11:18:32Z",
-    "matchId": null,
-    "matchLabel": null,
-    "stage": null,
-    "group": null,
+    "matchId": "CAN-BIH-2026-06-12",
+    "matchLabel": "🇨🇦 Canada vs 🇧🇦 Bosnia & Herzegovina",
+    "stage": "Group stage",
+    "group": "B",
     "teams": [
+      "Canada",
       "Bosnia & Herzegovina"
     ],
     "teamCodes": [
+      "CAN",
       "BIH"
     ],
-    "scoreLabel": null,
-    "goals": [],
-    "candidateMatches": [
+    "scoreLabel": "🇨🇦 Canada 1–1 🇧🇦 Bosnia & Herzegovina",
+    "goals": [
       {
-        "matchId": "CAN-BIH-2026-06-12",
-        "matchLabel": "🇨🇦 Canada vs 🇧🇦 Bosnia & Herzegovina",
-        "stage": "Group stage",
-        "group": "B",
-        "kickoffUtc": "2026-06-12T19:00:00Z",
-        "confidence": 0.6,
-        "reason": "one team + date/stage narrows to one fixture"
+        "team": "Canada",
+        "player": "Cyle Larin",
+        "minute": 78,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Bosnia & Herzegovina",
+        "player": "Jovo Lukić",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
       }
     ],
+    "candidateMatches": [],
     "type": [],
     "tags": [
       "Vibes"
@@ -506,12 +513,13 @@
     "note": "",
     "backup": "",
     "metadataConfidence": {
-      "match": 0.6,
-      "teams": 0.5,
-      "stage": 0,
-      "score": 0
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
     },
-    "needsReview": true
+    "needsReview": false,
+    "matchLocked": false
   },
   {
     "id": "678901a4afdf",
