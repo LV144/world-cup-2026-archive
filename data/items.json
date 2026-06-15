@@ -648,25 +648,11 @@
     "matchLabel": null,
     "stage": null,
     "group": null,
-    "teams": [
-      "Mexico"
-    ],
-    "teamCodes": [
-      "MEX"
-    ],
+    "teams": [],
+    "teamCodes": [],
     "scoreLabel": null,
     "goals": [],
-    "candidateMatches": [
-      {
-        "matchId": "MEX-RSA-2026-06-11",
-        "matchLabel": "🇲🇽 Mexico vs 🇿🇦 South Africa",
-        "stage": "Group stage",
-        "group": "A",
-        "kickoffUtc": "2026-06-11T19:00:00Z",
-        "confidence": 0.6,
-        "reason": "one team + date/stage narrows to one fixture"
-      }
-    ],
+    "candidateMatches": [],
     "type": [],
     "tags": [
       "Vibes"
@@ -678,12 +664,13 @@
     "note": "",
     "backup": "",
     "metadataConfidence": {
-      "match": 0.6,
-      "teams": 0.5,
+      "match": 0,
+      "teams": 0,
       "stage": 0,
       "score": 0
     },
-    "needsReview": true
+    "needsReview": true,
+    "matchLocked": false
   },
   {
     "id": "860b733a9f0e",
