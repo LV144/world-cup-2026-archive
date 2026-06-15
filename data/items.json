@@ -2267,7 +2267,8 @@
       "score": 1
     },
     "needsReview": false,
-    "matchDate": "2026-06-13"
+    "matchDate": "2026-06-13",
+    "matchLocked": false
   },
   {
     "id": "1f9e361f8117",
