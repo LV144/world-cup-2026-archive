@@ -36,22 +36,21 @@ result-confirmation, and publishing steps around it.
    looks wrong or missing, the fix is to edit `data/tag-rules.json` (not the item) and re-run
    `npm run enrich`.
 
-4. **Confirm result (only for items where `matchId` is set).**
-   - Inspect the post title/slug for an implied **score or goals** (e.g. "Mexico 1-0 South
-     Africa", "Kane scores", "2-2 thriller").
-   - Find that match in `data/matches.json`. If the post implies a result the match does **not**
-     yet record (`status` ≠ `"completed"`, or a different score), **ask the user to confirm** the
-     exact score and, if mentioned, scorer + minute.
-   - **Never infer or write a score, scorer, minute, stage, or team yourself** — only record what
-     the user explicitly confirms. If they don't confirm, leave the match as-is.
-   - On confirmation, edit that match in `data/matches.json`:
+4. **Refresh match results (only for items where `matchId` is set).**
+   - For each linked match that is still `status: "scheduled"` in `data/matches.json`, **search
+     the web** for the final result (e.g. `"Belgium Egypt 2026 World Cup final score"`). Use
+     multiple searches if needed — look for final score, all goalscorers, and minutes.
+   - If the web search yields a clear, unambiguous final result (score + scorers + minutes),
+     **write it directly** without asking the user:
      - `status` → `"completed"`, `score` → `{ "home": H, "away": A }`
-     - `goals` → append `{ "team", "player", "minute", "ownGoal": false, "penalty": false }`
-       entries — include only the parts the user gave; leave unknown fields `null`
+     - `goals` → `[{ "team", "player", "minute", "ownGoal": false, "penalty": false }, …]`
+       — one entry per goal, in chronological order; set `"penalty": true` / `"ownGoal": true`
+       where applicable; leave `"player"` or `"minute"` as `null` only if genuinely not found
      - append the post URL to `sourceUrls`
      - remove any `"sample": true` flag and sample `"note"` on that match
      - set `lastUpdated` to the current UTC timestamp
-   - Then propagate it into the linked items:
+   - If the search is inconclusive or contradictory, fall back to asking the user.
+   - After updating `matches.json`, propagate into linked items:
      ```
      npm run enrich
      ```

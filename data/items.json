@@ -5270,5 +5270,181 @@
     },
     "needsReview": false,
     "matchDate": "2026-06-14"
+  },
+  {
+    "id": "a4ad167c2f83",
+    "title": "Cape Verde players reactions after securing their first ever World Cup point against Spain",
+    "url": "https://www.reddit.com/r/soccer/comments/1u6o2ib/cape_verde_players_reactions_after_securing_their",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u6o2ib",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-15T21:44:21Z",
+    "matchId": "ESP-CPV-2026-06-15",
+    "matchLabel": "🇪🇸 Spain vs 🇨🇻 Cape Verde",
+    "matchDate": "2026-06-15",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Spain",
+      "Cape Verde"
+    ],
+    "teamCodes": [
+      "ESP",
+      "CPV"
+    ],
+    "scoreLabel": "🇪🇸 Spain 0–0 🇨🇻 Cape Verde",
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "901dd40a1f9c",
+    "title": "Belgium [1]-1 Egypt - Lukaku 66'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u6scmk/belgium_11_egypt_lukaku_66",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u6scmk",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-15T21:45:03Z",
+    "matchId": "BEL-EGY-2026-06-15",
+    "matchLabel": "🇧🇪 Belgium vs 🇪🇬 Egypt",
+    "matchDate": "2026-06-15",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "Belgium",
+      "Egypt"
+    ],
+    "teamCodes": [
+      "BEL",
+      "EGY"
+    ],
+    "scoreLabel": "🇧🇪 Belgium 1–1 🇪🇬 Egypt",
+    "goals": [
+      {
+        "team": "EGY",
+        "player": "Emam Ashour",
+        "minute": "19",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BEL",
+        "player": "Mohamed Hany",
+        "minute": "66",
+        "ownGoal": true,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "34e321995f1d",
+    "title": "Belgium 0 - [1] Egypt - Emam Ashour 19'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u6qfaa/belgium_0_1_egypt_emam_ashour_19",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u6qfaa",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-15T21:47:38Z",
+    "matchId": "BEL-EGY-2026-06-15",
+    "matchLabel": "🇧🇪 Belgium vs 🇪🇬 Egypt",
+    "matchDate": "2026-06-15",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "Belgium",
+      "Egypt"
+    ],
+    "teamCodes": [
+      "BEL",
+      "EGY"
+    ],
+    "scoreLabel": "🇧🇪 Belgium 1–1 🇪🇬 Egypt",
+    "goals": [
+      {
+        "team": "EGY",
+        "player": "Emam Ashour",
+        "minute": "19",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BEL",
+        "player": "Mohamed Hany",
+        "minute": "66",
+        "ownGoal": true,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]

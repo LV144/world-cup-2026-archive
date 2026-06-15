@@ -620,7 +620,7 @@
     "group": "H",
     "round": null,
     "kickoffUtc": "2026-06-15T16:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Spain",
       "code": "ESP",
@@ -631,11 +631,13 @@
       "code": "CPV",
       "flag": "🇨🇻"
     },
-    "score": null,
+    "score": { "home": 0, "away": 0 },
     "goals": [],
     "venue": "Atlanta",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u6o2ib/cape_verde_players_reactions_after_securing_their"
+    ],
+    "lastUpdated": "2026-06-16T00:00:00Z"
   },
   {
     "matchId": "BEL-EGY-2026-06-15",
@@ -643,7 +645,7 @@
     "group": "G",
     "round": null,
     "kickoffUtc": "2026-06-15T19:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Belgium",
       "code": "BEL",
@@ -654,11 +656,17 @@
       "code": "EGY",
       "flag": "🇪🇬"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 1 },
+    "goals": [
+      { "team": "EGY", "player": "Emam Ashour", "minute": "19", "ownGoal": false, "penalty": false },
+      { "team": "BEL", "player": "Mohamed Hany", "minute": "66", "ownGoal": true, "penalty": false }
+    ],
     "venue": "Seattle",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u6qfaa/belgium_0_1_egypt_emam_ashour_19",
+      "https://www.reddit.com/r/soccer/comments/1u6scmk/belgium_11_egypt_lukaku_66"
+    ],
+    "lastUpdated": "2026-06-16T00:00:00Z"
   },
   {
     "matchId": "KSA-URU-2026-06-15",
