@@ -2,7 +2,6 @@
   "Goal": [
     "\\[\\d+\\]",
     "\\d+\\s*[-–]\\s*\\d+.*\\d{1,3}'",
-    "\\bgoals?\\b",
     "\\bscores?\\b",
     "\\bscored\\b",
     "\\bbrace\\b",
@@ -33,8 +32,7 @@
     "\\bpoint[ -]?blank\\b",
     "\\bwonder ?save\\b",
     "\\breflex save\\b",
-    "\\bpenalty save\\b",
-    "\\bgoal[- ]?line clearance\\b"
+    "\\bpenalty save\\b"
   ],
   "Highlights": [
     "\\bhighlights?\\b",
@@ -42,7 +40,11 @@
     "\\ball goals\\b",
     "\\bfull[ -]?time highlights\\b",
     "\\bmatch recap\\b",
-    "\\bcondensed match\\b"
+    "\\bcondensed match\\b",
+    "\\bclearance\\b",
+    "\\bgoal[- ]?line clearance\\b",
+    "\\bblock\\b",
+    "\\btackle\\b"
   ],
   "Vibes": [
     "\\bfans?\\b",
@@ -54,6 +56,8 @@
     "\\bcelebrat\\w*",
     "\\bcrowd\\b",
     "\\bsinging\\b",
+    "\\bdancing\\b",
+    "\\breactions?\\b",
     "\\bpitch invasion\\b",
     "\\bscenes\\b"
   ]

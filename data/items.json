@@ -45,7 +45,8 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "Goal"
+      "Goal",
+      "Highlights"
     ],
     "importance": null,
     "note": "",
@@ -104,7 +105,8 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "Goal"
+      "Goal",
+      "Highlights"
     ],
     "importance": null,
     "note": "",
@@ -170,7 +172,8 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "Goal"
+      "Goal",
+      "Highlights"
     ],
     "importance": null,
     "note": "",
@@ -236,7 +239,8 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "Goal"
+      "Goal",
+      "Highlights"
     ],
     "importance": null,
     "note": "",
@@ -350,7 +354,6 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "Goal",
       "Highlights"
     ],
     "pinnedTags": [],
@@ -443,7 +446,7 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "Goal"
+      "Vibes"
     ],
     "pinnedTags": [],
     "importance": null,
@@ -524,21 +527,16 @@
     "archivedUrl": null,
     "postDate": "2026-06-12T17:01:30Z",
     "dateSaved": "2026-06-15T11:19:16Z",
-    "matchId": "MEX-KOR-2026-06-18",
-    "matchLabel": "🇲🇽 Mexico vs 🇰🇷 South Korea",
-    "stage": "Group stage",
-    "group": "A",
-    "teams": [
-      "Mexico",
-      "South Korea"
-    ],
-    "teamCodes": [
-      "MEX",
-      "KOR"
-    ],
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
     "scoreLabel": null,
     "goals": [],
     "candidateMatches": [],
+    "matchLocked": true,
     "type": [],
     "tags": [
       "Vibes"
@@ -548,10 +546,10 @@
     "note": "",
     "backup": "",
     "metadataConfidence": {
-      "match": 1,
-      "teams": 1,
-      "stage": 1,
-      "score": 1
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
     },
     "needsReview": false
   },
@@ -594,8 +592,7 @@
     ],
     "type": [],
     "tags": [
-      "Goal",
-      "Saves"
+      "Highlights"
     ],
     "pinnedTags": [],
     "importance": null,
@@ -732,6 +729,7 @@
     "type": [],
     "tags": [
       "Goal",
+      "Highlights",
       "Banger"
     ],
     "pinnedTags": [

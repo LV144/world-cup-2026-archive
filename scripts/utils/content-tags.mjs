@@ -27,15 +27,21 @@ export function compileTagRules(rules) {
   return out;
 }
 
-/** Tags (in taxonomy order) whose patterns match `text`. */
+// "Highlights" is the umbrella for on-pitch match action: any goal or save clip is also a
+// highlight, so these subtype tags imply it. (Keep in sync with the taxonomy in tag-rules.json.)
+const HIGHLIGHT_SUBTYPES = ["Goal", "Banger", "Saves"];
+
+/** Tags (in taxonomy order) whose patterns match `text`, plus implied umbrella tags. */
 export function inferContentTags(text, compiled) {
   const s = String(text || "");
   if (!s.trim()) return [];
-  const tags = [];
+  const matched = new Set();
   for (const { tag, regexes } of compiled) {
-    if (regexes.some((re) => re.test(s))) tags.push(tag);
+    if (regexes.some((re) => re.test(s))) matched.add(tag);
   }
-  return tags;
+  if (HIGHLIGHT_SUBTYPES.some((t) => matched.has(t))) matched.add("Highlights");
+  // Return in taxonomy (compiled) order so display ordering stays stable.
+  return compiled.map((c) => c.tag).filter((t) => matched.has(t));
 }
 
 /** The set of auto-managed tag names (the taxonomy keys). */

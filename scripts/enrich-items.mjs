@@ -85,6 +85,10 @@ async function main() {
       continue;
     }
 
+    // Manual override: a locked item keeps its match decision (including "no match") — never
+    // re-infer. Set "matchLocked": true on an item to stop the inferrer re-linking it.
+    if (item.matchLocked) continue;
+
     // No matchId: retry inference; only commit if it now resolves to a fixture.
     const inferred = inferMatch(
       {
