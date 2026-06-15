@@ -79,6 +79,7 @@ function buildItem({ norm, meta, inferred, id, compiledTags, pinnedTags = [] }) 
 
     matchId: inferred.matchId,
     matchLabel: inferred.matchLabel,
+    matchDate: inferred.matchDate || null,
     stage: inferred.stage,
     group: inferred.group,
     teams: inferred.teams,

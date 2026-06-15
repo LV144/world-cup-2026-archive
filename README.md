@@ -33,8 +33,10 @@ npm run add -- <url1> <url2> <url3>
 The frontend (`index.html` + `styles.css` + `app.js`) reads the JSON and renders a responsive,
 filterable, sortable **compact list** (no thumbnails — they added little but a lot of height),
 sorted by **date posted (newest first)** by default. A view toggle switches between the flat
-**List** and the default **By matchday** view, which groups posts by the day they were posted,
-then by match (posts with no linked match fall under "Other" for that day). In that view, any goal
+**List** and the default **By matchday** view, which groups posts by the day of the match they're
+linked to (`matchDate` — so every post about a game sits together regardless of when each was
+posted), falling back to the day posted for posts with no linked match; then by match within the
+day (posts with no linked match fall under "Other" for that day). In that view, any goal
 of a completed match that has **no covering video post** is flagged (⚠ No video) — matched by
 comparing each goal's minute/scorer in `matches.json` against your `Goal`-tagged posts. It works
 even when metadata is missing.
@@ -63,6 +65,7 @@ even when metadata is missing.
 | `postDate` | When the post itself was published — scraped from the post's HTML/metadata. Reddit: `created-timestamp` (new reddit), the `<time>` tag (old.reddit), or `created_utc` (API). Articles/video: `article:published_time`, JSON-LD `datePublished`/`uploadDate`, `<time>`. Accepts ISO or unix-epoch values; `null` if not found. |
 | `dateSaved` | When the item was added to this archive (ISO timestamp). |
 | `matchId`, `matchLabel` | Linked match (e.g. `Mexico vs South Africa`), if confidently inferred. |
+| `matchDate` | Local matchday (`YYYY-MM-DD`) of the linked match — the **By matchday** grouping key. Taken from the date in `matchId` (which is the local date) rather than `kickoffUtc`, since evening North-American kickoffs often roll past midnight UTC. Auto-derived; `null` when no match is linked. |
 | `stage`, `group` | Canonical stage / group letter. |
 | `teams`, `teamCodes` | Teams involved + FIFA-style codes. |
 | `scoreLabel` | e.g. `🇲🇽 Mexico 2–0 🇿🇦 South Africa` (only when the match is completed; includes team flags). |

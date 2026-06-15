@@ -213,9 +213,11 @@ function cardHtml(item, opts = {}) {
 
 /* ---------- Grouped view: matchday (date posted) → match, with "Other" ---------- */
 
-// Calendar day a post belongs to — date posted, falling back to date saved.
+// Calendar day a post belongs to. Match-linked posts group under the day the match was played
+// (matchDate — the local matchday, so all posts about one game sit together regardless of when
+// each was posted); everything else falls back to date posted, then date saved.
 const dayKeyOf = (item) => {
-  const d = item.postDate || item.dateSaved;
+  const d = item.matchDate || item.postDate || item.dateSaved;
   return d ? String(d).slice(0, 10) : "";
 };
 
@@ -392,7 +394,7 @@ function recomputeItem(item) {
     if (m) {
       const f = fieldsFromMatch(m);
       Object.assign(item, {
-        matchLabel: f.matchLabel, stage: f.stage, group: f.group,
+        matchLabel: f.matchLabel, matchDate: f.matchDate, stage: f.stage, group: f.group,
         teams: f.teams, teamCodes: f.teamCodes, scoreLabel: f.scoreLabel, goals: f.goals,
         candidateMatches: [], metadataConfidence: { match: 1, teams: 1, stage: 1, score: 1 },
         needsReview: !item.title,
@@ -403,7 +405,7 @@ function recomputeItem(item) {
   } else {
     // No match linked: clear football-derived fields and team chips so validate.mjs is satisfied.
     Object.assign(item, {
-      matchLabel: null, stage: null, group: null, teams: [], teamCodes: [],
+      matchLabel: null, matchDate: null, stage: null, group: null, teams: [], teamCodes: [],
       scoreLabel: null, goals: [], candidateMatches: [],
       metadataConfidence: { match: 0, teams: 0, stage: 0, score: 0 },
       needsReview: !item.title,

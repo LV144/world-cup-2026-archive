@@ -28,9 +28,10 @@ function subredditFromItem(item) {
 /** Apply an authoritative match field set to an item; returns whether anything changed. */
 function applyMatchFields(item, match) {
   const f = fieldsFromMatch(match);
-  const before = JSON.stringify([item.matchId, item.matchLabel, item.stage, item.group, item.teams, item.teamCodes, item.scoreLabel, item.goals]);
+  const before = JSON.stringify([item.matchId, item.matchLabel, item.matchDate, item.stage, item.group, item.teams, item.teamCodes, item.scoreLabel, item.goals]);
   item.matchId = f.matchId;
   item.matchLabel = f.matchLabel;
+  item.matchDate = f.matchDate;
   item.stage = f.stage;
   item.group = f.group;
   item.teams = f.teams;
@@ -40,7 +41,7 @@ function applyMatchFields(item, match) {
   item.candidateMatches = [];
   item.metadataConfidence = { ...item.metadataConfidence, match: 1.0, teams: 1.0, stage: 1.0, score: 1.0 };
   item.needsReview = !item.title; // resolved fixture; only flag if core metadata missing
-  const after = JSON.stringify([item.matchId, item.matchLabel, item.stage, item.group, item.teams, item.teamCodes, item.scoreLabel, item.goals]);
+  const after = JSON.stringify([item.matchId, item.matchLabel, item.matchDate, item.stage, item.group, item.teams, item.teamCodes, item.scoreLabel, item.goals]);
   return before !== after;
 }
 

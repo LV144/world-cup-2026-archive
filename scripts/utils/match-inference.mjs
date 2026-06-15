@@ -178,6 +178,20 @@ export function scoreLabelFor(match) {
   return `${teamNameWithFlag(match.homeTeam)} ${home}–${away} ${teamNameWithFlag(match.awayTeam)}`;
 }
 
+/**
+ * Local calendar matchday as "YYYY-MM-DD". WC 2026 kickoffs are evening North-American local time,
+ * which often rolls past midnight UTC (e.g. a 20:00 local match is 02:00 UTC the next day), so the
+ * UTC kickoff date can land a day late. The matchId embeds the authoritative local date
+ * (TEAM-TEAM-YYYY-MM-DD), so prefer that; fall back to the UTC kickoff day if the id lacks it.
+ * Used to group posts under the day the match was played rather than when each post was made.
+ */
+export function matchDayOf(match) {
+  if (!match) return null;
+  const m = String(match.matchId || "").match(/(\d{4}-\d{2}-\d{2})$/);
+  if (m) return m[1];
+  return match.kickoffUtc ? String(match.kickoffUtc).slice(0, 10) : null;
+}
+
 /** Authoritative field set derived from a linked match (used by add + enrich). */
 export function fieldsFromMatch(match, idx) {
   const teams = [match.homeTeam?.name, match.awayTeam?.name].filter(Boolean);
@@ -185,6 +199,7 @@ export function fieldsFromMatch(match, idx) {
   return {
     matchId: match.matchId,
     matchLabel: matchLabelFor(match),
+    matchDate: matchDayOf(match),
     stage: CANONICAL_STAGES.includes(match.stage) ? match.stage : null,
     group: match.group || null,
     teams,
