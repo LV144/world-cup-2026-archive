@@ -292,9 +292,13 @@ async function tryRss(url) {
     if (!res.ok) return null;
     const xml = await res.text();
     const m = xml.match(/<title[^>]*>([\s\S]*?)<\/title>/i); // feed-level title == post title for a comments feed
-    if (!m) return null;
-    const t = htmlDecode(m[1].replace(/<!\[CDATA\[|\]\]>/g, "").trim());
-    return t && !looksBlocked(t) ? { title: t, image: null } : null;
+    // <published> (Atom) is the post's creation time; less gated than JSON's created_utc.
+    const pub = xml.match(/<published>([^<]+)<\/published>/i) || xml.match(/<updated>([^<]+)<\/updated>/i);
+    let postDate = null;
+    if (pub) { const d = new Date(pub[1].trim()); if (!isNaN(d.getTime())) postDate = d.toISOString(); }
+    const t = m ? htmlDecode(m[1].replace(/<!\[CDATA\[|\]\]>/g, "").trim()) : null;
+    const title = t && !looksBlocked(t) ? t : null;
+    return title || postDate ? { title, image: null, postDate } : null;
   } catch {
     return null;
   }
@@ -373,7 +377,7 @@ export async function fetchRedditMetadata(url) {
   // Save Page Now so even brand-new posts get archived. archivedUrl is stored on the item.
   result.strategiesTried.push("wayback");
   let snapshotUrl = await waybackAvailable(url);
-  if (snapshotUrl && !result.title) absorb(await metaFromSnapshot(snapshotUrl));
+  if (snapshotUrl && (!result.title || !result.postDate)) absorb(await metaFromSnapshot(snapshotUrl));
   if (!snapshotUrl && wantArchive()) {
     result.strategiesTried.push("wayback-save");
     const saved = await tryWaybackSave(url);
@@ -389,7 +393,10 @@ export async function fetchRedditMetadata(url) {
     result.strategiesTried.push("oembed");
     absorb(await tryOembed(url));
   }
-  if (!result.title) {
+  // RSS supplies a title AND a real <published> date. Run it when either is still missing —
+  // the title often arrives early (OpenGraph) while postDate doesn't, and the grouped view
+  // needs the date, so don't gate this solely on a missing title.
+  if (!result.title || !result.postDate) {
     result.strategiesTried.push("rss");
     absorb(await tryRss(url));
   }

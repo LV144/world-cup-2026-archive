@@ -8,6 +8,7 @@
     "add": "node scripts/add-links.mjs",
     "update-matches": "node scripts/update-matches.mjs",
     "enrich": "node scripts/enrich-items.mjs",
+    "backfill-postdate": "node scripts/backfill-postdate.mjs",
     "validate": "node scripts/validate.mjs",
     "serve": "npx http-server . -c-1 -p 8080"
   },
