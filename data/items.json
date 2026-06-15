@@ -324,5 +324,428 @@
       "score": 0
     },
     "needsReview": false
+  },
+  {
+    "id": "bdaad844883c",
+    "title": "[WC2026 Matchday 1] All Goals with Scoring Nation Commentary",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3s7ai/wc2026_matchday_1_all_goals_with_scoring_nation",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3s7ai/wc2026_matchday_1_all_goals_with_scoring_nation/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/HOPSCROTCH • 10,136 points and 314 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/aHNpd2kzNnAzdTZoMfAvVGiF6GO80B2GHZTCsElKoP64awxY0A3VJMxEo6fi.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-12T11:07:00Z",
+    "dateSaved": "2026-06-15T11:17:04Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": "Group stage",
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0.7,
+      "score": 0
+    },
+    "needsReview": true
+  },
+  {
+    "id": "e76bc76b5a71",
+    "title": "Bosnian fans in Toronto before their game against Canada today",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3zcck/bosnian_fans_in_toronto_before_their_game_against",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3zcck/bosnian_fans_in_toronto_before_their_game_against/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ujpanak • 4,953 points and 430 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/ZDVwN2ZhOXBqdjZoMbzbzFhpboAW1P9K4kWyN7nlhZDGlE82OjnTQeG2cHXZ.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-12T15:58:36Z",
+    "dateSaved": "2026-06-15T11:17:44Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [
+      "Canada"
+    ],
+    "teamCodes": [
+      "CAN"
+    ],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [
+      {
+        "matchId": "CAN-BIH-2026-06-12",
+        "matchLabel": "🇨🇦 Canada vs 🇧🇦 Bosnia & Herzegovina",
+        "stage": "Group stage",
+        "group": "B",
+        "kickoffUtc": "2026-06-12T19:00:00Z",
+        "confidence": 0.6,
+        "reason": "one team + date/stage narrows to one fixture"
+      }
+    ],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0.6,
+      "teams": 0.5,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": true
+  },
+  {
+    "id": "91c1b6e6379c",
+    "title": "South Korean High school students' reaction to the second goal while watching it live from their classroom",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3x4sv/south_korean_high_school_students_reaction_to_the",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3x4sv/south_korean_high_school_students_reaction_to_the/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/achilles-_-23 • 8,425 points and 177 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/dmU2d2I2emU1djZoMa9p4aswa9IrGtyxF4vkWz_qgRE1sy82HcYm2QawVbgF.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260612194758/https://www.reddit.com/r/soccer/comments/1u3x4sv/south_korean_high_school_students_reaction_to_the/",
+    "postDate": "2026-06-12T14:38:27Z",
+    "dateSaved": "2026-06-15T11:17:49Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal"
+    ],
+    "pinnedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "01bd7fd26e58",
+    "title": "Canadian fans before the match against Bosnia today",
+    "url": "https://www.reddit.com/r/soccer/comments/1u40a7d/canadian_fans_before_the_match_against_bosnia",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u40a7d/canadian_fans_before_the_match_against_bosnia/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Prestigious-Back-981 • 6,026 points and 278 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/Ym15eWQ5MGpwdjZoMZuIhlP1g0uTT-QnKqHFy9QNwiAdzjg_Oy5Z6RRmjRJs.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-12T16:31:11Z",
+    "dateSaved": "2026-06-15T11:18:32Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [
+      "Bosnia & Herzegovina"
+    ],
+    "teamCodes": [
+      "BIH"
+    ],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [
+      {
+        "matchId": "CAN-BIH-2026-06-12",
+        "matchLabel": "🇨🇦 Canada vs 🇧🇦 Bosnia & Herzegovina",
+        "stage": "Group stage",
+        "group": "B",
+        "kickoffUtc": "2026-06-12T19:00:00Z",
+        "confidence": 0.6,
+        "reason": "one team + date/stage narrows to one fixture"
+      }
+    ],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0.6,
+      "teams": 0.5,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": true
+  },
+  {
+    "id": "678901a4afdf",
+    "title": "Mexicans dancing and singing GANGNAM STYLE with the Koreans in Mexico after South Korea's victory in the World Cup",
+    "url": "https://www.reddit.com/r/soccer/comments/1u414gk/mexicans_dancing_and_singing_gangnam_style_with",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u414gk/mexicans_dancing_and_singing_gangnam_style_with/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/BurgerNugget12 • 5,850 points and 178 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/d2x1Mm4ydHF1djZoMVaIHja8_gJI7AT_RA-SkqpLxOFSqQUMefGg_q9GDLZs.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-12T17:01:30Z",
+    "dateSaved": "2026-06-15T11:19:16Z",
+    "matchId": "MEX-KOR-2026-06-18",
+    "matchLabel": "🇲🇽 Mexico vs 🇰🇷 South Korea",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Mexico",
+      "South Korea"
+    ],
+    "teamCodes": [
+      "MEX",
+      "KOR"
+    ],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "5842ba2765d8",
+    "title": "Alternate angles of Sead Kolasinac's goal line clearance against Canada",
+    "url": "https://www.reddit.com/r/soccer/comments/1u46f6b/alternate_angles_of_sead_kolasinacs_goal_line",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u46f6b/alternate_angles_of_sead_kolasinacs_goal_line/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 9,196 points and 215 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/ZTFyaXhzNTJ1dzZoMSnUoBn7Eo2vhBzubNTPkBs37ftXp8S_agW1hMcG1DSx.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260613014717/https://www.reddit.com/r/soccer/comments/1u46f6b/alternate_angles_of_sead_kolasinacs_goal_line/",
+    "postDate": "2026-06-12T20:18:20Z",
+    "dateSaved": "2026-06-15T11:19:19Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [
+      "Canada"
+    ],
+    "teamCodes": [
+      "CAN"
+    ],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [
+      {
+        "matchId": "CAN-BIH-2026-06-12",
+        "matchLabel": "🇨🇦 Canada vs 🇧🇦 Bosnia & Herzegovina",
+        "stage": "Group stage",
+        "group": "B",
+        "kickoffUtc": "2026-06-12T19:00:00Z",
+        "confidence": 0.6,
+        "reason": "one team + date/stage narrows to one fixture"
+      }
+    ],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Saves"
+    ],
+    "pinnedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0.6,
+      "teams": 0.5,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": true
+  },
+  {
+    "id": "90f4d2d2d51a",
+    "title": "A duck in Mexico wearing a Mexican jersey",
+    "url": "https://www.reddit.com/r/soccer/comments/1u3vppf/a_duck_in_mexico_wearing_a_mexican_jersey",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u3vppf/a_duck_in_mexico_wearing_a_mexican_jersey/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/AgeNovel3566 • 29,622 points and 342 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NzJhZzdmeHd2dTZoMTqGCKQ7Q-u0q95R-1T-_HyVENT7Pw6wHtIsYe2dkewf.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-12T13:45:12Z",
+    "dateSaved": "2026-06-15T11:20:40Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [
+      "Mexico"
+    ],
+    "teamCodes": [
+      "MEX"
+    ],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [
+      {
+        "matchId": "MEX-RSA-2026-06-11",
+        "matchLabel": "🇲🇽 Mexico vs 🇿🇦 South Africa",
+        "stage": "Group stage",
+        "group": "A",
+        "kickoffUtc": "2026-06-11T19:00:00Z",
+        "confidence": 0.6,
+        "reason": "one team + date/stage narrows to one fixture"
+      }
+    ],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0.6,
+      "teams": 0.5,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": true
+  },
+  {
+    "id": "860b733a9f0e",
+    "title": "USA 3-0 Paraguay - Folarin Balogun 45+5'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4e3qu/usa_30_paraguay_folarin_balogun_455",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4e3qu/usa_30_paraguay_folarin_balogun_455/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 7,029 points and 1,074 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/860b733a9f0e.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T01:51:33Z",
+    "dateSaved": "2026-06-15T11:21:30Z",
+    "matchId": "USA-PAR-2026-06-12",
+    "matchLabel": "🇺🇸 USA vs 🇵🇾 Paraguay",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "USA",
+      "Paraguay"
+    ],
+    "teamCodes": [
+      "USA",
+      "PAR"
+    ],
+    "scoreLabel": "🇺🇸 USA 4–1 🇵🇾 Paraguay",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Damian Bobadilla",
+        "minute": 7,
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 31,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 45,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Giovanni Reyna",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Paraguay",
+        "player": "Mauricio",
+        "minute": 73,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]
