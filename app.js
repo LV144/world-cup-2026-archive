@@ -7,7 +7,7 @@ const STAGE_ORDER = [
 ];
 const IMPORTANCE_ORDER = ["must-save", "good", "maybe"];
 
-const state = { items: [], matchesById: new Map(), flagByTeam: new Map(), filtered: [] };
+const state = { items: [], matchesById: new Map(), flagByTeam: new Map(), filtered: [], view: "list" };
 
 /** "🇲🇽 Mexico" when we know the team's flag (from matches.json), else just the name. */
 const teamWithFlag = (name) => {
@@ -141,17 +141,21 @@ function externalLinkHtml(item) {
   return `<a class="external-link" href="${esc(item.externalUrl)}" target="_blank" rel="noopener noreferrer" title="Open the linked site${host ? " (" + esc(host) + ")" : ""}">${esc(label)}</a>`;
 }
 
-function cardHtml(item) {
+function cardHtml(item, opts = {}) {
   const url = item.url || "#";
 
+  // In the grouped view, the match/score and stage/group are already in the group header,
+  // so suppress them on each row to avoid repetition.
   let matchLine = "";
-  if (item.scoreLabel) matchLine = `<div class="match-line"><span class="score">${esc(item.scoreLabel)}</span></div>`;
-  else if (item.matchLabel) matchLine = `<div class="match-line">${esc(item.matchLabel)}</div>`;
-  else if ((item.candidateMatches || []).length) matchLine = `<div class="match-line">Possible: ${esc(item.candidateMatches.map((c) => c.matchLabel).join(" / "))}</div>`;
+  if (!opts.hideMatch) {
+    if (item.scoreLabel) matchLine = `<div class="match-line"><span class="score">${esc(item.scoreLabel)}</span></div>`;
+    else if (item.matchLabel) matchLine = `<div class="match-line">${esc(item.matchLabel)}</div>`;
+    else if ((item.candidateMatches || []).length) matchLine = `<div class="match-line">Possible: ${esc(item.candidateMatches.map((c) => c.matchLabel).join(" / "))}</div>`;
+  }
 
   const chips = [];
-  if (item.stage) chips.push(`<span class="chip chip-stage">${esc(item.stage)}</span>`);
-  if (item.group) chips.push(`<span class="chip chip-group">Group ${esc(item.group)}</span>`);
+  if (!opts.hideMatch && item.stage) chips.push(`<span class="chip chip-stage">${esc(item.stage)}</span>`);
+  if (!opts.hideMatch && item.group) chips.push(`<span class="chip chip-group">Group ${esc(item.group)}</span>`);
   // Team chips are dropped in list view — teams already show (with flags) in the match line.
   for (const t of [...(item.type || []), ...(item.tags || [])]) chips.push(`<span class="chip chip-type">${esc(t)}</span>`);
   if (item.importance) chips.push(`<span class="badge badge-importance">${esc(item.importance)}</span>`);
@@ -182,15 +186,112 @@ function cardHtml(item) {
   </article>`;
 }
 
+/* ---------- Grouped view: matchday (date posted) → match, with "Other" ---------- */
+
+// Calendar day a post belongs to — date posted, falling back to date saved.
+const dayKeyOf = (item) => {
+  const d = item.postDate || item.dateSaved;
+  return d ? String(d).slice(0, 10) : "";
+};
+
+function fmtDayLong(day) {
+  if (!day) return "Undated";
+  const d = new Date(day + "T12:00:00Z"); // noon UTC so the calendar day doesn't shift by zone
+  return isNaN(d.getTime()) ? day : d.toLocaleDateString(undefined, { weekday: "short", year: "numeric", month: "short", day: "numeric" });
+}
+
+const teamObjLabel = (team) => (team?.flag ? `${team.flag} ${team.name || "?"}` : team?.name || "?");
+
+/** Header for a match subgroup: "🇲🇽 Mexico 2–0 🇿🇦 South Africa" (score if completed) or "… vs …". */
+function matchHeaderTitle(matchId, items) {
+  const m = state.matchesById.get(matchId);
+  if (m) {
+    const h = teamObjLabel(m.homeTeam), a = teamObjLabel(m.awayTeam);
+    if (m.status === "completed" && m.score && m.score.home != null && m.score.away != null) {
+      return `<span class="score">${esc(h)} ${m.score.home}–${m.score.away} ${esc(a)}</span>`;
+    }
+    return `${esc(h)} vs ${esc(a)}`;
+  }
+  const it = items[0] || {}; // match not in matches.json — use what the item carries (already flagged)
+  return esc(it.scoreLabel || it.matchLabel || matchId);
+}
+
+function groupedHtml(items) {
+  if (!items.length) return "";
+  // 1) group by matchday (date posted)
+  const byDay = new Map();
+  for (const it of items) {
+    const k = dayKeyOf(it);
+    if (!byDay.has(k)) byDay.set(k, []);
+    byDay.get(k).push(it);
+  }
+  const days = [...byDay.keys()].sort((a, b) => (!a ? 1 : !b ? -1 : b.localeCompare(a))); // newest first, undated last
+
+  const parts = [];
+  for (const day of days) {
+    const dayItems = byDay.get(day);
+    // 2) group by match within the day; no matchId → "Other"
+    const byMatch = new Map();
+    for (const it of dayItems) {
+      const k = it.matchId || "__other__";
+      if (!byMatch.has(k)) byMatch.set(k, []);
+      byMatch.get(k).push(it);
+    }
+    const keys = [...byMatch.keys()].sort((a, b) => {
+      if (a === "__other__") return 1; // "Other" always last in the day
+      if (b === "__other__") return -1;
+      const ka = state.matchesById.get(a)?.kickoffUtc || "";
+      const kb = state.matchesById.get(b)?.kickoffUtc || "";
+      return String(ka).localeCompare(String(kb)) || a.localeCompare(b);
+    });
+
+    const groups = keys.map((k) => {
+      const isOther = k === "__other__";
+      const gItems = byMatch.get(k).slice().sort((a, b) => String(b.postDate || "0").localeCompare(String(a.postDate || "0")));
+      const header = isOther ? `<span class="other">Other posts</span>` : matchHeaderTitle(k, gItems);
+      return `<div class="match-group">
+        <h3 class="match-header">${header} <span class="g-count">${gItems.length}</span></h3>
+        <div class="match-items">${gItems.map((it) => cardHtml(it, { hideMatch: !isOther })).join("")}</div>
+      </div>`;
+    });
+
+    parts.push(`<section class="day-group">
+      <h2 class="day-header">${esc(fmtDayLong(day))} <span class="day-count">${dayItems.length}</span></h2>
+      ${groups.join("")}
+    </section>`);
+  }
+  return parts.join("");
+}
+
 function render() {
   const container = $("#cards");
-  container.innerHTML = state.filtered.map(cardHtml).join("");
+  if (state.view === "grouped") {
+    container.classList.add("grouped");
+    container.innerHTML = groupedHtml(state.filtered);
+  } else {
+    container.classList.remove("grouped");
+    container.innerHTML = state.filtered.map((it) => cardHtml(it)).join("");
+  }
   $("#result-count").textContent =
     `${state.filtered.length} of ${state.items.length} item${state.items.length === 1 ? "" : "s"}`;
   $("#empty-state").hidden = state.items.length !== 0;
 }
 
 /* ---------- Init ---------- */
+
+function reflectViewButtons() {
+  $("#view-list").classList.toggle("is-active", state.view === "list");
+  $("#view-grouped").classList.toggle("is-active", state.view === "grouped");
+  $("#view-list").setAttribute("aria-pressed", String(state.view === "list"));
+  $("#view-grouped").setAttribute("aria-pressed", String(state.view === "grouped"));
+}
+
+function setView(v) {
+  state.view = v === "grouped" ? "grouped" : "list";
+  try { localStorage.setItem("wc-view", state.view); } catch { /* ignore */ }
+  reflectViewButtons();
+  render();
+}
 
 function wireControls() {
   const ids = ["#f-search", "#f-source", "#f-stage", "#f-group", "#f-match", "#f-team", "#f-type", "#f-importance", "#f-review", "#f-sort"];
@@ -203,10 +304,14 @@ function wireControls() {
     $("#f-sort").value = "postDate-desc";
     applyFilters();
   });
+  $("#view-list").addEventListener("click", () => setView("list"));
+  $("#view-grouped").addEventListener("click", () => setView("grouped"));
 }
 
 async function init() {
   wireControls();
+  try { state.view = localStorage.getItem("wc-view") === "grouped" ? "grouped" : "list"; } catch { /* ignore */ }
+  reflectViewButtons();
   try {
     const [items, matches] = await Promise.all([
       loadJson("data/items.json"),

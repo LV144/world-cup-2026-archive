@@ -77,7 +77,42 @@ body {
 }
 .reset-btn:hover { background: var(--card-hover); }
 
-.result-count { color: var(--muted); font-size: 0.88rem; margin: 14px 2px; }
+.result-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 14px 2px; }
+.result-count { color: var(--muted); font-size: 0.88rem; margin: 0; }
+
+.view-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.view-btn {
+  background: var(--card); color: var(--muted); border: none;
+  padding: 6px 14px; font-size: 0.82rem; cursor: pointer;
+}
+.view-btn + .view-btn { border-left: 1px solid var(--border); }
+.view-btn:hover { background: var(--card-hover); color: var(--text); }
+.view-btn.is-active { background: var(--accent); color: #fff; }
+
+/* Grouped view: matchday → match */
+.cards.grouped { gap: 24px; }
+.day-group { display: flex; flex-direction: column; gap: 8px; }
+.day-header {
+  margin: 4px 2px 2px; font-size: 1.05rem; font-weight: 700; color: var(--text);
+  padding-bottom: 6px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: baseline; gap: 8px;
+}
+.match-group { display: flex; flex-direction: column; gap: 6px; margin: 4px 0 6px; }
+.match-header {
+  margin: 2px 0; font-size: 0.92rem; font-weight: 600; color: var(--text);
+  display: flex; align-items: baseline; gap: 8px; padding-left: 2px;
+}
+.match-header .score { color: var(--accent-2); }
+.match-header .other { color: var(--muted); }
+.match-items {
+  display: flex; flex-direction: column; gap: 6px;
+  padding-left: 12px; border-left: 2px solid var(--border);
+}
+.day-count, .g-count {
+  font-size: 0.7rem; font-weight: 600; color: var(--muted);
+  background: var(--bg-soft); border: 1px solid var(--border);
+  border-radius: 999px; padding: 1px 7px;
+}
 
 /* List */
 .cards {

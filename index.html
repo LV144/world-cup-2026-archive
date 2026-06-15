@@ -65,7 +65,13 @@
         <button id="f-reset" type="button" class="reset-btn">Reset</button>
       </section>
 
-      <p id="result-count" class="result-count" aria-live="polite"></p>
+      <div class="result-bar">
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+        <div class="view-toggle" role="group" aria-label="View mode">
+          <button id="view-list" type="button" class="view-btn is-active" aria-pressed="true">List</button>
+          <button id="view-grouped" type="button" class="view-btn" aria-pressed="false">By matchday</button>
+        </div>
+      </div>
       <section id="cards" class="cards" aria-live="polite"></section>
       <p id="empty-state" class="empty-state" hidden>
         No items yet. Add some with <code>npm run add -- &lt;url&gt;</code>, then reload this page.

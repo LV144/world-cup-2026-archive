@@ -32,7 +32,9 @@ npm run add -- <url1> <url2> <url3>
 
 The frontend (`index.html` + `styles.css` + `app.js`) reads the JSON and renders a responsive,
 filterable, sortable **compact list** (no thumbnails — they added little but a lot of height),
-sorted by **date posted (newest first)** by default. It works even when metadata is missing.
+sorted by **date posted (newest first)** by default. A view toggle switches between the flat
+**List** and a **By matchday** view that groups posts by the day they were posted, then by match
+(posts with no linked match fall under "Other" for that day). It works even when metadata is missing.
 
 > **Important:** This archive stores **metadata, links, notes, and thumbnails** — not full
 > copyrighted article text. For Reddit, the `backup` field is available for your own
