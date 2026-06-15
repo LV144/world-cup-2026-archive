@@ -104,6 +104,15 @@ body {
 }
 .match-header .score { color: var(--accent-2); }
 .match-header .other { color: var(--muted); }
+.goal-missing {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  margin: 0 0 2px 4px; font-size: 0.76rem; color: var(--warn);
+}
+.goal-missing .gm-label { font-weight: 600; }
+.goal-missing .gm-chip {
+  background: var(--warn-bg); color: var(--warn);
+  border: 1px solid var(--warn); border-radius: 999px; padding: 1px 8px; white-space: nowrap;
+}
 .match-items {
   display: flex; flex-direction: column; gap: 6px;
   padding-left: 12px; border-left: 2px solid var(--border);

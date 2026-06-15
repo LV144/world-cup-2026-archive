@@ -216,6 +216,36 @@ function matchHeaderTitle(matchId, items) {
   return esc(it.scoreLabel || it.matchLabel || matchId);
 }
 
+// Accent/case-insensitive normalization for fuzzy title matching.
+const normText = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+/**
+ * Flag goals in a completed match that have no covering video post in the archive.
+ * A goal is "covered" if some Goal-tagged item linked to the match mentions its minute (e.g. 67')
+ * or the scorer's surname. Considers ALL archived items (not just the current day/filter), since
+ * a goal clip may have been posted on another day. Returns a warning row, or "" if all covered.
+ */
+function goalCoverageHtml(matchId) {
+  const m = state.matchesById.get(matchId);
+  if (!m || m.status !== "completed" || !Array.isArray(m.goals) || !m.goals.length) return "";
+  const titles = state.items
+    .filter((it) => it.matchId === matchId && (it.tags || []).includes("Goal"))
+    .map((it) => normText(it.title));
+
+  const missing = m.goals.filter((g) => {
+    const minHit = g.minute != null && titles.some((t) => new RegExp(`\\b${g.minute}'`).test(t));
+    const nameTokens = normText(g.player).split(/\s+/).filter((w) => w.length >= 3);
+    const nameHit = nameTokens.length > 0 && titles.some((t) => nameTokens.some((w) => t.includes(w)));
+    return !(minHit || nameHit);
+  });
+  if (!missing.length) return "";
+
+  const chips = missing
+    .map((g) => `<span class="gm-chip">${g.minute != null ? esc(g.minute) + "' " : ""}${esc(g.player || "Goal")}</span>`)
+    .join("");
+  return `<div class="goal-missing"><span class="gm-label">⚠ No video:</span> ${chips}</div>`;
+}
+
 function groupedHtml(items) {
   if (!items.length) return "";
   // 1) group by matchday (date posted)
@@ -251,6 +281,7 @@ function groupedHtml(items) {
       const header = isOther ? `<span class="other">Other posts</span>` : matchHeaderTitle(k, gItems);
       return `<div class="match-group">
         <h3 class="match-header">${header} <span class="g-count">${gItems.length}</span></h3>
+        ${isOther ? "" : goalCoverageHtml(k)}
         <div class="match-items">${gItems.map((it) => cardHtml(it, { hideMatch: !isOther })).join("")}</div>
       </div>`;
     });
