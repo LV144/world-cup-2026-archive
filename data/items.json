@@ -345,7 +345,7 @@
     "dateSaved": "2026-06-15T11:17:04Z",
     "matchId": null,
     "matchLabel": null,
-    "stage": "Group stage",
+    "stage": null,
     "group": null,
     "teams": [],
     "teamCodes": [],
@@ -363,10 +363,11 @@
     "metadataConfidence": {
       "match": 0,
       "teams": 0,
-      "stage": 0.7,
+      "stage": 0,
       "score": 0
     },
-    "needsReview": true
+    "needsReview": false,
+    "matchLocked": false
   },
   {
     "id": "e76bc76b5a71",
