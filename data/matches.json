@@ -356,7 +356,7 @@
     "group": "E",
     "round": null,
     "kickoffUtc": "2026-06-14T17:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Germany",
       "code": "GER",
@@ -367,11 +367,80 @@
       "code": "CUW",
       "flag": "🇨🇼"
     },
-    "score": null,
-    "goals": [],
+    "score": {
+      "home": 7,
+      "away": 1
+    },
+    "goals": [
+      {
+        "team": "Germany",
+        "player": "Felix Nmecha",
+        "minute": 6,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Curaçao",
+        "player": "L. Comenencia",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Germany",
+        "player": "Nico Schlotterbeck",
+        "minute": 38,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Germany",
+        "player": "Kai Havertz",
+        "minute": 45,
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "Germany",
+        "player": "Jamal Musiala",
+        "minute": 47,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Germany",
+        "player": "Nathaniel Brown",
+        "minute": 68,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Germany",
+        "player": "Deniz Undav",
+        "minute": 78,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Germany",
+        "player": "Kai Havertz",
+        "minute": 88,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
     "venue": "Houston",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u5qmtn/",
+      "https://www.reddit.com/r/soccer/comments/1u5r15s/",
+      "https://www.reddit.com/r/soccer/comments/1u5ri11/",
+      "https://www.reddit.com/r/soccer/comments/1u5rqzr/",
+      "https://www.reddit.com/r/soccer/comments/1u5s8rc/",
+      "https://www.reddit.com/r/soccer/comments/1u5st3k/",
+      "https://www.reddit.com/r/soccer/comments/1u5t1t3/",
+      "https://www.reddit.com/r/soccer/comments/1u5tbrt/"
+    ],
+    "lastUpdated": "2026-06-15T13:28:25.692Z"
   },
   {
     "matchId": "NED-JPN-2026-06-14",
@@ -379,7 +448,7 @@
     "group": "F",
     "round": null,
     "kickoffUtc": "2026-06-14T20:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Netherlands",
       "code": "NED",
@@ -390,11 +459,48 @@
       "code": "JPN",
       "flag": "🇯🇵"
     },
-    "score": null,
-    "goals": [],
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "goals": [
+      {
+        "team": "Netherlands",
+        "player": "Virgil van Dijk",
+        "minute": 51,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Japan",
+        "player": "Keito Nakamura",
+        "minute": 57,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Netherlands",
+        "player": "Crysencio Summerville",
+        "minute": 64,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Japan",
+        "player": "Daichi Kamada",
+        "minute": 89,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
     "venue": "Dallas (Arlington)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u5wu76/netherlands_1_0_japan_v_van_dijk_51/",
+      "https://www.reddit.com/r/soccer/comments/1u5x06e/netherlands_1_1_japan_k_nakamura_57/",
+      "https://www.reddit.com/r/soccer/comments/1u5x5yj/netherlands_21_japan_crysencio_summerville_64/",
+      "https://www.reddit.com/r/soccer/comments/1u64i7o/japanese_fans_celebrating_daichi_kamadas_late/"
+    ],
+    "lastUpdated": "2026-06-15T13:28:25.692Z"
   },
   {
     "matchId": "CIV-ECU-2026-06-14",
@@ -402,7 +508,7 @@
     "group": "E",
     "round": null,
     "kickoffUtc": "2026-06-14T23:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Ivory Coast",
       "code": "CIV",
@@ -413,11 +519,24 @@
       "code": "ECU",
       "flag": "🇪🇨"
     },
-    "score": null,
-    "goals": [],
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "goals": [
+      {
+        "team": "Ivory Coast",
+        "player": "Amad Diallo",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
     "venue": "Philadelphia",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u61z8l/ivory_coast_1_0_ecuador_a_diallo_90/"
+    ],
+    "lastUpdated": "2026-06-15T13:28:25.692Z"
   },
   {
     "matchId": "SWE-TUN-2026-06-14",
@@ -425,7 +544,7 @@
     "group": "F",
     "round": null,
     "kickoffUtc": "2026-06-15T02:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Sweden",
       "code": "SWE",
@@ -436,11 +555,64 @@
       "code": "TUN",
       "flag": "🇹🇳"
     },
-    "score": null,
-    "goals": [],
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "goals": [
+      {
+        "team": "Sweden",
+        "player": "Yasin Ayari",
+        "minute": 7,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Sweden",
+        "player": "Alexander Isak",
+        "minute": 30,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Tunisia",
+        "player": "Omar Rekik",
+        "minute": 43,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Sweden",
+        "player": "Viktor Gyökeres",
+        "minute": 59,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Sweden",
+        "player": "Mattias Svanberg",
+        "minute": 84,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Sweden",
+        "player": "Yasin Ayari",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
     "venue": "Monterrey (Guadalupe)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u63h5q/sweden_1_0_tunisia_y_ayari_7/",
+      "https://www.reddit.com/r/soccer/comments/1u63y40/sweden_2_0_tunisia_a_isak_30/",
+      "https://www.reddit.com/r/soccer/comments/1u6481l/sweden_2_1_tunisia_o_rekik_43/",
+      "https://www.reddit.com/r/soccer/comments/1u64zpm/sweden_3_1_tunisia_viktor_gy%C3%B6keres_60/",
+      "https://www.reddit.com/r/soccer/comments/1u65j26/sweden_4_1_tunisia_mattias_svanberg_84/",
+      "https://www.reddit.com/r/soccer/comments/1u65pq5/sweden_5_1_tunisia_yasin_ayari_906/"
+    ],
+    "lastUpdated": "2026-06-15T13:28:25.692Z"
   },
   {
     "matchId": "ESP-CPV-2026-06-15",
