@@ -21,6 +21,7 @@ export const PATHS = {
   matches: path.join(DATA_DIR, "matches.json"),
   teamAliases: path.join(DATA_DIR, "team-aliases.json"),
   stageAliases: path.join(DATA_DIR, "stage-aliases.json"),
+  tagRules: path.join(DATA_DIR, "tag-rules.json"),
 };
 
 export async function fileExists(p) {

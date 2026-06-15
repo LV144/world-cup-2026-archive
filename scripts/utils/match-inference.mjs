@@ -160,17 +160,22 @@ function withinOneDay(a, b) {
   return Math.abs(da - db) <= 24 * 3600 * 1000;
 }
 
+/** "🇲🇽 Mexico" when a flag is on the team object, else just the name. */
+export function teamNameWithFlag(team) {
+  const name = team?.name || "?";
+  return team?.flag ? `${team.flag} ${name}` : name;
+}
+
 export function matchLabelFor(match) {
-  const h = match.homeTeam?.name || "?";
-  const a = match.awayTeam?.name || "?";
-  return `${h} vs ${a}`;
+  return `${teamNameWithFlag(match.homeTeam)} vs ${teamNameWithFlag(match.awayTeam)}`;
 }
 
 export function scoreLabelFor(match) {
   if (!match || match.status !== "completed" || !match.score) return null;
   const { home, away } = match.score;
   if (home == null || away == null) return null;
-  return `${match.homeTeam?.name} ${home}–${away} ${match.awayTeam?.name}`; // en dash U+2013
+  // en dash U+2013 between the scores
+  return `${teamNameWithFlag(match.homeTeam)} ${home}–${away} ${teamNameWithFlag(match.awayTeam)}`;
 }
 
 /** Authoritative field set derived from a linked match (used by add + enrich). */

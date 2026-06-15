@@ -40,6 +40,19 @@ function makeAliasResolver(teamAliases) {
   return (name) => byAlias[String(name || "").toLowerCase()] || null;
 }
 
+/** name|code|alias → emoji flag, from team-aliases.json. */
+function makeFlagResolver(teamAliases) {
+  const byKey = {};
+  for (const [canonical, info] of Object.entries(teamAliases || {})) {
+    const flag = info?.flag || null;
+    if (!flag) continue;
+    byKey[canonical.toLowerCase()] = flag;
+    if (info?.code) byKey[info.code.toLowerCase()] = flag;
+    for (const a of info?.aliases || []) byKey[String(a).toLowerCase()] = flag;
+  }
+  return (nameOrCode) => byKey[String(nameOrCode || "").toLowerCase()] || null;
+}
+
 /** Authoritative name→{name,code} map from openfootball teams.json. */
 function buildTeamMap(teamsJson) {
   const map = {};
@@ -99,7 +112,7 @@ function mapGoals(arr, teamName) {
 }
 
 /** Map one openfootball match to our schema, or null if its teams aren't decided yet. */
-function normalizeOpenfootball(m, teamMap, fallback, stageAliases) {
+function normalizeOpenfootball(m, teamMap, fallback, stageAliases, flagOf) {
   const home = resolveTeam(m.team1, teamMap, fallback);
   const away = resolveTeam(m.team2, teamMap, fallback);
   if (!home || !away || !home.code || !away.code || !m.date) return null;
@@ -108,6 +121,7 @@ function normalizeOpenfootball(m, teamMap, fallback, stageAliases) {
   const ft = m.score?.ft;
   const completed = Array.isArray(ft) && ft[0] != null && ft[1] != null;
   const groupLetter = stage === "Group stage" ? String(m.group || "").match(/([a-l])\b/i)?.[1] : null;
+  const flag = (t) => (flagOf ? flagOf(t.code) || flagOf(t.name) || null : null);
 
   return {
     matchId: `${home.code}-${away.code}-${m.date}`,
@@ -116,8 +130,8 @@ function normalizeOpenfootball(m, teamMap, fallback, stageAliases) {
     round: stage && stage !== "Group stage" ? m.round || null : null,
     kickoffUtc: parseKickoffUtc(m.date, m.time),
     status: completed ? "completed" : "scheduled",
-    homeTeam: { name: home.name, code: home.code },
-    awayTeam: { name: away.name, code: away.code },
+    homeTeam: { name: home.name, code: home.code, flag: flag(home) },
+    awayTeam: { name: away.name, code: away.code, flag: flag(away) },
     score: completed ? { home: ft[0], away: ft[1] } : null,
     goals: completed ? [...mapGoals(m.goals1, home.name), ...mapGoals(m.goals2, away.name)] : [],
     venue: m.ground || null,
@@ -151,7 +165,7 @@ async function tryOpenfootball(ctx, log) {
   const out = [];
   let skipped = 0;
   for (const m of matchesJson.matches || []) {
-    const norm = normalizeOpenfootball(m, teamMap, ctx.resolveCode, ctx.stageAliases);
+    const norm = normalizeOpenfootball(m, teamMap, ctx.resolveCode, ctx.stageAliases, ctx.flagOf);
     if (norm) out.push(norm);
     else skipped++;
   }
@@ -174,7 +188,7 @@ async function tryWikipedia(ctx, log) {
  * `matches` are already in matches.json schema (minus lastUpdated, which the caller stamps).
  */
 export async function fetchMatchesFromSources({ teamAliases, stageAliases, log = () => {} }) {
-  const ctx = { resolveCode: makeAliasResolver(teamAliases), stageAliases };
+  const ctx = { resolveCode: makeAliasResolver(teamAliases), flagOf: makeFlagResolver(teamAliases), stageAliases };
 
   log("Trying source: openfootball …");
   const off = await tryOpenfootball(ctx, log);

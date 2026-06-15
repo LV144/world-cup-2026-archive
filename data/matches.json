@@ -8,11 +8,13 @@
     "status": "completed",
     "homeTeam": {
       "name": "Mexico",
-      "code": "MEX"
+      "code": "MEX",
+      "flag": "🇲🇽"
     },
     "awayTeam": {
       "name": "South Africa",
-      "code": "RSA"
+      "code": "RSA",
+      "flag": "🇿🇦"
     },
     "score": {
       "home": 2,
@@ -49,11 +51,13 @@
     "status": "completed",
     "homeTeam": {
       "name": "South Korea",
-      "code": "KOR"
+      "code": "KOR",
+      "flag": "🇰🇷"
     },
     "awayTeam": {
       "name": "Czech Republic",
-      "code": "CZE"
+      "code": "CZE",
+      "flag": "🇨🇿"
     },
     "score": {
       "home": 2,
@@ -95,11 +99,13 @@
     "status": "completed",
     "homeTeam": {
       "name": "Canada",
-      "code": "CAN"
+      "code": "CAN",
+      "flag": "🇨🇦"
     },
     "awayTeam": {
       "name": "Bosnia & Herzegovina",
-      "code": "BIH"
+      "code": "BIH",
+      "flag": "🇧🇦"
     },
     "score": {
       "home": 1,
@@ -134,11 +140,13 @@
     "status": "completed",
     "homeTeam": {
       "name": "USA",
-      "code": "USA"
+      "code": "USA",
+      "flag": "🇺🇸"
     },
     "awayTeam": {
       "name": "Paraguay",
-      "code": "PAR"
+      "code": "PAR",
+      "flag": "🇵🇾"
     },
     "score": {
       "home": 4,
@@ -194,11 +202,13 @@
     "status": "completed",
     "homeTeam": {
       "name": "Qatar",
-      "code": "QAT"
+      "code": "QAT",
+      "flag": "🇶🇦"
     },
     "awayTeam": {
       "name": "Switzerland",
-      "code": "SUI"
+      "code": "SUI",
+      "flag": "🇨🇭"
     },
     "score": {
       "home": 1,
@@ -233,11 +243,13 @@
     "status": "completed",
     "homeTeam": {
       "name": "Brazil",
-      "code": "BRA"
+      "code": "BRA",
+      "flag": "🇧🇷"
     },
     "awayTeam": {
       "name": "Morocco",
-      "code": "MAR"
+      "code": "MAR",
+      "flag": "🇲🇦"
     },
     "score": {
       "home": 1,
@@ -272,11 +284,13 @@
     "status": "completed",
     "homeTeam": {
       "name": "Haiti",
-      "code": "HAI"
+      "code": "HAI",
+      "flag": "🇭🇹"
     },
     "awayTeam": {
       "name": "Scotland",
-      "code": "SCO"
+      "code": "SCO",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
     },
     "score": {
       "home": 0,
@@ -304,11 +318,13 @@
     "status": "completed",
     "homeTeam": {
       "name": "Australia",
-      "code": "AUS"
+      "code": "AUS",
+      "flag": "🇦🇺"
     },
     "awayTeam": {
       "name": "Turkey",
-      "code": "TUR"
+      "code": "TUR",
+      "flag": "🇹🇷"
     },
     "score": {
       "home": 2,
@@ -343,11 +359,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Germany",
-      "code": "GER"
+      "code": "GER",
+      "flag": "🇩🇪"
     },
     "awayTeam": {
       "name": "Curaçao",
-      "code": "CUW"
+      "code": "CUW",
+      "flag": "🇨🇼"
     },
     "score": null,
     "goals": [],
@@ -364,11 +382,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Netherlands",
-      "code": "NED"
+      "code": "NED",
+      "flag": "🇳🇱"
     },
     "awayTeam": {
       "name": "Japan",
-      "code": "JPN"
+      "code": "JPN",
+      "flag": "🇯🇵"
     },
     "score": null,
     "goals": [],
@@ -385,11 +405,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Ivory Coast",
-      "code": "CIV"
+      "code": "CIV",
+      "flag": "🇨🇮"
     },
     "awayTeam": {
       "name": "Ecuador",
-      "code": "ECU"
+      "code": "ECU",
+      "flag": "🇪🇨"
     },
     "score": null,
     "goals": [],
@@ -406,11 +428,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Sweden",
-      "code": "SWE"
+      "code": "SWE",
+      "flag": "🇸🇪"
     },
     "awayTeam": {
       "name": "Tunisia",
-      "code": "TUN"
+      "code": "TUN",
+      "flag": "🇹🇳"
     },
     "score": null,
     "goals": [],
@@ -427,11 +451,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Spain",
-      "code": "ESP"
+      "code": "ESP",
+      "flag": "🇪🇸"
     },
     "awayTeam": {
       "name": "Cape Verde",
-      "code": "CPV"
+      "code": "CPV",
+      "flag": "🇨🇻"
     },
     "score": null,
     "goals": [],
@@ -448,11 +474,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Belgium",
-      "code": "BEL"
+      "code": "BEL",
+      "flag": "🇧🇪"
     },
     "awayTeam": {
       "name": "Egypt",
-      "code": "EGY"
+      "code": "EGY",
+      "flag": "🇪🇬"
     },
     "score": null,
     "goals": [],
@@ -469,11 +497,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Saudi Arabia",
-      "code": "KSA"
+      "code": "KSA",
+      "flag": "🇸🇦"
     },
     "awayTeam": {
       "name": "Uruguay",
-      "code": "URU"
+      "code": "URU",
+      "flag": "🇺🇾"
     },
     "score": null,
     "goals": [],
@@ -490,11 +520,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Iran",
-      "code": "IRN"
+      "code": "IRN",
+      "flag": "🇮🇷"
     },
     "awayTeam": {
       "name": "New Zealand",
-      "code": "NZL"
+      "code": "NZL",
+      "flag": "🇳🇿"
     },
     "score": null,
     "goals": [],
@@ -511,11 +543,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "France",
-      "code": "FRA"
+      "code": "FRA",
+      "flag": "🇫🇷"
     },
     "awayTeam": {
       "name": "Senegal",
-      "code": "SEN"
+      "code": "SEN",
+      "flag": "🇸🇳"
     },
     "score": null,
     "goals": [],
@@ -532,11 +566,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Iraq",
-      "code": "IRQ"
+      "code": "IRQ",
+      "flag": "🇮🇶"
     },
     "awayTeam": {
       "name": "Norway",
-      "code": "NOR"
+      "code": "NOR",
+      "flag": "🇳🇴"
     },
     "score": null,
     "goals": [],
@@ -553,11 +589,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Argentina",
-      "code": "ARG"
+      "code": "ARG",
+      "flag": "🇦🇷"
     },
     "awayTeam": {
       "name": "Algeria",
-      "code": "ALG"
+      "code": "ALG",
+      "flag": "🇩🇿"
     },
     "score": null,
     "goals": [],
@@ -574,11 +612,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Austria",
-      "code": "AUT"
+      "code": "AUT",
+      "flag": "🇦🇹"
     },
     "awayTeam": {
       "name": "Jordan",
-      "code": "JOR"
+      "code": "JOR",
+      "flag": "🇯🇴"
     },
     "score": null,
     "goals": [],
@@ -595,11 +635,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Portugal",
-      "code": "POR"
+      "code": "POR",
+      "flag": "🇵🇹"
     },
     "awayTeam": {
       "name": "DR Congo",
-      "code": "COD"
+      "code": "COD",
+      "flag": "🇨🇩"
     },
     "score": null,
     "goals": [],
@@ -616,11 +658,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "England",
-      "code": "ENG"
+      "code": "ENG",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
     },
     "awayTeam": {
       "name": "Croatia",
-      "code": "CRO"
+      "code": "CRO",
+      "flag": "🇭🇷"
     },
     "score": null,
     "goals": [],
@@ -637,11 +681,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Ghana",
-      "code": "GHA"
+      "code": "GHA",
+      "flag": "🇬🇭"
     },
     "awayTeam": {
       "name": "Panama",
-      "code": "PAN"
+      "code": "PAN",
+      "flag": "🇵🇦"
     },
     "score": null,
     "goals": [],
@@ -658,11 +704,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Uzbekistan",
-      "code": "UZB"
+      "code": "UZB",
+      "flag": "🇺🇿"
     },
     "awayTeam": {
       "name": "Colombia",
-      "code": "COL"
+      "code": "COL",
+      "flag": "🇨🇴"
     },
     "score": null,
     "goals": [],
@@ -679,11 +727,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Czech Republic",
-      "code": "CZE"
+      "code": "CZE",
+      "flag": "🇨🇿"
     },
     "awayTeam": {
       "name": "South Africa",
-      "code": "RSA"
+      "code": "RSA",
+      "flag": "🇿🇦"
     },
     "score": null,
     "goals": [],
@@ -700,11 +750,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Switzerland",
-      "code": "SUI"
+      "code": "SUI",
+      "flag": "🇨🇭"
     },
     "awayTeam": {
       "name": "Bosnia & Herzegovina",
-      "code": "BIH"
+      "code": "BIH",
+      "flag": "🇧🇦"
     },
     "score": null,
     "goals": [],
@@ -721,11 +773,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Canada",
-      "code": "CAN"
+      "code": "CAN",
+      "flag": "🇨🇦"
     },
     "awayTeam": {
       "name": "Qatar",
-      "code": "QAT"
+      "code": "QAT",
+      "flag": "🇶🇦"
     },
     "score": null,
     "goals": [],
@@ -742,11 +796,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Mexico",
-      "code": "MEX"
+      "code": "MEX",
+      "flag": "🇲🇽"
     },
     "awayTeam": {
       "name": "South Korea",
-      "code": "KOR"
+      "code": "KOR",
+      "flag": "🇰🇷"
     },
     "score": null,
     "goals": [],
@@ -763,11 +819,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "USA",
-      "code": "USA"
+      "code": "USA",
+      "flag": "🇺🇸"
     },
     "awayTeam": {
       "name": "Australia",
-      "code": "AUS"
+      "code": "AUS",
+      "flag": "🇦🇺"
     },
     "score": null,
     "goals": [],
@@ -784,11 +842,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Scotland",
-      "code": "SCO"
+      "code": "SCO",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
     },
     "awayTeam": {
       "name": "Morocco",
-      "code": "MAR"
+      "code": "MAR",
+      "flag": "🇲🇦"
     },
     "score": null,
     "goals": [],
@@ -805,11 +865,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Brazil",
-      "code": "BRA"
+      "code": "BRA",
+      "flag": "🇧🇷"
     },
     "awayTeam": {
       "name": "Haiti",
-      "code": "HAI"
+      "code": "HAI",
+      "flag": "🇭🇹"
     },
     "score": null,
     "goals": [],
@@ -826,11 +888,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Turkey",
-      "code": "TUR"
+      "code": "TUR",
+      "flag": "🇹🇷"
     },
     "awayTeam": {
       "name": "Paraguay",
-      "code": "PAR"
+      "code": "PAR",
+      "flag": "🇵🇾"
     },
     "score": null,
     "goals": [],
@@ -847,11 +911,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Netherlands",
-      "code": "NED"
+      "code": "NED",
+      "flag": "🇳🇱"
     },
     "awayTeam": {
       "name": "Sweden",
-      "code": "SWE"
+      "code": "SWE",
+      "flag": "🇸🇪"
     },
     "score": null,
     "goals": [],
@@ -868,11 +934,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Germany",
-      "code": "GER"
+      "code": "GER",
+      "flag": "🇩🇪"
     },
     "awayTeam": {
       "name": "Ivory Coast",
-      "code": "CIV"
+      "code": "CIV",
+      "flag": "🇨🇮"
     },
     "score": null,
     "goals": [],
@@ -889,11 +957,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Ecuador",
-      "code": "ECU"
+      "code": "ECU",
+      "flag": "🇪🇨"
     },
     "awayTeam": {
       "name": "Curaçao",
-      "code": "CUW"
+      "code": "CUW",
+      "flag": "🇨🇼"
     },
     "score": null,
     "goals": [],
@@ -910,11 +980,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Tunisia",
-      "code": "TUN"
+      "code": "TUN",
+      "flag": "🇹🇳"
     },
     "awayTeam": {
       "name": "Japan",
-      "code": "JPN"
+      "code": "JPN",
+      "flag": "🇯🇵"
     },
     "score": null,
     "goals": [],
@@ -931,11 +1003,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Spain",
-      "code": "ESP"
+      "code": "ESP",
+      "flag": "🇪🇸"
     },
     "awayTeam": {
       "name": "Saudi Arabia",
-      "code": "KSA"
+      "code": "KSA",
+      "flag": "🇸🇦"
     },
     "score": null,
     "goals": [],
@@ -952,11 +1026,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Belgium",
-      "code": "BEL"
+      "code": "BEL",
+      "flag": "🇧🇪"
     },
     "awayTeam": {
       "name": "Iran",
-      "code": "IRN"
+      "code": "IRN",
+      "flag": "🇮🇷"
     },
     "score": null,
     "goals": [],
@@ -973,11 +1049,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Uruguay",
-      "code": "URU"
+      "code": "URU",
+      "flag": "🇺🇾"
     },
     "awayTeam": {
       "name": "Cape Verde",
-      "code": "CPV"
+      "code": "CPV",
+      "flag": "🇨🇻"
     },
     "score": null,
     "goals": [],
@@ -994,11 +1072,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "New Zealand",
-      "code": "NZL"
+      "code": "NZL",
+      "flag": "🇳🇿"
     },
     "awayTeam": {
       "name": "Egypt",
-      "code": "EGY"
+      "code": "EGY",
+      "flag": "🇪🇬"
     },
     "score": null,
     "goals": [],
@@ -1015,11 +1095,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Argentina",
-      "code": "ARG"
+      "code": "ARG",
+      "flag": "🇦🇷"
     },
     "awayTeam": {
       "name": "Austria",
-      "code": "AUT"
+      "code": "AUT",
+      "flag": "🇦🇹"
     },
     "score": null,
     "goals": [],
@@ -1036,11 +1118,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "France",
-      "code": "FRA"
+      "code": "FRA",
+      "flag": "🇫🇷"
     },
     "awayTeam": {
       "name": "Iraq",
-      "code": "IRQ"
+      "code": "IRQ",
+      "flag": "🇮🇶"
     },
     "score": null,
     "goals": [],
@@ -1057,11 +1141,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Norway",
-      "code": "NOR"
+      "code": "NOR",
+      "flag": "🇳🇴"
     },
     "awayTeam": {
       "name": "Senegal",
-      "code": "SEN"
+      "code": "SEN",
+      "flag": "🇸🇳"
     },
     "score": null,
     "goals": [],
@@ -1078,11 +1164,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Jordan",
-      "code": "JOR"
+      "code": "JOR",
+      "flag": "🇯🇴"
     },
     "awayTeam": {
       "name": "Algeria",
-      "code": "ALG"
+      "code": "ALG",
+      "flag": "🇩🇿"
     },
     "score": null,
     "goals": [],
@@ -1099,11 +1187,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Portugal",
-      "code": "POR"
+      "code": "POR",
+      "flag": "🇵🇹"
     },
     "awayTeam": {
       "name": "Uzbekistan",
-      "code": "UZB"
+      "code": "UZB",
+      "flag": "🇺🇿"
     },
     "score": null,
     "goals": [],
@@ -1120,11 +1210,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "England",
-      "code": "ENG"
+      "code": "ENG",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
     },
     "awayTeam": {
       "name": "Ghana",
-      "code": "GHA"
+      "code": "GHA",
+      "flag": "🇬🇭"
     },
     "score": null,
     "goals": [],
@@ -1141,11 +1233,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Panama",
-      "code": "PAN"
+      "code": "PAN",
+      "flag": "🇵🇦"
     },
     "awayTeam": {
       "name": "Croatia",
-      "code": "CRO"
+      "code": "CRO",
+      "flag": "🇭🇷"
     },
     "score": null,
     "goals": [],
@@ -1162,11 +1256,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Colombia",
-      "code": "COL"
+      "code": "COL",
+      "flag": "🇨🇴"
     },
     "awayTeam": {
       "name": "DR Congo",
-      "code": "COD"
+      "code": "COD",
+      "flag": "🇨🇩"
     },
     "score": null,
     "goals": [],
@@ -1183,11 +1279,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Switzerland",
-      "code": "SUI"
+      "code": "SUI",
+      "flag": "🇨🇭"
     },
     "awayTeam": {
       "name": "Canada",
-      "code": "CAN"
+      "code": "CAN",
+      "flag": "🇨🇦"
     },
     "score": null,
     "goals": [],
@@ -1204,11 +1302,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Bosnia & Herzegovina",
-      "code": "BIH"
+      "code": "BIH",
+      "flag": "🇧🇦"
     },
     "awayTeam": {
       "name": "Qatar",
-      "code": "QAT"
+      "code": "QAT",
+      "flag": "🇶🇦"
     },
     "score": null,
     "goals": [],
@@ -1225,11 +1325,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Scotland",
-      "code": "SCO"
+      "code": "SCO",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
     },
     "awayTeam": {
       "name": "Brazil",
-      "code": "BRA"
+      "code": "BRA",
+      "flag": "🇧🇷"
     },
     "score": null,
     "goals": [],
@@ -1246,11 +1348,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Morocco",
-      "code": "MAR"
+      "code": "MAR",
+      "flag": "🇲🇦"
     },
     "awayTeam": {
       "name": "Haiti",
-      "code": "HAI"
+      "code": "HAI",
+      "flag": "🇭🇹"
     },
     "score": null,
     "goals": [],
@@ -1267,11 +1371,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Czech Republic",
-      "code": "CZE"
+      "code": "CZE",
+      "flag": "🇨🇿"
     },
     "awayTeam": {
       "name": "Mexico",
-      "code": "MEX"
+      "code": "MEX",
+      "flag": "🇲🇽"
     },
     "score": null,
     "goals": [],
@@ -1288,11 +1394,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "South Africa",
-      "code": "RSA"
+      "code": "RSA",
+      "flag": "🇿🇦"
     },
     "awayTeam": {
       "name": "South Korea",
-      "code": "KOR"
+      "code": "KOR",
+      "flag": "🇰🇷"
     },
     "score": null,
     "goals": [],
@@ -1309,11 +1417,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Curaçao",
-      "code": "CUW"
+      "code": "CUW",
+      "flag": "🇨🇼"
     },
     "awayTeam": {
       "name": "Ivory Coast",
-      "code": "CIV"
+      "code": "CIV",
+      "flag": "🇨🇮"
     },
     "score": null,
     "goals": [],
@@ -1330,11 +1440,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Ecuador",
-      "code": "ECU"
+      "code": "ECU",
+      "flag": "🇪🇨"
     },
     "awayTeam": {
       "name": "Germany",
-      "code": "GER"
+      "code": "GER",
+      "flag": "🇩🇪"
     },
     "score": null,
     "goals": [],
@@ -1351,11 +1463,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Japan",
-      "code": "JPN"
+      "code": "JPN",
+      "flag": "🇯🇵"
     },
     "awayTeam": {
       "name": "Sweden",
-      "code": "SWE"
+      "code": "SWE",
+      "flag": "🇸🇪"
     },
     "score": null,
     "goals": [],
@@ -1372,11 +1486,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Tunisia",
-      "code": "TUN"
+      "code": "TUN",
+      "flag": "🇹🇳"
     },
     "awayTeam": {
       "name": "Netherlands",
-      "code": "NED"
+      "code": "NED",
+      "flag": "🇳🇱"
     },
     "score": null,
     "goals": [],
@@ -1393,11 +1509,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Turkey",
-      "code": "TUR"
+      "code": "TUR",
+      "flag": "🇹🇷"
     },
     "awayTeam": {
       "name": "USA",
-      "code": "USA"
+      "code": "USA",
+      "flag": "🇺🇸"
     },
     "score": null,
     "goals": [],
@@ -1414,11 +1532,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Paraguay",
-      "code": "PAR"
+      "code": "PAR",
+      "flag": "🇵🇾"
     },
     "awayTeam": {
       "name": "Australia",
-      "code": "AUS"
+      "code": "AUS",
+      "flag": "🇦🇺"
     },
     "score": null,
     "goals": [],
@@ -1435,11 +1555,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Norway",
-      "code": "NOR"
+      "code": "NOR",
+      "flag": "🇳🇴"
     },
     "awayTeam": {
       "name": "France",
-      "code": "FRA"
+      "code": "FRA",
+      "flag": "🇫🇷"
     },
     "score": null,
     "goals": [],
@@ -1456,11 +1578,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Senegal",
-      "code": "SEN"
+      "code": "SEN",
+      "flag": "🇸🇳"
     },
     "awayTeam": {
       "name": "Iraq",
-      "code": "IRQ"
+      "code": "IRQ",
+      "flag": "🇮🇶"
     },
     "score": null,
     "goals": [],
@@ -1477,11 +1601,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Cape Verde",
-      "code": "CPV"
+      "code": "CPV",
+      "flag": "🇨🇻"
     },
     "awayTeam": {
       "name": "Saudi Arabia",
-      "code": "KSA"
+      "code": "KSA",
+      "flag": "🇸🇦"
     },
     "score": null,
     "goals": [],
@@ -1498,11 +1624,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Uruguay",
-      "code": "URU"
+      "code": "URU",
+      "flag": "🇺🇾"
     },
     "awayTeam": {
       "name": "Spain",
-      "code": "ESP"
+      "code": "ESP",
+      "flag": "🇪🇸"
     },
     "score": null,
     "goals": [],
@@ -1519,11 +1647,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Egypt",
-      "code": "EGY"
+      "code": "EGY",
+      "flag": "🇪🇬"
     },
     "awayTeam": {
       "name": "Iran",
-      "code": "IRN"
+      "code": "IRN",
+      "flag": "🇮🇷"
     },
     "score": null,
     "goals": [],
@@ -1540,11 +1670,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "New Zealand",
-      "code": "NZL"
+      "code": "NZL",
+      "flag": "🇳🇿"
     },
     "awayTeam": {
       "name": "Belgium",
-      "code": "BEL"
+      "code": "BEL",
+      "flag": "🇧🇪"
     },
     "score": null,
     "goals": [],
@@ -1561,11 +1693,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Panama",
-      "code": "PAN"
+      "code": "PAN",
+      "flag": "🇵🇦"
     },
     "awayTeam": {
       "name": "England",
-      "code": "ENG"
+      "code": "ENG",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
     },
     "score": null,
     "goals": [],
@@ -1582,11 +1716,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Croatia",
-      "code": "CRO"
+      "code": "CRO",
+      "flag": "🇭🇷"
     },
     "awayTeam": {
       "name": "Ghana",
-      "code": "GHA"
+      "code": "GHA",
+      "flag": "🇬🇭"
     },
     "score": null,
     "goals": [],
@@ -1603,11 +1739,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Colombia",
-      "code": "COL"
+      "code": "COL",
+      "flag": "🇨🇴"
     },
     "awayTeam": {
       "name": "Portugal",
-      "code": "POR"
+      "code": "POR",
+      "flag": "🇵🇹"
     },
     "score": null,
     "goals": [],
@@ -1624,11 +1762,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "DR Congo",
-      "code": "COD"
+      "code": "COD",
+      "flag": "🇨🇩"
     },
     "awayTeam": {
       "name": "Uzbekistan",
-      "code": "UZB"
+      "code": "UZB",
+      "flag": "🇺🇿"
     },
     "score": null,
     "goals": [],
@@ -1645,11 +1785,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Algeria",
-      "code": "ALG"
+      "code": "ALG",
+      "flag": "🇩🇿"
     },
     "awayTeam": {
       "name": "Austria",
-      "code": "AUT"
+      "code": "AUT",
+      "flag": "🇦🇹"
     },
     "score": null,
     "goals": [],
@@ -1666,11 +1808,13 @@
     "status": "scheduled",
     "homeTeam": {
       "name": "Jordan",
-      "code": "JOR"
+      "code": "JOR",
+      "flag": "🇯🇴"
     },
     "awayTeam": {
       "name": "Argentina",
-      "code": "ARG"
+      "code": "ARG",
+      "flag": "🇦🇷"
     },
     "score": null,
     "goals": [],

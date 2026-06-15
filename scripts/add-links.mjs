@@ -17,6 +17,7 @@ import { fetchMetadata } from "./utils/fetch-metadata.mjs";
 import { fetchRedditMetadata, isRedditUrl } from "./utils/reddit-metadata.mjs";
 import { buildIndexes, inferMatch } from "./utils/match-inference.mjs";
 import { fetchWithTimeout } from "./utils/fetch-metadata.mjs";
+import { compileTagRules, inferContentTags, mergeTags } from "./utils/content-tags.mjs";
 
 const EXT_BY_TYPE = {
   "image/jpeg": "jpg", "image/jpg": "jpg", "image/png": "png", "image/gif": "gif",
@@ -55,9 +56,10 @@ async function downloadThumbnail(imageUrl, id) {
   }
 }
 
-function buildItem({ norm, meta, inferred, id }) {
-  const tags = [];
-  if (meta.subreddit) tags.push(`r/${meta.subreddit}`);
+function buildItem({ norm, meta, inferred, id, compiledTags }) {
+  // Content tags (Goal/Saves/Highlights/Vibes/…) derived from the title; editable via
+  // data/tag-rules.json. The subreddit is NOT a tag — it lives in source/sourceDetail.
+  const tags = mergeTags([], inferContentTags(meta.title || "", compiledTags), compiledTags);
   return {
     id,
     title: meta.title || norm.original,
@@ -103,13 +105,15 @@ async function main() {
     process.exit(1);
   }
 
-  const [items, matches, teamAliases, stageAliases] = await Promise.all([
+  const [items, matches, teamAliases, stageAliases, tagRules] = await Promise.all([
     readJson(PATHS.items, []),
     readJson(PATHS.matches, []),
     readJson(PATHS.teamAliases, {}),
     readJson(PATHS.stageAliases, {}),
+    readJson(PATHS.tagRules, {}),
   ]);
   const idx = buildIndexes(matches, teamAliases, stageAliases);
+  const compiledTags = compileTagRules(tagRules);
 
   // Existing keys for duplicate detection (extended as we add within the batch).
   const seen = new Map(); // key -> item id/url
@@ -158,7 +162,7 @@ async function main() {
       );
       inferred._thumbLocal = thumbLocal;
 
-      const item = buildItem({ norm, meta, inferred, id });
+      const item = buildItem({ norm, meta, inferred, id, compiledTags });
       items.push(item);
       for (const k of keysForItem(item)) seen.set(k, item.id);
 

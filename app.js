@@ -7,7 +7,13 @@ const STAGE_ORDER = [
 ];
 const IMPORTANCE_ORDER = ["must-save", "good", "maybe"];
 
-const state = { items: [], matchesById: new Map(), filtered: [] };
+const state = { items: [], matchesById: new Map(), flagByTeam: new Map(), filtered: [] };
+
+/** "🇲🇽 Mexico" when we know the team's flag (from matches.json), else just the name. */
+const teamWithFlag = (name) => {
+  const fl = state.flagByTeam.get(name);
+  return fl ? `${fl} ${name}` : name;
+};
 
 const $ = (sel) => document.querySelector(sel);
 const esc = (s) =>
@@ -66,7 +72,7 @@ function buildFilters() {
   for (const i of items) if (i.matchId && i.matchLabel) matchMap.set(i.matchId, i.matchLabel);
   fillSelect("#f-match", [...matchMap.entries()].sort((a, b) => a[1].localeCompare(b[1])).map(([value, label]) => ({ value, label })), "All matches");
 
-  fillSelect("#f-team", uniqueSorted(items.flatMap((i) => i.teams || [])), "All teams");
+  fillSelect("#f-team", uniqueSorted(items.flatMap((i) => i.teams || [])).map((t) => ({ value: t, label: teamWithFlag(t) })), "All teams");
   fillSelect("#f-type", uniqueSorted(items.flatMap((i) => [...(i.type || []), ...(i.tags || [])])), "All types / tags");
   fillSelect("#f-importance", uniqueSorted(items.map((i) => i.importance), IMPORTANCE_ORDER), "All importance");
 }
@@ -138,7 +144,7 @@ function cardHtml(item) {
   const chips = [];
   if (item.stage) chips.push(`<span class="chip chip-stage">${esc(item.stage)}</span>`);
   if (item.group) chips.push(`<span class="chip chip-group">Group ${esc(item.group)}</span>`);
-  for (const t of item.teams || []) chips.push(`<span class="chip chip-team">${esc(t)}</span>`);
+  for (const t of item.teams || []) chips.push(`<span class="chip chip-team">${esc(teamWithFlag(t))}</span>`);
   for (const t of [...(item.type || []), ...(item.tags || [])]) chips.push(`<span class="chip chip-type">${esc(t)}</span>`);
 
   let matchLine = "";
@@ -206,6 +212,12 @@ async function init() {
     ]);
     state.items = Array.isArray(items) ? items : [];
     state.matchesById = new Map((matches || []).map((m) => [m.matchId, m]));
+    state.flagByTeam = new Map();
+    for (const m of matches || []) {
+      for (const t of [m.homeTeam, m.awayTeam]) {
+        if (t?.name && t.flag) state.flagByTeam.set(t.name, t.flag);
+      }
+    }
     buildFilters();
     applyFilters();
   } catch (err) {

@@ -25,8 +25,11 @@ result-confirmation, and publishing steps around it.
    URLs; they're also the most recent entries), report concisely:
    - title · source (+ subreddit) · postDate
    - match: `matchLabel [matchId]` + match confidence — or candidateMatches — or "no match linked"
-   - scoreLabel (if any) · `needsReview` (and why) · archivedUrl
-   Also report anything **skipped** (duplicate) or **failed**, with the reason.
+   - scoreLabel (if any, includes team flags) · auto `tags` (Goal/Saves/Highlights/Vibes/…) ·
+     `needsReview` (and why) · archivedUrl
+   Also report anything **skipped** (duplicate) or **failed**, with the reason. If a content tag
+   looks wrong or missing, the fix is to edit `data/tag-rules.json` (not the item) and re-run
+   `npm run enrich`.
 
 4. **Confirm result (only for items where `matchId` is set).**
    - Inspect the post title/slug for an implied **score or goals** (e.g. "Mexico 1-0 South
@@ -64,8 +67,9 @@ result-confirmation, and publishing steps around it.
    The GitHub Pages site (https://lv144.github.io/world-cup-2026-archive/) rebuilds in ~1 minute.
 
 7. **Report.** Tell the user it's live, summarize what was added/inferred/needs-review, and remind
-   them they can hand-edit `type` / `tags` / `importance` / `note` / `backup` for any item in
-   `data/items.json` (those manual fields are never overwritten by the scripts).
+   them they can hand-edit `type` / `importance` / `note` / `backup` for any item in
+   `data/items.json` (those manual fields are never overwritten by the scripts). Content `tags`
+   are auto-derived from the title via `data/tag-rules.json`; tune that file rather than the items.
 
 ## Rules (mirror the project's core principle)
 
@@ -74,4 +78,6 @@ result-confirmation, and publishing steps around it.
 - A bad or blocked URL must not stop the others (the script already isolates per-URL failures).
 - Reddit is frequently blocked from some IPs; partial metadata (e.g. a slug-derived title) is
   expected and fine.
-- When enriching, never touch the manual fields (`type`, `tags`, `importance`, `note`, `backup`).
+- Never touch the manual fields (`type`, `importance`, `note`, `backup`). Content `tags` are
+  auto-managed (Goal/Saves/Highlights/Vibes/…) and refreshed each run; any hand-added tag outside
+  the `tag-rules.json` taxonomy is preserved.

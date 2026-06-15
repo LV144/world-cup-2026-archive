@@ -1,17 +1,21 @@
 // enrich-items.mjs
 // Usage: npm run enrich
 //
-// Re-run football enrichment over existing items after matches.json has been updated
-// (e.g. matches finished, scores arrived). Two behaviours:
-//   • items WITH a known matchId  -> refresh match-derived fields from matches.json.
+// Re-run football enrichment over existing items after matches.json (or tag-rules.json)
+// has been updated. Behaviours:
+//   • items WITH a known matchId  -> refresh match-derived fields from matches.json
+//     (this also picks up newly-added team flags in matchLabel/scoreLabel).
 //   • items WITHOUT a matchId     -> retry inference; only apply if it now resolves a fixture.
-// Manual fields (type, tags, importance, note, backup) are NEVER touched. Web-metadata
+//   • ALL items                   -> refresh content tags (Goal/Saves/…) from data/tag-rules.json.
+// Manual fields (type, importance, note, backup) are NEVER touched. Hand-added tags outside
+// the tag-rules taxonomy are preserved; the taxonomy tags are auto-managed. Web-metadata
 // fields (title, url, source, thumbnails, dateSaved) are left as-is.
 
 import {
   PATHS, readJson, writeJson, backupFile,
 } from "./utils/file-utils.mjs";
 import { buildIndexes, inferMatch, fieldsFromMatch } from "./utils/match-inference.mjs";
+import { compileTagRules, inferContentTags, mergeTags } from "./utils/content-tags.mjs";
 
 const LINK_THRESHOLD = 0.8;
 
@@ -40,24 +44,39 @@ function applyMatchFields(item, match) {
   return before !== after;
 }
 
+/** Recompute content tags for an item (merging in preserved manual tags). Returns changed?. */
+function retag(item, compiledTags) {
+  const next = mergeTags(item.tags, inferContentTags(item.title || "", compiledTags), compiledTags);
+  if (JSON.stringify(next) !== JSON.stringify(item.tags || [])) {
+    item.tags = next;
+    return true;
+  }
+  return false;
+}
+
 async function main() {
-  const [items, matches, teamAliases, stageAliases] = await Promise.all([
+  const [items, matches, teamAliases, stageAliases, tagRules] = await Promise.all([
     readJson(PATHS.items, []),
     readJson(PATHS.matches, []),
     readJson(PATHS.teamAliases, {}),
     readJson(PATHS.stageAliases, {}),
+    readJson(PATHS.tagRules, {}),
   ]);
   const idx = buildIndexes(matches, teamAliases, stageAliases);
+  const compiledTags = compileTagRules(tagRules);
 
-  const updated = [];
+  const updated = new Set();
   const newlyLinked = [];
   const dangling = [];
 
   for (const item of items) {
+    // Content tags are refreshed for every item, regardless of match linkage.
+    if (retag(item, compiledTags)) updated.add(item.id);
+
     if (item.matchId) {
       const match = idx.matchesById[item.matchId];
       if (match) {
-        if (applyMatchFields(item, match)) updated.push(item.id);
+        if (applyMatchFields(item, match)) updated.add(item.id);
       } else {
         // Referenced match no longer exists — keep the id but flag for review.
         item.needsReview = true;
@@ -81,24 +100,25 @@ async function main() {
     if (inferred.matchId && inferred.metadataConfidence.match >= LINK_THRESHOLD) {
       const match = idx.matchesById[inferred.matchId];
       if (match && applyMatchFields(item, match)) {
-        updated.push(item.id);
+        updated.add(item.id);
         newlyLinked.push(item.id);
       }
     }
     // Otherwise leave the item untouched (preserve any manual football edits).
   }
 
-  if (updated.length || dangling.length) {
+  const updatedIds = [...updated];
+  if (updatedIds.length || dangling.length) {
     await backupFile(PATHS.items);
     await writeJson(PATHS.items, items);
   }
 
   console.log("World Cup Archive — enrich-items\n");
   console.log(`  items:        ${items.length}`);
-  console.log(`  updated:      ${updated.length}${updated.length ? " — " + updated.join(", ") : ""}`);
+  console.log(`  updated:      ${updatedIds.length}${updatedIds.length ? " — " + updatedIds.join(", ") : ""}`);
   console.log(`  newly linked: ${newlyLinked.length}${newlyLinked.length ? " — " + newlyLinked.join(", ") : ""}`);
   if (dangling.length) console.log(`  ⚠ dangling matchId (not in matches.json): ${dangling.join(", ")}`);
-  if (!updated.length && !dangling.length) console.log("\n  Nothing to update.");
+  if (!updatedIds.length && !dangling.length) console.log("\n  Nothing to update.");
 }
 
 main().catch((err) => {

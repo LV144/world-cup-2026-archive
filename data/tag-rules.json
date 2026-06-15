@@ -1,0 +1,47 @@
+{
+  "Goal": [
+    "\\[\\d+\\]",
+    "\\d+\\s*[-–]\\s*\\d+.*\\d{1,3}'",
+    "\\bgoals?\\b",
+    "\\bscores?\\b",
+    "\\bscored\\b",
+    "\\bbrace\\b",
+    "\\bhat[ -]?trick\\b",
+    "\\bfree[ -]?kick\\b",
+    "\\bworldie\\b",
+    "\\bbanger\\b",
+    "\\bequali[sz]er\\b"
+  ],
+  "Saves": [
+    "\\bsaves?\\b",
+    "\\bsaved\\b",
+    "\\bdenies?\\b",
+    "\\bdenied\\b",
+    "\\bpoint[ -]?blank\\b",
+    "\\bwonder ?save\\b",
+    "\\breflex save\\b",
+    "\\bpenalty save\\b",
+    "\\bgoal[- ]?line clearance\\b"
+  ],
+  "Highlights": [
+    "\\bhighlights?\\b",
+    "\\bextended highlights\\b",
+    "\\ball goals\\b",
+    "\\bfull[ -]?time highlights\\b",
+    "\\bmatch recap\\b",
+    "\\bcondensed match\\b"
+  ],
+  "Vibes": [
+    "\\bfans?\\b",
+    "\\bsupporters?\\b",
+    "\\bchant(s|ing)?\\b",
+    "\\btifo\\b",
+    "\\bultras?\\b",
+    "\\batmosphere\\b",
+    "\\bcelebrat\\w*",
+    "\\bcrowd\\b",
+    "\\bsinging\\b",
+    "\\bpitch invasion\\b",
+    "\\bscenes\\b"
+  ]
+}

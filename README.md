@@ -58,22 +58,24 @@ filterable, sortable archive. It works even when metadata is missing.
 | `matchId`, `matchLabel` | Linked match (e.g. `Mexico vs South Africa`), if confidently inferred. |
 | `stage`, `group` | Canonical stage / group letter. |
 | `teams`, `teamCodes` | Teams involved + FIFA-style codes. |
-| `scoreLabel` | e.g. `Mexico 2–0 South Africa` (only when the match is completed). |
+| `scoreLabel` | e.g. `🇲🇽 Mexico 2–0 🇿🇦 South Africa` (only when the match is completed; includes team flags). |
 | `goals` | Copied from the match if available. |
 | `candidateMatches` | Possible matches when inference is uncertain. |
-| `type`, `tags` | `meme`, `analysis`, `match thread`, `highlight`, etc. **(manual)** |
+| `type` | `meme`, `analysis`, `match thread`, etc. **(manual)** |
+| `tags` | Content tags — `Goal`, `Saves`, `Highlights`, `Vibes`, … — **auto-derived** from the title via `data/tag-rules.json` and refreshed on every `add`/`enrich`. Any hand-added tag outside that taxonomy is preserved. |
 | `importance` | `must-save` / `good` / `maybe`. **(manual)** |
 | `note`, `backup` | Your context + preservation field. **(manual)** |
 | `metadataConfidence` | `{ match, teams, stage, score }`, each `0`–`1`. |
 | `needsReview` | `true` when metadata is incomplete or uncertain. |
 
-**Manual fields** (`type`, `tags`, `importance`, `note`, `backup`) are **never overwritten** by
-the scripts.
+**Manual fields** (`type`, `importance`, `note`, `backup`) are **never overwritten** by the
+scripts. The `tags` field is auto-managed for content tags (above) but preserves any tag you add
+by hand that isn't part of the `tag-rules.json` taxonomy and isn't a `r/<sub>` tag.
 
 ### `data/matches.json` — structured match data (array)
 
 Each match: `matchId`, `stage`, `group`, `round`, `kickoffUtc`, `status`
-(`scheduled` / `completed`), `homeTeam`/`awayTeam` (`{name, code}`), `score` (`null` until
+(`scheduled` / `completed`), `homeTeam`/`awayTeam` (`{name, code, flag}`), `score` (`null` until
 played), `goals`, `venue`, `sourceUrls`, `lastUpdated`.
 
 Canonical stages (use these exactly): `Group stage`, `Round of 32`, `Round of 16`,
@@ -86,10 +88,19 @@ Canonical stages (use these exactly): `Group stage`, `Round of 32`, `Round of 16
 
 ### `data/team-aliases.json` & `data/stage-aliases.json`
 
-Editable maps from spellings/abbreviations/nicknames to canonical team names + FIFA codes, and
-from common stage terms to canonical stage values. Add or fix entries freely — the inference
-engine reads them on every run. The team list is reference data (common nations + hosts), not a
-claim about the final 48; edit it to match the actual field.
+Editable maps from spellings/abbreviations/nicknames to canonical team names + FIFA codes (and an
+emoji `flag` per team), and from common stage terms to canonical stage values. Add or fix entries
+freely — the inference engine reads them on every run, and the `flag` flows into `matches.json`
+team objects and into `matchLabel`/`scoreLabel`. The team list is reference data (common nations +
+hosts), not a claim about the final 48; edit it to match the actual field.
+
+### `data/tag-rules.json` — content-tag rules (editable)
+
+Maps each content tag (`Goal`, `Saves`, `Highlights`, `Vibes`, …) to a list of case-insensitive
+regular expressions. On every `add`/`enrich` run, a post's title is matched against these and the
+matching tags are written to the item's `tags`. To make a tag stick to a kind of post, add a
+keyword/pattern here rather than editing items by hand — it then applies everywhere. Add new tags
+by adding new keys; a bad regex is skipped, never fatal.
 
 ---
 
@@ -324,13 +335,15 @@ world-cup-2026-archive/
   data/
     items.json          # archived links
     matches.json        # WC 2026 matches (sample seed + scraped/updated)
-    team-aliases.json   # team name/code/alias map (editable)
+    team-aliases.json   # team name/code/alias/flag map (editable)
     stage-aliases.json  # stage term map (editable)
+    tag-rules.json      # content-tag keyword rules (editable)
   scripts/
     add-links.mjs  update-matches.mjs  enrich-items.mjs  validate.mjs
     utils/
       fetch-metadata.mjs  reddit-metadata.mjs  match-inference.mjs
       normalize-url.mjs   file-utils.mjs       match-sources.mjs
+      content-tags.mjs
   assets/thumbs/          # downloaded thumbnails (committed)
 ```
 

@@ -13,7 +13,7 @@
     "postDate": "2026-06-11T19:14:47Z",
     "dateSaved": "2026-06-14T12:41:57Z",
     "matchId": "MEX-RSA-2026-06-11",
-    "matchLabel": "Mexico vs South Africa",
+    "matchLabel": "🇲🇽 Mexico vs 🇿🇦 South Africa",
     "stage": "Group stage",
     "group": "A",
     "teams": [
@@ -24,7 +24,7 @@
       "MEX",
       "RSA"
     ],
-    "scoreLabel": "Mexico 2–0 South Africa",
+    "scoreLabel": "🇲🇽 Mexico 2–0 🇿🇦 South Africa",
     "goals": [
       {
         "team": "Mexico",
@@ -44,7 +44,7 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "r/soccer"
+      "Goal"
     ],
     "importance": null,
     "note": "",
@@ -71,7 +71,7 @@
     "postDate": "2026-06-11T20:34:42Z",
     "dateSaved": "2026-06-14T13:16:46Z",
     "matchId": "MEX-RSA-2026-06-11",
-    "matchLabel": "Mexico vs South Africa",
+    "matchLabel": "🇲🇽 Mexico vs 🇿🇦 South Africa",
     "stage": "Group stage",
     "group": "A",
     "teams": [
@@ -82,7 +82,7 @@
       "MEX",
       "RSA"
     ],
-    "scoreLabel": "Mexico 2–0 South Africa",
+    "scoreLabel": "🇲🇽 Mexico 2–0 🇿🇦 South Africa",
     "goals": [
       {
         "team": "Mexico",
@@ -102,7 +102,7 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "r/soccer"
+      "Goal"
     ],
     "importance": null,
     "note": "",
@@ -129,7 +129,7 @@
     "postDate": "2026-06-12T03:38:40Z",
     "dateSaved": "2026-06-14T13:16:49Z",
     "matchId": "KOR-CZE-2026-06-11",
-    "matchLabel": "South Korea vs Czech Republic",
+    "matchLabel": "🇰🇷 South Korea vs 🇨🇿 Czech Republic",
     "stage": "Group stage",
     "group": "A",
     "teams": [
@@ -140,7 +140,7 @@
       "KOR",
       "CZE"
     ],
-    "scoreLabel": "South Korea 2–1 Czech Republic",
+    "scoreLabel": "🇰🇷 South Korea 2–1 🇨🇿 Czech Republic",
     "goals": [
       {
         "team": "South Korea",
@@ -167,7 +167,7 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "r/soccer"
+      "Goal"
     ],
     "importance": null,
     "note": "",
@@ -194,7 +194,7 @@
     "postDate": "2026-06-12T03:28:30Z",
     "dateSaved": "2026-06-14T13:16:57Z",
     "matchId": "KOR-CZE-2026-06-11",
-    "matchLabel": "South Korea vs Czech Republic",
+    "matchLabel": "🇰🇷 South Korea vs 🇨🇿 Czech Republic",
     "stage": "Group stage",
     "group": "A",
     "teams": [
@@ -205,7 +205,7 @@
       "KOR",
       "CZE"
     ],
-    "scoreLabel": "South Korea 2–1 Czech Republic",
+    "scoreLabel": "🇰🇷 South Korea 2–1 🇨🇿 Czech Republic",
     "goals": [
       {
         "team": "South Korea",
@@ -232,7 +232,7 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "r/soccer"
+      "Goal"
     ],
     "importance": null,
     "note": "",
@@ -269,7 +269,7 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "r/soccer"
+      "Vibes"
     ],
     "importance": null,
     "note": "",
@@ -306,7 +306,7 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "r/soccer"
+      "Vibes"
     ],
     "importance": null,
     "note": "",
