@@ -1270,5 +1270,1235 @@
       "score": 1
     },
     "needsReview": false
+  },
+  {
+    "id": "79c32c03c19e",
+    "title": "Australia [1] - 0 Turkiye - Nystrom Irankunda 27'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u5bgkp/australia_1_0_turkiye_nystrom_irankunda_27",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u5bgkp",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260614051652/https://www.reddit.com/r/soccer/comments/1u5bgkp/australia_1_0_turkiye_nystrom_irankunda_27/",
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:55:51Z",
+    "matchId": "AUS-TUR-2026-06-13",
+    "matchLabel": "🇦🇺 Australia vs 🇹🇷 Turkey",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Australia",
+      "Turkey"
+    ],
+    "teamCodes": [
+      "AUS",
+      "TUR"
+    ],
+    "scoreLabel": "🇦🇺 Australia 2–0 🇹🇷 Turkey",
+    "goals": [
+      {
+        "team": "Australia",
+        "player": "Nestory Irankunda",
+        "minute": 27,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Australia",
+        "player": "Connor Metcalfe",
+        "minute": 75,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "ef8385a70f9a",
+    "title": "Australia [2] - 0 Turkey - Connor Metcalfe  75'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u5cngy/australia_2_0_turkey_connor_metcalfe_75",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u5cngy",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260614055020/https://www.reddit.com/r/soccer/comments/1u5cngy/australia_2_0_turkey_connor_metcalfe_75/",
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:55:54Z",
+    "matchId": "AUS-TUR-2026-06-13",
+    "matchLabel": "🇦🇺 Australia vs 🇹🇷 Turkey",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Australia",
+      "Turkey"
+    ],
+    "teamCodes": [
+      "AUS",
+      "TUR"
+    ],
+    "scoreLabel": "🇦🇺 Australia 2–0 🇹🇷 Turkey",
+    "goals": [
+      {
+        "team": "Australia",
+        "player": "Nestory Irankunda",
+        "minute": 27,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Australia",
+        "player": "Connor Metcalfe",
+        "minute": 75,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "b716583130ae",
+    "title": "Brazil 0 - [1] Morocco - Saibari I. 20'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u53yv5/brazil_0_1_morocco_saibari_i_20",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u53yv5",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260614010744/https://www.reddit.com/r/soccer/comments/1u53yv5/brazil_0_1_morocco_saibari_i_20/",
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:55:57Z",
+    "matchId": "BRA-MAR-2026-06-13",
+    "matchLabel": "🇧🇷 Brazil vs 🇲🇦 Morocco",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Brazil",
+      "Morocco"
+    ],
+    "teamCodes": [
+      "BRA",
+      "MAR"
+    ],
+    "scoreLabel": "🇧🇷 Brazil 1–1 🇲🇦 Morocco",
+    "goals": [
+      {
+        "team": "Brazil",
+        "player": "Vinícius Júnior",
+        "minute": 32,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Morocco",
+        "player": "Ismael Saibari",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "f295cc5c1496",
+    "title": "Brazil [1] - 1 Morocco - Vinícius Júnior 32'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u547jh/brazil_1_1_morocco_vin%C3%ADcius_j%C3%BAnior_32",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u547jh",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-15T12:56:39Z",
+    "matchId": "BRA-MAR-2026-06-13",
+    "matchLabel": "🇧🇷 Brazil vs 🇲🇦 Morocco",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Brazil",
+      "Morocco"
+    ],
+    "teamCodes": [
+      "BRA",
+      "MAR"
+    ],
+    "scoreLabel": "🇧🇷 Brazil 1–1 🇲🇦 Morocco",
+    "goals": [
+      {
+        "team": "Brazil",
+        "player": "Vinícius Júnior",
+        "minute": 32,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Morocco",
+        "player": "Ismael Saibari",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "2fbd38876fc0",
+    "title": "A Mexican fan sneaked tequila into the stadium in a flask disguised as a mobile",
+    "url": "https://www.reddit.com/r/soccer/comments/1u5i4zl/a_mexican_fan_sneaked_tequila_into_the_stadium_in",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u5i4zl/a_mexican_fan_sneaked_tequila_into_the_stadium_in/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/OkayFine101 • 5,782 points and 121 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/ZXhucmR3YnpiODdoMQUTAZLZxCKyVHvQHF3R6GntJXVKQqCQkCYuvT8EKyyd.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260615000345/https://www.reddit.com/r/soccer/comments/1u5i4zl/a_mexican_fan_sneaked_tequila_into_the_stadium_in/",
+    "postDate": "2026-06-14T10:59:15Z",
+    "dateSaved": "2026-06-15T12:56:55Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "a3d3fb755989",
+    "title": "Rendition of Scotland’s anthem “Flowers of Scotland” before the start of the match",
+    "url": "https://www.reddit.com/r/soccer/comments/1u57fpe/rendition_of_scotlands_anthem_flowers_of_scotland",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u57fpe/rendition_of_scotlands_anthem_flowers_of_scotland/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Critical_Mountain851 • 5,951 points and 606 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/bGNqdjIxaDBmNTdoMZ-Dsf-sUIPw9RTNCOn3XOJEOSQNQ_f7G0uroW2MwA6P.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-14T01:10:02Z",
+    "dateSaved": "2026-06-15T12:57:34Z",
+    "matchId": "HAI-SCO-2026-06-13",
+    "matchLabel": "🇭🇹 Haiti vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Haiti",
+      "Scotland"
+    ],
+    "teamCodes": [
+      "HAI",
+      "SCO"
+    ],
+    "scoreLabel": "🇭🇹 Haiti 0–1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
+    "goals": [
+      {
+        "team": "Scotland",
+        "player": "John McGinn",
+        "minute": 28,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "515197642b96",
+    "title": "Loch Lomond sung by the Tartan Army before kick off",
+    "url": "https://www.reddit.com/r/soccer/comments/1u5ine6/loch_lomond_sung_by_the_tartan_army_before_kick",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u5ine6/loch_lomond_sung_by_the_tartan_army_before_kick/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Longjumping-Move-356 • 951 points and 154 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/M3AwaGN5eDJoODdoMa7mWh2eYrIc3NYytmDDyXcAMEGkMUBAOpFM5luby6bx.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-14T11:27:02Z",
+    "dateSaved": "2026-06-15T12:58:14Z",
+    "matchId": "HAI-SCO-2026-06-13",
+    "matchLabel": "🇭🇹 Haiti vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Haiti",
+      "Scotland"
+    ],
+    "teamCodes": [
+      "HAI",
+      "SCO"
+    ],
+    "scoreLabel": "🇭🇹 Haiti 0–1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
+    "goals": [
+      {
+        "team": "Scotland",
+        "player": "John McGinn",
+        "minute": 28,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "97f152fe9e60",
+    "title": "Boston police officer showing off his skill",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4s128/boston_police_officer_showing_off_his_skill",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4s128/boston_police_officer_showing_off_his_skill/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/IncidentVarious1530 • 14,275 points and 333 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/M3lxYzZmYnI1MjdoMULR8OrBqI0fW8G74njHEB-V7EyJRa7eYVymFbzqYbTN.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T14:12:49Z",
+    "dateSaved": "2026-06-15T12:58:58Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "370cac244f55",
+    "title": "Mexican commentators react to Folarin Balogun's second goal: \"Oh my fucking goodness!\"",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4s85x/mexican_commentators_react_to_folarin_baloguns",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4s85x/mexican_commentators_react_to_folarin_baloguns/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/TomasRoncero • 5,660 points and 156 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/ejJlb2Z4bDg3MjdoMeyXeskIy43jmEEphl7R3iJ1OoSfUQlwWmAQbfa4TYXp.png?width=140&height=77&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T14:21:08Z",
+    "dateSaved": "2026-06-15T12:59:41Z",
+    "matchId": null,
+    "matchLabel": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "69b19a591e42",
+    "title": "Melbourne erupts as Australia go 1-0 up vs Turkey",
+    "url": "https://www.reddit.com/r/soccer/comments/1u5g0ko/melbourne_erupts_as_australia_go_10_up_vs_turkey",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u5g0ko/melbourne_erupts_as_australia_go_10_up_vs_turkey/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/OkayFine101 • 3,490 points and 187 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/Z242Y2x5cmRwNzdoMTAw2SijA7IJ6x6CyjvpWAt0wueoLmO-iB6FtXe-HEuf.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-14T08:52:14Z",
+    "dateSaved": "2026-06-15T13:01:07Z",
+    "matchId": "AUS-TUR-2026-06-13",
+    "matchLabel": "🇦🇺 Australia vs 🇹🇷 Turkey",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Australia",
+      "Turkey"
+    ],
+    "teamCodes": [
+      "AUS",
+      "TUR"
+    ],
+    "scoreLabel": "🇦🇺 Australia 2–0 🇹🇷 Turkey",
+    "goals": [
+      {
+        "team": "Australia",
+        "player": "Nestory Irankunda",
+        "minute": 27,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Australia",
+        "player": "Connor Metcalfe",
+        "minute": 75,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "bb4fd498c297",
+    "title": "Australia vs Turkiye - Patrick Beach diving save 30'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u5c13d/australia_vs_turkiye_patrick_beach_diving_save_30",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u5c13d/australia_vs_turkiye_patrick_beach_diving_save_30/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Moose4KU • 4,939 points and 95 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/eXlwemE3OGJrNjdoMakLOfvurGWK641QY7E3Ai2p9--2_3i7DRXnpgyQVLO4.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260614072220/https://www.reddit.com/r/soccer/comments/1u5c13d/australia_vs_turkiye_patrick_beach_diving_save_30/",
+    "postDate": "2026-06-14T05:01:37Z",
+    "dateSaved": "2026-06-15T13:01:10Z",
+    "matchId": "AUS-TUR-2026-06-13",
+    "matchLabel": "🇦🇺 Australia vs 🇹🇷 Turkey",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Australia",
+      "Turkey"
+    ],
+    "teamCodes": [
+      "AUS",
+      "TUR"
+    ],
+    "scoreLabel": "🇦🇺 Australia 2–0 🇹🇷 Turkey",
+    "goals": [
+      {
+        "team": "Australia",
+        "player": "Nestory Irankunda",
+        "minute": 27,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Australia",
+        "player": "Connor Metcalfe",
+        "minute": 75,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Saves",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "faf7cdff748c",
+    "title": "Momentum Index at 93' Turkey vs Australia",
+    "url": "https://www.reddit.com/r/soccer/comments/1u5d0dw/momentum_index_at_93_turkey_vs_australia",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u5d0dw/momentum_index_at_93_turkey_vs_australia/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/IamBrazilian_AMA • 3,528 points and 357 comments",
+    "thumbnailRemoteUrl": "https://preview.redd.it/5qyubv5mt67h1.png?width=140&height=83&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-14T05:55:26Z",
+    "dateSaved": "2026-06-15T13:01:53Z",
+    "matchId": "AUS-TUR-2026-06-13",
+    "matchLabel": "🇦🇺 Australia vs 🇹🇷 Turkey",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Australia",
+      "Turkey"
+    ],
+    "teamCodes": [
+      "AUS",
+      "TUR"
+    ],
+    "scoreLabel": "🇦🇺 Australia 2–0 🇹🇷 Turkey",
+    "goals": [
+      {
+        "team": "Australia",
+        "player": "Nestory Irankunda",
+        "minute": 27,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Australia",
+        "player": "Connor Metcalfe",
+        "minute": 75,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "1ad4d7af133e",
+    "title": "Watch party in Turkey, Antalya Antiphellos Amphitheatre 06:30am",
+    "url": "https://www.reddit.com/r/soccer/comments/1u5abv9/watch_party_in_turkey_antalya_antiphellos",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u5abv9/watch_party_in_turkey_antalya_antiphellos/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/WildBang • 2,623 points and 98 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/cmtiNWhweXo0NjdoMefIfaRzfP-GlxIbVeV1u7jQ3t1J8_X_9unb_AhqmJrs.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-14T03:35:39Z",
+    "dateSaved": "2026-06-15T13:02:31Z",
+    "matchId": "AUS-TUR-2026-06-13",
+    "matchLabel": "🇦🇺 Australia vs 🇹🇷 Turkey",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Australia",
+      "Turkey"
+    ],
+    "teamCodes": [
+      "AUS",
+      "TUR"
+    ],
+    "scoreLabel": "🇦🇺 Australia 2–0 🇹🇷 Turkey",
+    "goals": [
+      {
+        "team": "Australia",
+        "player": "Nestory Irankunda",
+        "minute": 27,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Australia",
+        "player": "Connor Metcalfe",
+        "minute": 75,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "96e8cec09754",
+    "title": "Qatar [1]-1 Switzerland - Boualem Khoukhi 90+4'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u527r0/qatar_11_switzerland_boualem_khoukhi_904",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u527r0/qatar_11_switzerland_boualem_khoukhi_904/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 4,694 points and 374 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/p46KU822VwCkQeiy5F2OvNI7x55fIlp0iqPPb00hhSs.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T21:07:21Z",
+    "dateSaved": "2026-06-15T13:03:15Z",
+    "matchId": "QAT-SUI-2026-06-13",
+    "matchLabel": "🇶🇦 Qatar vs 🇨🇭 Switzerland",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Qatar",
+      "Switzerland"
+    ],
+    "teamCodes": [
+      "QAT",
+      "SUI"
+    ],
+    "scoreLabel": "🇶🇦 Qatar 1–1 🇨🇭 Switzerland",
+    "goals": [
+      {
+        "team": "Qatar",
+        "player": "Boualem Khoukhi",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Switzerland",
+        "player": "Breel Embolo",
+        "minute": 17,
+        "ownGoal": false,
+        "penalty": true
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "c9b4a57b4808",
+    "title": "Alisson save against Morocco 90+9'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u564bp/alisson_save_against_morocco_909",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u564bp/alisson_save_against_morocco_909/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Gentle_lips • 2,359 points and 233 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/yceN26rgXq7CWsPb7DhmD7pRkxh9ADYh4t2D50oHtkQ.jpeg?width=140&height=69&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-14T00:05:28Z",
+    "dateSaved": "2026-06-15T13:03:55Z",
+    "matchId": "BRA-MAR-2026-06-13",
+    "matchLabel": "🇧🇷 Brazil vs 🇲🇦 Morocco",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Brazil",
+      "Morocco"
+    ],
+    "teamCodes": [
+      "BRA",
+      "MAR"
+    ],
+    "scoreLabel": "🇧🇷 Brazil 1–1 🇲🇦 Morocco",
+    "goals": [
+      {
+        "team": "Brazil",
+        "player": "Vinícius Júnior",
+        "minute": 32,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Morocco",
+        "player": "Ismael Saibari",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Saves",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "76ddda42c5b4",
+    "title": "Haiti 0 - [1] Scotland - J. McGinn 28'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u57u6u/haiti_0_1_scotland_j_mcginn_28",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u57u6u/haiti_0_1_scotland_j_mcginn_28/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/gbogaz • 1,689 points and 123 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/76ddda42c5b4.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-14T01:30:35Z",
+    "dateSaved": "2026-06-15T13:04:33Z",
+    "matchId": "HAI-SCO-2026-06-13",
+    "matchLabel": "🇭🇹 Haiti vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Haiti",
+      "Scotland"
+    ],
+    "teamCodes": [
+      "HAI",
+      "SCO"
+    ],
+    "scoreLabel": "🇭🇹 Haiti 0–1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
+    "goals": [
+      {
+        "team": "Scotland",
+        "player": "John McGinn",
+        "minute": 28,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "cfa2cdfa055a",
+    "title": "The Scottish have taken over Boston harbour, full pints at 11 AM",
+    "url": "https://www.reddit.com/r/soccer/comments/1u518rg/the_scottish_have_taken_over_boston_harbour_full",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u518rg/the_scottish_have_taken_over_boston_harbour_full/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Source: @calbell0 (Callum Bell) on X",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/c3M1dW84YmkwNDdoMW26NZymjKUGhQS9LZR3RlyUmxXbAia0vC09K1ILTUM0.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T20:26:57Z",
+    "dateSaved": "2026-06-15T13:05:17Z",
+    "matchId": "HAI-SCO-2026-06-13",
+    "matchLabel": "🇭🇹 Haiti vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Haiti",
+      "Scotland"
+    ],
+    "teamCodes": [
+      "HAI",
+      "SCO"
+    ],
+    "scoreLabel": "🇭🇹 Haiti 0–1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
+    "goals": [
+      {
+        "team": "Scotland",
+        "player": "John McGinn",
+        "minute": 28,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "1f9e361f8117",
+    "title": "Brazil fans take over Times Square in New York City.",
+    "url": "https://www.reddit.com/r/soccer/comments/1u5093t/brazil_fans_take_over_times_square_in_new_york",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u5093t/brazil_fans_take_over_times_square_in_new_york/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/InspectorExact3836 • 2,550 points and 144 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/bTYwbWprdm5zMzdoMfaKq3KDautHZFCin641HmcEXTnT2BKTrRUrgNSXcAa3.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T19:45:58Z",
+    "dateSaved": "2026-06-15T13:05:58Z",
+    "matchId": "BRA-MAR-2026-06-13",
+    "matchLabel": "🇧🇷 Brazil vs 🇲🇦 Morocco",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Brazil",
+      "Morocco"
+    ],
+    "teamCodes": [
+      "BRA",
+      "MAR"
+    ],
+    "scoreLabel": "🇧🇷 Brazil 1–1 🇲🇦 Morocco",
+    "goals": [
+      {
+        "team": "Brazil",
+        "player": "Vinícius Júnior",
+        "minute": 32,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Morocco",
+        "player": "Ismael Saibari",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "6c1b3cb9a5af",
+    "title": "An attempted pitch invader at the U.S.-Paraguay match was not able to make it even a step onto the pitch before being tackled by security",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4viip/an_attempted_pitch_invader_at_the_usparaguay",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4viip/an_attempted_pitch_invader_at_the_usparaguay/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Goosedukee • 3,913 points and 241 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/YXQxcmJ6end1MjdoMQyjuZqoyO85v4XfZxbDb-3Wy9uwzneiDb_S4zcGZarg.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260614010901/https://www.reddit.com/r/soccer/comments/1u4viip/an_attempted_pitch_invader_at_the_usparaguay/",
+    "postDate": "2026-06-13T16:35:53Z",
+    "dateSaved": "2026-06-15T13:06:01Z",
+    "matchId": "USA-PAR-2026-06-12",
+    "matchLabel": "🇺🇸 USA vs 🇵🇾 Paraguay",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "USA",
+      "Paraguay"
+    ],
+    "teamCodes": [
+      "USA",
+      "PAR"
+    ],
+    "scoreLabel": "🇺🇸 USA 4–1 🇵🇾 Paraguay",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Damian Bobadilla",
+        "minute": 7,
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 31,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 45,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Giovanni Reyna",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Paraguay",
+        "player": "Mauricio",
+        "minute": 73,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "519276092c88",
+    "title": "Qatar 0 - [1] Switzerland - Breel Embolo 17'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4znvm/qatar_0_1_switzerland_breel_embolo_17",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4znvm/qatar_0_1_switzerland_breel_embolo_17/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Ihattaren • 1,033 points and 239 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/519276092c88.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T19:21:21Z",
+    "dateSaved": "2026-06-15T13:06:39Z",
+    "matchId": "QAT-SUI-2026-06-13",
+    "matchLabel": "🇶🇦 Qatar vs 🇨🇭 Switzerland",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Qatar",
+      "Switzerland"
+    ],
+    "teamCodes": [
+      "QAT",
+      "SUI"
+    ],
+    "scoreLabel": "🇶🇦 Qatar 1–1 🇨🇭 Switzerland",
+    "goals": [
+      {
+        "team": "Qatar",
+        "player": "Boualem Khoukhi",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Switzerland",
+        "player": "Breel Embolo",
+        "minute": 17,
+        "ownGoal": false,
+        "penalty": true
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "13fb0a087bf0",
+    "title": "FIFA shares onside animation graphic from Switzerland penalty award",
+    "url": "https://www.reddit.com/r/soccer/comments/1u56567/fifa_shares_onside_animation_graphic_from",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u56567/fifa_shares_onside_animation_graphic_from/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/wybird • 604 points and 139 comments",
+    "thumbnailRemoteUrl": "https://preview.redd.it/s7errvbp357h1.jpg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-14T00:06:36Z",
+    "dateSaved": "2026-06-15T13:07:17Z",
+    "matchId": "QAT-SUI-2026-06-13",
+    "matchLabel": "🇶🇦 Qatar vs 🇨🇭 Switzerland",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Qatar",
+      "Switzerland"
+    ],
+    "teamCodes": [
+      "QAT",
+      "SUI"
+    ],
+    "scoreLabel": "🇶🇦 Qatar 1–1 🇨🇭 Switzerland",
+    "goals": [
+      {
+        "team": "Qatar",
+        "player": "Boualem Khoukhi",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Switzerland",
+        "player": "Breel Embolo",
+        "minute": 17,
+        "ownGoal": false,
+        "penalty": true
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]
