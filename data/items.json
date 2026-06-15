@@ -677,8 +677,9 @@
       "stage": 0,
       "score": 0
     },
-    "needsReview": true,
-    "matchLocked": false
+    "needsReview": false,
+    "matchLocked": false,
+    "suppressedTags": []
   },
   {
     "id": "860b733a9f0e",
