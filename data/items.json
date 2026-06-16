@@ -6025,5 +6025,471 @@
       "score": 1
     },
     "needsReview": false
+  },
+  {
+    "id": "85ab12d3a758",
+    "title": "Canada 0 - [1] Bosnia & Herzegovina - J. Lukić 21'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u44zl5/canada_0_1_bosnia_herzegovina_j_luki%C4%87_21",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u44zl5/canada_0_1_bosnia_herzegovina_j_luki%C4%87_21/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 2,819 points and 329 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/85ab12d3a758.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-12T19:23:00Z",
+    "dateSaved": "2026-06-16T11:00:45Z",
+    "matchId": "CAN-BIH-2026-06-12",
+    "matchLabel": "🇨🇦 Canada vs 🇧🇦 Bosnia & Herzegovina",
+    "matchDate": "2026-06-12",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Canada",
+      "Bosnia & Herzegovina"
+    ],
+    "teamCodes": [
+      "CAN",
+      "BIH"
+    ],
+    "scoreLabel": "🇨🇦 Canada 1–1 🇧🇦 Bosnia & Herzegovina",
+    "goals": [
+      {
+        "team": "Canada",
+        "player": "Cyle Larin",
+        "minute": 78,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Bosnia & Herzegovina",
+        "player": "Jovo Lukić",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "5166749cc4e1",
+    "title": "Canada [1]-1 Bosnia & Herzegovina - Cyle Larin 79'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u46yy5/canada_11_bosnia_herzegovina_cyle_larin_79",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u46yy5/canada_11_bosnia_herzegovina_cyle_larin_79/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 3,452 points and 413 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/5166749cc4e1.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-12T20:39:54Z",
+    "dateSaved": "2026-06-16T11:01:15Z",
+    "matchId": "CAN-BIH-2026-06-12",
+    "matchLabel": "🇨🇦 Canada vs 🇧🇦 Bosnia & Herzegovina",
+    "matchDate": "2026-06-12",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Canada",
+      "Bosnia & Herzegovina"
+    ],
+    "teamCodes": [
+      "CAN",
+      "BIH"
+    ],
+    "scoreLabel": "🇨🇦 Canada 1–1 🇧🇦 Bosnia & Herzegovina",
+    "goals": [
+      {
+        "team": "Canada",
+        "player": "Cyle Larin",
+        "minute": 78,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Bosnia & Herzegovina",
+        "player": "Jovo Lukić",
+        "minute": 21,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "f3d124ed781d",
+    "title": "USA 1-0 Paraguay - Damián Bobadilla own goal 7'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4d977/usa_10_paraguay_dami%C3%A1n_bobadilla_own_goal_7",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4d977/usa_10_paraguay_dami%C3%A1n_bobadilla_own_goal_7/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 2,845 points and 305 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/f3d124ed781d.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T01:09:38Z",
+    "dateSaved": "2026-06-16T11:01:59Z",
+    "matchId": "USA-PAR-2026-06-12",
+    "matchLabel": "🇺🇸 USA vs 🇵🇾 Paraguay",
+    "matchDate": "2026-06-12",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "USA",
+      "Paraguay"
+    ],
+    "teamCodes": [
+      "USA",
+      "PAR"
+    ],
+    "scoreLabel": "🇺🇸 USA 4–1 🇵🇾 Paraguay",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Damian Bobadilla",
+        "minute": 7,
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 31,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 45,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Giovanni Reyna",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Paraguay",
+        "player": "Mauricio",
+        "minute": 73,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "f68c7dd8336c",
+    "title": "USA 3 - [1] Paraguay - Mauricio 73'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4f1ds/usa_3_1_paraguay_mauricio_73",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4f1ds/usa_3_1_paraguay_mauricio_73/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 440 points and 86 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/f68c7dd8336c.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T02:37:01Z",
+    "dateSaved": "2026-06-16T11:02:42Z",
+    "matchId": "USA-PAR-2026-06-12",
+    "matchLabel": "🇺🇸 USA vs 🇵🇾 Paraguay",
+    "matchDate": "2026-06-12",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "USA",
+      "Paraguay"
+    ],
+    "teamCodes": [
+      "USA",
+      "PAR"
+    ],
+    "scoreLabel": "🇺🇸 USA 4–1 🇵🇾 Paraguay",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Damian Bobadilla",
+        "minute": 7,
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 31,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 45,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Giovanni Reyna",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Paraguay",
+        "player": "Mauricio",
+        "minute": 73,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "583987fb3ca4",
+    "title": "USA [4] - 1 Paraguay - G. Reyna 90+8'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4fjao/usa_4_1_paraguay_g_reyna_908",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4fjao/usa_4_1_paraguay_g_reyna_908/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 10,558 points and 1,109 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/583987fb3ca4.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260613175804/https://www.reddit.com/r/soccer/comments/1u4fjao/usa_4_1_paraguay_g_reyna_908/",
+    "postDate": "2026-06-13T03:01:37Z",
+    "dateSaved": "2026-06-16T11:10:57Z",
+    "matchId": "USA-PAR-2026-06-12",
+    "matchLabel": "🇺🇸 USA vs 🇵🇾 Paraguay",
+    "matchDate": "2026-06-12",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "USA",
+      "Paraguay"
+    ],
+    "teamCodes": [
+      "USA",
+      "PAR"
+    ],
+    "scoreLabel": "🇺🇸 USA 4–1 🇵🇾 Paraguay",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Damian Bobadilla",
+        "minute": 7,
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 31,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 45,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Giovanni Reyna",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Paraguay",
+        "player": "Mauricio",
+        "minute": 73,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "265c4cdb166d",
+    "title": "Alternate angles of Giovanni Reyna's goal against Paraguay",
+    "url": "https://www.reddit.com/r/soccer/comments/1u4fphd/alternate_angles_of_giovanni_reynas_goal_against",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u4fphd/alternate_angles_of_giovanni_reynas_goal_against/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 14,413 points and 477 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/MHIwY3hhdmR2eTZoMW9RkGDcIp8WAnEh5jJ8v5FX33A4lMohL-nJdKiKGcDM.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-13T03:10:22Z",
+    "dateSaved": "2026-06-16T11:11:11Z",
+    "matchId": "USA-PAR-2026-06-12",
+    "matchLabel": "🇺🇸 USA vs 🇵🇾 Paraguay",
+    "matchDate": "2026-06-12",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "USA",
+      "Paraguay"
+    ],
+    "teamCodes": [
+      "USA",
+      "PAR"
+    ],
+    "scoreLabel": "🇺🇸 USA 4–1 🇵🇾 Paraguay",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Damian Bobadilla",
+        "minute": 7,
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 31,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Folarin Balogun",
+        "minute": 45,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Giovanni Reyna",
+        "minute": 90,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Paraguay",
+        "player": "Mauricio",
+        "minute": 73,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]
