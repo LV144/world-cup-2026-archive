@@ -674,7 +674,7 @@
     "group": "H",
     "round": null,
     "kickoffUtc": "2026-06-15T22:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Saudi Arabia",
       "code": "KSA",
@@ -685,11 +685,17 @@
       "code": "URU",
       "flag": "🇺🇾"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 1 },
+    "goals": [
+      { "team": "KSA", "player": "Abdulelah Al-Amri", "minute": "41", "ownGoal": false, "penalty": false },
+      { "team": "URU", "player": "Maxi Araújo", "minute": "80", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Miami (Miami Gardens)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u6vxii/saudi_arabia_1_0_uruguay_abdulelah_al_amri_41",
+      "https://www.reddit.com/r/soccer/comments/1u6xdwc/saudi_arabia_1_1_uruguay_m_ara%C3%BAjo_80"
+    ],
+    "lastUpdated": "2026-06-16T10:30:00Z"
   },
   {
     "matchId": "IRN-NZL-2026-06-15",
@@ -697,7 +703,7 @@
     "group": "G",
     "round": null,
     "kickoffUtc": "2026-06-16T01:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Iran",
       "code": "IRN",
@@ -708,11 +714,21 @@
       "code": "NZL",
       "flag": "🇳🇿"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 2, "away": 2 },
+    "goals": [
+      { "team": "NZL", "player": "Elijah Just", "minute": "7", "ownGoal": false, "penalty": false },
+      { "team": "IRN", "player": "Ramin Rezaeian", "minute": "33", "ownGoal": false, "penalty": false },
+      { "team": "NZL", "player": "Elijah Just", "minute": "54", "ownGoal": false, "penalty": false },
+      { "team": "IRN", "player": "Mohammad Mohebbi", "minute": "64", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Los Angeles (Inglewood)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u6zazm/iran_0_1_new_zealand_e_just_7",
+      "https://www.reddit.com/r/soccer/comments/1u6zufu/iran_1_1_new_zealand_r_rezaeian_32",
+      "https://www.reddit.com/r/soccer/comments/1u70uot/iran_12_new_zealand_elijah_just_55",
+      "https://www.reddit.com/r/soccer/comments/1u71295/iran_2_2_new_zealand_mohebi_64"
+    ],
+    "lastUpdated": "2026-06-16T10:30:00Z"
   },
   {
     "matchId": "FRA-SEN-2026-06-16",
