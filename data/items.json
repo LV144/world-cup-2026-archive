@@ -5774,11 +5774,12 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "Goal",
       "Highlights"
     ],
     "pinnedTags": [],
-    "suppressedTags": [],
+    "suppressedTags": [
+      "Goal"
+    ],
     "importance": null,
     "note": "",
     "backup": "",
@@ -5788,7 +5789,8 @@
       "stage": 1,
       "score": 1
     },
-    "needsReview": false
+    "needsReview": false,
+    "matchLocked": false
   },
   {
     "id": "69f8d2920575",
