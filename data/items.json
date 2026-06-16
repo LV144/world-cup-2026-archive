@@ -834,10 +834,14 @@
     "candidateMatches": [],
     "type": [],
     "tags": [
-      "Banger"
+      "Banger",
+      "Goal",
+      "Highlights"
     ],
     "pinnedTags": [
-      "Banger"
+      "Banger",
+      "Goal",
+      "Highlights"
     ],
     "suppressedTags": [],
     "importance": null,
@@ -850,7 +854,8 @@
       "score": 1
     },
     "needsReview": false,
-    "matchDate": "2026-06-12"
+    "matchDate": "2026-06-12",
+    "matchLocked": false
   },
   {
     "id": "347f689dac00",
