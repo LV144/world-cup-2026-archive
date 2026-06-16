@@ -5865,5 +5865,165 @@
       "score": 1
     },
     "needsReview": false
+  },
+  {
+    "id": "bcd741b66924",
+    "title": "Iran 0 - [1] New Zealand - E. Just 7'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u6zazm/iran_0_1_new_zealand_e_just_7",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u6zazm/iran_0_1_new_zealand_e_just_7/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 1,784 points and 194 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/bcd741b66924.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-16T01:10:53Z",
+    "dateSaved": "2026-06-16T10:56:28Z",
+    "matchId": "IRN-NZL-2026-06-15",
+    "matchLabel": "🇮🇷 Iran vs 🇳🇿 New Zealand",
+    "matchDate": "2026-06-15",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "Iran",
+      "New Zealand"
+    ],
+    "teamCodes": [
+      "IRN",
+      "NZL"
+    ],
+    "scoreLabel": "🇮🇷 Iran 2–2 🇳🇿 New Zealand",
+    "goals": [
+      {
+        "team": "NZL",
+        "player": "Elijah Just",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "IRN",
+        "player": "Ramin Rezaeian",
+        "minute": "33",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NZL",
+        "player": "Elijah Just",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "IRN",
+        "player": "Mohammad Mohebbi",
+        "minute": "64",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e6f1174fbb5f",
+    "title": "Iran [2] - 2 New Zealand - Mohebi 64'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u71295/iran_2_2_new_zealand_mohebi_64",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u71295/iran_2_2_new_zealand_mohebi_64/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Gentle_lips • 2,479 points and 235 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/Y_IyjrnoTKLujlTGyH5H9jZdWwdV-q7ljUn7ZgbU66o.jpeg?width=140&height=68&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-16T02:31:41Z",
+    "dateSaved": "2026-06-16T10:56:45Z",
+    "matchId": "IRN-NZL-2026-06-15",
+    "matchLabel": "🇮🇷 Iran vs 🇳🇿 New Zealand",
+    "matchDate": "2026-06-15",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "Iran",
+      "New Zealand"
+    ],
+    "teamCodes": [
+      "IRN",
+      "NZL"
+    ],
+    "scoreLabel": "🇮🇷 Iran 2–2 🇳🇿 New Zealand",
+    "goals": [
+      {
+        "team": "NZL",
+        "player": "Elijah Just",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "IRN",
+        "player": "Ramin Rezaeian",
+        "minute": "33",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NZL",
+        "player": "Elijah Just",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "IRN",
+        "player": "Mohammad Mohebbi",
+        "minute": "64",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]
