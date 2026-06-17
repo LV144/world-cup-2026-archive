@@ -8507,58 +8507,16 @@
     "archivedUrl": null,
     "postDate": "2026-06-17T01:37:50.000Z",
     "dateSaved": "2026-06-17T10:17:33Z",
-    "matchId": "IRQ-NOR-2026-06-16",
+    "matchId": null,
     "matchLocked": true,
-    "matchLabel": "🇮🇶 Iraq vs 🇳🇴 Norway",
-    "matchDate": "2026-06-16",
-    "stage": "Group stage",
-    "group": "I",
-    "teams": [
-      "Iraq",
-      "Norway"
-    ],
-    "teamCodes": [
-      "IRQ",
-      "NOR"
-    ],
-    "scoreLabel": "🇮🇶 Iraq 1–4 🇳🇴 Norway",
-    "goals": [
-      {
-        "team": "NOR",
-        "player": "Erling Haaland",
-        "minute": "29",
-        "ownGoal": false,
-        "penalty": false
-      },
-      {
-        "team": "IRQ",
-        "player": "Ayman Hussein",
-        "minute": "39",
-        "ownGoal": false,
-        "penalty": false
-      },
-      {
-        "team": "NOR",
-        "player": "Erling Haaland",
-        "minute": "43",
-        "ownGoal": false,
-        "penalty": false
-      },
-      {
-        "team": "NOR",
-        "player": "Leo Ostigard",
-        "minute": "76",
-        "ownGoal": false,
-        "penalty": false
-      },
-      {
-        "team": "NOR",
-        "player": "Kristian Thorstvedt",
-        "minute": "90+6",
-        "ownGoal": false,
-        "penalty": false
-      }
-    ],
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
     "candidateMatches": [],
     "type": [],
     "tags": [
@@ -8572,10 +8530,10 @@
     "note": "",
     "backup": "",
     "metadataConfidence": {
-      "match": 1,
-      "teams": 1,
-      "stage": 1,
-      "score": 1
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
     },
     "needsReview": false
   },
