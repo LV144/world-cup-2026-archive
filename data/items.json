@@ -7368,21 +7368,15 @@
     "archivedUrl": null,
     "postDate": "2026-06-16T15:25:05Z",
     "dateSaved": "2026-06-17T10:12:30Z",
-    "matchId": "ESP-CPV-2026-06-15",
+    "matchId": null,
     "matchLocked": true,
-    "matchLabel": "🇪🇸 Spain vs 🇨🇻 Cape Verde",
-    "matchDate": "2026-06-15",
-    "stage": "Group stage",
-    "group": "H",
-    "teams": [
-      "Spain",
-      "Cape Verde"
-    ],
-    "teamCodes": [
-      "ESP",
-      "CPV"
-    ],
-    "scoreLabel": "🇪🇸 Spain 0–0 🇨🇻 Cape Verde",
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
     "goals": [],
     "candidateMatches": [],
     "type": [],
@@ -7393,10 +7387,10 @@
     "note": "",
     "backup": "",
     "metadataConfidence": {
-      "match": 1,
-      "teams": 1,
-      "stage": 1,
-      "score": 1
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
     },
     "needsReview": false
   },
