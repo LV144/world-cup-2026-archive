@@ -736,7 +736,7 @@
     "group": "I",
     "round": null,
     "kickoffUtc": "2026-06-16T19:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "France",
       "code": "FRA",
@@ -747,11 +747,21 @@
       "code": "SEN",
       "flag": "🇸🇳"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 3, "away": 1 },
+    "goals": [
+      { "team": "FRA", "player": "Kylian Mbappé", "minute": "66", "ownGoal": false, "penalty": false },
+      { "team": "FRA", "player": "Bradley Barcola", "minute": "82", "ownGoal": false, "penalty": false },
+      { "team": "SEN", "player": "Ibrahim Mbaye", "minute": "90+4", "ownGoal": false, "penalty": false },
+      { "team": "FRA", "player": "Kylian Mbappé", "minute": "90+6", "ownGoal": false, "penalty": false }
+    ],
     "venue": "New York/New Jersey (East Rutherford)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u7p85f/france_1_0_senegal_k_mbapp%C3%A9_66",
+      "https://www.reddit.com/r/soccer/comments/1u7pnh1/france_2_0_senegal_b_barcola_82",
+      "https://www.reddit.com/r/soccer/comments/1u7pzg0/france_2_1_senegal_i_mbaye_904",
+      "https://www.reddit.com/r/soccer/comments/1u7q8d2/france_31_senegal_kylian_mbappe_906"
+    ],
+    "lastUpdated": "2026-06-17T00:00:00Z"
   },
   {
     "matchId": "IRQ-NOR-2026-06-16",
@@ -759,7 +769,7 @@
     "group": "I",
     "round": null,
     "kickoffUtc": "2026-06-16T22:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Iraq",
       "code": "IRQ",
@@ -770,11 +780,22 @@
       "code": "NOR",
       "flag": "🇳🇴"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 4 },
+    "goals": [
+      { "team": "NOR", "player": "Erling Haaland", "minute": "29", "ownGoal": false, "penalty": false },
+      { "team": "IRQ", "player": "Ayman Hussein", "minute": "39", "ownGoal": false, "penalty": false },
+      { "team": "NOR", "player": "Erling Haaland", "minute": "43", "ownGoal": false, "penalty": false },
+      { "team": "NOR", "player": "Leo Ostigard", "minute": "76", "ownGoal": false, "penalty": false },
+      { "team": "NOR", "player": "Kristian Thorstvedt", "minute": "90+6", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Boston (Foxborough)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u7sbkp/iraq_01_norway_erling_haaland_29",
+      "https://www.reddit.com/r/soccer/comments/1u7sk9f/iraq_11_norway_ayman_hussein_39",
+      "https://www.reddit.com/r/soccer/comments/1u7so3j/iraq_12_norway_erling_haaland_43",
+      "https://www.reddit.com/r/soccer/comments/1u7uf71/iraq_14_norway_kristian_thorstvedt_906"
+    ],
+    "lastUpdated": "2026-06-17T00:00:00Z"
   },
   {
     "matchId": "ARG-ALG-2026-06-16",
@@ -782,7 +803,7 @@
     "group": "J",
     "round": null,
     "kickoffUtc": "2026-06-17T01:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Argentina",
       "code": "ARG",
@@ -793,11 +814,19 @@
       "code": "ALG",
       "flag": "🇩🇿"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 3, "away": 0 },
+    "goals": [
+      { "team": "ARG", "player": "Lionel Messi", "minute": "17", "ownGoal": false, "penalty": false },
+      { "team": "ARG", "player": "Lionel Messi", "minute": "60", "ownGoal": false, "penalty": false },
+      { "team": "ARG", "player": "Lionel Messi", "minute": "76", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Kansas City",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u7w7ft/argentina_1_0_algeria_l_messi_17",
+      "https://www.reddit.com/r/soccer/comments/1u7xkb9/argentina_2_0_algeria_l_messi_60",
+      "https://www.reddit.com/r/soccer/comments/1u7xwdx/argentina_3_0_algeria_lionel_messi_76_hattrick"
+    ],
+    "lastUpdated": "2026-06-17T00:00:00Z"
   },
   {
     "matchId": "AUT-JOR-2026-06-16",
@@ -805,7 +834,7 @@
     "group": "J",
     "round": null,
     "kickoffUtc": "2026-06-17T04:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Austria",
       "code": "AUT",
@@ -816,11 +845,21 @@
       "code": "JOR",
       "flag": "🇯🇴"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 3, "away": 1 },
+    "goals": [
+      { "team": "AUT", "player": "Romano Schmid", "minute": "20", "ownGoal": false, "penalty": false },
+      { "team": "JOR", "player": "Ali Olwan", "minute": "50", "ownGoal": false, "penalty": false },
+      { "team": "AUT", "player": "Yazan Al-Arab", "minute": "76", "ownGoal": true, "penalty": false },
+      { "team": "AUT", "player": "Marko Arnautovic", "minute": "90+12", "ownGoal": false, "penalty": true }
+    ],
     "venue": "San Francisco Bay Area (Santa Clara)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u8013s/austria_1_0_jordan_romano_schmid_20_great_goal",
+      "https://www.reddit.com/r/soccer/comments/1u810pr/austria_1_1_jordan_ali_olwan_50",
+      "https://www.reddit.com/r/soccer/comments/1u81ia0/austria_2_1_jordan_marko_arnautovic_77",
+      "https://www.reddit.com/r/soccer/comments/1u822pq/austria_3_1_jordan_marko_arnautovic_penalty_9012"
+    ],
+    "lastUpdated": "2026-06-17T00:00:00Z"
   },
   {
     "matchId": "POR-COD-2026-06-17",
