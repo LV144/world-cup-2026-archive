@@ -41,6 +41,7 @@
     "\\bfull[ -]?time highlights\\b",
     "\\bmatch recap\\b",
     "\\bcondensed match\\b",
+    "\\bchance\\b",
     "\\bclearance\\b",
     "\\bgoal[- ]?line clearance\\b",
     "\\bblock\\b",
