@@ -8772,5 +8772,369 @@
       "score": 0
     },
     "needsReview": false
+  },
+  {
+    "id": "5e7e7fe7ba2a",
+    "title": "Thierry Henry's reaction to Zlatan calling Alexi Lalas ignorant",
+    "url": "https://www.reddit.com/r/soccer/comments/1u87bnv/thierry_henrys_reaction_to_zlatan_calling_alexi",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u87bnv/thierry_henrys_reaction_to_zlatan_calling_alexi/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/paulridby • 1,895 points and 248 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/c3l6NHU0cXp0dDdoMVnfLUozjBkqwnVe79FBZHASKXJhtdIzyUVUH1jCh0OD.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T11:16:59Z",
+    "dateSaved": "2026-06-17T13:54:13Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "cebff4018e94",
+    "title": "Iraq chance against Norway 45+6",
+    "url": "https://www.reddit.com/r/soccer/comments/1u7swm4/iraq_chance_against_norway_456",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u7swm4/iraq_chance_against_norway_456/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Gentle_lips • 913 points and 129 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/4nRdht_maz2CzXiJvM9sUIkMb-30DNw38oe0BGNEeCo.jpeg?width=140&height=68&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-16T22:54:02Z",
+    "dateSaved": "2026-06-17T13:54:47Z",
+    "matchId": "IRQ-NOR-2026-06-16",
+    "matchLabel": "🇮🇶 Iraq vs 🇳🇴 Norway",
+    "matchDate": "2026-06-16",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Iraq",
+      "Norway"
+    ],
+    "teamCodes": [
+      "IRQ",
+      "NOR"
+    ],
+    "scoreLabel": "🇮🇶 Iraq 1–4 🇳🇴 Norway",
+    "goals": [
+      {
+        "team": "NOR",
+        "player": "Erling Haaland",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "IRQ",
+        "player": "Ayman Hussein",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Erling Haaland",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Leo Ostigard",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Kristian Thorstvedt",
+        "minute": "90+6",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "9de07dcd8586",
+    "title": "Jordanian fans march toward the stadium ahead of the Jordan vs. Austria match.",
+    "url": "https://www.reddit.com/r/soccer/comments/1u7x3v3/jordanian_fans_march_toward_the_stadium_ahead_of",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u7x3v3/jordanian_fans_march_toward_the_stadium_ahead_of/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/02bashar • 632 points and 41 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/aGN0c3J2ancycjdoMX3w0Lo-bEmIcaxqCE2MiQPV-PRwLlRObb_UbWW4I860.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T02:01:38Z",
+    "dateSaved": "2026-06-17T13:55:02Z",
+    "matchId": "AUT-JOR-2026-06-16",
+    "matchLabel": "🇦🇹 Austria vs 🇯🇴 Jordan",
+    "matchDate": "2026-06-16",
+    "stage": "Group stage",
+    "group": "J",
+    "teams": [
+      "Austria",
+      "Jordan"
+    ],
+    "teamCodes": [
+      "AUT",
+      "JOR"
+    ],
+    "scoreLabel": "🇦🇹 Austria 3–1 🇯🇴 Jordan",
+    "goals": [
+      {
+        "team": "AUT",
+        "player": "Romano Schmid",
+        "minute": "20",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "JOR",
+        "player": "Ali Olwan",
+        "minute": "50",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "AUT",
+        "player": "Yazan Al-Arab",
+        "minute": "76",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "AUT",
+        "player": "Marko Arnautovic",
+        "minute": "90+12",
+        "ownGoal": false,
+        "penalty": true
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "f94c22f7e184",
+    "title": "Norway fans teaching fans from other countries how to do the Viking row after their Workd cup game",
+    "url": "https://www.reddit.com/r/soccer/comments/1u85iyr/norway_fans_teaching_fans_from_other_countries",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u85iyr/norway_fans_teaching_fans_from_other_countries/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/SimRP • 229 points and 9 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/emNwdTVoNGZjdDdoMeoK_Q4k5tYhK2DidE4HgfLU_akuBOvdNZsSQEcngR5k.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T09:38:34Z",
+    "dateSaved": "2026-06-17T13:55:11Z",
+    "matchId": "IRQ-NOR-2026-06-16",
+    "matchLocked": true,
+    "matchLabel": "🇮🇶 Iraq vs 🇳🇴 Norway",
+    "matchDate": "2026-06-16",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Iraq",
+      "Norway"
+    ],
+    "teamCodes": [
+      "IRQ",
+      "NOR"
+    ],
+    "scoreLabel": "🇮🇶 Iraq 1–4 🇳🇴 Norway",
+    "goals": [
+      {
+        "team": "NOR",
+        "player": "Erling Haaland",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "IRQ",
+        "player": "Ayman Hussein",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Erling Haaland",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Leo Ostigard",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Kristian Thorstvedt",
+        "minute": "90+6",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "967769008f90",
+    "title": "[WC2026 Day 5] All Goals with Scoring Nation Commentary",
+    "url": "https://www.reddit.com/r/worldcup/comments/1u7a6w9/wc2026_day_5_all_goals_with_scoring_nation",
+    "canonicalUrl": "https://www.reddit.com/r/worldcup/comments/1u7a6w9/wc2026_day_5_all_goals_with_scoring_nation/",
+    "source": "Reddit",
+    "sourceDetail": "r/worldcup",
+    "description": "Posted in r/worldcup by u/HOPSCROTCH • 1,977 points and 175 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NXNwcmtoeHdrbTdoMSQSNdbfFO7PJjs97utTNo6uGjn1XAwAcDCLNy4Q-Isi.png?overlay-align=bottom,left&crop=1200:628.272251309,smart&overlay-height=15p&overlay=%2Fwatermark%2Ft5_2rdrs.png%3Fs%3D0a0798b02e427cccd70f23660187e13226e41d24&width=1200&height=628.272251309&auto=webp&s=3d8abb6672fabede56f5d88a7f3251a6944a87b2",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-16T10:54:51Z",
+    "dateSaved": "2026-06-17T13:55:25Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "63beab8d7ec5",
+    "title": "[WC2026 Day 6] All Goals with Scoring Nation Commentary",
+    "url": "https://www.reddit.com/r/soccer/comments/1u86kup/wc2026_day_6_all_goals_with_scoring_nation",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u86kup/wc2026_day_6_all_goals_with_scoring_nation/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/HOPSCROTCH • 1,595 points and 85 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NWcwZm14eHZsdDdoMf2--jDfOxhMPkR2vDdMwbNmLv_EKF8PsrujqlRj5Qr3.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617135531/https://www.reddit.com/r/soccer/comments/1u86kup/wc2026_day_6_all_goals_with_scoring_nation/?solution=0527e98ae6f6de860527e98ae6f6de86&js_challenge=1&token=7afd7253fec22262ff1c52b1703fe9ecc5d19399e2b5238daa7cf9c8b00d0923&jsc_orig_r=",
+    "postDate": "2026-06-17T10:37:38Z",
+    "dateSaved": "2026-06-17T13:55:59Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
   }
 ]
