@@ -8881,8 +8881,12 @@
     ],
     "candidateMatches": [],
     "type": [],
-    "tags": [],
-    "pinnedTags": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [
+      "Highlights"
+    ],
     "suppressedTags": [],
     "importance": null,
     "note": "",
