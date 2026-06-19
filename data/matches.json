@@ -993,7 +993,7 @@
     "group": "A",
     "round": null,
     "kickoffUtc": "2026-06-18T16:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Czech Republic",
       "code": "CZE",
@@ -1004,11 +1004,17 @@
       "code": "RSA",
       "flag": "🇿🇦"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 1 },
+    "goals": [
+      { "team": "CZE", "player": "Matěj Sadílek", "minute": "6", "ownGoal": false, "penalty": false },
+      { "team": "RSA", "player": "Teboho Mokoena", "minute": "83", "ownGoal": false, "penalty": true }
+    ],
     "venue": "Atlanta",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u9adv2/czech_republic_1_0_south_africa_m_sad%C3%ADlek_6/",
+      "https://www.reddit.com/r/soccer/comments/1u9d1yc/czech_republic_1_1_south_africa_teboho_mokoena/"
+    ],
+    "lastUpdated": "2026-06-19T00:00:00Z"
   },
   {
     "matchId": "SUI-BIH-2026-06-18",
@@ -1016,7 +1022,7 @@
     "group": "B",
     "round": null,
     "kickoffUtc": "2026-06-18T19:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Switzerland",
       "code": "SUI",
@@ -1027,11 +1033,23 @@
       "code": "BIH",
       "flag": "🇧🇦"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 4, "away": 1 },
+    "goals": [
+      { "team": "SUI", "player": "Johan Manzambi", "minute": "74", "ownGoal": false, "penalty": false },
+      { "team": "SUI", "player": "Rubén Vargas", "minute": "84", "ownGoal": false, "penalty": false },
+      { "team": "SUI", "player": "Johan Manzambi", "minute": "90", "ownGoal": false, "penalty": false },
+      { "team": "BIH", "player": "Ermin Mahmic", "minute": "90+3", "ownGoal": false, "penalty": false },
+      { "team": "SUI", "player": "Granit Xhaka", "minute": "90+7", "ownGoal": false, "penalty": true }
+    ],
     "venue": "Los Angeles (Inglewood)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u9hl50/switzerland_1_0_bosnia_and_herzegovina_j_manzambi/",
+      "https://www.reddit.com/r/soccer/comments/1u9hug4/switzerland_2_0_bosnia_and_herzegovina_r_vargas_84/",
+      "https://www.reddit.com/r/soccer/comments/1u9hzxp/switzerland_30_bosnia_and_herzegovina_johan/",
+      "https://www.reddit.com/r/soccer/comments/1u9i2wp/switzerland_31_bosnia_and_herzegovina_ermin/",
+      "https://www.reddit.com/r/soccer/comments/1u9i6pl/switzerland_41_bosnia_and_herzegovina_granit/"
+    ],
+    "lastUpdated": "2026-06-19T00:00:00Z"
   },
   {
     "matchId": "CAN-QAT-2026-06-18",
@@ -1039,7 +1057,7 @@
     "group": "B",
     "round": null,
     "kickoffUtc": "2026-06-18T22:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Canada",
       "code": "CAN",
@@ -1050,11 +1068,25 @@
       "code": "QAT",
       "flag": "🇶🇦"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 6, "away": 0 },
+    "goals": [
+      { "team": "CAN", "player": "Cyle Larin", "minute": "16", "ownGoal": false, "penalty": false },
+      { "team": "CAN", "player": "Jonathan David", "minute": "29", "ownGoal": false, "penalty": false },
+      { "team": "CAN", "player": "Jonathan David", "minute": "45+3", "ownGoal": false, "penalty": false },
+      { "team": "CAN", "player": "Nathan Saliba", "minute": "64", "ownGoal": false, "penalty": false },
+      { "team": "CAN", "player": "Mohammad Al Manai", "minute": "75", "ownGoal": true, "penalty": false },
+      { "team": "CAN", "player": "Jonathan David", "minute": "90+2", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Vancouver",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u9k7dj/canada_1_0_qatar_c_larin_16/",
+      "https://www.reddit.com/r/soccer/comments/1u9ki6w/canada_2_0_qatar_j_david_29/",
+      "https://www.reddit.com/r/soccer/comments/1u9ky2i/canada_3_0_qatar_j_david_452/",
+      "https://www.reddit.com/r/soccer/comments/1u9lsue/canada_4_0_qatar_n_saliba_64/",
+      "https://www.reddit.com/r/soccer/comments/1u9m1tr/canada_5_0_qatar_mohammad_manai_75/",
+      "https://www.reddit.com/r/soccer/comments/1u9mezh/canada_60_qatar_jonathan_david_902/"
+    ],
+    "lastUpdated": "2026-06-19T00:00:00Z"
   },
   {
     "matchId": "MEX-KOR-2026-06-18",
@@ -1062,7 +1094,7 @@
     "group": "A",
     "round": null,
     "kickoffUtc": "2026-06-19T01:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Mexico",
       "code": "MEX",
@@ -1073,11 +1105,15 @@
       "code": "KOR",
       "flag": "🇰🇷"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 0 },
+    "goals": [
+      { "team": "MEX", "player": "Luis Romo", "minute": "49", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Guadalajara (Zapopan)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u9pan1/mexico_10_south_korea_luis_romo_49/"
+    ],
+    "lastUpdated": "2026-06-19T00:00:00Z"
   },
   {
     "matchId": "USA-AUS-2026-06-19",
