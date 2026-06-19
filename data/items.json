@@ -9140,5 +9140,2199 @@
       "score": 0
     },
     "needsReview": false
+  },
+  {
+    "id": "3e04cfcef695",
+    "title": "[2026 FIFA World Cup] All The National Anthems As Performed On Matchday 1",
+    "url": "https://www.reddit.com/r/soccer/comments/1u93i44/2026_fifa_world_cup_all_the_national_anthems_as",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u93i44/2026_fifa_world_cup_all_the_national_anthems_as/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Let me know if there are any mistakes Team | Video | Info ---|---|---- 🇩🇿 Algeria | https://streamable.com/4041ek |...",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/3e04cfcef695.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-18T11:18:51Z",
+    "dateSaved": "2026-06-18T13:35:01Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "897a040c7c1e",
+    "title": "Ghana [1] - 0 Panama - C. Yirenkyi 90+5'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8s36x/ghana_1_0_panama_c_yirenkyi_905",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8s36x/ghana_1_0_panama_c_yirenkyi_905/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 2,182 points and 243 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/897a040c7c1e.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-18T00:56:03Z",
+    "dateSaved": "2026-06-18T13:35:46Z",
+    "matchId": "GHA-PAN-2026-06-17",
+    "matchLabel": "🇬🇭 Ghana vs 🇵🇦 Panama",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "Ghana",
+      "Panama"
+    ],
+    "teamCodes": [
+      "GHA",
+      "PAN"
+    ],
+    "scoreLabel": "🇬🇭 Ghana 1–0 🇵🇦 Panama",
+    "goals": [
+      {
+        "team": "GHA",
+        "player": "Caleb Yirenkyi",
+        "minute": "90+5",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "c637feb115c0",
+    "title": "Portugal [1] - 0 D.R. Congo - Neves J. goal 5'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8g4nd/portugal_1_0_dr_congo_neves_j_goal_5",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8g4nd/portugal_1_0_dr_congo_neves_j_goal_5/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Ihattaren • 2,604 points and 363 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/00LTusW_W9prxdGdEOvfnBT8N8jzzyf_Ie2_uP4Ki-8.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T17:07:52Z",
+    "dateSaved": "2026-06-18T13:36:02Z",
+    "matchId": "POR-COD-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🇵🇹 Portugal vs 🇨🇩 DR Congo",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "DR Congo"
+    ],
+    "teamCodes": [
+      "POR",
+      "COD"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 1–1 🇨🇩 DR Congo",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "João Neves",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COD",
+        "player": "Yoane Wissa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "4977dd012885",
+    "title": "Portugal 1 - [1] D.R. Congo - Wissa Y. goal 49'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8haw8/portugal_1_1_dr_congo_wissa_y_goal_49",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8haw8/portugal_1_1_dr_congo_wissa_y_goal_49/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Ihattaren • 8,764 points and 847 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/4977dd012885.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617181050/https://www.reddit.com/r/soccer/comments/1u8haw8/portugal_1_1_dr_congo_wissa_y_goal_49/",
+    "postDate": "2026-06-17T17:51:02Z",
+    "dateSaved": "2026-06-18T13:36:13Z",
+    "matchId": "POR-COD-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🇵🇹 Portugal vs 🇨🇩 DR Congo",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "DR Congo"
+    ],
+    "teamCodes": [
+      "POR",
+      "COD"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 1–1 🇨🇩 DR Congo",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "João Neves",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COD",
+        "player": "Yoane Wissa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "affa3eee8cae",
+    "title": "England [1] - 0 Croatia - Harry Kane 12'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8l6sc/england_1_0_croatia_harry_kane_12",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8l6sc/england_1_0_croatia_harry_kane_12/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 1,919 points and 1,116 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/affa3eee8cae.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T20:11:25Z",
+    "dateSaved": "2026-06-18T13:36:36Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "9d4d605d208e",
+    "title": "England [2] - 1 Croatia - H. Kane 42'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8m093/england_2_1_croatia_h_kane_42",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8m093/england_2_1_croatia_h_kane_42/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 3,488 points and 700 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/FEtu0cPk-i9KORjU9beHYrQygTLDYlznAILJjD8SjzY.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617205210/https://www.reddit.com/r/soccer/comments/1u8m093/england_2_1_croatia_h_kane_42/",
+    "postDate": "2026-06-17T20:42:18Z",
+    "dateSaved": "2026-06-18T13:36:41Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "adabfc3eed40",
+    "title": "England [3] - 2 Croatia - Jude Bellingham 47'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8mrry/england_3_2_croatia_jude_bellingham_47",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8mrry/england_3_2_croatia_jude_bellingham_47/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/50lipaa • 2,981 points and 404 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/adabfc3eed40.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T21:11:23Z",
+    "dateSaved": "2026-06-18T13:37:25Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "ed266af2866e",
+    "title": "Uzbekistan [1]-1 Colombia - Abbosbek Fayzullaev 60'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8v5cg/uzbekistan_11_colombia_abbosbek_fayzullaev_60",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8v5cg/uzbekistan_11_colombia_abbosbek_fayzullaev_60/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 567 points and 96 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/ed266af2866e.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-18T03:20:56Z",
+    "dateSaved": "2026-06-18T13:37:41Z",
+    "matchId": "UZB-COL-2026-06-17",
+    "matchLabel": "🇺🇿 Uzbekistan vs 🇨🇴 Colombia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Uzbekistan",
+      "Colombia"
+    ],
+    "teamCodes": [
+      "UZB",
+      "COL"
+    ],
+    "scoreLabel": "🇺🇿 Uzbekistan 1–3 🇨🇴 Colombia",
+    "goals": [
+      {
+        "team": "COL",
+        "player": "Daniel Muñoz",
+        "minute": "41",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "UZB",
+        "player": "Abbosbek Fayzullaev",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Luis Díaz",
+        "minute": "66",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Jáminton Campaz",
+        "minute": "90+9",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "4e4663471e98",
+    "title": "Uzbekistan 1-[2] Colombia - Luis Díaz 66'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8v91e/uzbekistan_12_colombia_luis_d%C3%ADaz_66",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8v91e/uzbekistan_12_colombia_luis_d%C3%ADaz_66/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 674 points and 114 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/4e4663471e98.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-18T03:26:09Z",
+    "dateSaved": "2026-06-18T13:38:24Z",
+    "matchId": "UZB-COL-2026-06-17",
+    "matchLabel": "🇺🇿 Uzbekistan vs 🇨🇴 Colombia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Uzbekistan",
+      "Colombia"
+    ],
+    "teamCodes": [
+      "UZB",
+      "COL"
+    ],
+    "scoreLabel": "🇺🇿 Uzbekistan 1–3 🇨🇴 Colombia",
+    "goals": [
+      {
+        "team": "COL",
+        "player": "Daniel Muñoz",
+        "minute": "41",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "UZB",
+        "player": "Abbosbek Fayzullaev",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Luis Díaz",
+        "minute": "66",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Jáminton Campaz",
+        "minute": "90+9",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e109dcd73416",
+    "title": "Uzbekistan 1-[3] Colombia - Jaminton Campaz 90+9'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8vvz6/uzbekistan_13_colombia_jaminton_campaz_909",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8vvz6/uzbekistan_13_colombia_jaminton_campaz_909/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 934 points and 133 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/e109dcd73416.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-18T03:59:24Z",
+    "dateSaved": "2026-06-18T13:38:43Z",
+    "matchId": "UZB-COL-2026-06-17",
+    "matchLabel": "🇺🇿 Uzbekistan vs 🇨🇴 Colombia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Uzbekistan",
+      "Colombia"
+    ],
+    "teamCodes": [
+      "UZB",
+      "COL"
+    ],
+    "scoreLabel": "🇺🇿 Uzbekistan 1–3 🇨🇴 Colombia",
+    "goals": [
+      {
+        "team": "COL",
+        "player": "Daniel Muñoz",
+        "minute": "41",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "UZB",
+        "player": "Abbosbek Fayzullaev",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Luis Díaz",
+        "minute": "66",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Jáminton Campaz",
+        "minute": "90+9",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "f55597da67f8",
+    "title": "Uzbekistan chance against Colombia 90 +10'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8vy1c/uzbekistan_chance_against_colombia_90_10",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8vy1c/uzbekistan_chance_against_colombia_90_10/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Gentle_lips • 2,412 points and 115 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/sWF3waGwHf0mm1W9lf_seio-etmyiw_UIrYLY1e_Vcc.jpeg?width=140&height=68&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-18T04:02:04Z",
+    "dateSaved": "2026-06-18T13:38:57Z",
+    "matchId": "UZB-COL-2026-06-17",
+    "matchLabel": "🇺🇿 Uzbekistan vs 🇨🇴 Colombia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Uzbekistan",
+      "Colombia"
+    ],
+    "teamCodes": [
+      "UZB",
+      "COL"
+    ],
+    "scoreLabel": "🇺🇿 Uzbekistan 1–3 🇨🇴 Colombia",
+    "goals": [
+      {
+        "team": "COL",
+        "player": "Daniel Muñoz",
+        "minute": "41",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "UZB",
+        "player": "Abbosbek Fayzullaev",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Luis Díaz",
+        "minute": "66",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Jáminton Campaz",
+        "minute": "90+9",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "70bbf25153fb",
+    "title": "Alternate angle of Cucho Hernandez assist for Jaminton Campaz goal against Uzbekistan",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8w1qe/alternate_angle_of_cucho_hernandez_assist_for",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8w1qe/alternate_angle_of_cucho_hernandez_assist_for/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 8,959 points and 230 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/emd1azV5a2J1eTdoMfEyvw6cKXq_R8jTPibc18rTXNG5L8m6djqSYUgm5XmZ.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-18T04:07:33Z",
+    "dateSaved": "2026-06-18T13:39:37Z",
+    "matchId": "UZB-COL-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🇺🇿 Uzbekistan vs 🇨🇴 Colombia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Uzbekistan",
+      "Colombia"
+    ],
+    "teamCodes": [
+      "UZB",
+      "COL"
+    ],
+    "scoreLabel": "🇺🇿 Uzbekistan 1–3 🇨🇴 Colombia",
+    "goals": [
+      {
+        "team": "COL",
+        "player": "Daniel Muñoz",
+        "minute": "41",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "UZB",
+        "player": "Abbosbek Fayzullaev",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Luis Díaz",
+        "minute": "66",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Jáminton Campaz",
+        "minute": "90+9",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [
+      "Goal",
+      "Highlights"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "307a469e2492",
+    "title": "Dozens of cameras focusing on Thomas Tuchel during the national anthem vs Croatia",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8wb3d/dozens_of_cameras_focusing_on_thomas_tuchel",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8wb3d/dozens_of_cameras_focusing_on_thomas_tuchel/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/AgeNovel3566 • 3,409 points and 326 comments",
+    "thumbnailRemoteUrl": "https://preview.redd.it/vh0t2p1rwy7h1.jpg?width=140&height=93&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-18T04:21:07Z",
+    "dateSaved": "2026-06-18T13:40:20Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "73d89bb56f1f",
+    "title": "Cristiano Ronaldo chance against Congo 69'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8igva/cristiano_ronaldo_chance_against_congo_69",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8igva/cristiano_ronaldo_chance_against_congo_69/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 1,458 points and 404 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/Qd5Xs1aV8Ma5-ongMuM9T73j2glHo-WWoddDtnrmxbQ.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T18:32:56Z",
+    "dateSaved": "2026-06-18T13:41:03Z",
+    "matchId": "POR-COD-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🇵🇹 Portugal vs 🇨🇩 DR Congo",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "DR Congo"
+    ],
+    "teamCodes": [
+      "POR",
+      "COD"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 1–1 🇨🇩 DR Congo",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "João Neves",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COD",
+        "player": "Yoane Wissa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "5f52640ff20e",
+    "title": "A Boston city worker said around 2,000 Scotland fans cleaned up after drinking all day and left the area so clean that he didn’t need any help tidying up. (Via NBC10 Boston)",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8jlj0/a_boston_city_worker_said_around_2000_scotland",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8jlj0/a_boston_city_worker_said_around_2000_scotland/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/SimRP • 3,054 points and 202 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/eWZobG4ydTI3dzdoMU7Sg7BEULoK8IdEn7jvG3wanZ2YxzVnsaKJ41MAcSro.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T19:13:42Z",
+    "dateSaved": "2026-06-18T13:41:48Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "186201f2ae77",
+    "title": "Jordan fans watching yesterday's match v Austria at a Roman amphitheatre",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8io2k/jordan_fans_watching_yesterdays_match_v_austria",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8io2k/jordan_fans_watching_yesterdays_match_v_austria/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Mulderre91 • 3,586 points and 97 comments",
+    "thumbnailRemoteUrl": "https://preview.redd.it/rebkmw051w7h1.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T18:40:20Z",
+    "dateSaved": "2026-06-18T13:42:27Z",
+    "matchId": "AUT-JOR-2026-06-16",
+    "matchLabel": "🇦🇹 Austria vs 🇯🇴 Jordan",
+    "matchDate": "2026-06-16",
+    "stage": "Group stage",
+    "group": "J",
+    "teams": [
+      "Austria",
+      "Jordan"
+    ],
+    "teamCodes": [
+      "AUT",
+      "JOR"
+    ],
+    "scoreLabel": "🇦🇹 Austria 3–1 🇯🇴 Jordan",
+    "goals": [
+      {
+        "team": "AUT",
+        "player": "Romano Schmid",
+        "minute": "20",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "JOR",
+        "player": "Ali Olwan",
+        "minute": "50",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "AUT",
+        "player": "Yazan Al-Arab",
+        "minute": "76",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "AUT",
+        "player": "Marko Arnautovic",
+        "minute": "90+12",
+        "ownGoal": false,
+        "penalty": true
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "4c88323188a5",
+    "title": "Dominik Livaković (Croatia) triple save vs England 56'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8n2e5/dominik_livakovi%C4%87_croatia_triple_save_vs_england",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8n2e5/dominik_livakovi%C4%87_croatia_triple_save_vs_england/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Imbasauce • 2,591 points and 163 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/CURuejsS5QEpDtbc13S0CK5RhfECuj7ApnhvwVWb-x4.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617212907/https://www.reddit.com/r/soccer/comments/1u8n2e5/dominik_livakovi%C4%87_croatia_triple_save_vs_england/",
+    "postDate": "2026-06-17T21:22:41Z",
+    "dateSaved": "2026-06-18T13:42:32Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Saves",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "f00dc5304fc0",
+    "title": "Kane blocks a shot from Croatia 90+5'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8o1an/kane_blocks_a_shot_from_croatia_905",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8o1an/kane_blocks_a_shot_from_croatia_905/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Gentle_lips • 3,931 points and 337 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/L4WxOh71qWBfyhOQ2wLDC43q4JTb29mKZn_Gvjut46M.jpeg?width=140&height=67&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T22:00:31Z",
+    "dateSaved": "2026-06-18T13:42:51Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "10117311eacb",
+    "title": "A group of DR Congo fans celebrate Wissa’s goal at a Lisbon fan zone",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8hrdv/a_group_of_dr_congo_fans_celebrate_wissas_goal_at",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8hrdv/a_group_of_dr_congo_fans_celebrate_wissas_goal_at/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/A15CX • 9,068 points and 211 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/OGdzN2h5Yzh2djdoMdlXrxril7_N8hhb9E1UcZsV8kQ4yR8rxXRxKiC4GCxW.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617181805/https://www.reddit.com/r/soccer/comments/1u8hrdv/a_group_of_dr_congo_fans_celebrate_wissas_goal_at/",
+    "postDate": "2026-06-17T18:07:20Z",
+    "dateSaved": "2026-06-18T13:42:55Z",
+    "matchId": "POR-COD-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🇵🇹 Portugal vs 🇨🇩 DR Congo",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "DR Congo"
+    ],
+    "teamCodes": [
+      "POR",
+      "COD"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 1–1 🇨🇩 DR Congo",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "João Neves",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COD",
+        "player": "Yoane Wissa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "d6e3f675f676",
+    "title": "Ivan Perisic great leapfrog celebration after Croatia equalizer against England",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8mhno/ivan_perisic_great_leapfrog_celebration_after",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8mhno/ivan_perisic_great_leapfrog_celebration_after/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ImPeterKe • 5,652 points and 83 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/ZDNmdG43eDdxdzdoMXYSwFF19JhkGa9r8wBySlhRYyLPjTS27WBIKnIh-agr.png?width=140&height=81&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T21:00:55Z",
+    "dateSaved": "2026-06-18T13:43:38Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "217d71a1977f",
+    "title": "Bruno Fernandes' reaction to Cristiano Ronaldo's missed chance",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8ikew/bruno_fernandes_reaction_to_cristiano_ronaldos",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8ikew/bruno_fernandes_reaction_to_cristiano_ronaldos/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/OptimusCloyster • 12,287 points and 947 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/MXUwZ3QzZ2cwdzdoMdJiD1z3ybcJ2WYNE9XwMmWKnlqZbq-8JGRiUG7ZQSOH.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617213121/https://www.reddit.com/r/soccer/comments/1u8ikew/bruno_fernandes_reaction_to_cristiano_ronaldos/",
+    "postDate": "2026-06-17T18:36:34Z",
+    "dateSaved": "2026-06-18T13:43:43Z",
+    "matchId": "POR-COD-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🇵🇹 Portugal vs 🇨🇩 DR Congo",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "DR Congo"
+    ],
+    "teamCodes": [
+      "POR",
+      "COD"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 1–1 🇨🇩 DR Congo",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "João Neves",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COD",
+        "player": "Yoane Wissa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights",
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "2d9343e8aa49",
+    "title": "[WC2026 Day 7] All Goals with Scoring Nation Commentary",
+    "url": "https://www.reddit.com/r/soccer/comments/1u91svb/wc2026_day_7_all_goals_with_scoring_nation",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u91svb/wc2026_day_7_all_goals_with_scoring_nation/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "HEADPHONE WARNING for DRC goal! Video is longer than normal, sorry... but I couldn't bring myself to interrupt the Colombian commentator",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/N3EzYTl0ZXVmMDhoMcS-qZ6EuzTP2dE3H1GY4dTppXlju8AhBKQzeCyuAV6U.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-18T09:42:03Z",
+    "dateSaved": "2026-06-18T13:43:56Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "dd65ed292783",
+    "title": "England 1 - [1] Croatia - M. Baturina 36'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8lw85/england_1_1_croatia_m_baturina_36",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8lw85/england_1_1_croatia_m_baturina_36/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 3,038 points and 345 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/DzRlQG0klV5W3cRGzdwkKWznuuKPeMJjDQh_x_7LWc0.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617205522/https://www.reddit.com/r/soccer/comments/1u8lw85/england_1_1_croatia_m_baturina_36/",
+    "postDate": "2026-06-17T20:38:05Z",
+    "dateSaved": "2026-06-19T07:25:47Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "5818b4b54cbe",
+    "title": "England 2 - [2] Croatia - P. Musa 45+5'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8m7um/england_2_2_croatia_p_musa_455",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8m7um/england_2_2_croatia_p_musa_455/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 6,656 points and 1,125 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/zfud_DdeRAiCzVQ4kLhvuUocNCxx3Wpr9OpI75UUYHk.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617205724/https://www.reddit.com/r/soccer/comments/1u8m7um/england_2_2_croatia_p_musa_455/",
+    "postDate": "2026-06-17T20:50:29Z",
+    "dateSaved": "2026-06-19T07:25:53Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "b45c76226461",
+    "title": "England [4] - 2 Croatia - Marcus Rashford 85'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8nrj9/england_4_2_croatia_marcus_rashford_85",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8nrj9/england_4_2_croatia_marcus_rashford_85/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/50lipaa • 6,195 points and 825 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/b45c76226461.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617215820/https://www.reddit.com/r/soccer/comments/1u8nrj9/england_4_2_croatia_marcus_rashford_85/",
+    "postDate": "2026-06-17T21:49:46Z",
+    "dateSaved": "2026-06-19T07:25:58Z",
+    "matchId": "ENG-CRO-2026-06-17",
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "ENG",
+      "CRO"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 4–2 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "c5ab5f110e04",
+    "title": "Uzbekistan 0-1 Colombia - Daniel Muñoz 41'",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8ub11/uzbekistan_01_colombia_daniel_mu%C3%B1oz_41",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8ub11/uzbekistan_01_colombia_daniel_mu%C3%B1oz_41/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 1,358 points and 152 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/c5ab5f110e04.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260619072607/https://www.reddit.com/r/soccer/comments/1u8ub11/uzbekistan_01_colombia_daniel_mu%C3%B1oz_41/?solution=4c5f54bfa896b7054c5f54bfa896b705&js_challenge=1&token=7afd7253fec22262ff1c52b1703fe9eca2e332092590a9b71c4b8349e3a48c11&jsc_orig_r=",
+    "postDate": "2026-06-18T02:40:21Z",
+    "dateSaved": "2026-06-19T07:26:28Z",
+    "matchId": "UZB-COL-2026-06-17",
+    "matchLabel": "🇺🇿 Uzbekistan vs 🇨🇴 Colombia",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Uzbekistan",
+      "Colombia"
+    ],
+    "teamCodes": [
+      "UZB",
+      "COL"
+    ],
+    "scoreLabel": "🇺🇿 Uzbekistan 1–3 🇨🇴 Colombia",
+    "goals": [
+      {
+        "team": "COL",
+        "player": "Daniel Muñoz",
+        "minute": "41",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "UZB",
+        "player": "Abbosbek Fayzullaev",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Luis Díaz",
+        "minute": "66",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Jáminton Campaz",
+        "minute": "90+9",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "24b32cc173f3",
+    "title": "Australian World Cup fans were caught chanting: “Aussie boys are on a bender, Donald Trump is a sex offender.\"",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8qjvz/australian_world_cup_fans_were_caught_chanting",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8qjvz/australian_world_cup_fans_were_caught_chanting/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/SimRP • 20,276 points and 464 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/OHNkZWJlMHBqeDdoMWPTTi76mN7UgxleiP6NMi6vwiGBAOe-coy69DpbDHML.png?width=140&height=103&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260618051920/https://www.reddit.com/r/soccer/comments/1u8qjvz/australian_world_cup_fans_were_caught_chanting/",
+    "postDate": "2026-06-17T23:46:14Z",
+    "dateSaved": "2026-06-19T07:28:47Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "3773e3c283bf",
+    "title": "Scenes in Kinshasa after DR Congo scored their first ever World Cup goal",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8jnos/scenes_in_kinshasa_after_dr_congo_scored_their",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8jnos/scenes_in_kinshasa_after_dr_congo_scored_their/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ExpirjTec • 2,472 points and 57 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NDZmOGNhNmc3dzdoMbwLmLRCnC-SqYPMrY6T9QaPNN6dr5OU074WjhMynz1V.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-17T19:15:46Z",
+    "dateSaved": "2026-06-19T07:29:27Z",
+    "matchId": "POR-COD-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🇵🇹 Portugal vs 🇨🇩 DR Congo",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "DR Congo"
+    ],
+    "teamCodes": [
+      "POR",
+      "COD"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 1–1 🇨🇩 DR Congo",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "João Neves",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COD",
+        "player": "Yoane Wissa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e16d014a1ca1",
+    "title": "Unbelievable scenes in DR Congo after their draw against Portugal",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8mjrs/unbelievable_scenes_in_dr_congo_after_their_draw",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8mjrs/unbelievable_scenes_in_dr_congo_after_their_draw/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/SimRP • 4,130 points and 82 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/Zm1sMHQ4MmxxdzdoMR02XYzSbqEb58brHEb3luGWJutUwBVG8OgAWn4nv5o9.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617212919/https://www.reddit.com/r/soccer/comments/1u8mjrs/unbelievable_scenes_in_dr_congo_after_their_draw/",
+    "postDate": "2026-06-17T21:03:01Z",
+    "dateSaved": "2026-06-19T07:29:31Z",
+    "matchId": "POR-COD-2026-06-17",
+    "matchLabel": "🇵🇹 Portugal vs 🇨🇩 DR Congo",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "DR Congo"
+    ],
+    "teamCodes": [
+      "POR",
+      "COD"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 1–1 🇨🇩 DR Congo",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "João Neves",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COD",
+        "player": "Yoane Wissa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "87f47e99ed57",
+    "title": "DR Congo fans chanting “MESSI! MESSI! MESSI!” in front of Cristiano Ronaldo",
+    "url": "https://www.reddit.com/r/soccer/comments/1u8lq9h/dr_congo_fans_chanting_messi_messi_messi_in_front",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1u8lq9h/dr_congo_fans_chanting_messi_messi_messi_in_front/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/KramerDwight • 7,952 points and 387 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/MmZ6bHZqNDBsdzdoMdt-Pgx1dgCsSVuWP0hCNOUNmHnB8C7rZmSrGdsA9EWl.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260617214311/https://www.reddit.com/r/soccer/comments/1u8lq9h/dr_congo_fans_chanting_messi_messi_messi_in_front/",
+    "postDate": "2026-06-17T20:31:49Z",
+    "dateSaved": "2026-06-19T07:29:36Z",
+    "matchId": "POR-COD-2026-06-17",
+    "matchLocked": true,
+    "matchLabel": "🇵🇹 Portugal vs 🇨🇩 DR Congo",
+    "matchDate": "2026-06-17",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "DR Congo"
+    ],
+    "teamCodes": [
+      "POR",
+      "COD"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 1–1 🇨🇩 DR Congo",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "João Neves",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COD",
+        "player": "Yoane Wissa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]

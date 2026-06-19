@@ -867,7 +867,7 @@
     "group": "K",
     "round": null,
     "kickoffUtc": "2026-06-17T17:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Portugal",
       "code": "POR",
@@ -878,11 +878,17 @@
       "code": "COD",
       "flag": "🇨🇩"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 1 },
+    "goals": [
+      { "team": "POR", "player": "João Neves", "minute": "5", "ownGoal": false, "penalty": false },
+      { "team": "COD", "player": "Yoane Wissa", "minute": "45+5", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Houston",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u8g4nd/portugal_1_0_dr_congo_neves_j_goal_5/",
+      "https://www.reddit.com/r/soccer/comments/1u8haw8/portugal_1_1_dr_congo_wissa_y_goal_49/"
+    ],
+    "lastUpdated": "2026-06-18T00:00:00Z"
   },
   {
     "matchId": "ENG-CRO-2026-06-17",
@@ -890,7 +896,7 @@
     "group": "L",
     "round": null,
     "kickoffUtc": "2026-06-17T20:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "England",
       "code": "ENG",
@@ -901,11 +907,25 @@
       "code": "CRO",
       "flag": "🇭🇷"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 4, "away": 2 },
+    "goals": [
+      { "team": "ENG", "player": "Harry Kane", "minute": "12", "ownGoal": false, "penalty": true },
+      { "team": "CRO", "player": "Martin Baturina", "minute": "36", "ownGoal": false, "penalty": false },
+      { "team": "ENG", "player": "Harry Kane", "minute": "42", "ownGoal": false, "penalty": false },
+      { "team": "CRO", "player": "Petar Musa", "minute": "45+5", "ownGoal": false, "penalty": false },
+      { "team": "ENG", "player": "Jude Bellingham", "minute": "47", "ownGoal": false, "penalty": false },
+      { "team": "ENG", "player": "Marcus Rashford", "minute": "85", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Dallas (Arlington)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u8l6sc/england_1_0_croatia_harry_kane_12/",
+      "https://www.reddit.com/r/soccer/comments/1u8lw85/england_1_1_croatia_m_baturina_36/",
+      "https://www.reddit.com/r/soccer/comments/1u8m093/england_2_1_croatia_h_kane_42/",
+      "https://www.reddit.com/r/soccer/comments/1u8m7um/england_2_2_croatia_p_musa_455/",
+      "https://www.reddit.com/r/soccer/comments/1u8mrry/england_3_2_croatia_jude_bellingham_47/",
+      "https://www.reddit.com/r/soccer/comments/1u8nrj9/england_4_2_croatia_marcus_rashford_85/"
+    ],
+    "lastUpdated": "2026-06-18T00:00:00Z"
   },
   {
     "matchId": "GHA-PAN-2026-06-17",
@@ -913,7 +933,7 @@
     "group": "L",
     "round": null,
     "kickoffUtc": "2026-06-17T23:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Ghana",
       "code": "GHA",
@@ -924,11 +944,15 @@
       "code": "PAN",
       "flag": "🇵🇦"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 0 },
+    "goals": [
+      { "team": "GHA", "player": "Caleb Yirenkyi", "minute": "90+5", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Toronto",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u8s36x/ghana_1_0_panama_c_yirenkyi_905/"
+    ],
+    "lastUpdated": "2026-06-18T00:00:00Z"
   },
   {
     "matchId": "UZB-COL-2026-06-17",
@@ -936,7 +960,7 @@
     "group": "K",
     "round": null,
     "kickoffUtc": "2026-06-18T02:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Uzbekistan",
       "code": "UZB",
@@ -947,11 +971,21 @@
       "code": "COL",
       "flag": "🇨🇴"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 3 },
+    "goals": [
+      { "team": "COL", "player": "Daniel Muñoz", "minute": "41", "ownGoal": false, "penalty": false },
+      { "team": "UZB", "player": "Abbosbek Fayzullaev", "minute": "60", "ownGoal": false, "penalty": false },
+      { "team": "COL", "player": "Luis Díaz", "minute": "66", "ownGoal": false, "penalty": false },
+      { "team": "COL", "player": "Jáminton Campaz", "minute": "90+9", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Mexico City",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1u8ub11/uzbekistan_01_colombia_daniel_mu%C3%B1oz_41/",
+      "https://www.reddit.com/r/soccer/comments/1u8v5cg/uzbekistan_11_colombia_abbosbek_fayzullaev_60/",
+      "https://www.reddit.com/r/soccer/comments/1u8v91e/uzbekistan_12_colombia_luis_d%C3%ADaz_66/",
+      "https://www.reddit.com/r/soccer/comments/1u8vvz6/uzbekistan_13_colombia_jaminton_campaz_909/"
+    ],
+    "lastUpdated": "2026-06-18T00:00:00Z"
   },
   {
     "matchId": "CZE-RSA-2026-06-18",
