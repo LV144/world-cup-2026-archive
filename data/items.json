@@ -12958,11 +12958,11 @@
     ],
     "candidateMatches": [],
     "type": [],
-    "tags": [
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [
       "Vibes"
     ],
-    "pinnedTags": [],
-    "suppressedTags": [],
     "importance": null,
     "note": "",
     "backup": "",
