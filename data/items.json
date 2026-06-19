@@ -13278,15 +13278,64 @@
     "archivedUrl": "https://web.archive.org/web/20260619064019/https://www.reddit.com/r/soccer/comments/1u9ny6i/lopetegui_and_marsch_having_a_quarrel/",
     "postDate": "2026-06-19T01:04:26Z",
     "dateSaved": "2026-06-19T09:15:09Z",
-    "matchId": null,
-    "matchLabel": null,
-    "matchDate": null,
-    "stage": null,
-    "group": null,
-    "teams": [],
-    "teamCodes": [],
-    "scoreLabel": null,
-    "goals": [],
+    "matchId": "CAN-QAT-2026-06-18",
+    "matchLabel": "🇨🇦 Canada vs 🇶🇦 Qatar",
+    "matchDate": "2026-06-18",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Canada",
+      "Qatar"
+    ],
+    "teamCodes": [
+      "CAN",
+      "QAT"
+    ],
+    "scoreLabel": "🇨🇦 Canada 6–0 🇶🇦 Qatar",
+    "goals": [
+      {
+        "team": "CAN",
+        "player": "Cyle Larin",
+        "minute": "16",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Jonathan David",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Jonathan David",
+        "minute": "45+3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Nathan Saliba",
+        "minute": "64",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Mohammad Al Manai",
+        "minute": "75",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Jonathan David",
+        "minute": "90+2",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
     "candidateMatches": [],
     "type": [],
     "tags": [],
@@ -13296,12 +13345,13 @@
     "note": "",
     "backup": "",
     "metadataConfidence": {
-      "match": 0,
-      "teams": 0,
-      "stage": 0,
-      "score": 0
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
     },
-    "needsReview": false
+    "needsReview": false,
+    "matchLocked": false
   },
   {
     "id": "24076005320b",
