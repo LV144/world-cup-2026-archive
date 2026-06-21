@@ -1213,7 +1213,7 @@
     "group": "F",
     "round": null,
     "kickoffUtc": "2026-06-20T17:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Netherlands",
       "code": "NED",
@@ -1224,11 +1224,20 @@
       "code": "SWE",
       "flag": "🇸🇪"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 5, "away": 1 },
+    "goals": [
+      { "team": "NED", "player": "Brian Brobbey", "minute": "5", "ownGoal": false, "penalty": false },
+      { "team": "NED", "player": "Brian Brobbey", "minute": "17", "ownGoal": false, "penalty": false },
+      { "team": "NED", "player": "Cody Gakpo", "minute": "47", "ownGoal": false, "penalty": false },
+      { "team": "NED", "player": "Cody Gakpo", "minute": "54", "ownGoal": false, "penalty": false },
+      { "team": "SWE", "player": "Anthony Elanga", "minute": "59", "ownGoal": false, "penalty": false },
+      { "team": "NED", "player": "Crysencio Summerville", "minute": "89", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Houston",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ub4b8e/netherlands_5_1_sweden_summerville_c_goal_89/"
+    ],
+    "lastUpdated": "2026-06-21T00:00:00Z"
   },
   {
     "matchId": "GER-CIV-2026-06-20",
@@ -1236,7 +1245,7 @@
     "group": "E",
     "round": null,
     "kickoffUtc": "2026-06-20T20:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Germany",
       "code": "GER",
@@ -1247,11 +1256,19 @@
       "code": "CIV",
       "flag": "🇨🇮"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 2, "away": 1 },
+    "goals": [
+      { "team": "CIV", "player": "Franck Kessie", "minute": "29", "ownGoal": false, "penalty": false },
+      { "team": "GER", "player": "Deniz Undav", "minute": "68", "ownGoal": false, "penalty": false },
+      { "team": "GER", "player": "Deniz Undav", "minute": "90+3", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Toronto",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ub6oqi/germany_0_1_ivory_coast_kessie_f_goal_29/",
+      "https://www.reddit.com/r/soccer/comments/1ub83n6/germany_1_1_ivory_coast_d_undav_68/",
+      "https://www.reddit.com/r/soccer/comments/1ub8oc9/germany_2_1_ivory_coast_d_undav_903/"
+    ],
+    "lastUpdated": "2026-06-21T00:00:00Z"
   },
   {
     "matchId": "ECU-CUW-2026-06-20",
@@ -1259,7 +1276,7 @@
     "group": "E",
     "round": null,
     "kickoffUtc": "2026-06-21T00:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Ecuador",
       "code": "ECU",
@@ -1270,11 +1287,13 @@
       "code": "CUW",
       "flag": "🇨🇼"
     },
-    "score": null,
+    "score": { "home": 0, "away": 0 },
     "goals": [],
     "venue": "Kansas City",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ubdrjp/scenes_as_curacao_earns_its_first_ever_world_cup/"
+    ],
+    "lastUpdated": "2026-06-21T00:00:00Z"
   },
   {
     "matchId": "TUN-JPN-2026-06-20",
@@ -1282,7 +1301,7 @@
     "group": "F",
     "round": null,
     "kickoffUtc": "2026-06-21T04:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Tunisia",
       "code": "TUN",
@@ -1293,11 +1312,20 @@
       "code": "JPN",
       "flag": "🇯🇵"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 0, "away": 4 },
+    "goals": [
+      { "team": "JPN", "player": "Daichi Kamada", "minute": "4", "ownGoal": false, "penalty": false },
+      { "team": "JPN", "player": "Ayase Ueda", "minute": "31", "ownGoal": false, "penalty": false },
+      { "team": "JPN", "player": "Junya Ito", "minute": "69", "ownGoal": false, "penalty": false },
+      { "team": "JPN", "player": "Ayase Ueda", "minute": "83", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Monterrey (Guadalupe)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ubglxk/tunisia_0_2_japan_a_ueda_31/",
+      "https://www.reddit.com/r/soccer/comments/1ubhn60/tunisia_0_3_japan_j_ito_69/",
+      "https://www.reddit.com/r/soccer/comments/1ubhwnq/tunisia_0_4_japan_a_ueda_83/"
+    ],
+    "lastUpdated": "2026-06-21T00:00:00Z"
   },
   {
     "matchId": "ESP-KSA-2026-06-21",
@@ -1305,7 +1333,7 @@
     "group": "H",
     "round": null,
     "kickoffUtc": "2026-06-21T16:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Spain",
       "code": "ESP",
@@ -1316,11 +1344,21 @@
       "code": "KSA",
       "flag": "🇸🇦"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 4, "away": 0 },
+    "goals": [
+      { "team": "ESP", "player": "Lamine Yamal", "minute": "10", "ownGoal": false, "penalty": false },
+      { "team": "ESP", "player": "Mikel Oyarzabal", "minute": "21", "ownGoal": false, "penalty": false },
+      { "team": "ESP", "player": "Mikel Oyarzabal", "minute": "22", "ownGoal": false, "penalty": false },
+      { "team": "KSA", "player": "Hassan Altambakti", "minute": "48", "ownGoal": true, "penalty": false }
+    ],
     "venue": "Atlanta",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ubtxtp/spain_1_0_saudi_arabia_lamine_yamal_goal_10/",
+      "https://www.reddit.com/r/soccer/comments/1ubu76o/spain_2_0_saudi_arabia_mikel_oyarzabal_21/",
+      "https://www.reddit.com/r/soccer/comments/1ubu9ak/spain_3_0_saudi_arabia_mikel_oyarzabal_goal_22/",
+      "https://www.reddit.com/r/soccer/comments/1ubvif8/spain_4_0_saudi_arabia_hassan_altambakti_owngoal/"
+    ],
+    "lastUpdated": "2026-06-21T00:00:00Z"
   },
   {
     "matchId": "BEL-IRN-2026-06-21",
@@ -1328,7 +1366,7 @@
     "group": "G",
     "round": null,
     "kickoffUtc": "2026-06-21T19:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Belgium",
       "code": "BEL",
@@ -1339,11 +1377,15 @@
       "code": "IRN",
       "flag": "🇮🇷"
     },
-    "score": null,
+    "score": { "home": 0, "away": 0 },
     "goals": [],
     "venue": "Los Angeles (Inglewood)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uc0fmi/n_ngoy_red_card_against_iran_66/",
+      "https://www.reddit.com/r/soccer/comments/1ubyx0u/mehdi_taremi_disallowed_goal_against_belgium_25/",
+      "https://www.reddit.com/r/soccer/comments/1uc0cun/alternate_angles_of_alireza_beiranvands/"
+    ],
+    "lastUpdated": "2026-06-21T00:00:00Z"
   },
   {
     "matchId": "URU-CPV-2026-06-21",
