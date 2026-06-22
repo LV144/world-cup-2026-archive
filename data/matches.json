@@ -1393,7 +1393,7 @@
     "group": "H",
     "round": null,
     "kickoffUtc": "2026-06-21T22:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Uruguay",
       "code": "URU",
@@ -1404,11 +1404,21 @@
       "code": "CPV",
       "flag": "🇨🇻"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 2, "away": 2 },
+    "goals": [
+      { "team": "CPV", "player": "Kevin Pina", "minute": "21", "ownGoal": false, "penalty": false },
+      { "team": "URU", "player": "Maxi Araújo", "minute": "44", "ownGoal": false, "penalty": false },
+      { "team": "URU", "player": "Agustín Canobbio", "minute": "45+6", "ownGoal": false, "penalty": false },
+      { "team": "CPV", "player": "Hélio Varela", "minute": "61", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Miami (Miami Gardens)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uc30ht/uruguay_0_1_cape_verde_kevin_pina_21/",
+      "https://www.reddit.com/r/soccer/comments/1uc3is1/uruguay_1_1_cape_verde_m_ara%C3%BAjo_44/",
+      "https://www.reddit.com/r/soccer/comments/1uc3o98/uruguay_2_1_cape_verde_a_canobbio_455/",
+      "https://www.reddit.com/r/soccer/comments/1uc4fzr/uruguay_2_2_cape_verde_h%C3%A9lio_varela_61/"
+    ],
+    "lastUpdated": "2026-06-22T00:00:00Z"
   },
   {
     "matchId": "NZL-EGY-2026-06-21",
@@ -1416,7 +1426,7 @@
     "group": "G",
     "round": null,
     "kickoffUtc": "2026-06-22T01:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "New Zealand",
       "code": "NZL",
@@ -1427,11 +1437,21 @@
       "code": "EGY",
       "flag": "🇪🇬"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 3 },
+    "goals": [
+      { "team": "NZL", "player": "Finn Surman", "minute": "15", "ownGoal": false, "penalty": false },
+      { "team": "EGY", "player": "Mostafa Zico", "minute": "58", "ownGoal": false, "penalty": false },
+      { "team": "EGY", "player": "Mohamed Salah", "minute": "67", "ownGoal": false, "penalty": false },
+      { "team": "EGY", "player": "Trézéguet", "minute": "82", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Vancouver",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uc6rsc/new_zealand_1_0_egypt_f_surman_15/",
+      "https://www.reddit.com/r/soccer/comments/1uc835y/new_zealand_1_1_egypt_zico_58/",
+      "https://www.reddit.com/r/soccer/comments/1uc8a00/new_zealand_1_2_egypt_mohamed_salah_67/",
+      "https://www.reddit.com/r/soccer/comments/1uc8kqp/new_zealand_1_3_egypt_mahmoud_trezeguet_82/"
+    ],
+    "lastUpdated": "2026-06-22T00:00:00Z"
   },
   {
     "matchId": "ARG-AUT-2026-06-22",

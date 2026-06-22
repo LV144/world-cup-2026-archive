@@ -15238,5 +15238,954 @@
       "score": 1
     },
     "needsReview": false
+  },
+  {
+    "id": "771667afbf2b",
+    "title": "Uruguay [1] - 1 Cape Verde - M. Araújo 44'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc3is1/uruguay_1_1_cape_verde_m_ara%C3%BAjo_44",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc3is1/uruguay_1_1_cape_verde_m_ara%C3%BAjo_44/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 774 points and 275 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/771667afbf2b.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-21T22:43:46Z",
+    "dateSaved": "2026-06-22T10:58:38Z",
+    "matchId": "URU-CPV-2026-06-21",
+    "matchLabel": "🇺🇾 Uruguay vs 🇨🇻 Cape Verde",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Cape Verde"
+    ],
+    "teamCodes": [
+      "URU",
+      "CPV"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 2–2 🇨🇻 Cape Verde",
+    "goals": [
+      {
+        "team": "CPV",
+        "player": "Kevin Pina",
+        "minute": "21",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Maxi Araújo",
+        "minute": "44",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Agustín Canobbio",
+        "minute": "45+6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CPV",
+        "player": "Hélio Varela",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "8cda6ac4e2e0",
+    "title": "Uruguay [2] - 1 Cape Verde - A. Canobbio 45+5'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc3o98/uruguay_2_1_cape_verde_a_canobbio_455",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc3o98/uruguay_2_1_cape_verde_a_canobbio_455/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 596 points and 283 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/8cda6ac4e2e0.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260621231228/https://www.reddit.com/r/soccer/comments/1uc3o98/uruguay_2_1_cape_verde_a_canobbio_455/",
+    "postDate": "2026-06-21T22:50:45Z",
+    "dateSaved": "2026-06-22T10:58:44Z",
+    "matchId": "URU-CPV-2026-06-21",
+    "matchLabel": "🇺🇾 Uruguay vs 🇨🇻 Cape Verde",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Cape Verde"
+    ],
+    "teamCodes": [
+      "URU",
+      "CPV"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 2–2 🇨🇻 Cape Verde",
+    "goals": [
+      {
+        "team": "CPV",
+        "player": "Kevin Pina",
+        "minute": "21",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Maxi Araújo",
+        "minute": "44",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Agustín Canobbio",
+        "minute": "45+6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CPV",
+        "player": "Hélio Varela",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "fe44c85f34ba",
+    "title": "New Zealand [1] - 0 Egypt - F. Surman 15'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc6rsc/new_zealand_1_0_egypt_f_surman_15",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc6rsc/new_zealand_1_0_egypt_f_surman_15/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 1,867 points and 249 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/fe44c85f34ba.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-22T01:14:49Z",
+    "dateSaved": "2026-06-22T10:58:55Z",
+    "matchId": "NZL-EGY-2026-06-21",
+    "matchLabel": "🇳🇿 New Zealand vs 🇪🇬 Egypt",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Egypt"
+    ],
+    "teamCodes": [
+      "NZL",
+      "EGY"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–3 🇪🇬 Egypt",
+    "goals": [
+      {
+        "team": "NZL",
+        "player": "Finn Surman",
+        "minute": "15",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mostafa Zico",
+        "minute": "58",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mohamed Salah",
+        "minute": "67",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Trézéguet",
+        "minute": "82",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "691c98c1e1fc",
+    "title": "New Zealand 1 - [1] Egypt - Zico 58‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc835y/new_zealand_1_1_egypt_zico_58",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc835y/new_zealand_1_1_egypt_zico_58/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 489 points and 94 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/691c98c1e1fc.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-22T02:18:38Z",
+    "dateSaved": "2026-06-22T10:59:05Z",
+    "matchId": "NZL-EGY-2026-06-21",
+    "matchLabel": "🇳🇿 New Zealand vs 🇪🇬 Egypt",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Egypt"
+    ],
+    "teamCodes": [
+      "NZL",
+      "EGY"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–3 🇪🇬 Egypt",
+    "goals": [
+      {
+        "team": "NZL",
+        "player": "Finn Surman",
+        "minute": "15",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mostafa Zico",
+        "minute": "58",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mohamed Salah",
+        "minute": "67",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Trézéguet",
+        "minute": "82",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "64b11625814b",
+    "title": "New Zealand 1 - [3] Egypt - Mahmoud Trezeguet 82‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc8kqp/new_zealand_1_3_egypt_mahmoud_trezeguet_82",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc8kqp/new_zealand_1_3_egypt_mahmoud_trezeguet_82/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 863 points and 219 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/64b11625814b.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-22T02:41:57Z",
+    "dateSaved": "2026-06-22T10:59:20Z",
+    "matchId": "NZL-EGY-2026-06-21",
+    "matchLabel": "🇳🇿 New Zealand vs 🇪🇬 Egypt",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Egypt"
+    ],
+    "teamCodes": [
+      "NZL",
+      "EGY"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–3 🇪🇬 Egypt",
+    "goals": [
+      {
+        "team": "NZL",
+        "player": "Finn Surman",
+        "minute": "15",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mostafa Zico",
+        "minute": "58",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mohamed Salah",
+        "minute": "67",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Trézéguet",
+        "minute": "82",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "a7d5a4180f14",
+    "title": "Cape Verdean fans celebrating outside Miami Stadium",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc5tnq/cape_verdean_fans_celebrating_outside_miami",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc5tnq/cape_verdean_fans_celebrating_outside_miami/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/elbenji • 1,605 points and 48 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/dWthYTZ0a29hcThoMVkuC5TSzrgmeG0PMoq5zo5tpHd-bvIe2SiATVsOamD2.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-22T00:29:41Z",
+    "dateSaved": "2026-06-22T10:59:30Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "d583b1fda1ef",
+    "title": "Uruguay offside review x cape verde",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc4wuh/uruguay_offside_review_x_cape_verde",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc4wuh/uruguay_offside_review_x_cape_verde/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/galocarjun • 2,603 points and 178 comments",
+    "thumbnailRemoteUrl": "https://preview.redd.it/klv5e19l3q8h1.jpeg?width=140&height=64&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-21T23:47:31Z",
+    "dateSaved": "2026-06-22T10:59:42Z",
+    "matchId": "URU-CPV-2026-06-21",
+    "matchLabel": "🇺🇾 Uruguay vs 🇨🇻 Cape Verde",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Cape Verde"
+    ],
+    "teamCodes": [
+      "URU",
+      "CPV"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 2–2 🇨🇻 Cape Verde",
+    "goals": [
+      {
+        "team": "CPV",
+        "player": "Kevin Pina",
+        "minute": "21",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Maxi Araújo",
+        "minute": "44",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Agustín Canobbio",
+        "minute": "45+6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CPV",
+        "player": "Hélio Varela",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "8dfa247d9d83",
+    "title": "Alternate angles of Kevin Lenini's goal against Uruguay",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc3bz7/alternate_angles_of_kevin_leninis_goal_against",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc3bz7/alternate_angles_of_kevin_leninis_goal_against/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 4,870 points and 171 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/M2d4Z3EzdW5xcDhoMTXhxTwNM9HvCeIuYM0XdL74pc6kiA7u018jB0Syslya.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-21T22:35:10Z",
+    "dateSaved": "2026-06-22T10:59:50Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [
+      "Uruguay"
+    ],
+    "teamCodes": [
+      "URU"
+    ],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [
+      {
+        "matchId": "URU-CPV-2026-06-21",
+        "matchLabel": "🇺🇾 Uruguay vs 🇨🇻 Cape Verde",
+        "stage": "Group stage",
+        "group": "H",
+        "kickoffUtc": "2026-06-21T22:00:00Z",
+        "confidence": 0.6,
+        "reason": "one team + date/stage narrows to one fixture"
+      }
+    ],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0.6,
+      "teams": 0.5,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": true
+  },
+  {
+    "id": "a5edbc59912c",
+    "title": "Scenes after full time whistle as the match between Uruguay and Cape Verde ends in a 2-2 draw",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc5hyh/scenes_after_full_time_whistle_as_the_match",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc5hyh/scenes_after_full_time_whistle_as_the_match/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 7,641 points and 318 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/c3V2b28yeHI3cThoMXkopFkBU0IUbk3ARXb5SQfoJxFibRglsEoYiqupzwKh.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-22T00:14:28Z",
+    "dateSaved": "2026-06-22T11:00:01Z",
+    "matchId": "URU-CPV-2026-06-21",
+    "matchLabel": "🇺🇾 Uruguay vs 🇨🇻 Cape Verde",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Cape Verde"
+    ],
+    "teamCodes": [
+      "URU",
+      "CPV"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 2–2 🇨🇻 Cape Verde",
+    "goals": [
+      {
+        "team": "CPV",
+        "player": "Kevin Pina",
+        "minute": "21",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Maxi Araújo",
+        "minute": "44",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Agustín Canobbio",
+        "minute": "45+6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CPV",
+        "player": "Hélio Varela",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "8892dbc84619",
+    "title": "Uruguay 0 - [1] Cape Verde - Kevin Pina 21'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc30ht/uruguay_0_1_cape_verde_kevin_pina_21",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc30ht/uruguay_0_1_cape_verde_kevin_pina_21/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 13,329 points and 788 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/8892dbc84619.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-21T22:21:07Z",
+    "dateSaved": "2026-06-22T11:00:43Z",
+    "matchId": "URU-CPV-2026-06-21",
+    "matchLabel": "🇺🇾 Uruguay vs 🇨🇻 Cape Verde",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Cape Verde"
+    ],
+    "teamCodes": [
+      "URU",
+      "CPV"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 2–2 🇨🇻 Cape Verde",
+    "goals": [
+      {
+        "team": "CPV",
+        "player": "Kevin Pina",
+        "minute": "21",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Maxi Araújo",
+        "minute": "44",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Agustín Canobbio",
+        "minute": "45+6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CPV",
+        "player": "Hélio Varela",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e4e939cf2a34",
+    "title": "Uruguay 2 - [2] Cape Verde - Hélio Varela 61'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc4fzr/uruguay_2_2_cape_verde_h%C3%A9lio_varela_61",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc4fzr/uruguay_2_2_cape_verde_h%C3%A9lio_varela_61/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 8,528 points and 599 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/e4e939cf2a34.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260621233445/https://www.reddit.com/r/soccer/comments/1uc4fzr/uruguay_2_2_cape_verde_h%C3%A9lio_varela_61/",
+    "postDate": "2026-06-21T23:26:00Z",
+    "dateSaved": "2026-06-22T11:00:46Z",
+    "matchId": "URU-CPV-2026-06-21",
+    "matchLabel": "🇺🇾 Uruguay vs 🇨🇻 Cape Verde",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Cape Verde"
+    ],
+    "teamCodes": [
+      "URU",
+      "CPV"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 2–2 🇨🇻 Cape Verde",
+    "goals": [
+      {
+        "team": "CPV",
+        "player": "Kevin Pina",
+        "minute": "21",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Maxi Araújo",
+        "minute": "44",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Agustín Canobbio",
+        "minute": "45+6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CPV",
+        "player": "Hélio Varela",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e8066ed32fd9",
+    "title": "New Zealand 1 - [2] Egypt - Mohamed Salah 67‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc8a00/new_zealand_1_2_egypt_mohamed_salah_67",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc8a00/new_zealand_1_2_egypt_mohamed_salah_67/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 2,999 points and 421 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/e8066ed32fd9.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-22T02:27:31Z",
+    "dateSaved": "2026-06-22T11:00:59Z",
+    "matchId": "NZL-EGY-2026-06-21",
+    "matchLabel": "🇳🇿 New Zealand vs 🇪🇬 Egypt",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Egypt"
+    ],
+    "teamCodes": [
+      "NZL",
+      "EGY"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–3 🇪🇬 Egypt",
+    "goals": [
+      {
+        "team": "NZL",
+        "player": "Finn Surman",
+        "minute": "15",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mostafa Zico",
+        "minute": "58",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mohamed Salah",
+        "minute": "67",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Trézéguet",
+        "minute": "82",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "cd079115756a",
+    "title": "[BBC Sport] BBC crossed live to Cape Verde at the very moment they scored their first ever World Cup goal to take the lead over Uruguay. Absolute scenes.",
+    "url": "https://www.reddit.com/r/soccer/comments/1uc6gfy/bbc_sport_bbc_crossed_live_to_cape_verde_at_the",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uc6gfy/bbc_sport_bbc_crossed_live_to_cape_verde_at_the/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Imbasauce • 8,491 points and 134 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/YTVhOXpsdWVncThoMfNxqbteAwkS-2eutgVFGekRjZ7W9fj-3c75OlOTGhpF.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260622071136/https://www.reddit.com/r/soccer/comments/1uc6gfy/bbc_sport_bbc_crossed_live_to_cape_verde_at_the/",
+    "postDate": "2026-06-22T00:59:56Z",
+    "dateSaved": "2026-06-22T11:01:15Z",
+    "matchId": "URU-CPV-2026-06-21",
+    "matchLabel": "🇺🇾 Uruguay vs 🇨🇻 Cape Verde",
+    "matchDate": "2026-06-21",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Cape Verde"
+    ],
+    "teamCodes": [
+      "URU",
+      "CPV"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 2–2 🇨🇻 Cape Verde",
+    "goals": [
+      {
+        "team": "CPV",
+        "player": "Kevin Pina",
+        "minute": "21",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Maxi Araújo",
+        "minute": "44",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Agustín Canobbio",
+        "minute": "45+6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CPV",
+        "player": "Hélio Varela",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]
