@@ -1190,7 +1190,7 @@
     "group": "D",
     "round": null,
     "kickoffUtc": "2026-06-20T03:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Turkey",
       "code": "TUR",
@@ -1201,11 +1201,15 @@
       "code": "PAR",
       "flag": "🇵🇾"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 0, "away": 1 },
+    "goals": [
+      { "team": "PAR", "player": "Matías Galarza", "minute": "2", "ownGoal": false, "penalty": false }
+    ],
     "venue": "San Francisco Bay Area (Santa Clara)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uamap2/miguel_almir%C3%B3n_red_card_against_t%C3%BCrkiye_453/"
+    ],
+    "lastUpdated": "2026-06-24T00:00:00Z"
   },
   {
     "matchId": "NED-SWE-2026-06-20",
@@ -1459,7 +1463,7 @@
     "group": "J",
     "round": null,
     "kickoffUtc": "2026-06-22T17:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Argentina",
       "code": "ARG",
@@ -1470,11 +1474,17 @@
       "code": "AUT",
       "flag": "🇦🇹"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 2, "away": 0 },
+    "goals": [
+      { "team": "ARG", "player": "Lionel Messi", "minute": "38", "ownGoal": false, "penalty": false },
+      { "team": "ARG", "player": "Lionel Messi", "minute": "90+5", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Dallas (Arlington)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ucrcpo/argentina_1_0_austria_l_messi_38/",
+      "https://www.reddit.com/r/soccer/comments/1uctift/argentina_2_0_austria_lionel_messi_904/"
+    ],
+    "lastUpdated": "2026-06-24T00:00:00Z"
   },
   {
     "matchId": "FRA-IRQ-2026-06-22",
@@ -1482,7 +1492,7 @@
     "group": "I",
     "round": null,
     "kickoffUtc": "2026-06-22T21:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "France",
       "code": "FRA",
@@ -1493,11 +1503,19 @@
       "code": "IRQ",
       "flag": "🇮🇶"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 3, "away": 0 },
+    "goals": [
+      { "team": "FRA", "player": "Kylian Mbappé", "minute": "14", "ownGoal": false, "penalty": false },
+      { "team": "FRA", "player": "Kylian Mbappé", "minute": "54", "ownGoal": false, "penalty": false },
+      { "team": "FRA", "player": "Ousmane Dembélé", "minute": "66", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Philadelphia",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ucx8ha/france_1_0_iraq_k_mbapp%C3%A9_14/",
+      "https://www.reddit.com/r/soccer/comments/1ud1kkt/france_2_0_iraq_k_mbapp%C3%A9_54/",
+      "https://www.reddit.com/r/soccer/comments/1ud1un4/france_3_0_iraq_ousmane_dembele_66/"
+    ],
+    "lastUpdated": "2026-06-24T00:00:00Z"
   },
   {
     "matchId": "NOR-SEN-2026-06-22",
@@ -1505,7 +1523,7 @@
     "group": "I",
     "round": null,
     "kickoffUtc": "2026-06-23T00:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Norway",
       "code": "NOR",
@@ -1516,11 +1534,23 @@
       "code": "SEN",
       "flag": "🇸🇳"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 3, "away": 2 },
+    "goals": [
+      { "team": "NOR", "player": "Marcus Holmgren Pedersen", "minute": "43", "ownGoal": false, "penalty": false },
+      { "team": "NOR", "player": "Erling Haaland", "minute": "48", "ownGoal": false, "penalty": false },
+      { "team": "SEN", "player": "Ismaïla Sarr", "minute": "53", "ownGoal": false, "penalty": false },
+      { "team": "NOR", "player": "Erling Haaland", "minute": "58", "ownGoal": false, "penalty": false },
+      { "team": "SEN", "player": "Ismaïla Sarr", "minute": "90+3", "ownGoal": false, "penalty": false }
+    ],
     "venue": "New York/New Jersey (East Rutherford)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ud2btu/norway_10_senegal_marcus_pedersen_43/",
+      "https://www.reddit.com/r/soccer/comments/1ud2uwv/norway_2_0_senegal_e_haaland_48/",
+      "https://www.reddit.com/r/soccer/comments/1ud2z34/norway_2_1_senegal_i_sarr_53/",
+      "https://www.reddit.com/r/soccer/comments/1ud32me/norway_3_1_senegal_e_haaland_58/",
+      "https://www.reddit.com/r/soccer/comments/1ud3udr/norway_32_senegal_isma%C3%AFla_sarr_903/"
+    ],
+    "lastUpdated": "2026-06-24T00:00:00Z"
   },
   {
     "matchId": "JOR-ALG-2026-06-22",
@@ -1528,7 +1558,7 @@
     "group": "J",
     "round": null,
     "kickoffUtc": "2026-06-23T03:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Jordan",
       "code": "JOR",
@@ -1539,11 +1569,19 @@
       "code": "ALG",
       "flag": "🇩🇿"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 2 },
+    "goals": [
+      { "team": "JOR", "player": "Nizar Al-Rashdan", "minute": "36", "ownGoal": false, "penalty": false },
+      { "team": "ALG", "player": "Nadhir Benbouali", "minute": "69", "ownGoal": false, "penalty": false },
+      { "team": "ALG", "player": "Amine Gouiri", "minute": "82", "ownGoal": false, "penalty": false }
+    ],
     "venue": "San Francisco Bay Area (Santa Clara)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ud62ie/jordan_10_algeria_al_rashdan_36/",
+      "https://www.reddit.com/r/soccer/comments/1ud75h9/jordan_1_1_algeria_nadir_benbouali_69/",
+      "https://www.reddit.com/r/soccer/comments/1ud7enz/jordan_12_algeria_amine_gouiri_82/"
+    ],
+    "lastUpdated": "2026-06-24T00:00:00Z"
   },
   {
     "matchId": "POR-UZB-2026-06-23",
