@@ -18002,5 +18002,942 @@
       "score": 1
     },
     "needsReview": false
+  },
+  {
+    "id": "b32614e4dcdb",
+    "title": "Colombia [1] - 0 DR Congo - Daniel Munoz 76‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1ue2gba/colombia_1_0_dr_congo_daniel_munoz_76",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ue2gba/colombia_1_0_dr_congo_daniel_munoz_76/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 533 points and 71 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/b32614e4dcdb.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T03:36:52Z",
+    "dateSaved": "2026-06-24T12:53:34Z",
+    "matchId": "COL-COD-2026-06-23",
+    "matchLabel": "🇨🇴 Colombia vs 🇨🇩 DR Congo",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Colombia",
+      "DR Congo"
+    ],
+    "teamCodes": [
+      "COL",
+      "COD"
+    ],
+    "scoreLabel": "🇨🇴 Colombia 1–0 🇨🇩 DR Congo",
+    "goals": [
+      {
+        "team": "COL",
+        "player": "Daniel Muñoz",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "3a718516b657",
+    "title": "[WC2026 Day 13] All Goals with Scoring Nation Commentary",
+    "url": "https://www.reddit.com/r/soccer/comments/1ueasvp/wc2026_day_13_all_goals_with_scoring_nation",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ueasvp/wc2026_day_13_all_goals_with_scoring_nation/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/HOPSCROTCH • 184 points and 18 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NW12d3hlNjgzNzloMZJntM-FSywGWrAAJ9TN-xkorYYGQ4iDJMobP1WhBMvH.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T11:24:31Z",
+    "dateSaved": "2026-06-24T12:53:49Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "4b4332901ff3",
+    "title": "Portugal [4] - 0 Uzbekistan - Abdukodir Khusanov (own goal) 60‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1udp667/portugal_4_0_uzbekistan_abdukodir_khusanov_own",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1udp667/portugal_4_0_uzbekistan_abdukodir_khusanov_own/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 1,054 points and 183 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/4b4332901ff3.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-23T18:24:08Z",
+    "dateSaved": "2026-06-24T12:53:58Z",
+    "matchId": "POR-UZB-2026-06-23",
+    "matchLabel": "🇵🇹 Portugal vs 🇺🇿 Uzbekistan",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "Uzbekistan"
+    ],
+    "teamCodes": [
+      "POR",
+      "UZB"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 5–0 🇺🇿 Uzbekistan",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Nuno Mendes",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Abdukodir Khusanov",
+        "minute": "60",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Rafael Leão",
+        "minute": "87",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "666cf83a86e6",
+    "title": "Cristiano Ronaldo chance against Uzbekistan 45+6'",
+    "url": "https://www.reddit.com/r/soccer/comments/1udo9s6/cristiano_ronaldo_chance_against_uzbekistan_456",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1udo9s6/cristiano_ronaldo_chance_against_uzbekistan_456/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 1,258 points and 272 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NbDCOO16g7gVvmDSgjoLmxGqdKTWea2kAxr7eQrYVG0.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260623175241/https://www.reddit.com/r/soccer/comments/1udo9s6/cristiano_ronaldo_chance_against_uzbekistan_456/",
+    "postDate": "2026-06-23T17:52:00Z",
+    "dateSaved": "2026-06-24T12:54:05Z",
+    "matchId": "POR-UZB-2026-06-23",
+    "matchLocked": true,
+    "matchLabel": "🇵🇹 Portugal vs 🇺🇿 Uzbekistan",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "Uzbekistan"
+    ],
+    "teamCodes": [
+      "POR",
+      "UZB"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 5–0 🇺🇿 Uzbekistan",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Nuno Mendes",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Abdukodir Khusanov",
+        "minute": "60",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Rafael Leão",
+        "minute": "87",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "a5777e7bc69d",
+    "title": "Panama 0 - [1] Croatia - A. Budimir 54'",
+    "url": "https://www.reddit.com/r/soccer/comments/1udy3bg/panama_0_1_croatia_a_budimir_54",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1udy3bg/panama_0_1_croatia_a_budimir_54/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 440 points and 61 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/a5777e7bc69d.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T00:13:05Z",
+    "dateSaved": "2026-06-24T12:54:20Z",
+    "matchId": "PAN-CRO-2026-06-23",
+    "matchLabel": "🇵🇦 Panama vs 🇭🇷 Croatia",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "Panama",
+      "Croatia"
+    ],
+    "teamCodes": [
+      "PAN",
+      "CRO"
+    ],
+    "scoreLabel": "🇵🇦 Panama 0–1 🇭🇷 Croatia",
+    "goals": [
+      {
+        "team": "CRO",
+        "player": "Ante Budimir",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "2f3d9059bebb",
+    "title": "Uzbekistan disallowed goal against Portugal 30'",
+    "url": "https://www.reddit.com/r/soccer/comments/1udnolr/uzbekistan_disallowed_goal_against_portugal_30",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1udnolr/uzbekistan_disallowed_goal_against_portugal_30/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 2,135 points and 332 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/2f3d9059bebb.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260623175251/https://www.reddit.com/r/soccer/comments/1udnolr/uzbekistan_disallowed_goal_against_portugal_30/",
+    "postDate": "2026-06-23T17:30:53Z",
+    "dateSaved": "2026-06-24T12:54:24Z",
+    "matchId": "POR-UZB-2026-06-23",
+    "matchLabel": "🇵🇹 Portugal vs 🇺🇿 Uzbekistan",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "Uzbekistan"
+    ],
+    "teamCodes": [
+      "POR",
+      "UZB"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 5–0 🇺🇿 Uzbekistan",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Nuno Mendes",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Abdukodir Khusanov",
+        "minute": "60",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Rafael Leão",
+        "minute": "87",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "97f9c34bfcfe",
+    "title": "Ghana chance against England 79'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uduh6q/ghana_chance_against_england_79",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uduh6q/ghana_chance_against_england_79/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 1,821 points and 797 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/lUMd1S7qFzA1Q13-uzoM5qIYgXj0MoS6sE_ouT0-_d8.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-23T21:42:57Z",
+    "dateSaved": "2026-06-24T12:54:35Z",
+    "matchId": "ENG-GHA-2026-06-23",
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇬🇭 Ghana",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Ghana"
+    ],
+    "teamCodes": [
+      "ENG",
+      "GHA"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 0–0 🇬🇭 Ghana",
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "d8dfe046372c",
+    "title": "Harry Kane chance against Ghana 86'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uduntn/harry_kane_chance_against_ghana_86",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uduntn/harry_kane_chance_against_ghana_86/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 2,156 points and 243 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/d8dfe046372c.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260624044550/https://www.reddit.com/r/soccer/comments/1uduntn/harry_kane_chance_against_ghana_86/",
+    "postDate": "2026-06-23T21:50:11Z",
+    "dateSaved": "2026-06-24T12:54:38Z",
+    "matchId": "ENG-GHA-2026-06-23",
+    "matchLocked": true,
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇬🇭 Ghana",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Ghana"
+    ],
+    "teamCodes": [
+      "ENG",
+      "GHA"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 0–0 🇬🇭 Ghana",
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "4e887ff8080e",
+    "title": "Alternate angle of Ezri Konsa's challenge against Prince Adu 79' (nothing given)",
+    "url": "https://www.reddit.com/r/soccer/comments/1udwu6n/alternate_angle_of_ezri_konsas_challenge_against",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1udwu6n/alternate_angle_of_ezri_konsas_challenge_against/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "reupload because previous upload got taken down",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/c3d4cWJsOXI3NDloMZK8oiJdzgp8jhUDAGF3602YR5oIudtqLLewlRt2ykov.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260624110842/https://www.reddit.com/r/soccer/comments/1udwu6n/alternate_angle_of_ezri_konsas_challenge_against/",
+    "postDate": "2026-06-23T23:18:55Z",
+    "dateSaved": "2026-06-24T12:54:43Z",
+    "matchId": "ENG-GHA-2026-06-23",
+    "matchLocked": true,
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇬🇭 Ghana",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Ghana"
+    ],
+    "teamCodes": [
+      "ENG",
+      "GHA"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 0–0 🇬🇭 Ghana",
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "9ee68e0f0542",
+    "title": "Jude Bellingham covered his mouth while talking to Ghanian player Jordan Ayew during the match, no red card was shown",
+    "url": "https://www.reddit.com/r/soccer/comments/1ue6djd/jude_bellingham_covered_his_mouth_while_talking",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ue6djd/jude_bellingham_covered_his_mouth_while_talking/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/AgeNovel3566 • 8,085 points and 922 comments",
+    "thumbnailRemoteUrl": "https://preview.redd.it/iaiscpjak69h1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260624084158/https://www.reddit.com/r/soccer/comments/1ue6djd/jude_bellingham_covered_his_mouth_while_talking/",
+    "postDate": "2026-06-24T07:09:39Z",
+    "dateSaved": "2026-06-24T12:54:46Z",
+    "matchId": "ENG-GHA-2026-06-23",
+    "matchLocked": true,
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇬🇭 Ghana",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Ghana"
+    ],
+    "teamCodes": [
+      "ENG",
+      "GHA"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 0–0 🇬🇭 Ghana",
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "6e628b3fa689",
+    "title": "Portugal [5] - 0 Uzbekistan - Rafael Leão 87'",
+    "url": "https://www.reddit.com/r/soccer/comments/1udpwqw/portugal_5_0_uzbekistan_rafael_le%C3%A3o_87",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1udpwqw/portugal_5_0_uzbekistan_rafael_le%C3%A3o_87/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 1,502 points and 211 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/6e628b3fa689.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260624024804/https://www.reddit.com/r/soccer/comments/1udpwqw/portugal_5_0_uzbekistan_rafael_le%C3%A3o_87/",
+    "postDate": "2026-06-23T18:51:00Z",
+    "dateSaved": "2026-06-24T12:55:14Z",
+    "matchId": "POR-UZB-2026-06-23",
+    "matchLabel": "🇵🇹 Portugal vs 🇺🇿 Uzbekistan",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "Uzbekistan"
+    ],
+    "teamCodes": [
+      "POR",
+      "UZB"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 5–0 🇺🇿 Uzbekistan",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Nuno Mendes",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Abdukodir Khusanov",
+        "minute": "60",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Rafael Leão",
+        "minute": "87",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "dd293e6fedae",
+    "title": "Portugal [2] - 0 Uzbekistan - Nuno Mendes 17'",
+    "url": "https://www.reddit.com/r/soccer/comments/1udnan9/portugal_2_0_uzbekistan_nuno_mendes_17",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1udnan9/portugal_2_0_uzbekistan_nuno_mendes_17/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 4,715 points and 776 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/dd293e6fedae.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260623172109/https://www.reddit.com/r/soccer/comments/1udnan9/portugal_2_0_uzbekistan_nuno_mendes_17/",
+    "postDate": "2026-06-23T17:16:40Z",
+    "dateSaved": "2026-06-24T12:55:17Z",
+    "matchId": "POR-UZB-2026-06-23",
+    "matchLabel": "🇵🇹 Portugal vs 🇺🇿 Uzbekistan",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "Uzbekistan"
+    ],
+    "teamCodes": [
+      "POR",
+      "UZB"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 5–0 🇺🇿 Uzbekistan",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Nuno Mendes",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Abdukodir Khusanov",
+        "minute": "60",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Rafael Leão",
+        "minute": "87",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "8efe816c7375",
+    "title": "Portugal [3] - 0 Uzbekistan - Cristiano Ronaldo 39'",
+    "url": "https://www.reddit.com/r/soccer/comments/1udnw0d/portugal_3_0_uzbekistan_cristiano_ronaldo_39",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1udnw0d/portugal_3_0_uzbekistan_cristiano_ronaldo_39/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 8,631 points and 1,300 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/8efe816c7375.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260623173935/https://www.reddit.com/r/soccer/comments/1udnw0d/portugal_3_0_uzbekistan_cristiano_ronaldo_39/",
+    "postDate": "2026-06-23T17:38:23Z",
+    "dateSaved": "2026-06-24T12:55:20Z",
+    "matchId": "POR-UZB-2026-06-23",
+    "matchLabel": "🇵🇹 Portugal vs 🇺🇿 Uzbekistan",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "Uzbekistan"
+    ],
+    "teamCodes": [
+      "POR",
+      "UZB"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 5–0 🇺🇿 Uzbekistan",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Nuno Mendes",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Abdukodir Khusanov",
+        "minute": "60",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Rafael Leão",
+        "minute": "87",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "1b4b2fd940ce",
+    "title": "Portugal [1] - 0 Uzbekistan - Cristiano Ronaldo goal 6'",
+    "url": "https://www.reddit.com/r/soccer/comments/1udn07p/portugal_1_0_uzbekistan_cristiano_ronaldo_goal_6",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1udn07p/portugal_1_0_uzbekistan_cristiano_ronaldo_goal_6/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Ihattaren • 10,172 points and 1,337 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/1b4b2fd940ce.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260623170731/https://www.reddit.com/r/soccer/comments/1udn07p/portugal_1_0_uzbekistan_cristiano_ronaldo_goal_6/",
+    "postDate": "2026-06-23T17:06:04Z",
+    "dateSaved": "2026-06-24T12:55:25Z",
+    "matchId": "POR-UZB-2026-06-23",
+    "matchLabel": "🇵🇹 Portugal vs 🇺🇿 Uzbekistan",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "K",
+    "teams": [
+      "Portugal",
+      "Uzbekistan"
+    ],
+    "teamCodes": [
+      "POR",
+      "UZB"
+    ],
+    "scoreLabel": "🇵🇹 Portugal 5–0 🇺🇿 Uzbekistan",
+    "goals": [
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Nuno Mendes",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Abdukodir Khusanov",
+        "minute": "60",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Rafael Leão",
+        "minute": "87",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]

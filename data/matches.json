@@ -1589,7 +1589,7 @@
     "group": "K",
     "round": null,
     "kickoffUtc": "2026-06-23T17:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Portugal",
       "code": "POR",
@@ -1600,11 +1600,19 @@
       "code": "UZB",
       "flag": "🇺🇿"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 5, "away": 0 },
+    "goals": [
+      { "team": "POR", "player": "Cristiano Ronaldo", "minute": "6", "ownGoal": false, "penalty": false },
+      { "team": "POR", "player": "Nuno Mendes", "minute": "17", "ownGoal": false, "penalty": false },
+      { "team": "POR", "player": "Cristiano Ronaldo", "minute": "39", "ownGoal": false, "penalty": false },
+      { "team": "POR", "player": "Abdukodir Khusanov", "minute": "60", "ownGoal": true, "penalty": false },
+      { "team": "POR", "player": "Rafael Leão", "minute": "87", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Houston",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1udn07p/portugal_1_0_uzbekistan_cristiano_ronaldo_goal_6/"
+    ],
+    "lastUpdated": "2026-06-24T00:00:00Z"
   },
   {
     "matchId": "ENG-GHA-2026-06-23",
@@ -1612,7 +1620,7 @@
     "group": "L",
     "round": null,
     "kickoffUtc": "2026-06-23T20:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "England",
       "code": "ENG",
@@ -1623,11 +1631,13 @@
       "code": "GHA",
       "flag": "🇬🇭"
     },
-    "score": null,
+    "score": { "home": 0, "away": 0 },
     "goals": [],
     "venue": "Boston (Foxborough)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uduh6q/ghana_chance_against_england_79/"
+    ],
+    "lastUpdated": "2026-06-24T00:00:00Z"
   },
   {
     "matchId": "PAN-CRO-2026-06-23",
@@ -1635,7 +1645,7 @@
     "group": "L",
     "round": null,
     "kickoffUtc": "2026-06-23T23:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Panama",
       "code": "PAN",
@@ -1646,11 +1656,15 @@
       "code": "CRO",
       "flag": "🇭🇷"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 0, "away": 1 },
+    "goals": [
+      { "team": "CRO", "player": "Ante Budimir", "minute": "54", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Toronto",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1udy3bg/panama_0_1_croatia_a_budimir_54/"
+    ],
+    "lastUpdated": "2026-06-24T00:00:00Z"
   },
   {
     "matchId": "COL-COD-2026-06-23",
@@ -1658,7 +1672,7 @@
     "group": "K",
     "round": null,
     "kickoffUtc": "2026-06-24T02:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Colombia",
       "code": "COL",
@@ -1669,11 +1683,15 @@
       "code": "COD",
       "flag": "🇨🇩"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 0 },
+    "goals": [
+      { "team": "COL", "player": "Daniel Muñoz", "minute": "76", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Guadalajara (Zapopan)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ue2gba/colombia_1_0_dr_congo_daniel_munoz_76/"
+    ],
+    "lastUpdated": "2026-06-24T00:00:00Z"
   },
   {
     "matchId": "SUI-CAN-2026-06-24",
