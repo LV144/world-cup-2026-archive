@@ -18939,5 +18939,3865 @@
       "score": 1
     },
     "needsReview": false
+  },
+  {
+    "id": "24c9f1740003",
+    "title": "Bosnia and Herzegovina 2-0 Qatar - Sultan Al-Brake own goal 34'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uenj4q/bosnia_and_herzegovina_20_qatar_sultan_albrake",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uenj4q",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:55:12Z",
+    "matchId": "BIH-QAT-2026-06-24",
+    "matchLabel": "🇧🇦 Bosnia & Herzegovina vs 🇶🇦 Qatar",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Bosnia & Herzegovina",
+      "Qatar"
+    ],
+    "teamCodes": [
+      "BIH",
+      "QAT"
+    ],
+    "scoreLabel": "🇧🇦 Bosnia & Herzegovina 3–1 🇶🇦 Qatar",
+    "goals": [
+      {
+        "team": "BIH",
+        "player": "Kerim Alajbegović",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Mahmoud Abunada",
+        "minute": "34",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "QAT",
+        "player": "Hassan Al-Haydos",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Ermin Mahmić",
+        "minute": "80",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "d11443e753cd",
+    "title": "Bosnia and Herzegovina 2 - [1] Qatar - Hasan Al Haydos 42‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1uenqgz/bosnia_and_herzegovina_2_1_qatar_hasan_al_haydos",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uenqgz",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:55:22Z",
+    "matchId": "BIH-QAT-2026-06-24",
+    "matchLabel": "🇧🇦 Bosnia & Herzegovina vs 🇶🇦 Qatar",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Bosnia & Herzegovina",
+      "Qatar"
+    ],
+    "teamCodes": [
+      "BIH",
+      "QAT"
+    ],
+    "scoreLabel": "🇧🇦 Bosnia & Herzegovina 3–1 🇶🇦 Qatar",
+    "goals": [
+      {
+        "team": "BIH",
+        "player": "Kerim Alajbegović",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Mahmoud Abunada",
+        "minute": "34",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "QAT",
+        "player": "Hassan Al-Haydos",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Ermin Mahmić",
+        "minute": "80",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e1b6eaf208e8",
+    "title": "Bosnia and Herzegovina [3]-1 Qatar - Ermin Mahmić 81'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uepcps/bosnia_and_herzegovina_31_qatar_ermin_mahmi%C4%87_81",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uepcps",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:55:59Z",
+    "matchId": "BIH-QAT-2026-06-24",
+    "matchLabel": "🇧🇦 Bosnia & Herzegovina vs 🇶🇦 Qatar",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Bosnia & Herzegovina",
+      "Qatar"
+    ],
+    "teamCodes": [
+      "BIH",
+      "QAT"
+    ],
+    "scoreLabel": "🇧🇦 Bosnia & Herzegovina 3–1 🇶🇦 Qatar",
+    "goals": [
+      {
+        "team": "BIH",
+        "player": "Kerim Alajbegović",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Mahmoud Abunada",
+        "minute": "34",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "QAT",
+        "player": "Hassan Al-Haydos",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Ermin Mahmić",
+        "minute": "80",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "1bdc16f15048",
+    "title": "Morocco [1] - 1 Haiti - Achraf Hakimi 39'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uesdcm/morocco_1_1_haiti_achraf_hakimi_39",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uesdcm",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:56:09Z",
+    "matchId": "MAR-HAI-2026-06-24",
+    "matchLabel": "🇲🇦 Morocco vs 🇭🇹 Haiti",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Morocco",
+      "Haiti"
+    ],
+    "teamCodes": [
+      "MAR",
+      "HAI"
+    ],
+    "scoreLabel": "🇲🇦 Morocco 4–2 🇭🇹 Haiti",
+    "goals": [
+      {
+        "team": "HAI",
+        "player": "Yassine Bounou",
+        "minute": "10",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Achraf Hakimi",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "HAI",
+        "player": "Wilson Isidor",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Ismael Saibari",
+        "minute": "45+1",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Soufiane Rahimi",
+        "minute": "78",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Gessime Yassine",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "7a3930b2a1b4",
+    "title": "Morocco [2] - 2 Haiti - Ismael Saibari 45+1'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uesjbs/morocco_2_2_haiti_ismael_saibari_451",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uesjbs",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:56:46Z",
+    "matchId": "MAR-HAI-2026-06-24",
+    "matchLabel": "🇲🇦 Morocco vs 🇭🇹 Haiti",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Morocco",
+      "Haiti"
+    ],
+    "teamCodes": [
+      "MAR",
+      "HAI"
+    ],
+    "scoreLabel": "🇲🇦 Morocco 4–2 🇭🇹 Haiti",
+    "goals": [
+      {
+        "team": "HAI",
+        "player": "Yassine Bounou",
+        "minute": "10",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Achraf Hakimi",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "HAI",
+        "player": "Wilson Isidor",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Ismael Saibari",
+        "minute": "45+1",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Soufiane Rahimi",
+        "minute": "78",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Gessime Yassine",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "da7c472d905f",
+    "title": "Morocco [3] - 2 Haiti - Soufiane Rahimi 77'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uetyc6/morocco_3_2_haiti_soufiane_rahimi_77",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uetyc6",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:57:01Z",
+    "matchId": "MAR-HAI-2026-06-24",
+    "matchLabel": "🇲🇦 Morocco vs 🇭🇹 Haiti",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Morocco",
+      "Haiti"
+    ],
+    "teamCodes": [
+      "MAR",
+      "HAI"
+    ],
+    "scoreLabel": "🇲🇦 Morocco 4–2 🇭🇹 Haiti",
+    "goals": [
+      {
+        "team": "HAI",
+        "player": "Yassine Bounou",
+        "minute": "10",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Achraf Hakimi",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "HAI",
+        "player": "Wilson Isidor",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Ismael Saibari",
+        "minute": "45+1",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Soufiane Rahimi",
+        "minute": "78",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Gessime Yassine",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "2bdf1d0c2635",
+    "title": "Morocco [4] - 2 Haiti - Gessime Yassine 89'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ueu2nr/morocco_4_2_haiti_gessime_yassine_89",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ueu2nr",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:57:15Z",
+    "matchId": "MAR-HAI-2026-06-24",
+    "matchLabel": "🇲🇦 Morocco vs 🇭🇹 Haiti",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Morocco",
+      "Haiti"
+    ],
+    "teamCodes": [
+      "MAR",
+      "HAI"
+    ],
+    "scoreLabel": "🇲🇦 Morocco 4–2 🇭🇹 Haiti",
+    "goals": [
+      {
+        "team": "HAI",
+        "player": "Yassine Bounou",
+        "minute": "10",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Achraf Hakimi",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "HAI",
+        "player": "Wilson Isidor",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Ismael Saibari",
+        "minute": "45+1",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Soufiane Rahimi",
+        "minute": "78",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Gessime Yassine",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "7735e026c874",
+    "title": "Goal Vargas R. (Manzambi J.) Against Canada 46'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ueof5d/goal_vargas_r_manzambi_j_against_canada_46",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ueof5d",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:57:53Z",
+    "matchId": "SUI-CAN-2026-06-24",
+    "matchLocked": true,
+    "matchLabel": "🇨🇭 Switzerland vs 🇨🇦 Canada",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Switzerland",
+      "Canada"
+    ],
+    "teamCodes": [
+      "SUI",
+      "CAN"
+    ],
+    "scoreLabel": "🇨🇭 Switzerland 2–1 🇨🇦 Canada",
+    "goals": [
+      {
+        "team": "SUI",
+        "player": "Rubén Vargas",
+        "minute": "46",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SUI",
+        "player": "Johan Manzambi",
+        "minute": "57",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Promise David",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "77850539a23c",
+    "title": "Switzerland [2] - 0 Canada - Johan Manzambi 56'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ueomz8/switzerland_2_0_canada_johan_manzambi_56",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ueomz8",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:58:03Z",
+    "matchId": "SUI-CAN-2026-06-24",
+    "matchLabel": "🇨🇭 Switzerland vs 🇨🇦 Canada",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Switzerland",
+      "Canada"
+    ],
+    "teamCodes": [
+      "SUI",
+      "CAN"
+    ],
+    "scoreLabel": "🇨🇭 Switzerland 2–1 🇨🇦 Canada",
+    "goals": [
+      {
+        "team": "SUI",
+        "player": "Rubén Vargas",
+        "minute": "46",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SUI",
+        "player": "Johan Manzambi",
+        "minute": "57",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Promise David",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "5eb4a4780395",
+    "title": "Incident between Xhaka and Cyle Larin 31'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uenfg2/incident_between_xhaka_and_cyle_larin_31",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uenfg2",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:58:14Z",
+    "matchId": "SUI-CAN-2026-06-24",
+    "matchLocked": true,
+    "matchLabel": "🇨🇭 Switzerland vs 🇨🇦 Canada",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Switzerland",
+      "Canada"
+    ],
+    "teamCodes": [
+      "SUI",
+      "CAN"
+    ],
+    "scoreLabel": "🇨🇭 Switzerland 2–1 🇨🇦 Canada",
+    "goals": [
+      {
+        "team": "SUI",
+        "player": "Rubén Vargas",
+        "minute": "46",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SUI",
+        "player": "Johan Manzambi",
+        "minute": "57",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Promise David",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "3bf357b45225",
+    "title": "Czechia 0 - [1] Mexico - Mateo Chavez 55‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1uex7iy/czechia_0_1_mexico_mateo_chavez_55",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uex7iy",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T11:58:24Z",
+    "matchId": "CZE-MEX-2026-06-24",
+    "matchLabel": "🇨🇿 Czech Republic vs 🇲🇽 Mexico",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Czech Republic",
+      "Mexico"
+    ],
+    "teamCodes": [
+      "CZE",
+      "MEX"
+    ],
+    "scoreLabel": "🇨🇿 Czech Republic 0–3 🇲🇽 Mexico",
+    "goals": [
+      {
+        "team": "MEX",
+        "player": "Mateo Chávez",
+        "minute": "55",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Julián Quiñones",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Álvaro Fidalgo",
+        "minute": "90+4",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "40598a1f9bfd",
+    "title": "Czechia 0 - [2] Mexico - Julian Quinones 61‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1uexc5r/czechia_0_2_mexico_julian_quinones_61",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uexc5r/czechia_0_2_mexico_julian_quinones_61/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 736 points and 180 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/40598a1f9bfd.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T02:21:19Z",
+    "dateSaved": "2026-06-26T11:58:36Z",
+    "matchId": "CZE-MEX-2026-06-24",
+    "matchLabel": "🇨🇿 Czech Republic vs 🇲🇽 Mexico",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Czech Republic",
+      "Mexico"
+    ],
+    "teamCodes": [
+      "CZE",
+      "MEX"
+    ],
+    "scoreLabel": "🇨🇿 Czech Republic 0–3 🇲🇽 Mexico",
+    "goals": [
+      {
+        "team": "MEX",
+        "player": "Mateo Chávez",
+        "minute": "55",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Julián Quiñones",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Álvaro Fidalgo",
+        "minute": "90+4",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "478dc6df971a",
+    "title": "Czechia 0 - [3] Mexico - Alvaro Fidalgo 90‎+‎4‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1uey0s2/czechia_0_3_mexico_alvaro_fidalgo_904",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uey0s2/czechia_0_3_mexico_alvaro_fidalgo_904/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 856 points and 124 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/478dc6df971a.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T02:53:57Z",
+    "dateSaved": "2026-06-26T11:58:39Z",
+    "matchId": "CZE-MEX-2026-06-24",
+    "matchLabel": "🇨🇿 Czech Republic vs 🇲🇽 Mexico",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Czech Republic",
+      "Mexico"
+    ],
+    "teamCodes": [
+      "CZE",
+      "MEX"
+    ],
+    "scoreLabel": "🇨🇿 Czech Republic 0–3 🇲🇽 Mexico",
+    "goals": [
+      {
+        "team": "MEX",
+        "player": "Mateo Chávez",
+        "minute": "55",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Julián Quiñones",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Álvaro Fidalgo",
+        "minute": "90+4",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "bd5f10e241f9",
+    "title": "Scotland 0 - [1] Brazil - Vinícius Junior 7'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uerlhu/scotland_0_1_brazil_vin%C3%ADcius_junior_7",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uerlhu/scotland_0_1_brazil_vin%C3%ADcius_junior_7/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 1,961 points and 330 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/bd5f10e241f9.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T22:08:09Z",
+    "dateSaved": "2026-06-26T11:58:43Z",
+    "matchId": "SCO-BRA-2026-06-24",
+    "matchLabel": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs 🇧🇷 Brazil",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Scotland",
+      "Brazil"
+    ],
+    "teamCodes": [
+      "SCO",
+      "BRA"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland 0–3 🇧🇷 Brazil",
+    "goals": [
+      {
+        "team": "BRA",
+        "player": "Vinícius Jr",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BRA",
+        "player": "Vinícius Jr",
+        "minute": "45+3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BRA",
+        "player": "Matheus Cunha",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "b81ceef2af33",
+    "title": "Scotland 0 - [2] Brazil - Vinícius Junior 45+3'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ueslxj/scotland_0_2_brazil_vin%C3%ADcius_junior_453",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ueslxj/scotland_0_2_brazil_vin%C3%ADcius_junior_453/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 1,786 points and 436 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/b81ceef2af33.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T22:49:18Z",
+    "dateSaved": "2026-06-26T11:58:49Z",
+    "matchId": "SCO-BRA-2026-06-24",
+    "matchLabel": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs 🇧🇷 Brazil",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Scotland",
+      "Brazil"
+    ],
+    "teamCodes": [
+      "SCO",
+      "BRA"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland 0–3 🇧🇷 Brazil",
+    "goals": [
+      {
+        "team": "BRA",
+        "player": "Vinícius Jr",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BRA",
+        "player": "Vinícius Jr",
+        "minute": "45+3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BRA",
+        "player": "Matheus Cunha",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "9770ae8a8a2d",
+    "title": "Ismaël Koné, who broke his leg during Canada's World Cup campaign, was taken around the stadium to see the fans before the match against Switzerland.",
+    "url": "https://www.reddit.com/r/soccer/comments/1uennlm/isma%C3%ABl_kon%C3%A9_who_broke_his_leg_during_canadas",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uennlm/isma%C3%ABl_kon%C3%A9_who_broke_his_leg_during_canadas/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Sparky-moon • 4,294 points and 87 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/ZmdpYXBjb3g5YTloMZjoV5Zh84V8sAfMwxcwubr96uSvgLz7D_-ofBl10GQs.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T19:39:36Z",
+    "dateSaved": "2026-06-26T11:58:55Z",
+    "matchId": "SUI-CAN-2026-06-24",
+    "matchLabel": "🇨🇭 Switzerland vs 🇨🇦 Canada",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Switzerland",
+      "Canada"
+    ],
+    "teamCodes": [
+      "SUI",
+      "CAN"
+    ],
+    "scoreLabel": "🇨🇭 Switzerland 2–1 🇨🇦 Canada",
+    "goals": [
+      {
+        "team": "SUI",
+        "player": "Rubén Vargas",
+        "minute": "46",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SUI",
+        "player": "Johan Manzambi",
+        "minute": "57",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Promise David",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "0e4a376cdeb4",
+    "title": "Ochoa with his family",
+    "url": "https://www.reddit.com/r/soccer/comments/1ueythb/ochoa_with_his_family",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ueythb/ochoa_with_his_family/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Memo Ochoa shares a special moment with his children after his final World Cup appearance for Mexico.",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/MXBqcjh4aWdtYzloMXPYOjsCPP7wMCJbgtjTffqpE4RGIjcp9tn4tFF4kLSN.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T03:32:31Z",
+    "dateSaved": "2026-06-26T11:59:02Z",
+    "matchId": "CZE-MEX-2026-06-24",
+    "matchLocked": true,
+    "matchLabel": "🇨🇿 Czech Republic vs 🇲🇽 Mexico",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Czech Republic",
+      "Mexico"
+    ],
+    "teamCodes": [
+      "CZE",
+      "MEX"
+    ],
+    "scoreLabel": "🇨🇿 Czech Republic 0–3 🇲🇽 Mexico",
+    "goals": [
+      {
+        "team": "MEX",
+        "player": "Mateo Chávez",
+        "minute": "55",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Julián Quiñones",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Álvaro Fidalgo",
+        "minute": "90+4",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "b4fb2507e885",
+    "title": "Moroccan fan's wonderful reaction to Wilson Isidor's magnificent goal against Morocco",
+    "url": "https://www.reddit.com/r/soccer/comments/1uesqju/moroccan_fans_wonderful_reaction_to_wilson",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uesqju/moroccan_fans_wonderful_reaction_to_wilson/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/50lipaa • 23,945 points and 222 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NmlkYmpkcnc4YjloMZDGVuX0IDbRxgXZkZCLpLMGN5_khGvtSTT5VeZdqClU.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T22:54:45Z",
+    "dateSaved": "2026-06-26T11:59:08Z",
+    "matchId": "MAR-HAI-2026-06-24",
+    "matchLocked": true,
+    "matchLabel": "🇲🇦 Morocco vs 🇭🇹 Haiti",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Morocco",
+      "Haiti"
+    ],
+    "teamCodes": [
+      "MAR",
+      "HAI"
+    ],
+    "scoreLabel": "🇲🇦 Morocco 4–2 🇭🇹 Haiti",
+    "goals": [
+      {
+        "team": "HAI",
+        "player": "Yassine Bounou",
+        "minute": "10",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Achraf Hakimi",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "HAI",
+        "player": "Wilson Isidor",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Ismael Saibari",
+        "minute": "45+1",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Soufiane Rahimi",
+        "minute": "78",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Gessime Yassine",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "81bebcfad3f9",
+    "title": "MEX RSA 78' - Memo Ochoa substitutes into the match. It's the 6th different World Cup he has appeared in, tying the record",
+    "url": "https://www.reddit.com/r/soccer/comments/1uexsym/mex_rsa_78_memo_ochoa_substitutes_into_the_match",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uexsym/mex_rsa_78_memo_ochoa_substitutes_into_the_match/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Moose4KU • 22,713 points and 441 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/MHJjcXAydXBkYzloMfi8f2cp8iyGwbLs4z1ZmnYzUU1Hqa4KW5vshiH1aOpL.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260625081320/https://www.reddit.com/r/soccer/comments/1uexsym/mex_rsa_78_memo_ochoa_substitutes_into_the_match/",
+    "postDate": "2026-06-25T02:43:36Z",
+    "dateSaved": "2026-06-26T11:59:11Z",
+    "matchId": "MEX-RSA-2026-06-11",
+    "matchLabel": "🇲🇽 Mexico vs 🇿🇦 South Africa",
+    "matchDate": "2026-06-11",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "Mexico",
+      "South Africa"
+    ],
+    "teamCodes": [
+      "MEX",
+      "RSA"
+    ],
+    "scoreLabel": "🇲🇽 Mexico 2–0 🇿🇦 South Africa",
+    "goals": [
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": 9,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Mexico",
+        "player": "Raúl Jiménez",
+        "minute": 67,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "146e7adf77ff",
+    "title": "Curacao 0 - [1] Ivory Coast - N. Pepe 7'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufl1j3/curacao_0_1_ivory_coast_n_pepe_7",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufl1j3/curacao_0_1_ivory_coast_n_pepe_7/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 687 points and 61 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/K5dBoOqhNQOptIjseKZgaEiu3XCc4JMtpQcrEJePlKY.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T20:08:32Z",
+    "dateSaved": "2026-06-26T11:59:17Z",
+    "matchId": "CUW-CIV-2026-06-25",
+    "matchLabel": "🇨🇼 Curaçao vs 🇨🇮 Ivory Coast",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "teams": [
+      "Curaçao",
+      "Ivory Coast"
+    ],
+    "teamCodes": [
+      "CUW",
+      "CIV"
+    ],
+    "scoreLabel": "🇨🇼 Curaçao 0–2 🇨🇮 Ivory Coast",
+    "goals": [
+      {
+        "team": "CIV",
+        "player": "Nicolas Pépé",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CIV",
+        "player": "Nicolas Pépé",
+        "minute": "64",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e2f2e1685153",
+    "title": "Tunisia 0-1 Netherlands - Ellyes Skhiri own goal 3'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufpifc/tunisia_01_netherlands_ellyes_skhiri_own_goal_3",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufpifc/tunisia_01_netherlands_ellyes_skhiri_own_goal_3/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 594 points and 128 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/bnNva3N4dWhmaTloMR4b_Kuz-ag03Zar3_rKCcJuyENNjkX7ibhvgXNvP8o0.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T23:04:32Z",
+    "dateSaved": "2026-06-26T12:02:15Z",
+    "matchId": "TUN-NED-2026-06-25",
+    "matchLabel": "🇹🇳 Tunisia vs 🇳🇱 Netherlands",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "teams": [
+      "Tunisia",
+      "Netherlands"
+    ],
+    "teamCodes": [
+      "TUN",
+      "NED"
+    ],
+    "scoreLabel": "🇹🇳 Tunisia 1–3 🇳🇱 Netherlands",
+    "goals": [
+      {
+        "team": "NED",
+        "player": "Ellyes Skhiri",
+        "minute": "3",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Brian Brobbey",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUN",
+        "player": "Hazem Mastouri",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Jan-Paul van Hecke",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "c849697994fd",
+    "title": "Tunisia 0 - [2] Netherlands - B. Brobbey 7'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufpkjs/tunisia_0_2_netherlands_b_brobbey_7",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufpkjs/tunisia_0_2_netherlands_b_brobbey_7/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 777 points and 291 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/c849697994fd.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T23:07:13Z",
+    "dateSaved": "2026-06-26T12:02:55Z",
+    "matchId": "TUN-NED-2026-06-25",
+    "matchLabel": "🇹🇳 Tunisia vs 🇳🇱 Netherlands",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "teams": [
+      "Tunisia",
+      "Netherlands"
+    ],
+    "teamCodes": [
+      "TUN",
+      "NED"
+    ],
+    "scoreLabel": "🇹🇳 Tunisia 1–3 🇳🇱 Netherlands",
+    "goals": [
+      {
+        "team": "NED",
+        "player": "Ellyes Skhiri",
+        "minute": "3",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Brian Brobbey",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUN",
+        "player": "Hazem Mastouri",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Jan-Paul van Hecke",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "64fdae9e7516",
+    "title": "Tunisia [1] - 2 Netherlands - Hazem Mastouri 54‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufr3uv/tunisia_1_2_netherlands_hazem_mastouri_54",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufr3uv/tunisia_1_2_netherlands_hazem_mastouri_54/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 205 points and 58 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/64fdae9e7516.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T00:13:00Z",
+    "dateSaved": "2026-06-26T12:03:05Z",
+    "matchId": "TUN-NED-2026-06-25",
+    "matchLabel": "🇹🇳 Tunisia vs 🇳🇱 Netherlands",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "teams": [
+      "Tunisia",
+      "Netherlands"
+    ],
+    "teamCodes": [
+      "TUN",
+      "NED"
+    ],
+    "scoreLabel": "🇹🇳 Tunisia 1–3 🇳🇱 Netherlands",
+    "goals": [
+      {
+        "team": "NED",
+        "player": "Ellyes Skhiri",
+        "minute": "3",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Brian Brobbey",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUN",
+        "player": "Hazem Mastouri",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Jan-Paul van Hecke",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "7b6d33fc01ed",
+    "title": "Tunisia 1 - [3] Netherlands - Jan Paul van Hecke 62‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufra17/tunisia_1_3_netherlands_jan_paul_van_hecke_62",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufra17/tunisia_1_3_netherlands_jan_paul_van_hecke_62/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 274 points and 50 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/7b6d33fc01ed.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T00:20:48Z",
+    "dateSaved": "2026-06-26T12:03:43Z",
+    "matchId": "TUN-NED-2026-06-25",
+    "matchLabel": "🇹🇳 Tunisia vs 🇳🇱 Netherlands",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "teams": [
+      "Tunisia",
+      "Netherlands"
+    ],
+    "teamCodes": [
+      "TUN",
+      "NED"
+    ],
+    "scoreLabel": "🇹🇳 Tunisia 1–3 🇳🇱 Netherlands",
+    "goals": [
+      {
+        "team": "NED",
+        "player": "Ellyes Skhiri",
+        "minute": "3",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Brian Brobbey",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUN",
+        "player": "Hazem Mastouri",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Jan-Paul van Hecke",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "b424849fb076",
+    "title": "[WC2026 Day 14] All Goals with Scoring Nation Commentary",
+    "url": "https://www.reddit.com/r/soccer/comments/1uf9cit/wc2026_day_14_all_goals_with_scoring_nation",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uf9cit/wc2026_day_14_all_goals_with_scoring_nation/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/HOPSCROTCH • 2,427 points and 125 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/a3p4NDY3MnBmZjloMRVPu0ipA7KE9BxC_t7fiaGZAm5Gkrhk2K_IzqsDpLMs.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T13:00:22Z",
+    "dateSaved": "2026-06-26T12:04:17Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "42b5fc9ecfd1",
+    "title": "Eze on the Ghana penalty shout",
+    "url": "https://www.reddit.com/r/soccer/comments/1ug1z8a/eze_on_the_ghana_penalty_shout",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ug1z8a/eze_on_the_ghana_penalty_shout/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/sepi0l_45 • 139 points and 36 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/c2xmYXBxM2NqbDloMasg3M5tAdPy38Bi02E5IZ5xnK4cMKzQqGVcezvbiCYS.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T09:31:21Z",
+    "dateSaved": "2026-06-26T12:04:26Z",
+    "matchId": "ENG-GHA-2026-06-23",
+    "matchLocked": true,
+    "matchLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇬🇭 Ghana",
+    "matchDate": "2026-06-23",
+    "stage": "Group stage",
+    "group": "L",
+    "teams": [
+      "England",
+      "Ghana"
+    ],
+    "teamCodes": [
+      "ENG",
+      "GHA"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 0–0 🇬🇭 Ghana",
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "85ba4ba90132",
+    "title": "Morocco NT manager's reaction when Soufiane Rahimi nearly removed his shirt during his goal celebration",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufc57z/morocco_nt_managers_reaction_when_soufiane_rahimi",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufc57z/morocco_nt_managers_reaction_when_soufiane_rahimi/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/KilllllerWhale • 2,837 points and 81 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/YjA1N2JsMnV5ZjloMUYQEWiOTeSzFUIgM_DrAQ-9XhgK4z-7t21V-x9embxk.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T14:47:22Z",
+    "dateSaved": "2026-06-26T12:04:50Z",
+    "matchId": "MAR-HAI-2026-06-24",
+    "matchLocked": true,
+    "matchLabel": "🇲🇦 Morocco vs 🇭🇹 Haiti",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Morocco",
+      "Haiti"
+    ],
+    "teamCodes": [
+      "MAR",
+      "HAI"
+    ],
+    "scoreLabel": "🇲🇦 Morocco 4–2 🇭🇹 Haiti",
+    "goals": [
+      {
+        "team": "HAI",
+        "player": "Yassine Bounou",
+        "minute": "10",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Achraf Hakimi",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "HAI",
+        "player": "Wilson Isidor",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Ismael Saibari",
+        "minute": "45+1",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Soufiane Rahimi",
+        "minute": "78",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Gessime Yassine",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "bf0fccc2d36a",
+    "title": "Dutch parade in Kansas before Netherlands - Tunisia",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufiojv/dutch_parade_in_kansas_before_netherlands_tunisia",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufiojv/dutch_parade_in_kansas_before_netherlands_tunisia/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "crazy",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/M2JleDd3dm80aDloMf-oFx5qwU3JxY6KZfYsOYJVodZDkCxXRQaLVVNgiRsZ.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T18:41:56Z",
+    "dateSaved": "2026-06-26T12:05:00Z",
+    "matchId": "TUN-NED-2026-06-25",
+    "matchLabel": "🇹🇳 Tunisia vs 🇳🇱 Netherlands",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "teams": [
+      "Tunisia",
+      "Netherlands"
+    ],
+    "teamCodes": [
+      "TUN",
+      "NED"
+    ],
+    "scoreLabel": "🇹🇳 Tunisia 1–3 🇳🇱 Netherlands",
+    "goals": [
+      {
+        "team": "NED",
+        "player": "Ellyes Skhiri",
+        "minute": "3",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Brian Brobbey",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUN",
+        "player": "Hazem Mastouri",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Jan-Paul van Hecke",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "22c02c74130a",
+    "title": "Ecuador 0 - [1] Germany - L. Sané 2'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufkvey/ecuador_0_1_germany_l_san%C3%A9_2",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufkvey/ecuador_0_1_germany_l_san%C3%A9_2/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 1,118 points and 708 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/22c02c74130a.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T20:02:11Z",
+    "dateSaved": "2026-06-26T12:05:17Z",
+    "matchId": "ECU-GER-2026-06-25",
+    "matchLabel": "🇪🇨 Ecuador vs 🇩🇪 Germany",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "teams": [
+      "Ecuador",
+      "Germany"
+    ],
+    "teamCodes": [
+      "ECU",
+      "GER"
+    ],
+    "scoreLabel": "🇪🇨 Ecuador 2–1 🇩🇪 Germany",
+    "goals": [
+      {
+        "team": "GER",
+        "player": "Leroy Sané",
+        "minute": "2",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Nilson Angulo",
+        "minute": "9",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Gonzalo Plata",
+        "minute": "77",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "2314dcded5de",
+    "title": "Ecuador [2] - 1 Germany - Gonzalo Plata 78'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufne4l/ecuador_2_1_germany_gonzalo_plata_78",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufne4l/ecuador_2_1_germany_gonzalo_plata_78/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 5,328 points and 511 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/2314dcded5de.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260626000038/https://www.reddit.com/r/soccer/comments/1ufne4l/ecuador_2_1_germany_gonzalo_plata_78/",
+    "postDate": "2026-06-25T21:38:23Z",
+    "dateSaved": "2026-06-26T12:05:20Z",
+    "matchId": "ECU-GER-2026-06-25",
+    "matchLabel": "🇪🇨 Ecuador vs 🇩🇪 Germany",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "teams": [
+      "Ecuador",
+      "Germany"
+    ],
+    "teamCodes": [
+      "ECU",
+      "GER"
+    ],
+    "scoreLabel": "🇪🇨 Ecuador 2–1 🇩🇪 Germany",
+    "goals": [
+      {
+        "team": "GER",
+        "player": "Leroy Sané",
+        "minute": "2",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Nilson Angulo",
+        "minute": "9",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Gonzalo Plata",
+        "minute": "77",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "f7e56fca8c69",
+    "title": "A time lapse of the Netherlands fans in Kansas City.",
+    "url": "https://www.reddit.com/r/soccer/comments/1ug1n8n/a_time_lapse_of_the_netherlands_fans_in_kansas",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ug1n8n/a_time_lapse_of_the_netherlands_fans_in_kansas/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/SimRP • 537 points and 34 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/eXhuM2k3Z3dmbDloMXW8P2l6v6BfQz2BMWVdOkFO4wghjq-cFuntC7exA2h_.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T09:11:49Z",
+    "dateSaved": "2026-06-26T12:06:00Z",
+    "matchId": "TUN-NED-2026-06-25",
+    "matchLocked": true,
+    "matchLabel": "🇹🇳 Tunisia vs 🇳🇱 Netherlands",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "teams": [
+      "Tunisia",
+      "Netherlands"
+    ],
+    "teamCodes": [
+      "TUN",
+      "NED"
+    ],
+    "scoreLabel": "🇹🇳 Tunisia 1–3 🇳🇱 Netherlands",
+    "goals": [
+      {
+        "team": "NED",
+        "player": "Ellyes Skhiri",
+        "minute": "3",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Brian Brobbey",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUN",
+        "player": "Hazem Mastouri",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Jan-Paul van Hecke",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "348211510326",
+    "title": "Ecuador celebrate after beating Germany",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufnxhd/ecuador_celebrate_after_beating_germany",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufnxhd/ecuador_celebrate_after_beating_germany/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 2,574 points and 219 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/cktXfcvNSJrLQIE5Ps_mRto3i5LIlzG3aWbiK9E5NBU.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T21:59:12Z",
+    "dateSaved": "2026-06-26T12:06:39Z",
+    "matchId": "ECU-GER-2026-06-25",
+    "matchLabel": "🇪🇨 Ecuador vs 🇩🇪 Germany",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "teams": [
+      "Ecuador",
+      "Germany"
+    ],
+    "teamCodes": [
+      "ECU",
+      "GER"
+    ],
+    "scoreLabel": "🇪🇨 Ecuador 2–1 🇩🇪 Germany",
+    "goals": [
+      {
+        "team": "GER",
+        "player": "Leroy Sané",
+        "minute": "2",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Nilson Angulo",
+        "minute": "9",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Gonzalo Plata",
+        "minute": "77",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "5868f757b989",
+    "title": "Zion Suzuki save against Sweden 90+3'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufs12v/zion_suzuki_save_against_sweden_903",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufs12v/zion_suzuki_save_against_sweden_903/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 716 points and 38 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/M2RpNHlxNDd6aTloMW3D2NqVX-6OvKEcL4ASc1oyXTRZDouZyJ-YEzHvxkVE.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T00:54:49Z",
+    "dateSaved": "2026-06-26T12:07:17Z",
+    "matchId": "JPN-SWE-2026-06-25",
+    "matchLocked": true,
+    "matchLabel": "🇯🇵 Japan vs 🇸🇪 Sweden",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "teams": [
+      "Japan",
+      "Sweden"
+    ],
+    "teamCodes": [
+      "JPN",
+      "SWE"
+    ],
+    "scoreLabel": "🇯🇵 Japan 1–1 🇸🇪 Sweden",
+    "goals": [
+      {
+        "team": "JPN",
+        "player": "Daizen Maeda",
+        "minute": "56",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SWE",
+        "player": "Anthony Elanga",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Saves",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "a729fb623cf6",
+    "title": "Ecuador foul shout at Germany's first goal",
+    "url": "https://www.reddit.com/r/soccer/comments/1uflgxl/ecuador_foul_shout_at_germanys_first_goal",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uflgxl/ecuador_foul_shout_at_germanys_first_goal/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 4,536 points and 861 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/eXU3Y2RhNzFuaDloMbX5_cK8cemerqU-VkrZsv3Z5IDpfpQULCyyMrefgQBC.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260625233435/https://www.reddit.com/r/soccer/comments/1uflgxl/ecuador_foul_shout_at_germanys_first_goal/",
+    "postDate": "2026-06-25T20:24:40Z",
+    "dateSaved": "2026-06-26T12:07:21Z",
+    "matchId": "ECU-GER-2026-06-25",
+    "matchLabel": "🇪🇨 Ecuador vs 🇩🇪 Germany",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "teams": [
+      "Ecuador",
+      "Germany"
+    ],
+    "teamCodes": [
+      "ECU",
+      "GER"
+    ],
+    "scoreLabel": "🇪🇨 Ecuador 2–1 🇩🇪 Germany",
+    "goals": [
+      {
+        "team": "GER",
+        "player": "Leroy Sané",
+        "minute": "2",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Nilson Angulo",
+        "minute": "9",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Gonzalo Plata",
+        "minute": "77",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "2de52d7da460",
+    "title": "Turkiye 0 - [1] USA - A. Trusty 3'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufti39/turkiye_0_1_usa_a_trusty_3",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufti39/turkiye_0_1_usa_a_trusty_3/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 2,091 points and 369 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/2de52d7da460.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260626065304/https://www.reddit.com/r/soccer/comments/1ufti39/turkiye_0_1_usa_a_trusty_3/",
+    "postDate": "2026-06-26T02:02:28Z",
+    "dateSaved": "2026-06-26T12:07:24Z",
+    "matchId": "TUR-USA-2026-06-25",
+    "matchLocked": true,
+    "matchLabel": "🇹🇷 Turkey vs 🇺🇸 USA",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Turkey",
+      "USA"
+    ],
+    "teamCodes": [
+      "TUR",
+      "USA"
+    ],
+    "scoreLabel": "🇹🇷 Turkey 3–2 🇺🇸 USA",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Auston Trusty",
+        "minute": "3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Arda Güler",
+        "minute": "10",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Barış Alper Yılmaz",
+        "minute": "31",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Sebastian Berhalter",
+        "minute": "49",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Kaan Ayhan",
+        "minute": "90+8",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "880a84dfa131",
+    "title": "Turkiye [2] - 1 USA - Orkun Kokcu 31‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufu3tj/turkiye_2_1_usa_orkun_kokcu_31",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufu3tj/turkiye_2_1_usa_orkun_kokcu_31/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 1,182 points and 319 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/880a84dfa131.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T02:30:52Z",
+    "dateSaved": "2026-06-26T12:07:36Z",
+    "matchId": "TUR-USA-2026-06-25",
+    "matchLocked": true,
+    "matchLabel": "🇹🇷 Turkey vs 🇺🇸 USA",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Turkey",
+      "USA"
+    ],
+    "teamCodes": [
+      "TUR",
+      "USA"
+    ],
+    "scoreLabel": "🇹🇷 Turkey 3–2 🇺🇸 USA",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Auston Trusty",
+        "minute": "3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Arda Güler",
+        "minute": "10",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Barış Alper Yılmaz",
+        "minute": "31",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Sebastian Berhalter",
+        "minute": "49",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Kaan Ayhan",
+        "minute": "90+8",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "8cf528306631",
+    "title": "Turkiye [1] - 1 USA - Arda Guler 10‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1uftnyl/turkiye_1_1_usa_arda_guler_10",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uftnyl/turkiye_1_1_usa_arda_guler_10/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 1,482 points and 248 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/8cf528306631.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T02:10:06Z",
+    "dateSaved": "2026-06-26T12:07:51Z",
+    "matchId": "TUR-USA-2026-06-25",
+    "matchLocked": true,
+    "matchLabel": "🇹🇷 Turkey vs 🇺🇸 USA",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Turkey",
+      "USA"
+    ],
+    "teamCodes": [
+      "TUR",
+      "USA"
+    ],
+    "scoreLabel": "🇹🇷 Turkey 3–2 🇺🇸 USA",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Auston Trusty",
+        "minute": "3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Arda Güler",
+        "minute": "10",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Barış Alper Yılmaz",
+        "minute": "31",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Sebastian Berhalter",
+        "minute": "49",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Kaan Ayhan",
+        "minute": "90+8",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "0d21a2c4a5e8",
+    "title": "Zlatan Ibrahimović gets emotional talking about Bosnia's historic 3-1 World Cup win over Qatar",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufn011/zlatan_ibrahimovi%C4%87_gets_emotional_talking_about",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufn011/zlatan_ibrahimovi%C4%87_gets_emotional_talking_about/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/No_Friendship_4158 • 9,455 points and 322 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/ODd2bm5qNmd4aDloMSdHZSXD4mHm6Di_Dv8G-zBVkN9jGb1IOaOSFDsZusYe.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T21:23:10Z",
+    "dateSaved": "2026-06-26T12:08:31Z",
+    "matchId": "BIH-QAT-2026-06-24",
+    "matchLabel": "🇧🇦 Bosnia & Herzegovina vs 🇶🇦 Qatar",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Bosnia & Herzegovina",
+      "Qatar"
+    ],
+    "teamCodes": [
+      "BIH",
+      "QAT"
+    ],
+    "scoreLabel": "🇧🇦 Bosnia & Herzegovina 3–1 🇶🇦 Qatar",
+    "goals": [
+      {
+        "team": "BIH",
+        "player": "Kerim Alajbegović",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Mahmoud Abunada",
+        "minute": "34",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "QAT",
+        "player": "Hassan Al-Haydos",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Ermin Mahmić",
+        "minute": "80",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "61c9ea4bbfd2",
+    "title": "Turkiye [3] - 2 USA - Kaan Ayhan 90‎+‎8‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufvzau/turkiye_3_2_usa_kaan_ayhan_908",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufvzau/turkiye_3_2_usa_kaan_ayhan_908/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 5,143 points and 793 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/61c9ea4bbfd2.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T04:01:01Z",
+    "dateSaved": "2026-06-26T12:09:10Z",
+    "matchId": "TUR-USA-2026-06-25",
+    "matchLocked": true,
+    "matchLabel": "🇹🇷 Turkey vs 🇺🇸 USA",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Turkey",
+      "USA"
+    ],
+    "teamCodes": [
+      "TUR",
+      "USA"
+    ],
+    "scoreLabel": "🇹🇷 Turkey 3–2 🇺🇸 USA",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Auston Trusty",
+        "minute": "3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Arda Güler",
+        "minute": "10",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Barış Alper Yılmaz",
+        "minute": "31",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Sebastian Berhalter",
+        "minute": "49",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Kaan Ayhan",
+        "minute": "90+8",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "83e2e83c6529",
+    "title": "Bosnia and Herzegovina [1] - 0 Qatar - K. Alajbegović 29'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uencyi/bosnia_and_herzegovina_1_0_qatar_k_alajbegovi%C4%87_29",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uencyi/bosnia_and_herzegovina_1_0_qatar_k_alajbegovi%C4%87_29/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 1,669 points and 105 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/83e2e83c6529.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T19:28:55Z",
+    "dateSaved": "2026-06-26T12:14:30Z",
+    "matchId": "BIH-QAT-2026-06-24",
+    "matchLabel": "🇧🇦 Bosnia & Herzegovina vs 🇶🇦 Qatar",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Bosnia & Herzegovina",
+      "Qatar"
+    ],
+    "teamCodes": [
+      "BIH",
+      "QAT"
+    ],
+    "scoreLabel": "🇧🇦 Bosnia & Herzegovina 3–1 🇶🇦 Qatar",
+    "goals": [
+      {
+        "team": "BIH",
+        "player": "Kerim Alajbegović",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Mahmoud Abunada",
+        "minute": "34",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "QAT",
+        "player": "Hassan Al-Haydos",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Ermin Mahmić",
+        "minute": "80",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "f317d952d692",
+    "title": "Alternate angles of 18 y/o Kerim Alajbegović skill and goal against Qatar",
+    "url": "https://www.reddit.com/r/soccer/comments/1uenlat/alternate_angles_of_18_yo_kerim_alajbegovi%C4%87_skill",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uenlat/alternate_angles_of_18_yo_kerim_alajbegovi%C4%87_skill/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/50lipaa • 5,021 points and 98 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/czBlZnp4anA5YTloMc7sMAr8O_jCfQvA1eqLAwA_9SXWcZNuidvR-TM9Vbxw.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T19:37:27Z",
+    "dateSaved": "2026-06-26T12:15:11Z",
+    "matchId": "BIH-QAT-2026-06-24",
+    "matchLocked": true,
+    "matchLabel": "🇧🇦 Bosnia & Herzegovina vs 🇶🇦 Qatar",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Bosnia & Herzegovina",
+      "Qatar"
+    ],
+    "teamCodes": [
+      "BIH",
+      "QAT"
+    ],
+    "scoreLabel": "🇧🇦 Bosnia & Herzegovina 3–1 🇶🇦 Qatar",
+    "goals": [
+      {
+        "team": "BIH",
+        "player": "Kerim Alajbegović",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Mahmoud Abunada",
+        "minute": "34",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "QAT",
+        "player": "Hassan Al-Haydos",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Ermin Mahmić",
+        "minute": "80",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "2d822d10165a",
+    "title": "Scotland 0 - [3] Brazil - Matheus Cunha 60'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uetgod/scotland_0_3_brazil_matheus_cunha_60",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uetgod/scotland_0_3_brazil_matheus_cunha_60/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 1,342 points and 227 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/2d822d10165a.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T23:25:16Z",
+    "dateSaved": "2026-06-26T12:15:22Z",
+    "matchId": "SCO-BRA-2026-06-24",
+    "matchLabel": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs 🇧🇷 Brazil",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Scotland",
+      "Brazil"
+    ],
+    "teamCodes": [
+      "SCO",
+      "BRA"
+    ],
+    "scoreLabel": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland 0–3 🇧🇷 Brazil",
+    "goals": [
+      {
+        "team": "BRA",
+        "player": "Vinícius Jr",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BRA",
+        "player": "Vinícius Jr",
+        "minute": "45+3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BRA",
+        "player": "Matheus Cunha",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "1def95b38f41",
+    "title": "Curacao 0 - [2] Ivory Coast - N. Pepe 64'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufn1jn/curacao_0_2_ivory_coast_n_pepe_64",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufn1jn/curacao_0_2_ivory_coast_n_pepe_64/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 379 points and 57 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/1def95b38f41.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T21:24:48Z",
+    "dateSaved": "2026-06-26T12:15:32Z",
+    "matchId": "CUW-CIV-2026-06-25",
+    "matchLabel": "🇨🇼 Curaçao vs 🇨🇮 Ivory Coast",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "teams": [
+      "Curaçao",
+      "Ivory Coast"
+    ],
+    "teamCodes": [
+      "CUW",
+      "CIV"
+    ],
+    "scoreLabel": "🇨🇼 Curaçao 0–2 🇨🇮 Ivory Coast",
+    "goals": [
+      {
+        "team": "CIV",
+        "player": "Nicolas Pépé",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CIV",
+        "player": "Nicolas Pépé",
+        "minute": "64",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "48c51ba1b5b3",
+    "title": "Ecuador [1] - 1 Germany - N. Angulo 9'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufl1q7/ecuador_1_1_germany_n_angulo_9",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufl1q7/ecuador_1_1_germany_n_angulo_9/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 1,978 points and 321 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/48c51ba1b5b3.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260625201546/https://www.reddit.com/r/soccer/comments/1ufl1q7/ecuador_1_1_germany_n_angulo_9/",
+    "postDate": "2026-06-25T20:08:44Z",
+    "dateSaved": "2026-06-26T12:15:35Z",
+    "matchId": "ECU-GER-2026-06-25",
+    "matchLabel": "🇪🇨 Ecuador vs 🇩🇪 Germany",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "teams": [
+      "Ecuador",
+      "Germany"
+    ],
+    "teamCodes": [
+      "ECU",
+      "GER"
+    ],
+    "scoreLabel": "🇪🇨 Ecuador 2–1 🇩🇪 Germany",
+    "goals": [
+      {
+        "team": "GER",
+        "player": "Leroy Sané",
+        "minute": "2",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Nilson Angulo",
+        "minute": "9",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Gonzalo Plata",
+        "minute": "77",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "97a5b25218d5",
+    "title": "Japan [1] - 0 Sweden - Daizen Maeda 56‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufr6gd/japan_1_0_sweden_daizen_maeda_56",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufr6gd/japan_1_0_sweden_daizen_maeda_56/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 1,583 points and 199 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/97a5b25218d5.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T00:16:16Z",
+    "dateSaved": "2026-06-26T12:16:14Z",
+    "matchId": "JPN-SWE-2026-06-25",
+    "matchLabel": "🇯🇵 Japan vs 🇸🇪 Sweden",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "teams": [
+      "Japan",
+      "Sweden"
+    ],
+    "teamCodes": [
+      "JPN",
+      "SWE"
+    ],
+    "scoreLabel": "🇯🇵 Japan 1–1 🇸🇪 Sweden",
+    "goals": [
+      {
+        "team": "JPN",
+        "player": "Daizen Maeda",
+        "minute": "56",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SWE",
+        "player": "Anthony Elanga",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "efa1f766c59a",
+    "title": "Japan 1 - [1] Sweden - Anthony Elanga 62‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufrb6e/japan_1_1_sweden_anthony_elanga_62",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufrb6e/japan_1_1_sweden_anthony_elanga_62/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 2,337 points and 244 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/efa1f766c59a.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T00:22:12Z",
+    "dateSaved": "2026-06-26T12:16:30Z",
+    "matchId": "JPN-SWE-2026-06-25",
+    "matchLabel": "🇯🇵 Japan vs 🇸🇪 Sweden",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "F",
+    "teams": [
+      "Japan",
+      "Sweden"
+    ],
+    "teamCodes": [
+      "JPN",
+      "SWE"
+    ],
+    "scoreLabel": "🇯🇵 Japan 1–1 🇸🇪 Sweden",
+    "goals": [
+      {
+        "team": "JPN",
+        "player": "Daizen Maeda",
+        "minute": "56",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SWE",
+        "player": "Anthony Elanga",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "14f341622bad",
+    "title": "Switzerland 2 - [1] Canada - P. David 74'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uep5fk/switzerland_2_1_canada_p_david_74",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uep5fk/switzerland_2_1_canada_p_david_74/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 2,523 points and 186 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/14f341622bad.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T20:34:59Z",
+    "dateSaved": "2026-06-26T12:16:40Z",
+    "matchId": "SUI-CAN-2026-06-24",
+    "matchLabel": "🇨🇭 Switzerland vs 🇨🇦 Canada",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "B",
+    "teams": [
+      "Switzerland",
+      "Canada"
+    ],
+    "teamCodes": [
+      "SUI",
+      "CAN"
+    ],
+    "scoreLabel": "🇨🇭 Switzerland 2–1 🇨🇦 Canada",
+    "goals": [
+      {
+        "team": "SUI",
+        "player": "Rubén Vargas",
+        "minute": "46",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SUI",
+        "player": "Johan Manzambi",
+        "minute": "57",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Promise David",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "5269fcfa3b1f",
+    "title": "Turkiye 2 - [2] USA - Sebastian Berhalter 49‎'‎",
+    "url": "https://www.reddit.com/r/soccer/comments/1ufuys4/turkiye_2_2_usa_sebastian_berhalter_49",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ufuys4/turkiye_2_2_usa_sebastian_berhalter_49/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/West_Agent4651 • 1,828 points and 240 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/5269fcfa3b1f.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T03:11:21Z",
+    "dateSaved": "2026-06-26T12:16:51Z",
+    "matchId": "TUR-USA-2026-06-25",
+    "matchLocked": true,
+    "matchLabel": "🇹🇷 Turkey vs 🇺🇸 USA",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "D",
+    "teams": [
+      "Turkey",
+      "USA"
+    ],
+    "teamCodes": [
+      "TUR",
+      "USA"
+    ],
+    "scoreLabel": "🇹🇷 Turkey 3–2 🇺🇸 USA",
+    "goals": [
+      {
+        "team": "USA",
+        "player": "Auston Trusty",
+        "minute": "3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Arda Güler",
+        "minute": "10",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Barış Alper Yılmaz",
+        "minute": "31",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Sebastian Berhalter",
+        "minute": "49",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Kaan Ayhan",
+        "minute": "90+8",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "11523539bf4d",
+    "title": "Morocco 0 - [1] Haiti - Lenny Joseph 10'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uerns9/morocco_0_1_haiti_lenny_joseph_10",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uerns9/morocco_0_1_haiti_lenny_joseph_10/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 3,743 points and 303 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/11523539bf4d.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T22:10:45Z",
+    "dateSaved": "2026-06-26T12:18:37Z",
+    "matchId": "MAR-HAI-2026-06-24",
+    "matchLabel": "🇲🇦 Morocco vs 🇭🇹 Haiti",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Morocco",
+      "Haiti"
+    ],
+    "teamCodes": [
+      "MAR",
+      "HAI"
+    ],
+    "scoreLabel": "🇲🇦 Morocco 4–2 🇭🇹 Haiti",
+    "goals": [
+      {
+        "team": "HAI",
+        "player": "Yassine Bounou",
+        "minute": "10",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Achraf Hakimi",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "HAI",
+        "player": "Wilson Isidor",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Ismael Saibari",
+        "minute": "45+1",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Soufiane Rahimi",
+        "minute": "78",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Gessime Yassine",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "705982377efd",
+    "title": "Morocco 1-[2] Haiti - Wilson Isidor 41'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uesgzs/morocco_12_haiti_wilson_isidor_41",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uesgzs/morocco_12_haiti_wilson_isidor_41/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/977x • 7,190 points and 375 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/705982377efd.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-24T22:43:40Z",
+    "dateSaved": "2026-06-26T12:19:16Z",
+    "matchId": "MAR-HAI-2026-06-24",
+    "matchLabel": "🇲🇦 Morocco vs 🇭🇹 Haiti",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "C",
+    "teams": [
+      "Morocco",
+      "Haiti"
+    ],
+    "teamCodes": [
+      "MAR",
+      "HAI"
+    ],
+    "scoreLabel": "🇲🇦 Morocco 4–2 🇭🇹 Haiti",
+    "goals": [
+      {
+        "team": "HAI",
+        "player": "Yassine Bounou",
+        "minute": "10",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Achraf Hakimi",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "HAI",
+        "player": "Wilson Isidor",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Ismael Saibari",
+        "minute": "45+1",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Soufiane Rahimi",
+        "minute": "78",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Gessime Yassine",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "a3544c2ef207",
+    "title": "South African Players celebrating their historic win",
+    "url": "https://www.reddit.com/r/soccer/comments/1uf0iau/south_african_players_celebrating_their_historic",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uf0iau/south_african_players_celebrating_their_historic/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Evergreenthumb • 2,100 points and 106 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/MHNnOG1kdHIxZDloMVywid2TcNgAAv22cqEFQgEEdL9JrSyIz2fNk9IZypHO.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-25T04:58:28Z",
+    "dateSaved": "2026-06-26T22:13:14Z",
+    "matchId": "RSA-KOR-2026-06-24",
+    "matchLocked": true,
+    "matchLabel": "🇿🇦 South Africa vs 🇰🇷 South Korea",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "South Africa",
+      "South Korea"
+    ],
+    "teamCodes": [
+      "RSA",
+      "KOR"
+    ],
+    "scoreLabel": "🇿🇦 South Africa 1–0 🇰🇷 South Korea",
+    "goals": [
+      {
+        "team": "RSA",
+        "player": "Thapelo Maseko",
+        "minute": "63",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "33685f5cdf32",
+    "title": "scenes as south africa defeat south korea and",
+    "url": "https://www.reddit.com/r/soccer/comments/1uey6dk/scenes_as_south_africa_defeat_south_korea_and",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uey6dk",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-26T22:13:15Z",
+    "matchId": "RSA-KOR-2026-06-24",
+    "matchLabel": "🇿🇦 South Africa vs 🇰🇷 South Korea",
+    "matchDate": "2026-06-24",
+    "stage": "Group stage",
+    "group": "A",
+    "teams": [
+      "South Africa",
+      "South Korea"
+    ],
+    "teamCodes": [
+      "RSA",
+      "KOR"
+    ],
+    "scoreLabel": "🇿🇦 South Africa 1–0 🇰🇷 South Korea",
+    "goals": [
+      {
+        "team": "RSA",
+        "player": "Thapelo Maseko",
+        "minute": "63",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]

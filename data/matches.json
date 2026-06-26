@@ -1699,7 +1699,7 @@
     "group": "B",
     "round": null,
     "kickoffUtc": "2026-06-24T19:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Switzerland",
       "code": "SUI",
@@ -1710,11 +1710,17 @@
       "code": "CAN",
       "flag": "🇨🇦"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 2, "away": 1 },
+    "goals": [
+      { "team": "SUI", "player": "Rubén Vargas", "minute": "46", "ownGoal": false, "penalty": false },
+      { "team": "SUI", "player": "Johan Manzambi", "minute": "57", "ownGoal": false, "penalty": false },
+      { "team": "CAN", "player": "Promise David", "minute": "76", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Vancouver",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ueomz8/switzerland_2_0_canada_johan_manzambi_56/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "BIH-QAT-2026-06-24",
@@ -1722,7 +1728,7 @@
     "group": "B",
     "round": null,
     "kickoffUtc": "2026-06-24T19:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Bosnia & Herzegovina",
       "code": "BIH",
@@ -1733,11 +1739,18 @@
       "code": "QAT",
       "flag": "🇶🇦"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 3, "away": 1 },
+    "goals": [
+      { "team": "BIH", "player": "Kerim Alajbegović", "minute": "29", "ownGoal": false, "penalty": false },
+      { "team": "BIH", "player": "Mahmoud Abunada", "minute": "34", "ownGoal": true, "penalty": false },
+      { "team": "QAT", "player": "Hassan Al-Haydos", "minute": "42", "ownGoal": false, "penalty": false },
+      { "team": "BIH", "player": "Ermin Mahmić", "minute": "80", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Seattle",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uencyi/bosnia_and_herzegovina_1_0_qatar_k_alajbegovi%C4%87_29/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "SCO-BRA-2026-06-24",
@@ -1745,7 +1758,7 @@
     "group": "C",
     "round": null,
     "kickoffUtc": "2026-06-24T22:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Scotland",
       "code": "SCO",
@@ -1756,11 +1769,17 @@
       "code": "BRA",
       "flag": "🇧🇷"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 0, "away": 3 },
+    "goals": [
+      { "team": "BRA", "player": "Vinícius Jr", "minute": "7", "ownGoal": false, "penalty": false },
+      { "team": "BRA", "player": "Vinícius Jr", "minute": "45+3", "ownGoal": false, "penalty": false },
+      { "team": "BRA", "player": "Matheus Cunha", "minute": "60", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Miami (Miami Gardens)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uerlhu/scotland_0_1_brazil_vin%C3%ADcius_junior_7/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "MAR-HAI-2026-06-24",
@@ -1768,7 +1787,7 @@
     "group": "C",
     "round": null,
     "kickoffUtc": "2026-06-24T22:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Morocco",
       "code": "MAR",
@@ -1779,11 +1798,20 @@
       "code": "HAI",
       "flag": "🇭🇹"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 4, "away": 2 },
+    "goals": [
+      { "team": "HAI", "player": "Yassine Bounou", "minute": "10", "ownGoal": true, "penalty": false },
+      { "team": "MAR", "player": "Achraf Hakimi", "minute": "39", "ownGoal": false, "penalty": false },
+      { "team": "HAI", "player": "Wilson Isidor", "minute": "43", "ownGoal": false, "penalty": false },
+      { "team": "MAR", "player": "Ismael Saibari", "minute": "45+1", "ownGoal": false, "penalty": false },
+      { "team": "MAR", "player": "Soufiane Rahimi", "minute": "78", "ownGoal": false, "penalty": false },
+      { "team": "MAR", "player": "Gessime Yassine", "minute": "89", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Atlanta",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uerns9/morocco_0_1_haiti_lenny_joseph_10/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "CZE-MEX-2026-06-24",
@@ -1791,7 +1819,7 @@
     "group": "A",
     "round": null,
     "kickoffUtc": "2026-06-25T01:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Czech Republic",
       "code": "CZE",
@@ -1802,11 +1830,17 @@
       "code": "MEX",
       "flag": "🇲🇽"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 0, "away": 3 },
+    "goals": [
+      { "team": "MEX", "player": "Mateo Chávez", "minute": "55", "ownGoal": false, "penalty": false },
+      { "team": "MEX", "player": "Julián Quiñones", "minute": "61", "ownGoal": false, "penalty": false },
+      { "team": "MEX", "player": "Álvaro Fidalgo", "minute": "90+4", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Mexico City",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uex7iy/czechia_0_1_mexico_mateo_chavez_55/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "RSA-KOR-2026-06-24",
@@ -1814,7 +1848,7 @@
     "group": "A",
     "round": null,
     "kickoffUtc": "2026-06-25T01:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "South Africa",
       "code": "RSA",
@@ -1825,11 +1859,15 @@
       "code": "KOR",
       "flag": "🇰🇷"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 0 },
+    "goals": [
+      { "team": "RSA", "player": "Thapelo Maseko", "minute": "63", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Monterrey (Guadalupe)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uey6dk/scenes_as_south_africa_defeat_south_korea_and/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "CUW-CIV-2026-06-25",
@@ -1837,7 +1875,7 @@
     "group": "E",
     "round": null,
     "kickoffUtc": "2026-06-25T20:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Curaçao",
       "code": "CUW",
@@ -1848,11 +1886,16 @@
       "code": "CIV",
       "flag": "🇨🇮"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 0, "away": 2 },
+    "goals": [
+      { "team": "CIV", "player": "Nicolas Pépé", "minute": "7", "ownGoal": false, "penalty": false },
+      { "team": "CIV", "player": "Nicolas Pépé", "minute": "64", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Philadelphia",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ufl1j3/curacao_0_1_ivory_coast_n_pepe_7/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "ECU-GER-2026-06-25",
@@ -1860,7 +1903,7 @@
     "group": "E",
     "round": null,
     "kickoffUtc": "2026-06-25T20:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Ecuador",
       "code": "ECU",
@@ -1871,11 +1914,17 @@
       "code": "GER",
       "flag": "🇩🇪"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 2, "away": 1 },
+    "goals": [
+      { "team": "GER", "player": "Leroy Sané", "minute": "2", "ownGoal": false, "penalty": false },
+      { "team": "ECU", "player": "Nilson Angulo", "minute": "9", "ownGoal": false, "penalty": false },
+      { "team": "ECU", "player": "Gonzalo Plata", "minute": "77", "ownGoal": false, "penalty": false }
+    ],
     "venue": "New York/New Jersey (East Rutherford)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ufkvey/ecuador_0_1_germany_l_san%C3%A9_2/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "JPN-SWE-2026-06-25",
@@ -1883,7 +1932,7 @@
     "group": "F",
     "round": null,
     "kickoffUtc": "2026-06-25T23:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Japan",
       "code": "JPN",
@@ -1894,11 +1943,16 @@
       "code": "SWE",
       "flag": "🇸🇪"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 1 },
+    "goals": [
+      { "team": "JPN", "player": "Daizen Maeda", "minute": "56", "ownGoal": false, "penalty": false },
+      { "team": "SWE", "player": "Anthony Elanga", "minute": "62", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Dallas (Arlington)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ufr6gd/japan_1_0_sweden_daizen_maeda_56/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "TUN-NED-2026-06-25",
@@ -1906,7 +1960,7 @@
     "group": "F",
     "round": null,
     "kickoffUtc": "2026-06-25T23:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Tunisia",
       "code": "TUN",
@@ -1917,11 +1971,18 @@
       "code": "NED",
       "flag": "🇳🇱"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 3 },
+    "goals": [
+      { "team": "NED", "player": "Ellyes Skhiri", "minute": "3", "ownGoal": true, "penalty": false },
+      { "team": "NED", "player": "Brian Brobbey", "minute": "7", "ownGoal": false, "penalty": false },
+      { "team": "TUN", "player": "Hazem Mastouri", "minute": "54", "ownGoal": false, "penalty": false },
+      { "team": "NED", "player": "Jan-Paul van Hecke", "minute": "62", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Kansas City",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ufpifc/tunisia_01_netherlands_ellyes_skhiri_own_goal_3/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "TUR-USA-2026-06-25",
@@ -1929,7 +1990,7 @@
     "group": "D",
     "round": null,
     "kickoffUtc": "2026-06-26T02:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Turkey",
       "code": "TUR",
@@ -1940,11 +2001,19 @@
       "code": "USA",
       "flag": "🇺🇸"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 3, "away": 2 },
+    "goals": [
+      { "team": "USA", "player": "Auston Trusty", "minute": "3", "ownGoal": false, "penalty": false },
+      { "team": "TUR", "player": "Arda Güler", "minute": "10", "ownGoal": false, "penalty": false },
+      { "team": "TUR", "player": "Barış Alper Yılmaz", "minute": "31", "ownGoal": false, "penalty": false },
+      { "team": "USA", "player": "Sebastian Berhalter", "minute": "49", "ownGoal": false, "penalty": false },
+      { "team": "TUR", "player": "Kaan Ayhan", "minute": "90+8", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Los Angeles (Inglewood)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ufti39/turkiye_0_1_usa_a_trusty_3/"
+    ],
+    "lastUpdated": "2026-06-26T00:00:00Z"
   },
   {
     "matchId": "PAR-AUS-2026-06-25",
