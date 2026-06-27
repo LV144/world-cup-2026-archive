@@ -22799,5 +22799,2030 @@
       "score": 1
     },
     "needsReview": false
+  },
+  {
+    "id": "37f3c1e92c17",
+    "title": "Uruguay 0 - [1] Spain - Álex Baena 42'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugo92z/uruguay_0_1_spain_%C3%A1lex_baena_42",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugo92z/uruguay_0_1_spain_%C3%A1lex_baena_42/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 1,586 points and 465 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/37f3c1e92c17.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T00:42:44Z",
+    "dateSaved": "2026-06-27T13:22:29Z",
+    "matchId": "URU-ESP-2026-06-26",
+    "matchLabel": "🇺🇾 Uruguay vs 🇪🇸 Spain",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Spain"
+    ],
+    "teamCodes": [
+      "URU",
+      "ESP"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 0–1 🇪🇸 Spain",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Álex Baena",
+        "minute": "42'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "8c7bbb56d640",
+    "title": "Leon Goretzka mistakenly got onto Ecuador’s bus after the game",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugbaie/leon_goretzka_mistakenly_got_onto_ecuadors_bus",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugbaie/leon_goretzka_mistakenly_got_onto_ecuadors_bus/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Senior_Fig7845 • 10,693 points and 176 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/aGlmaDFnZGdqbjloMTQc4z6iPYg27KA2rrNz_E3ZHvrUXSexjnGJd1BwBDPR.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T16:15:30Z",
+    "dateSaved": "2026-06-27T13:22:38Z",
+    "matchId": "ECU-GER-2026-06-25",
+    "matchLocked": true,
+    "matchLabel": "🇪🇨 Ecuador vs 🇩🇪 Germany",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "teams": [
+      "Ecuador",
+      "Germany"
+    ],
+    "teamCodes": [
+      "ECU",
+      "GER"
+    ],
+    "scoreLabel": "🇪🇨 Ecuador 2–1 🇩🇪 Germany",
+    "goals": [
+      {
+        "team": "GER",
+        "player": "Leroy Sané",
+        "minute": "2",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Nilson Angulo",
+        "minute": "9",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Gonzalo Plata",
+        "minute": "77",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "95252b6e15c1",
+    "title": "Egypt [1] - 0 Iran - Mahmoud Saber 5'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugr8sc/egypt_1_0_iran_mahmoud_saber_5",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugr8sc/egypt_1_0_iran_mahmoud_saber_5/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 238 points and 63 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/95252b6e15c1.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T03:05:31Z",
+    "dateSaved": "2026-06-27T13:23:18Z",
+    "matchId": "EGY-IRN-2026-06-26",
+    "matchLabel": "🇪🇬 Egypt vs 🇮🇷 Iran",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "Egypt",
+      "Iran"
+    ],
+    "teamCodes": [
+      "EGY",
+      "IRN"
+    ],
+    "scoreLabel": "🇪🇬 Egypt 1–1 🇮🇷 Iran",
+    "goals": [
+      {
+        "team": "Egypt",
+        "player": "Mahmoud Saber",
+        "minute": "5'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Iran",
+        "player": "Ramin Rezaeian",
+        "minute": "14'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "e6a830161402",
+    "title": "Egypt 1 - [1] Iran - R. Rezaeian 14'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugrfbl/egypt_1_1_iran_r_rezaeian_14",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugrfbl/egypt_1_1_iran_r_rezaeian_14/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 438 points and 103 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/e6a830161402.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T03:14:32Z",
+    "dateSaved": "2026-06-27T13:23:30Z",
+    "matchId": "EGY-IRN-2026-06-26",
+    "matchLabel": "🇪🇬 Egypt vs 🇮🇷 Iran",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "Egypt",
+      "Iran"
+    ],
+    "teamCodes": [
+      "EGY",
+      "IRN"
+    ],
+    "scoreLabel": "🇪🇬 Egypt 1–1 🇮🇷 Iran",
+    "goals": [
+      {
+        "team": "Egypt",
+        "player": "Mahmoud Saber",
+        "minute": "5'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Iran",
+        "player": "Ramin Rezaeian",
+        "minute": "14'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "a58d19bc4e19",
+    "title": "Heated interview from Marcelo Bielsa after being eliminated from the World Cup",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugs4j3/heated_interview_from_marcelo_bielsa_after_being",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugs4j3/heated_interview_from_marcelo_bielsa_after_being/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Quick translation Bielsa says he wasn't able to maximize the potential of his players Interviewer asks about the Valverde substitution, he...",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/bDEwYWRheGF6cTloMfBIpkziCtA7uD--rCnfmr796SQjAq0KhDkftdDJRO-x.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260627094326/https://www.reddit.com/r/soccer/comments/1ugs4j3/heated_interview_from_marcelo_bielsa_after_being/",
+    "postDate": "2026-06-27T03:49:24Z",
+    "dateSaved": "2026-06-27T13:23:34Z",
+    "matchId": "URU-ESP-2026-06-26",
+    "matchLocked": true,
+    "matchLabel": "🇺🇾 Uruguay vs 🇪🇸 Spain",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Spain"
+    ],
+    "teamCodes": [
+      "URU",
+      "ESP"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 0–1 🇪🇸 Spain",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Álex Baena",
+        "minute": "42'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "c0cb560482ff",
+    "title": "Cape Verde celebrate reaching the knockout stage after a 0-0 draw with Saudi Arabia.",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugpxvt/cape_verde_celebrate_reaching_the_knockout_stage",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugpxvt/cape_verde_celebrate_reaching_the_knockout_stage/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Gentle_lips • 2,754 points and 184 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/UVtfC36g-IbaXfh0Q3fKEy7jmIAZTpbbPRStAgfH31g.jpeg?width=140&height=69&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T02:02:20Z",
+    "dateSaved": "2026-06-27T13:23:49Z",
+    "matchId": "CPV-KSA-2026-06-26",
+    "matchLabel": "🇨🇻 Cape Verde vs 🇸🇦 Saudi Arabia",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Cape Verde",
+      "Saudi Arabia"
+    ],
+    "teamCodes": [
+      "CPV",
+      "KSA"
+    ],
+    "scoreLabel": "🇨🇻 Cape Verde 0–0 🇸🇦 Saudi Arabia",
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "c89d7ad6852d",
+    "title": "The moment Cabo Verde learns they won second in the group",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugq0xo/the_moment_cabo_verde_learns_they_won_second_in",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugq0xo/the_moment_cabo_verde_learns_they_won_second_in/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 1,219 points and 71 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/ubU3mZ0gulJkD57BnVbSkl0Kd7bLDR_y2__4nISfAGE.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T02:06:21Z",
+    "dateSaved": "2026-06-27T13:24:04Z",
+    "matchId": "CPV-KSA-2026-06-26",
+    "matchLocked": true,
+    "matchLabel": "🇨🇻 Cape Verde vs 🇸🇦 Saudi Arabia",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Cape Verde",
+      "Saudi Arabia"
+    ],
+    "teamCodes": [
+      "CPV",
+      "KSA"
+    ],
+    "scoreLabel": "🇨🇻 Cape Verde 0–0 🇸🇦 Saudi Arabia",
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "a4c943e33802",
+    "title": "New Zealand 0 - [1] Belgium - L. Trossard 28'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugrpq8/new_zealand_0_1_belgium_l_trossard_28",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugrpq8/new_zealand_0_1_belgium_l_trossard_28/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 348 points and 106 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/a4c943e33802.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T03:28:53Z",
+    "dateSaved": "2026-06-27T13:24:19Z",
+    "matchId": "NZL-BEL-2026-06-26",
+    "matchLabel": "🇳🇿 New Zealand vs 🇧🇪 Belgium",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Belgium"
+    ],
+    "teamCodes": [
+      "NZL",
+      "BEL"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–5 🇧🇪 Belgium",
+    "goals": [
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "28'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "50'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Kevin De Bruyne",
+        "minute": "66'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "New Zealand",
+        "player": "E. Just",
+        "minute": "84'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "86'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Alexis Saelemaekers",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "3e67dc204d7e",
+    "title": "New Zealand 0 - [2] Belgium - L. Trossard 50'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugsksg/new_zealand_0_2_belgium_l_trossard_50",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugsksg/new_zealand_0_2_belgium_l_trossard_50/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 289 points and 108 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/3e67dc204d7e.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T04:12:25Z",
+    "dateSaved": "2026-06-27T13:24:30Z",
+    "matchId": "NZL-BEL-2026-06-26",
+    "matchLabel": "🇳🇿 New Zealand vs 🇧🇪 Belgium",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Belgium"
+    ],
+    "teamCodes": [
+      "NZL",
+      "BEL"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–5 🇧🇪 Belgium",
+    "goals": [
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "28'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "50'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Kevin De Bruyne",
+        "minute": "66'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "New Zealand",
+        "player": "E. Just",
+        "minute": "84'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "86'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Alexis Saelemaekers",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "bf0bf60c0f7e",
+    "title": "New Zealand [1] - 3 Belgium - E. Just 84'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugt8mi/new_zealand_1_3_belgium_e_just_84",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugt8mi/new_zealand_1_3_belgium_e_just_84/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 190 points and 67 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/bf0bf60c0f7e.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T04:46:11Z",
+    "dateSaved": "2026-06-27T13:24:45Z",
+    "matchId": "NZL-BEL-2026-06-26",
+    "matchLabel": "🇳🇿 New Zealand vs 🇧🇪 Belgium",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Belgium"
+    ],
+    "teamCodes": [
+      "NZL",
+      "BEL"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–5 🇧🇪 Belgium",
+    "goals": [
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "28'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "50'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Kevin De Bruyne",
+        "minute": "66'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "New Zealand",
+        "player": "E. Just",
+        "minute": "84'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "86'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Alexis Saelemaekers",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "c294aa16fbe1",
+    "title": "New Zealand 1 - [4] Belgium - R. Lukaku 86'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugt9w6/new_zealand_1_4_belgium_r_lukaku_86",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugt9w6/new_zealand_1_4_belgium_r_lukaku_86/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 439 points and 153 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/c294aa16fbe1.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T04:48:03Z",
+    "dateSaved": "2026-06-27T13:24:49Z",
+    "matchId": "NZL-BEL-2026-06-26",
+    "matchLabel": "🇳🇿 New Zealand vs 🇧🇪 Belgium",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Belgium"
+    ],
+    "teamCodes": [
+      "NZL",
+      "BEL"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–5 🇧🇪 Belgium",
+    "goals": [
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "28'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "50'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Kevin De Bruyne",
+        "minute": "66'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "New Zealand",
+        "player": "E. Just",
+        "minute": "84'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "86'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Alexis Saelemaekers",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "aa81e695b0df",
+    "title": "New Zealand 1 - [5] Belgium - A. Saelemaekers 90+4'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugtfp8/new_zealand_1_5_belgium_a_saelemaekers_904",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugtfp8/new_zealand_1_5_belgium_a_saelemaekers_904/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 237 points and 51 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/aa81e695b0df.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T04:56:38Z",
+    "dateSaved": "2026-06-27T13:24:53Z",
+    "matchId": "NZL-BEL-2026-06-26",
+    "matchLabel": "🇳🇿 New Zealand vs 🇧🇪 Belgium",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Belgium"
+    ],
+    "teamCodes": [
+      "NZL",
+      "BEL"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–5 🇧🇪 Belgium",
+    "goals": [
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "28'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "50'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Kevin De Bruyne",
+        "minute": "66'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "New Zealand",
+        "player": "E. Just",
+        "minute": "84'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "86'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Alexis Saelemaekers",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "9d48ac475b2c",
+    "title": "Senegal [1] - 0 Iraq - A. Seck 4'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugfw9p/senegal_1_0_iraq_a_seck_4",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugfw9p/senegal_1_0_iraq_a_seck_4/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 261 points and 58 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/9d48ac475b2c.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T19:06:15Z",
+    "dateSaved": "2026-06-27T13:24:57Z",
+    "matchId": "SEN-IRQ-2026-06-26",
+    "matchLabel": "🇸🇳 Senegal vs 🇮🇶 Iraq",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Senegal",
+      "Iraq"
+    ],
+    "teamCodes": [
+      "SEN",
+      "IRQ"
+    ],
+    "scoreLabel": "🇸🇳 Senegal 5–0 🇮🇶 Iraq",
+    "goals": [
+      {
+        "team": "Senegal",
+        "player": "A. Seck",
+        "minute": "4'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "56'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "58'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "71'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Iliman Ndiaye",
+        "minute": "82'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "02a0d43b38f2",
+    "title": "Senegal [2] - 0 Iraq - I. Sarr 56'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ughyrn/senegal_2_0_iraq_i_sarr_56",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ughyrn/senegal_2_0_iraq_i_sarr_56/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 214 points and 61 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/h_feflokG_FPR7kcDGNEwy65R6O1aNu-YrKv-QUX_2I.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T20:24:37Z",
+    "dateSaved": "2026-06-27T13:25:03Z",
+    "matchId": "SEN-IRQ-2026-06-26",
+    "matchLabel": "🇸🇳 Senegal vs 🇮🇶 Iraq",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Senegal",
+      "Iraq"
+    ],
+    "teamCodes": [
+      "SEN",
+      "IRQ"
+    ],
+    "scoreLabel": "🇸🇳 Senegal 5–0 🇮🇶 Iraq",
+    "goals": [
+      {
+        "team": "Senegal",
+        "player": "A. Seck",
+        "minute": "4'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "56'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "58'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "71'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Iliman Ndiaye",
+        "minute": "82'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "a361d869250e",
+    "title": "A dog celebrated with some vendors Gonzalo Plata's goal against Germany. FIRULAIS IS FROM ECUADOR*",
+    "url": "https://www.reddit.com/r/soccer/comments/1ughl21/a_dog_celebrated_with_some_vendors_gonzalo_platas",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ughl21/a_dog_celebrated_with_some_vendors_gonzalo_platas/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Rivertadores • 3,841 points and 50 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/N2l3ODhveGNwbzloMU4jLDxQHBnd3UXb1PyGTE7XHXdmmQyku1cIq4e1vRDX.png?width=140&height=80&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T20:10:17Z",
+    "dateSaved": "2026-06-27T13:26:45Z",
+    "matchId": "ECU-GER-2026-06-25",
+    "matchLabel": "🇪🇨 Ecuador vs 🇩🇪 Germany",
+    "matchDate": "2026-06-25",
+    "stage": "Group stage",
+    "group": "E",
+    "teams": [
+      "Ecuador",
+      "Germany"
+    ],
+    "teamCodes": [
+      "ECU",
+      "GER"
+    ],
+    "scoreLabel": "🇪🇨 Ecuador 2–1 🇩🇪 Germany",
+    "goals": [
+      {
+        "team": "GER",
+        "player": "Leroy Sané",
+        "minute": "2",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Nilson Angulo",
+        "minute": "9",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Gonzalo Plata",
+        "minute": "77",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [
+      "Vibes"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "8227122ab133",
+    "title": "Norway 0 - [1] France - Ousmane Dembélé goal 6'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugfxlz/norway_0_1_france_ousmane_demb%C3%A9l%C3%A9_goal_6",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugfxlz/norway_0_1_france_ousmane_demb%C3%A9l%C3%A9_goal_6/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Ihattaren • 1,535 points and 227 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/8227122ab133.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260626191126/https://www.reddit.com/r/soccer/comments/1ugfxlz/norway_0_1_france_ousmane_demb%C3%A9l%C3%A9_goal_6/",
+    "postDate": "2026-06-26T19:07:42Z",
+    "dateSaved": "2026-06-27T13:27:39Z",
+    "matchId": "NOR-FRA-2026-06-26",
+    "matchLabel": "🇳🇴 Norway vs 🇫🇷 France",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Norway",
+      "France"
+    ],
+    "teamCodes": [
+      "NOR",
+      "FRA"
+    ],
+    "scoreLabel": "🇳🇴 Norway 1–4 🇫🇷 France",
+    "goals": [
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "6'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "20'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Norway",
+        "player": "Tobias Aasgaard",
+        "minute": "21'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "32'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Désiré Doué",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "a42e3b27dce3",
+    "title": "New Zealand 0 - [3] Belgium - K. De Bruyne 66'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugswdv/new_zealand_0_3_belgium_k_de_bruyne_66",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugswdv/new_zealand_0_3_belgium_k_de_bruyne_66/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 568 points and 106 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/a42e3b27dce3.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T04:28:41Z",
+    "dateSaved": "2026-06-27T13:28:22Z",
+    "matchId": "NZL-BEL-2026-06-26",
+    "matchLabel": "🇳🇿 New Zealand vs 🇧🇪 Belgium",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "G",
+    "teams": [
+      "New Zealand",
+      "Belgium"
+    ],
+    "teamCodes": [
+      "NZL",
+      "BEL"
+    ],
+    "scoreLabel": "🇳🇿 New Zealand 1–5 🇧🇪 Belgium",
+    "goals": [
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "28'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "50'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Kevin De Bruyne",
+        "minute": "66'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "New Zealand",
+        "player": "E. Just",
+        "minute": "84'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "86'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Alexis Saelemaekers",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "f393c907faa2",
+    "title": "Norway [1] - 2 France - T. Aasgaard 21'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uggbyr/norway_1_2_france_t_aasgaard_21",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uggbyr/norway_1_2_france_t_aasgaard_21/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 1,797 points and 276 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/f393c907faa2.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260626192540/https://www.reddit.com/r/soccer/comments/1uggbyr/norway_1_2_france_t_aasgaard_21/",
+    "postDate": "2026-06-26T19:22:41Z",
+    "dateSaved": "2026-06-27T13:28:26Z",
+    "matchId": "NOR-FRA-2026-06-26",
+    "matchLabel": "🇳🇴 Norway vs 🇫🇷 France",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Norway",
+      "France"
+    ],
+    "teamCodes": [
+      "NOR",
+      "FRA"
+    ],
+    "scoreLabel": "🇳🇴 Norway 1–4 🇫🇷 France",
+    "goals": [
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "6'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "20'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Norway",
+        "player": "Tobias Aasgaard",
+        "minute": "21'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "32'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Désiré Doué",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "78403487246e",
+    "title": "Norway 1 - [3] France - Ousmane Dembélé goal 32'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uggm1i/norway_1_3_france_ousmane_demb%C3%A9l%C3%A9_goal_32",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uggm1i/norway_1_3_france_ousmane_demb%C3%A9l%C3%A9_goal_32/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Ihattaren • 1,950 points and 260 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/78403487246e.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T19:33:20Z",
+    "dateSaved": "2026-06-27T13:28:37Z",
+    "matchId": "NOR-FRA-2026-06-26",
+    "matchLabel": "🇳🇴 Norway vs 🇫🇷 France",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Norway",
+      "France"
+    ],
+    "teamCodes": [
+      "NOR",
+      "FRA"
+    ],
+    "scoreLabel": "🇳🇴 Norway 1–4 🇫🇷 France",
+    "goals": [
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "6'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "20'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Norway",
+        "player": "Tobias Aasgaard",
+        "minute": "21'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "32'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Désiré Doué",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "ae553b36a470",
+    "title": "Norway 1 - [4] France - Désiré Doué goal 90+4'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugitlk/norway_1_4_france_d%C3%A9sir%C3%A9_dou%C3%A9_goal_904",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugitlk/norway_1_4_france_d%C3%A9sir%C3%A9_dou%C3%A9_goal_904/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Ihattaren • 583 points and 154 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/ae553b36a470.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T20:57:27Z",
+    "dateSaved": "2026-06-27T13:28:54Z",
+    "matchId": "NOR-FRA-2026-06-26",
+    "matchLabel": "🇳🇴 Norway vs 🇫🇷 France",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Norway",
+      "France"
+    ],
+    "teamCodes": [
+      "NOR",
+      "FRA"
+    ],
+    "scoreLabel": "🇳🇴 Norway 1–4 🇫🇷 France",
+    "goals": [
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "6'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "20'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Norway",
+        "player": "Tobias Aasgaard",
+        "minute": "21'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "32'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Désiré Doué",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "46ab6a7dd675",
+    "title": "Norway 0 - [2] France - Ousmane Dembélé 20'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uggbg7/norway_0_2_france_ousmane_demb%C3%A9l%C3%A9_20",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uggbg7",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260626192541/https://www.reddit.com/r/soccer/comments/1uggbg7/norway_0_2_france_ousmane_demb%C3%A9l%C3%A9_20/",
+    "postDate": "2026-06-26T19:22:06.000Z",
+    "dateSaved": "2026-06-27T13:28:59Z",
+    "matchId": "NOR-FRA-2026-06-26",
+    "matchLabel": "🇳🇴 Norway vs 🇫🇷 France",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Norway",
+      "France"
+    ],
+    "teamCodes": [
+      "NOR",
+      "FRA"
+    ],
+    "scoreLabel": "🇳🇴 Norway 1–4 🇫🇷 France",
+    "goals": [
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "6'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "20'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Norway",
+        "player": "Tobias Aasgaard",
+        "minute": "21'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "32'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Désiré Doué",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "7c140a66386a",
+    "title": "Senegal [3] - 0 Iraq - P. Gueye 58' (Great Goal)",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugi1q8/senegal_3_0_iraq_p_gueye_58_great_goal",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugi1q8",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T20:27:51.000Z",
+    "dateSaved": "2026-06-27T13:29:15Z",
+    "matchId": "SEN-IRQ-2026-06-26",
+    "matchLabel": "🇸🇳 Senegal vs 🇮🇶 Iraq",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Senegal",
+      "Iraq"
+    ],
+    "teamCodes": [
+      "SEN",
+      "IRQ"
+    ],
+    "scoreLabel": "🇸🇳 Senegal 5–0 🇮🇶 Iraq",
+    "goals": [
+      {
+        "team": "Senegal",
+        "player": "A. Seck",
+        "minute": "4'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "56'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "58'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "71'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Iliman Ndiaye",
+        "minute": "82'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "8549dd47d89f",
+    "title": "Senegal [4] - 0 Iraq - P. Gueye 71'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugicxd/senegal_4_0_iraq_p_gueye_71",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugicxd",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-27T13:29:31Z",
+    "matchId": "SEN-IRQ-2026-06-26",
+    "matchLabel": "🇸🇳 Senegal vs 🇮🇶 Iraq",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Senegal",
+      "Iraq"
+    ],
+    "teamCodes": [
+      "SEN",
+      "IRQ"
+    ],
+    "scoreLabel": "🇸🇳 Senegal 5–0 🇮🇶 Iraq",
+    "goals": [
+      {
+        "team": "Senegal",
+        "player": "A. Seck",
+        "minute": "4'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "56'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "58'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "71'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Iliman Ndiaye",
+        "minute": "82'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "963bc0551768",
+    "title": "Senegal [5] - 0 Iraq - I. Ndiaye 82'",
+    "url": "https://www.reddit.com/r/soccer/comments/1uginba/senegal_5_0_iraq_i_ndiaye_82",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1uginba",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": null,
+    "thumbnailRemoteUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120%22%20height%3D%22120%22%20viewBox%3D%220%200%20120%20120%22%3E%3Crect%20width%3D%22120%22%20height%3D%22120%22%20rx%3D%2216%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2260%22%20cy%3D%2266%22%20r%3D%2234%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Ccircle%20cx%3D%2274%22%20cy%3D%2264%22%20r%3D%226%22%20fill%3D%22%23ff4500%22%2F%3E%3Cpath%20d%3D%22M44%2080%20q16%2012%2032%200%22%20stroke%3D%22%23ff4500%22%20stroke-width%3D%225%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": null,
+    "dateSaved": "2026-06-27T13:29:47Z",
+    "matchId": "SEN-IRQ-2026-06-26",
+    "matchLabel": "🇸🇳 Senegal vs 🇮🇶 Iraq",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Senegal",
+      "Iraq"
+    ],
+    "teamCodes": [
+      "SEN",
+      "IRQ"
+    ],
+    "scoreLabel": "🇸🇳 Senegal 5–0 🇮🇶 Iraq",
+    "goals": [
+      {
+        "team": "Senegal",
+        "player": "A. Seck",
+        "minute": "4'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "56'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "58'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "71'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Iliman Ndiaye",
+        "minute": "82'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights",
+      "Banger"
+    ],
+    "pinnedTags": [
+      "Banger"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "1a5a238f7db0",
+    "title": "Agustin Canobbio straight red card against Spain 90+5'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugpvh1/agustin_canobbio_straight_red_card_against_spain",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugpvh1/agustin_canobbio_straight_red_card_against_spain/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/eliseihado • 2,218 points and 527 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/1a5a238f7db0.png",
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-27T01:59:19Z",
+    "dateSaved": "2026-06-27T13:31:11Z",
+    "matchId": "URU-ESP-2026-06-26",
+    "matchLocked": true,
+    "matchLabel": "🇺🇾 Uruguay vs 🇪🇸 Spain",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "H",
+    "teams": [
+      "Uruguay",
+      "Spain"
+    ],
+    "teamCodes": [
+      "URU",
+      "ESP"
+    ],
+    "scoreLabel": "🇺🇾 Uruguay 0–1 🇪🇸 Spain",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Álex Baena",
+        "minute": "42'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Red card"
+    ],
+    "pinnedTags": [
+      "Red card"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "201329933e8d",
+    "title": "R. Sulaka straight red card against Senegal 13'",
+    "url": "https://www.reddit.com/r/soccer/comments/1ugg6qw/r_sulaka_straight_red_card_against_senegal_13",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1ugg6qw/r_sulaka_straight_red_card_against_senegal_13/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 1,202 points and 170 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/MFRWdfl1CCRq5zHH-aTFpdk5SCBb3PX2u-WekxI8dX0.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-06-26T19:17:18Z",
+    "dateSaved": "2026-06-27T13:31:25Z",
+    "matchId": "SEN-IRQ-2026-06-26",
+    "matchLocked": true,
+    "matchLabel": "🇸🇳 Senegal vs 🇮🇶 Iraq",
+    "matchDate": "2026-06-26",
+    "stage": "Group stage",
+    "group": "I",
+    "teams": [
+      "Senegal",
+      "Iraq"
+    ],
+    "teamCodes": [
+      "SEN",
+      "IRQ"
+    ],
+    "scoreLabel": "🇸🇳 Senegal 5–0 🇮🇶 Iraq",
+    "goals": [
+      {
+        "team": "Senegal",
+        "player": "A. Seck",
+        "minute": "4'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "56'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "58'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "71'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Iliman Ndiaye",
+        "minute": "82'",
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Red card"
+    ],
+    "pinnedTags": [
+      "Red card"
+    ],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
   }
 ]

@@ -2044,7 +2044,7 @@
     "group": "I",
     "round": null,
     "kickoffUtc": "2026-06-26T19:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Norway",
       "code": "NOR",
@@ -2055,11 +2055,17 @@
       "code": "FRA",
       "flag": "🇫🇷"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 4 },
+    "goals": [
+      { "team": "France", "player": "Ousmane Dembélé", "minute": "6'", "ownGoal": false, "penalty": false },
+      { "team": "France", "player": "Ousmane Dembélé", "minute": "20'", "ownGoal": false, "penalty": false },
+      { "team": "Norway", "player": "Tobias Aasgaard", "minute": "21'", "ownGoal": false, "penalty": false },
+      { "team": "France", "player": "Ousmane Dembélé", "minute": "32'", "ownGoal": false, "penalty": false },
+      { "team": "France", "player": "Désiré Doué", "minute": "90+4'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Boston (Foxborough)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugitlk/norway_1_4_france_d%C3%A9sir%C3%A9_dou%C3%A9_goal_904"],
+    "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
     "matchId": "SEN-IRQ-2026-06-26",
@@ -2067,7 +2073,7 @@
     "group": "I",
     "round": null,
     "kickoffUtc": "2026-06-26T19:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Senegal",
       "code": "SEN",
@@ -2078,11 +2084,17 @@
       "code": "IRQ",
       "flag": "🇮🇶"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 5, "away": 0 },
+    "goals": [
+      { "team": "Senegal", "player": "A. Seck", "minute": "4'", "ownGoal": false, "penalty": false },
+      { "team": "Senegal", "player": "Ismaïla Sarr", "minute": "56'", "ownGoal": false, "penalty": false },
+      { "team": "Senegal", "player": "Pape Matar Gueye", "minute": "58'", "ownGoal": false, "penalty": false },
+      { "team": "Senegal", "player": "Pape Matar Gueye", "minute": "71'", "ownGoal": false, "penalty": false },
+      { "team": "Senegal", "player": "Iliman Ndiaye", "minute": "82'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Toronto",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uginba/senegal_5_0_iraq_i_ndiaye_82"],
+    "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
     "matchId": "CPV-KSA-2026-06-26",
@@ -2090,7 +2102,7 @@
     "group": "H",
     "round": null,
     "kickoffUtc": "2026-06-27T00:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Cape Verde",
       "code": "CPV",
@@ -2101,11 +2113,11 @@
       "code": "KSA",
       "flag": "🇸🇦"
     },
-    "score": null,
+    "score": { "home": 0, "away": 0 },
     "goals": [],
     "venue": "Houston",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugpxvt/cape_verde_celebrate_reaching_the_knockout_stage"],
+    "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
     "matchId": "URU-ESP-2026-06-26",
@@ -2113,7 +2125,7 @@
     "group": "H",
     "round": null,
     "kickoffUtc": "2026-06-27T00:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Uruguay",
       "code": "URU",
@@ -2124,11 +2136,13 @@
       "code": "ESP",
       "flag": "🇪🇸"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 0, "away": 1 },
+    "goals": [
+      { "team": "Spain", "player": "Álex Baena", "minute": "42'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Guadalajara (Zapopan)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugo92z/uruguay_0_1_spain_%C3%A1lex_baena_42"],
+    "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
     "matchId": "EGY-IRN-2026-06-26",
@@ -2136,7 +2150,7 @@
     "group": "G",
     "round": null,
     "kickoffUtc": "2026-06-27T03:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Egypt",
       "code": "EGY",
@@ -2147,11 +2161,14 @@
       "code": "IRN",
       "flag": "🇮🇷"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 1 },
+    "goals": [
+      { "team": "Egypt", "player": "Mahmoud Saber", "minute": "5'", "ownGoal": false, "penalty": false },
+      { "team": "Iran", "player": "Ramin Rezaeian", "minute": "14'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Seattle",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugrfbl/egypt_1_1_iran_r_rezaeian_14"],
+    "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
     "matchId": "NZL-BEL-2026-06-26",
@@ -2159,7 +2176,7 @@
     "group": "G",
     "round": null,
     "kickoffUtc": "2026-06-27T03:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "New Zealand",
       "code": "NZL",
@@ -2170,11 +2187,18 @@
       "code": "BEL",
       "flag": "🇧🇪"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 5 },
+    "goals": [
+      { "team": "Belgium", "player": "Leandro Trossard", "minute": "28'", "ownGoal": false, "penalty": false },
+      { "team": "Belgium", "player": "Leandro Trossard", "minute": "50'", "ownGoal": false, "penalty": false },
+      { "team": "Belgium", "player": "Kevin De Bruyne", "minute": "66'", "ownGoal": false, "penalty": false },
+      { "team": "New Zealand", "player": "E. Just", "minute": "84'", "ownGoal": false, "penalty": false },
+      { "team": "Belgium", "player": "Romelu Lukaku", "minute": "86'", "ownGoal": false, "penalty": false },
+      { "team": "Belgium", "player": "Alexis Saelemaekers", "minute": "90+4'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Vancouver",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugtfp8/new_zealand_1_5_belgium_a_saelemaekers_904"],
+    "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
     "matchId": "PAN-ENG-2026-06-27",
