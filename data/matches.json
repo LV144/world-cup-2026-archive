@@ -2206,7 +2206,7 @@
     "group": "L",
     "round": null,
     "kickoffUtc": "2026-06-27T21:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Panama",
       "code": "PAN",
@@ -2217,11 +2217,14 @@
       "code": "ENG",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 0, "away": 2 },
+    "goals": [
+      { "team": "England", "player": "Jude Bellingham", "minute": "62'", "ownGoal": false, "penalty": false },
+      { "team": "England", "player": "Harry Kane", "minute": "67'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "New York/New Jersey (East Rutherford)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhfv2v/panama_0_2_england_harry_kane_67"],
+    "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
     "matchId": "CRO-GHA-2026-06-27",
@@ -2229,7 +2232,7 @@
     "group": "L",
     "round": null,
     "kickoffUtc": "2026-06-27T21:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Croatia",
       "code": "CRO",
@@ -2240,11 +2243,15 @@
       "code": "GHA",
       "flag": "🇬🇭"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 2, "away": 1 },
+    "goals": [
+      { "team": "Croatia", "player": "Petar Sučić", "minute": "31'", "ownGoal": false, "penalty": false },
+      { "team": "Ghana", "player": "Derrick Luckassen", "minute": "73'", "ownGoal": false, "penalty": false },
+      { "team": "Croatia", "player": "Nikola Vlašić", "minute": "83'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Philadelphia",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhgbwy/croatia_2_1_ghana_nikola_vla%C5%A1i%C4%87_83"],
+    "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
     "matchId": "COL-POR-2026-06-27",
@@ -2252,7 +2259,7 @@
     "group": "K",
     "round": null,
     "kickoffUtc": "2026-06-27T23:30:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Colombia",
       "code": "COL",
@@ -2263,11 +2270,11 @@
       "code": "POR",
       "flag": "🇵🇹"
     },
-    "score": null,
+    "score": { "home": 0, "away": 0 },
     "goals": [],
     "venue": "Miami (Miami Gardens)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhjwrs/colombia_disallowed_goal_x_portugal"],
+    "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
     "matchId": "COD-UZB-2026-06-27",
@@ -2275,7 +2282,7 @@
     "group": "K",
     "round": null,
     "kickoffUtc": "2026-06-27T23:30:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "DR Congo",
       "code": "COD",
@@ -2286,11 +2293,16 @@
       "code": "UZB",
       "flag": "🇺🇿"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 3, "away": 1 },
+    "goals": [
+      { "team": "Uzbekistan", "player": "Eldor Shomurodov", "minute": "10'", "ownGoal": false, "penalty": false },
+      { "team": "DR Congo", "player": "Yoane Wissa", "minute": "68'", "ownGoal": false, "penalty": true },
+      { "team": "DR Congo", "player": "F. Mayele", "minute": "72'", "ownGoal": false, "penalty": false },
+      { "team": "DR Congo", "player": "Yoane Wissa", "minute": "90+1'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Atlanta",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhjsyy/dr_congo_3_1_uzbekistan_y_wissa_901"],
+    "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
     "matchId": "ALG-AUT-2026-06-27",
@@ -2298,7 +2310,7 @@
     "group": "J",
     "round": null,
     "kickoffUtc": "2026-06-28T02:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Algeria",
       "code": "ALG",
@@ -2309,11 +2321,18 @@
       "code": "AUT",
       "flag": "🇦🇹"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 3, "away": 3 },
+    "goals": [
+      { "team": "Austria", "player": "Marko Arnautovic", "minute": "28'", "ownGoal": false, "penalty": false },
+      { "team": "Algeria", "player": "Rafik Belghali", "minute": "45'", "ownGoal": false, "penalty": false },
+      { "team": "Austria", "player": "Marcel Sabitzer", "minute": "55'", "ownGoal": false, "penalty": false },
+      { "team": "Algeria", "player": "Riyad Mahrez", "minute": "60'", "ownGoal": false, "penalty": false },
+      { "team": "Algeria", "player": "Riyad Mahrez", "minute": "90+3'", "ownGoal": false, "penalty": false },
+      { "team": "Austria", "player": "Saša Kalajdžić", "minute": "90+6'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Kansas City",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhmwm3/algeria_33_austria_sa%C5%A1a_kalajd%C5%BEi%C4%87_90_6"],
+    "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
     "matchId": "JOR-ARG-2026-06-27",
@@ -2321,7 +2340,7 @@
     "group": "J",
     "round": null,
     "kickoffUtc": "2026-06-28T02:00:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "homeTeam": {
       "name": "Jordan",
       "code": "JOR",
@@ -2332,10 +2351,15 @@
       "code": "ARG",
       "flag": "🇦🇷"
     },
-    "score": null,
-    "goals": [],
+    "score": { "home": 1, "away": 3 },
+    "goals": [
+      { "team": "Argentina", "player": "Giovani Lo Celso", "minute": "19'", "ownGoal": false, "penalty": false },
+      { "team": "Argentina", "player": "Lautaro Martínez", "minute": "31'", "ownGoal": false, "penalty": false },
+      { "team": "Jordan", "player": "Mousa Tamari", "minute": "55'", "ownGoal": false, "penalty": false },
+      { "team": "Argentina", "player": "Lionel Messi", "minute": "80'", "ownGoal": false, "penalty": false }
+    ],
     "venue": "Dallas (Arlington)",
-    "sourceUrls": [],
-    "lastUpdated": "2026-06-14T13:03:43Z"
+    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhml5i/jordan_13_argentina_lionel_messi_freekick_80"],
+    "lastUpdated": "2026-06-28T00:00:00Z"
   }
 ]
