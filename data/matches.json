@@ -631,7 +631,10 @@
       "code": "CPV",
       "flag": "🇨🇻"
     },
-    "score": { "home": 0, "away": 0 },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "goals": [],
     "venue": "Atlanta",
     "sourceUrls": [
@@ -656,10 +659,25 @@
       "code": "EGY",
       "flag": "🇪🇬"
     },
-    "score": { "home": 1, "away": 1 },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
     "goals": [
-      { "team": "EGY", "player": "Emam Ashour", "minute": "19", "ownGoal": false, "penalty": false },
-      { "team": "BEL", "player": "Mohamed Hany", "minute": "66", "ownGoal": true, "penalty": false }
+      {
+        "team": "EGY",
+        "player": "Emam Ashour",
+        "minute": "19",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BEL",
+        "player": "Mohamed Hany",
+        "minute": "66",
+        "ownGoal": true,
+        "penalty": false
+      }
     ],
     "venue": "Seattle",
     "sourceUrls": [
@@ -685,10 +703,25 @@
       "code": "URU",
       "flag": "🇺🇾"
     },
-    "score": { "home": 1, "away": 1 },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
     "goals": [
-      { "team": "KSA", "player": "Abdulelah Al-Amri", "minute": "41", "ownGoal": false, "penalty": false },
-      { "team": "URU", "player": "Maxi Araújo", "minute": "80", "ownGoal": false, "penalty": false }
+      {
+        "team": "KSA",
+        "player": "Abdulelah Al-Amri",
+        "minute": "41",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Maxi Araújo",
+        "minute": "80",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Miami (Miami Gardens)",
     "sourceUrls": [
@@ -714,12 +747,39 @@
       "code": "NZL",
       "flag": "🇳🇿"
     },
-    "score": { "home": 2, "away": 2 },
+    "score": {
+      "home": 2,
+      "away": 2
+    },
     "goals": [
-      { "team": "NZL", "player": "Elijah Just", "minute": "7", "ownGoal": false, "penalty": false },
-      { "team": "IRN", "player": "Ramin Rezaeian", "minute": "33", "ownGoal": false, "penalty": false },
-      { "team": "NZL", "player": "Elijah Just", "minute": "54", "ownGoal": false, "penalty": false },
-      { "team": "IRN", "player": "Mohammad Mohebbi", "minute": "64", "ownGoal": false, "penalty": false }
+      {
+        "team": "NZL",
+        "player": "Elijah Just",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "IRN",
+        "player": "Ramin Rezaeian",
+        "minute": "33",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NZL",
+        "player": "Elijah Just",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "IRN",
+        "player": "Mohammad Mohebbi",
+        "minute": "64",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Los Angeles (Inglewood)",
     "sourceUrls": [
@@ -747,12 +807,39 @@
       "code": "SEN",
       "flag": "🇸🇳"
     },
-    "score": { "home": 3, "away": 1 },
+    "score": {
+      "home": 3,
+      "away": 1
+    },
     "goals": [
-      { "team": "FRA", "player": "Kylian Mbappé", "minute": "66", "ownGoal": false, "penalty": false },
-      { "team": "FRA", "player": "Bradley Barcola", "minute": "82", "ownGoal": false, "penalty": false },
-      { "team": "SEN", "player": "Ibrahim Mbaye", "minute": "90+4", "ownGoal": false, "penalty": false },
-      { "team": "FRA", "player": "Kylian Mbappé", "minute": "90+6", "ownGoal": false, "penalty": false }
+      {
+        "team": "FRA",
+        "player": "Kylian Mbappé",
+        "minute": "66",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "FRA",
+        "player": "Bradley Barcola",
+        "minute": "82",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SEN",
+        "player": "Ibrahim Mbaye",
+        "minute": "90+4",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "FRA",
+        "player": "Kylian Mbappé",
+        "minute": "90+6",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "New York/New Jersey (East Rutherford)",
     "sourceUrls": [
@@ -780,13 +867,46 @@
       "code": "NOR",
       "flag": "🇳🇴"
     },
-    "score": { "home": 1, "away": 4 },
+    "score": {
+      "home": 1,
+      "away": 4
+    },
     "goals": [
-      { "team": "NOR", "player": "Erling Haaland", "minute": "29", "ownGoal": false, "penalty": false },
-      { "team": "IRQ", "player": "Ayman Hussein", "minute": "39", "ownGoal": false, "penalty": false },
-      { "team": "NOR", "player": "Erling Haaland", "minute": "43", "ownGoal": false, "penalty": false },
-      { "team": "NOR", "player": "Leo Ostigard", "minute": "76", "ownGoal": false, "penalty": false },
-      { "team": "NOR", "player": "Kristian Thorstvedt", "minute": "90+6", "ownGoal": false, "penalty": false }
+      {
+        "team": "NOR",
+        "player": "Erling Haaland",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "IRQ",
+        "player": "Ayman Hussein",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Erling Haaland",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Leo Ostigard",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Kristian Thorstvedt",
+        "minute": "90+6",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Boston (Foxborough)",
     "sourceUrls": [
@@ -814,11 +934,32 @@
       "code": "ALG",
       "flag": "🇩🇿"
     },
-    "score": { "home": 3, "away": 0 },
+    "score": {
+      "home": 3,
+      "away": 0
+    },
     "goals": [
-      { "team": "ARG", "player": "Lionel Messi", "minute": "17", "ownGoal": false, "penalty": false },
-      { "team": "ARG", "player": "Lionel Messi", "minute": "60", "ownGoal": false, "penalty": false },
-      { "team": "ARG", "player": "Lionel Messi", "minute": "76", "ownGoal": false, "penalty": false }
+      {
+        "team": "ARG",
+        "player": "Lionel Messi",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ARG",
+        "player": "Lionel Messi",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ARG",
+        "player": "Lionel Messi",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Kansas City",
     "sourceUrls": [
@@ -845,12 +986,39 @@
       "code": "JOR",
       "flag": "🇯🇴"
     },
-    "score": { "home": 3, "away": 1 },
+    "score": {
+      "home": 3,
+      "away": 1
+    },
     "goals": [
-      { "team": "AUT", "player": "Romano Schmid", "minute": "20", "ownGoal": false, "penalty": false },
-      { "team": "JOR", "player": "Ali Olwan", "minute": "50", "ownGoal": false, "penalty": false },
-      { "team": "AUT", "player": "Yazan Al-Arab", "minute": "76", "ownGoal": true, "penalty": false },
-      { "team": "AUT", "player": "Marko Arnautovic", "minute": "90+12", "ownGoal": false, "penalty": true }
+      {
+        "team": "AUT",
+        "player": "Romano Schmid",
+        "minute": "20",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "JOR",
+        "player": "Ali Olwan",
+        "minute": "50",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "AUT",
+        "player": "Yazan Al-Arab",
+        "minute": "76",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "AUT",
+        "player": "Marko Arnautovic",
+        "minute": "90+12",
+        "ownGoal": false,
+        "penalty": true
+      }
     ],
     "venue": "San Francisco Bay Area (Santa Clara)",
     "sourceUrls": [
@@ -878,10 +1046,25 @@
       "code": "COD",
       "flag": "🇨🇩"
     },
-    "score": { "home": 1, "away": 1 },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
     "goals": [
-      { "team": "POR", "player": "João Neves", "minute": "5", "ownGoal": false, "penalty": false },
-      { "team": "COD", "player": "Yoane Wissa", "minute": "45+5", "ownGoal": false, "penalty": false }
+      {
+        "team": "POR",
+        "player": "João Neves",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COD",
+        "player": "Yoane Wissa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Houston",
     "sourceUrls": [
@@ -907,14 +1090,53 @@
       "code": "CRO",
       "flag": "🇭🇷"
     },
-    "score": { "home": 4, "away": 2 },
+    "score": {
+      "home": 4,
+      "away": 2
+    },
     "goals": [
-      { "team": "ENG", "player": "Harry Kane", "minute": "12", "ownGoal": false, "penalty": true },
-      { "team": "CRO", "player": "Martin Baturina", "minute": "36", "ownGoal": false, "penalty": false },
-      { "team": "ENG", "player": "Harry Kane", "minute": "42", "ownGoal": false, "penalty": false },
-      { "team": "CRO", "player": "Petar Musa", "minute": "45+5", "ownGoal": false, "penalty": false },
-      { "team": "ENG", "player": "Jude Bellingham", "minute": "47", "ownGoal": false, "penalty": false },
-      { "team": "ENG", "player": "Marcus Rashford", "minute": "85", "ownGoal": false, "penalty": false }
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "12",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "CRO",
+        "player": "Martin Baturina",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Harry Kane",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CRO",
+        "player": "Petar Musa",
+        "minute": "45+5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Jude Bellingham",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ENG",
+        "player": "Marcus Rashford",
+        "minute": "85",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Dallas (Arlington)",
     "sourceUrls": [
@@ -944,9 +1166,18 @@
       "code": "PAN",
       "flag": "🇵🇦"
     },
-    "score": { "home": 1, "away": 0 },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
     "goals": [
-      { "team": "GHA", "player": "Caleb Yirenkyi", "minute": "90+5", "ownGoal": false, "penalty": false }
+      {
+        "team": "GHA",
+        "player": "Caleb Yirenkyi",
+        "minute": "90+5",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Toronto",
     "sourceUrls": [
@@ -971,12 +1202,39 @@
       "code": "COL",
       "flag": "🇨🇴"
     },
-    "score": { "home": 1, "away": 3 },
+    "score": {
+      "home": 1,
+      "away": 3
+    },
     "goals": [
-      { "team": "COL", "player": "Daniel Muñoz", "minute": "41", "ownGoal": false, "penalty": false },
-      { "team": "UZB", "player": "Abbosbek Fayzullaev", "minute": "60", "ownGoal": false, "penalty": false },
-      { "team": "COL", "player": "Luis Díaz", "minute": "66", "ownGoal": false, "penalty": false },
-      { "team": "COL", "player": "Jáminton Campaz", "minute": "90+9", "ownGoal": false, "penalty": false }
+      {
+        "team": "COL",
+        "player": "Daniel Muñoz",
+        "minute": "41",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "UZB",
+        "player": "Abbosbek Fayzullaev",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Luis Díaz",
+        "minute": "66",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "COL",
+        "player": "Jáminton Campaz",
+        "minute": "90+9",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Mexico City",
     "sourceUrls": [
@@ -1004,10 +1262,25 @@
       "code": "RSA",
       "flag": "🇿🇦"
     },
-    "score": { "home": 1, "away": 1 },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
     "goals": [
-      { "team": "CZE", "player": "Matěj Sadílek", "minute": "6", "ownGoal": false, "penalty": false },
-      { "team": "RSA", "player": "Teboho Mokoena", "minute": "83", "ownGoal": false, "penalty": true }
+      {
+        "team": "CZE",
+        "player": "Matěj Sadílek",
+        "minute": "6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "RSA",
+        "player": "Teboho Mokoena",
+        "minute": "83",
+        "ownGoal": false,
+        "penalty": true
+      }
     ],
     "venue": "Atlanta",
     "sourceUrls": [
@@ -1033,13 +1306,46 @@
       "code": "BIH",
       "flag": "🇧🇦"
     },
-    "score": { "home": 4, "away": 1 },
+    "score": {
+      "home": 4,
+      "away": 1
+    },
     "goals": [
-      { "team": "SUI", "player": "Johan Manzambi", "minute": "74", "ownGoal": false, "penalty": false },
-      { "team": "SUI", "player": "Rubén Vargas", "minute": "84", "ownGoal": false, "penalty": false },
-      { "team": "SUI", "player": "Johan Manzambi", "minute": "90", "ownGoal": false, "penalty": false },
-      { "team": "BIH", "player": "Ermin Mahmic", "minute": "90+3", "ownGoal": false, "penalty": false },
-      { "team": "SUI", "player": "Granit Xhaka", "minute": "90+7", "ownGoal": false, "penalty": true }
+      {
+        "team": "SUI",
+        "player": "Johan Manzambi",
+        "minute": "74",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SUI",
+        "player": "Rubén Vargas",
+        "minute": "84",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SUI",
+        "player": "Johan Manzambi",
+        "minute": "90",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Ermin Mahmic",
+        "minute": "90+3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SUI",
+        "player": "Granit Xhaka",
+        "minute": "90+7",
+        "ownGoal": false,
+        "penalty": true
+      }
     ],
     "venue": "Los Angeles (Inglewood)",
     "sourceUrls": [
@@ -1068,14 +1374,53 @@
       "code": "QAT",
       "flag": "🇶🇦"
     },
-    "score": { "home": 6, "away": 0 },
+    "score": {
+      "home": 6,
+      "away": 0
+    },
     "goals": [
-      { "team": "CAN", "player": "Cyle Larin", "minute": "16", "ownGoal": false, "penalty": false },
-      { "team": "CAN", "player": "Jonathan David", "minute": "29", "ownGoal": false, "penalty": false },
-      { "team": "CAN", "player": "Jonathan David", "minute": "45+3", "ownGoal": false, "penalty": false },
-      { "team": "CAN", "player": "Nathan Saliba", "minute": "64", "ownGoal": false, "penalty": false },
-      { "team": "CAN", "player": "Mohammad Al Manai", "minute": "75", "ownGoal": true, "penalty": false },
-      { "team": "CAN", "player": "Jonathan David", "minute": "90+2", "ownGoal": false, "penalty": false }
+      {
+        "team": "CAN",
+        "player": "Cyle Larin",
+        "minute": "16",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Jonathan David",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Jonathan David",
+        "minute": "45+3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Nathan Saliba",
+        "minute": "64",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Mohammad Al Manai",
+        "minute": "75",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Jonathan David",
+        "minute": "90+2",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Vancouver",
     "sourceUrls": [
@@ -1105,9 +1450,18 @@
       "code": "KOR",
       "flag": "🇰🇷"
     },
-    "score": { "home": 1, "away": 0 },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
     "goals": [
-      { "team": "MEX", "player": "Luis Romo", "minute": "49", "ownGoal": false, "penalty": false }
+      {
+        "team": "MEX",
+        "player": "Luis Romo",
+        "minute": "49",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Guadalajara (Zapopan)",
     "sourceUrls": [
@@ -1201,9 +1555,18 @@
       "code": "PAR",
       "flag": "🇵🇾"
     },
-    "score": { "home": 0, "away": 1 },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
     "goals": [
-      { "team": "PAR", "player": "Matías Galarza", "minute": "2", "ownGoal": false, "penalty": false }
+      {
+        "team": "PAR",
+        "player": "Matías Galarza",
+        "minute": "2",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "San Francisco Bay Area (Santa Clara)",
     "sourceUrls": [
@@ -1228,14 +1591,53 @@
       "code": "SWE",
       "flag": "🇸🇪"
     },
-    "score": { "home": 5, "away": 1 },
+    "score": {
+      "home": 5,
+      "away": 1
+    },
     "goals": [
-      { "team": "NED", "player": "Brian Brobbey", "minute": "5", "ownGoal": false, "penalty": false },
-      { "team": "NED", "player": "Brian Brobbey", "minute": "17", "ownGoal": false, "penalty": false },
-      { "team": "NED", "player": "Cody Gakpo", "minute": "47", "ownGoal": false, "penalty": false },
-      { "team": "NED", "player": "Cody Gakpo", "minute": "54", "ownGoal": false, "penalty": false },
-      { "team": "SWE", "player": "Anthony Elanga", "minute": "59", "ownGoal": false, "penalty": false },
-      { "team": "NED", "player": "Crysencio Summerville", "minute": "89", "ownGoal": false, "penalty": false }
+      {
+        "team": "NED",
+        "player": "Brian Brobbey",
+        "minute": "5",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Brian Brobbey",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Cody Gakpo",
+        "minute": "47",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Cody Gakpo",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SWE",
+        "player": "Anthony Elanga",
+        "minute": "59",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Crysencio Summerville",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Houston",
     "sourceUrls": [
@@ -1260,11 +1662,32 @@
       "code": "CIV",
       "flag": "🇨🇮"
     },
-    "score": { "home": 2, "away": 1 },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
     "goals": [
-      { "team": "CIV", "player": "Franck Kessie", "minute": "29", "ownGoal": false, "penalty": false },
-      { "team": "GER", "player": "Deniz Undav", "minute": "68", "ownGoal": false, "penalty": false },
-      { "team": "GER", "player": "Deniz Undav", "minute": "90+3", "ownGoal": false, "penalty": false }
+      {
+        "team": "CIV",
+        "player": "Franck Kessie",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "GER",
+        "player": "Deniz Undav",
+        "minute": "68",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "GER",
+        "player": "Deniz Undav",
+        "minute": "90+3",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Toronto",
     "sourceUrls": [
@@ -1291,7 +1714,10 @@
       "code": "CUW",
       "flag": "🇨🇼"
     },
-    "score": { "home": 0, "away": 0 },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "goals": [],
     "venue": "Kansas City",
     "sourceUrls": [
@@ -1316,12 +1742,39 @@
       "code": "JPN",
       "flag": "🇯🇵"
     },
-    "score": { "home": 0, "away": 4 },
+    "score": {
+      "home": 0,
+      "away": 4
+    },
     "goals": [
-      { "team": "JPN", "player": "Daichi Kamada", "minute": "4", "ownGoal": false, "penalty": false },
-      { "team": "JPN", "player": "Ayase Ueda", "minute": "31", "ownGoal": false, "penalty": false },
-      { "team": "JPN", "player": "Junya Ito", "minute": "69", "ownGoal": false, "penalty": false },
-      { "team": "JPN", "player": "Ayase Ueda", "minute": "83", "ownGoal": false, "penalty": false }
+      {
+        "team": "JPN",
+        "player": "Daichi Kamada",
+        "minute": "4",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "JPN",
+        "player": "Ayase Ueda",
+        "minute": "31",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "JPN",
+        "player": "Junya Ito",
+        "minute": "69",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "JPN",
+        "player": "Ayase Ueda",
+        "minute": "83",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Monterrey (Guadalupe)",
     "sourceUrls": [
@@ -1348,12 +1801,39 @@
       "code": "KSA",
       "flag": "🇸🇦"
     },
-    "score": { "home": 4, "away": 0 },
+    "score": {
+      "home": 4,
+      "away": 0
+    },
     "goals": [
-      { "team": "ESP", "player": "Lamine Yamal", "minute": "10", "ownGoal": false, "penalty": false },
-      { "team": "ESP", "player": "Mikel Oyarzabal", "minute": "21", "ownGoal": false, "penalty": false },
-      { "team": "ESP", "player": "Mikel Oyarzabal", "minute": "22", "ownGoal": false, "penalty": false },
-      { "team": "KSA", "player": "Hassan Altambakti", "minute": "48", "ownGoal": true, "penalty": false }
+      {
+        "team": "ESP",
+        "player": "Lamine Yamal",
+        "minute": "10",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ESP",
+        "player": "Mikel Oyarzabal",
+        "minute": "21",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ESP",
+        "player": "Mikel Oyarzabal",
+        "minute": "22",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "KSA",
+        "player": "Hassan Altambakti",
+        "minute": "48",
+        "ownGoal": true,
+        "penalty": false
+      }
     ],
     "venue": "Atlanta",
     "sourceUrls": [
@@ -1381,7 +1861,10 @@
       "code": "IRN",
       "flag": "🇮🇷"
     },
-    "score": { "home": 0, "away": 0 },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "goals": [],
     "venue": "Los Angeles (Inglewood)",
     "sourceUrls": [
@@ -1408,12 +1891,39 @@
       "code": "CPV",
       "flag": "🇨🇻"
     },
-    "score": { "home": 2, "away": 2 },
+    "score": {
+      "home": 2,
+      "away": 2
+    },
     "goals": [
-      { "team": "CPV", "player": "Kevin Pina", "minute": "21", "ownGoal": false, "penalty": false },
-      { "team": "URU", "player": "Maxi Araújo", "minute": "44", "ownGoal": false, "penalty": false },
-      { "team": "URU", "player": "Agustín Canobbio", "minute": "45+6", "ownGoal": false, "penalty": false },
-      { "team": "CPV", "player": "Hélio Varela", "minute": "61", "ownGoal": false, "penalty": false }
+      {
+        "team": "CPV",
+        "player": "Kevin Pina",
+        "minute": "21",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Maxi Araújo",
+        "minute": "44",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "URU",
+        "player": "Agustín Canobbio",
+        "minute": "45+6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CPV",
+        "player": "Hélio Varela",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Miami (Miami Gardens)",
     "sourceUrls": [
@@ -1441,12 +1951,39 @@
       "code": "EGY",
       "flag": "🇪🇬"
     },
-    "score": { "home": 1, "away": 3 },
+    "score": {
+      "home": 1,
+      "away": 3
+    },
     "goals": [
-      { "team": "NZL", "player": "Finn Surman", "minute": "15", "ownGoal": false, "penalty": false },
-      { "team": "EGY", "player": "Mostafa Zico", "minute": "58", "ownGoal": false, "penalty": false },
-      { "team": "EGY", "player": "Mohamed Salah", "minute": "67", "ownGoal": false, "penalty": false },
-      { "team": "EGY", "player": "Trézéguet", "minute": "82", "ownGoal": false, "penalty": false }
+      {
+        "team": "NZL",
+        "player": "Finn Surman",
+        "minute": "15",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mostafa Zico",
+        "minute": "58",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Mohamed Salah",
+        "minute": "67",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "EGY",
+        "player": "Trézéguet",
+        "minute": "82",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Vancouver",
     "sourceUrls": [
@@ -1474,10 +2011,25 @@
       "code": "AUT",
       "flag": "🇦🇹"
     },
-    "score": { "home": 2, "away": 0 },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
     "goals": [
-      { "team": "ARG", "player": "Lionel Messi", "minute": "38", "ownGoal": false, "penalty": false },
-      { "team": "ARG", "player": "Lionel Messi", "minute": "90+5", "ownGoal": false, "penalty": false }
+      {
+        "team": "ARG",
+        "player": "Lionel Messi",
+        "minute": "38",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ARG",
+        "player": "Lionel Messi",
+        "minute": "90+5",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Dallas (Arlington)",
     "sourceUrls": [
@@ -1503,11 +2055,32 @@
       "code": "IRQ",
       "flag": "🇮🇶"
     },
-    "score": { "home": 3, "away": 0 },
+    "score": {
+      "home": 3,
+      "away": 0
+    },
     "goals": [
-      { "team": "FRA", "player": "Kylian Mbappé", "minute": "14", "ownGoal": false, "penalty": false },
-      { "team": "FRA", "player": "Kylian Mbappé", "minute": "54", "ownGoal": false, "penalty": false },
-      { "team": "FRA", "player": "Ousmane Dembélé", "minute": "66", "ownGoal": false, "penalty": false }
+      {
+        "team": "FRA",
+        "player": "Kylian Mbappé",
+        "minute": "14",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "FRA",
+        "player": "Kylian Mbappé",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "FRA",
+        "player": "Ousmane Dembélé",
+        "minute": "66",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Philadelphia",
     "sourceUrls": [
@@ -1534,13 +2107,46 @@
       "code": "SEN",
       "flag": "🇸🇳"
     },
-    "score": { "home": 3, "away": 2 },
+    "score": {
+      "home": 3,
+      "away": 2
+    },
     "goals": [
-      { "team": "NOR", "player": "Marcus Holmgren Pedersen", "minute": "43", "ownGoal": false, "penalty": false },
-      { "team": "NOR", "player": "Erling Haaland", "minute": "48", "ownGoal": false, "penalty": false },
-      { "team": "SEN", "player": "Ismaïla Sarr", "minute": "53", "ownGoal": false, "penalty": false },
-      { "team": "NOR", "player": "Erling Haaland", "minute": "58", "ownGoal": false, "penalty": false },
-      { "team": "SEN", "player": "Ismaïla Sarr", "minute": "90+3", "ownGoal": false, "penalty": false }
+      {
+        "team": "NOR",
+        "player": "Marcus Holmgren Pedersen",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Erling Haaland",
+        "minute": "48",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SEN",
+        "player": "Ismaïla Sarr",
+        "minute": "53",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NOR",
+        "player": "Erling Haaland",
+        "minute": "58",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SEN",
+        "player": "Ismaïla Sarr",
+        "minute": "90+3",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "New York/New Jersey (East Rutherford)",
     "sourceUrls": [
@@ -1569,11 +2175,32 @@
       "code": "ALG",
       "flag": "🇩🇿"
     },
-    "score": { "home": 1, "away": 2 },
+    "score": {
+      "home": 1,
+      "away": 2
+    },
     "goals": [
-      { "team": "JOR", "player": "Nizar Al-Rashdan", "minute": "36", "ownGoal": false, "penalty": false },
-      { "team": "ALG", "player": "Nadhir Benbouali", "minute": "69", "ownGoal": false, "penalty": false },
-      { "team": "ALG", "player": "Amine Gouiri", "minute": "82", "ownGoal": false, "penalty": false }
+      {
+        "team": "JOR",
+        "player": "Nizar Al-Rashdan",
+        "minute": "36",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ALG",
+        "player": "Nadhir Benbouali",
+        "minute": "69",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ALG",
+        "player": "Amine Gouiri",
+        "minute": "82",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "San Francisco Bay Area (Santa Clara)",
     "sourceUrls": [
@@ -1600,13 +2227,46 @@
       "code": "UZB",
       "flag": "🇺🇿"
     },
-    "score": { "home": 5, "away": 0 },
+    "score": {
+      "home": 5,
+      "away": 0
+    },
     "goals": [
-      { "team": "POR", "player": "Cristiano Ronaldo", "minute": "6", "ownGoal": false, "penalty": false },
-      { "team": "POR", "player": "Nuno Mendes", "minute": "17", "ownGoal": false, "penalty": false },
-      { "team": "POR", "player": "Cristiano Ronaldo", "minute": "39", "ownGoal": false, "penalty": false },
-      { "team": "POR", "player": "Abdukodir Khusanov", "minute": "60", "ownGoal": true, "penalty": false },
-      { "team": "POR", "player": "Rafael Leão", "minute": "87", "ownGoal": false, "penalty": false }
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "6",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Nuno Mendes",
+        "minute": "17",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Cristiano Ronaldo",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Abdukodir Khusanov",
+        "minute": "60",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "POR",
+        "player": "Rafael Leão",
+        "minute": "87",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Houston",
     "sourceUrls": [
@@ -1631,7 +2291,10 @@
       "code": "GHA",
       "flag": "🇬🇭"
     },
-    "score": { "home": 0, "away": 0 },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "goals": [],
     "venue": "Boston (Foxborough)",
     "sourceUrls": [
@@ -1656,9 +2319,18 @@
       "code": "CRO",
       "flag": "🇭🇷"
     },
-    "score": { "home": 0, "away": 1 },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
     "goals": [
-      { "team": "CRO", "player": "Ante Budimir", "minute": "54", "ownGoal": false, "penalty": false }
+      {
+        "team": "CRO",
+        "player": "Ante Budimir",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Toronto",
     "sourceUrls": [
@@ -1683,9 +2355,18 @@
       "code": "COD",
       "flag": "🇨🇩"
     },
-    "score": { "home": 1, "away": 0 },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
     "goals": [
-      { "team": "COL", "player": "Daniel Muñoz", "minute": "76", "ownGoal": false, "penalty": false }
+      {
+        "team": "COL",
+        "player": "Daniel Muñoz",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Guadalajara (Zapopan)",
     "sourceUrls": [
@@ -1710,11 +2391,32 @@
       "code": "CAN",
       "flag": "🇨🇦"
     },
-    "score": { "home": 2, "away": 1 },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
     "goals": [
-      { "team": "SUI", "player": "Rubén Vargas", "minute": "46", "ownGoal": false, "penalty": false },
-      { "team": "SUI", "player": "Johan Manzambi", "minute": "57", "ownGoal": false, "penalty": false },
-      { "team": "CAN", "player": "Promise David", "minute": "76", "ownGoal": false, "penalty": false }
+      {
+        "team": "SUI",
+        "player": "Rubén Vargas",
+        "minute": "46",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SUI",
+        "player": "Johan Manzambi",
+        "minute": "57",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CAN",
+        "player": "Promise David",
+        "minute": "76",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Vancouver",
     "sourceUrls": [
@@ -1739,12 +2441,39 @@
       "code": "QAT",
       "flag": "🇶🇦"
     },
-    "score": { "home": 3, "away": 1 },
+    "score": {
+      "home": 3,
+      "away": 1
+    },
     "goals": [
-      { "team": "BIH", "player": "Kerim Alajbegović", "minute": "29", "ownGoal": false, "penalty": false },
-      { "team": "BIH", "player": "Mahmoud Abunada", "minute": "34", "ownGoal": true, "penalty": false },
-      { "team": "QAT", "player": "Hassan Al-Haydos", "minute": "42", "ownGoal": false, "penalty": false },
-      { "team": "BIH", "player": "Ermin Mahmić", "minute": "80", "ownGoal": false, "penalty": false }
+      {
+        "team": "BIH",
+        "player": "Kerim Alajbegović",
+        "minute": "29",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Mahmoud Abunada",
+        "minute": "34",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "QAT",
+        "player": "Hassan Al-Haydos",
+        "minute": "42",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BIH",
+        "player": "Ermin Mahmić",
+        "minute": "80",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Seattle",
     "sourceUrls": [
@@ -1769,11 +2498,32 @@
       "code": "BRA",
       "flag": "🇧🇷"
     },
-    "score": { "home": 0, "away": 3 },
+    "score": {
+      "home": 0,
+      "away": 3
+    },
     "goals": [
-      { "team": "BRA", "player": "Vinícius Jr", "minute": "7", "ownGoal": false, "penalty": false },
-      { "team": "BRA", "player": "Vinícius Jr", "minute": "45+3", "ownGoal": false, "penalty": false },
-      { "team": "BRA", "player": "Matheus Cunha", "minute": "60", "ownGoal": false, "penalty": false }
+      {
+        "team": "BRA",
+        "player": "Vinícius Jr",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BRA",
+        "player": "Vinícius Jr",
+        "minute": "45+3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "BRA",
+        "player": "Matheus Cunha",
+        "minute": "60",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Miami (Miami Gardens)",
     "sourceUrls": [
@@ -1798,14 +2548,53 @@
       "code": "HAI",
       "flag": "🇭🇹"
     },
-    "score": { "home": 4, "away": 2 },
+    "score": {
+      "home": 4,
+      "away": 2
+    },
     "goals": [
-      { "team": "HAI", "player": "Yassine Bounou", "minute": "10", "ownGoal": true, "penalty": false },
-      { "team": "MAR", "player": "Achraf Hakimi", "minute": "39", "ownGoal": false, "penalty": false },
-      { "team": "HAI", "player": "Wilson Isidor", "minute": "43", "ownGoal": false, "penalty": false },
-      { "team": "MAR", "player": "Ismael Saibari", "minute": "45+1", "ownGoal": false, "penalty": false },
-      { "team": "MAR", "player": "Soufiane Rahimi", "minute": "78", "ownGoal": false, "penalty": false },
-      { "team": "MAR", "player": "Gessime Yassine", "minute": "89", "ownGoal": false, "penalty": false }
+      {
+        "team": "HAI",
+        "player": "Yassine Bounou",
+        "minute": "10",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Achraf Hakimi",
+        "minute": "39",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "HAI",
+        "player": "Wilson Isidor",
+        "minute": "43",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Ismael Saibari",
+        "minute": "45+1",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Soufiane Rahimi",
+        "minute": "78",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MAR",
+        "player": "Gessime Yassine",
+        "minute": "89",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Atlanta",
     "sourceUrls": [
@@ -1830,11 +2619,32 @@
       "code": "MEX",
       "flag": "🇲🇽"
     },
-    "score": { "home": 0, "away": 3 },
+    "score": {
+      "home": 0,
+      "away": 3
+    },
     "goals": [
-      { "team": "MEX", "player": "Mateo Chávez", "minute": "55", "ownGoal": false, "penalty": false },
-      { "team": "MEX", "player": "Julián Quiñones", "minute": "61", "ownGoal": false, "penalty": false },
-      { "team": "MEX", "player": "Álvaro Fidalgo", "minute": "90+4", "ownGoal": false, "penalty": false }
+      {
+        "team": "MEX",
+        "player": "Mateo Chávez",
+        "minute": "55",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Julián Quiñones",
+        "minute": "61",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "MEX",
+        "player": "Álvaro Fidalgo",
+        "minute": "90+4",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Mexico City",
     "sourceUrls": [
@@ -1859,9 +2669,18 @@
       "code": "KOR",
       "flag": "🇰🇷"
     },
-    "score": { "home": 1, "away": 0 },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
     "goals": [
-      { "team": "RSA", "player": "Thapelo Maseko", "minute": "63", "ownGoal": false, "penalty": false }
+      {
+        "team": "RSA",
+        "player": "Thapelo Maseko",
+        "minute": "63",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Monterrey (Guadalupe)",
     "sourceUrls": [
@@ -1886,10 +2705,25 @@
       "code": "CIV",
       "flag": "🇨🇮"
     },
-    "score": { "home": 0, "away": 2 },
+    "score": {
+      "home": 0,
+      "away": 2
+    },
     "goals": [
-      { "team": "CIV", "player": "Nicolas Pépé", "minute": "7", "ownGoal": false, "penalty": false },
-      { "team": "CIV", "player": "Nicolas Pépé", "minute": "64", "ownGoal": false, "penalty": false }
+      {
+        "team": "CIV",
+        "player": "Nicolas Pépé",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "CIV",
+        "player": "Nicolas Pépé",
+        "minute": "64",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Philadelphia",
     "sourceUrls": [
@@ -1914,11 +2748,32 @@
       "code": "GER",
       "flag": "🇩🇪"
     },
-    "score": { "home": 2, "away": 1 },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
     "goals": [
-      { "team": "GER", "player": "Leroy Sané", "minute": "2", "ownGoal": false, "penalty": false },
-      { "team": "ECU", "player": "Nilson Angulo", "minute": "9", "ownGoal": false, "penalty": false },
-      { "team": "ECU", "player": "Gonzalo Plata", "minute": "77", "ownGoal": false, "penalty": false }
+      {
+        "team": "GER",
+        "player": "Leroy Sané",
+        "minute": "2",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Nilson Angulo",
+        "minute": "9",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "ECU",
+        "player": "Gonzalo Plata",
+        "minute": "77",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "New York/New Jersey (East Rutherford)",
     "sourceUrls": [
@@ -1943,10 +2798,25 @@
       "code": "SWE",
       "flag": "🇸🇪"
     },
-    "score": { "home": 1, "away": 1 },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
     "goals": [
-      { "team": "JPN", "player": "Daizen Maeda", "minute": "56", "ownGoal": false, "penalty": false },
-      { "team": "SWE", "player": "Anthony Elanga", "minute": "62", "ownGoal": false, "penalty": false }
+      {
+        "team": "JPN",
+        "player": "Daizen Maeda",
+        "minute": "56",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "SWE",
+        "player": "Anthony Elanga",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Dallas (Arlington)",
     "sourceUrls": [
@@ -1971,12 +2841,39 @@
       "code": "NED",
       "flag": "🇳🇱"
     },
-    "score": { "home": 1, "away": 3 },
+    "score": {
+      "home": 1,
+      "away": 3
+    },
     "goals": [
-      { "team": "NED", "player": "Ellyes Skhiri", "minute": "3", "ownGoal": true, "penalty": false },
-      { "team": "NED", "player": "Brian Brobbey", "minute": "7", "ownGoal": false, "penalty": false },
-      { "team": "TUN", "player": "Hazem Mastouri", "minute": "54", "ownGoal": false, "penalty": false },
-      { "team": "NED", "player": "Jan-Paul van Hecke", "minute": "62", "ownGoal": false, "penalty": false }
+      {
+        "team": "NED",
+        "player": "Ellyes Skhiri",
+        "minute": "3",
+        "ownGoal": true,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Brian Brobbey",
+        "minute": "7",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUN",
+        "player": "Hazem Mastouri",
+        "minute": "54",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "NED",
+        "player": "Jan-Paul van Hecke",
+        "minute": "62",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Kansas City",
     "sourceUrls": [
@@ -2001,13 +2898,46 @@
       "code": "USA",
       "flag": "🇺🇸"
     },
-    "score": { "home": 3, "away": 2 },
+    "score": {
+      "home": 3,
+      "away": 2
+    },
     "goals": [
-      { "team": "USA", "player": "Auston Trusty", "minute": "3", "ownGoal": false, "penalty": false },
-      { "team": "TUR", "player": "Arda Güler", "minute": "10", "ownGoal": false, "penalty": false },
-      { "team": "TUR", "player": "Barış Alper Yılmaz", "minute": "31", "ownGoal": false, "penalty": false },
-      { "team": "USA", "player": "Sebastian Berhalter", "minute": "49", "ownGoal": false, "penalty": false },
-      { "team": "TUR", "player": "Kaan Ayhan", "minute": "90+8", "ownGoal": false, "penalty": false }
+      {
+        "team": "USA",
+        "player": "Auston Trusty",
+        "minute": "3",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Arda Güler",
+        "minute": "10",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Barış Alper Yılmaz",
+        "minute": "31",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "USA",
+        "player": "Sebastian Berhalter",
+        "minute": "49",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "TUR",
+        "player": "Kaan Ayhan",
+        "minute": "90+8",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Los Angeles (Inglewood)",
     "sourceUrls": [
@@ -2055,16 +2985,51 @@
       "code": "FRA",
       "flag": "🇫🇷"
     },
-    "score": { "home": 1, "away": 4 },
+    "score": {
+      "home": 1,
+      "away": 4
+    },
     "goals": [
-      { "team": "France", "player": "Ousmane Dembélé", "minute": "6'", "ownGoal": false, "penalty": false },
-      { "team": "France", "player": "Ousmane Dembélé", "minute": "20'", "ownGoal": false, "penalty": false },
-      { "team": "Norway", "player": "Tobias Aasgaard", "minute": "21'", "ownGoal": false, "penalty": false },
-      { "team": "France", "player": "Ousmane Dembélé", "minute": "32'", "ownGoal": false, "penalty": false },
-      { "team": "France", "player": "Désiré Doué", "minute": "90+4'", "ownGoal": false, "penalty": false }
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "6'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "20'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Norway",
+        "player": "Tobias Aasgaard",
+        "minute": "21'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "32'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Désiré Doué",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Boston (Foxborough)",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugitlk/norway_1_4_france_d%C3%A9sir%C3%A9_dou%C3%A9_goal_904"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ugitlk/norway_1_4_france_d%C3%A9sir%C3%A9_dou%C3%A9_goal_904"
+    ],
     "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
@@ -2084,16 +3049,51 @@
       "code": "IRQ",
       "flag": "🇮🇶"
     },
-    "score": { "home": 5, "away": 0 },
+    "score": {
+      "home": 5,
+      "away": 0
+    },
     "goals": [
-      { "team": "Senegal", "player": "A. Seck", "minute": "4'", "ownGoal": false, "penalty": false },
-      { "team": "Senegal", "player": "Ismaïla Sarr", "minute": "56'", "ownGoal": false, "penalty": false },
-      { "team": "Senegal", "player": "Pape Matar Gueye", "minute": "58'", "ownGoal": false, "penalty": false },
-      { "team": "Senegal", "player": "Pape Matar Gueye", "minute": "71'", "ownGoal": false, "penalty": false },
-      { "team": "Senegal", "player": "Iliman Ndiaye", "minute": "82'", "ownGoal": false, "penalty": false }
+      {
+        "team": "Senegal",
+        "player": "A. Seck",
+        "minute": "4'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "56'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "58'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Matar Gueye",
+        "minute": "71'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Senegal",
+        "player": "Iliman Ndiaye",
+        "minute": "82'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Toronto",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uginba/senegal_5_0_iraq_i_ndiaye_82"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uginba/senegal_5_0_iraq_i_ndiaye_82"
+    ],
     "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
@@ -2113,10 +3113,15 @@
       "code": "KSA",
       "flag": "🇸🇦"
     },
-    "score": { "home": 0, "away": 0 },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "goals": [],
     "venue": "Houston",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugpxvt/cape_verde_celebrate_reaching_the_knockout_stage"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ugpxvt/cape_verde_celebrate_reaching_the_knockout_stage"
+    ],
     "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
@@ -2136,12 +3141,23 @@
       "code": "ESP",
       "flag": "🇪🇸"
     },
-    "score": { "home": 0, "away": 1 },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
     "goals": [
-      { "team": "Spain", "player": "Álex Baena", "minute": "42'", "ownGoal": false, "penalty": false }
+      {
+        "team": "Spain",
+        "player": "Álex Baena",
+        "minute": "42'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Guadalajara (Zapopan)",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugo92z/uruguay_0_1_spain_%C3%A1lex_baena_42"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ugo92z/uruguay_0_1_spain_%C3%A1lex_baena_42"
+    ],
     "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
@@ -2161,13 +3177,30 @@
       "code": "IRN",
       "flag": "🇮🇷"
     },
-    "score": { "home": 1, "away": 1 },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
     "goals": [
-      { "team": "Egypt", "player": "Mahmoud Saber", "minute": "5'", "ownGoal": false, "penalty": false },
-      { "team": "Iran", "player": "Ramin Rezaeian", "minute": "14'", "ownGoal": false, "penalty": false }
+      {
+        "team": "Egypt",
+        "player": "Mahmoud Saber",
+        "minute": "5'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Iran",
+        "player": "Ramin Rezaeian",
+        "minute": "14'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Seattle",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugrfbl/egypt_1_1_iran_r_rezaeian_14"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ugrfbl/egypt_1_1_iran_r_rezaeian_14"
+    ],
     "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
@@ -2187,17 +3220,58 @@
       "code": "BEL",
       "flag": "🇧🇪"
     },
-    "score": { "home": 1, "away": 5 },
+    "score": {
+      "home": 1,
+      "away": 5
+    },
     "goals": [
-      { "team": "Belgium", "player": "Leandro Trossard", "minute": "28'", "ownGoal": false, "penalty": false },
-      { "team": "Belgium", "player": "Leandro Trossard", "minute": "50'", "ownGoal": false, "penalty": false },
-      { "team": "Belgium", "player": "Kevin De Bruyne", "minute": "66'", "ownGoal": false, "penalty": false },
-      { "team": "New Zealand", "player": "E. Just", "minute": "84'", "ownGoal": false, "penalty": false },
-      { "team": "Belgium", "player": "Romelu Lukaku", "minute": "86'", "ownGoal": false, "penalty": false },
-      { "team": "Belgium", "player": "Alexis Saelemaekers", "minute": "90+4'", "ownGoal": false, "penalty": false }
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "28'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "50'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Kevin De Bruyne",
+        "minute": "66'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "New Zealand",
+        "player": "E. Just",
+        "minute": "84'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "86'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Belgium",
+        "player": "Alexis Saelemaekers",
+        "minute": "90+4'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Vancouver",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1ugtfp8/new_zealand_1_5_belgium_a_saelemaekers_904"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1ugtfp8/new_zealand_1_5_belgium_a_saelemaekers_904"
+    ],
     "lastUpdated": "2026-06-27T00:00:00Z"
   },
   {
@@ -2217,13 +3291,30 @@
       "code": "ENG",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
     },
-    "score": { "home": 0, "away": 2 },
+    "score": {
+      "home": 0,
+      "away": 2
+    },
     "goals": [
-      { "team": "England", "player": "Jude Bellingham", "minute": "62'", "ownGoal": false, "penalty": false },
-      { "team": "England", "player": "Harry Kane", "minute": "67'", "ownGoal": false, "penalty": false }
+      {
+        "team": "England",
+        "player": "Jude Bellingham",
+        "minute": "62'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "England",
+        "player": "Harry Kane",
+        "minute": "67'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "New York/New Jersey (East Rutherford)",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhfv2v/panama_0_2_england_harry_kane_67"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uhfv2v/panama_0_2_england_harry_kane_67"
+    ],
     "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
@@ -2243,14 +3334,37 @@
       "code": "GHA",
       "flag": "🇬🇭"
     },
-    "score": { "home": 2, "away": 1 },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
     "goals": [
-      { "team": "Croatia", "player": "Petar Sučić", "minute": "31'", "ownGoal": false, "penalty": false },
-      { "team": "Ghana", "player": "Derrick Luckassen", "minute": "73'", "ownGoal": false, "penalty": false },
-      { "team": "Croatia", "player": "Nikola Vlašić", "minute": "83'", "ownGoal": false, "penalty": false }
+      {
+        "team": "Croatia",
+        "player": "Petar Sučić",
+        "minute": "31'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Ghana",
+        "player": "Derrick Luckassen",
+        "minute": "73'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Croatia",
+        "player": "Nikola Vlašić",
+        "minute": "83'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Philadelphia",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhgbwy/croatia_2_1_ghana_nikola_vla%C5%A1i%C4%87_83"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uhgbwy/croatia_2_1_ghana_nikola_vla%C5%A1i%C4%87_83"
+    ],
     "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
@@ -2270,10 +3384,15 @@
       "code": "POR",
       "flag": "🇵🇹"
     },
-    "score": { "home": 0, "away": 0 },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "goals": [],
     "venue": "Miami (Miami Gardens)",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhjwrs/colombia_disallowed_goal_x_portugal"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uhjwrs/colombia_disallowed_goal_x_portugal"
+    ],
     "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
@@ -2293,15 +3412,44 @@
       "code": "UZB",
       "flag": "🇺🇿"
     },
-    "score": { "home": 3, "away": 1 },
+    "score": {
+      "home": 3,
+      "away": 1
+    },
     "goals": [
-      { "team": "Uzbekistan", "player": "Eldor Shomurodov", "minute": "10'", "ownGoal": false, "penalty": false },
-      { "team": "DR Congo", "player": "Yoane Wissa", "minute": "68'", "ownGoal": false, "penalty": true },
-      { "team": "DR Congo", "player": "F. Mayele", "minute": "72'", "ownGoal": false, "penalty": false },
-      { "team": "DR Congo", "player": "Yoane Wissa", "minute": "90+1'", "ownGoal": false, "penalty": false }
+      {
+        "team": "Uzbekistan",
+        "player": "Eldor Shomurodov",
+        "minute": "10'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "DR Congo",
+        "player": "Yoane Wissa",
+        "minute": "68'",
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "DR Congo",
+        "player": "F. Mayele",
+        "minute": "72'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "DR Congo",
+        "player": "Yoane Wissa",
+        "minute": "90+1'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Atlanta",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhjsyy/dr_congo_3_1_uzbekistan_y_wissa_901"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uhjsyy/dr_congo_3_1_uzbekistan_y_wissa_901"
+    ],
     "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
@@ -2321,17 +3469,58 @@
       "code": "AUT",
       "flag": "🇦🇹"
     },
-    "score": { "home": 3, "away": 3 },
+    "score": {
+      "home": 3,
+      "away": 3
+    },
     "goals": [
-      { "team": "Austria", "player": "Marko Arnautovic", "minute": "28'", "ownGoal": false, "penalty": false },
-      { "team": "Algeria", "player": "Rafik Belghali", "minute": "45'", "ownGoal": false, "penalty": false },
-      { "team": "Austria", "player": "Marcel Sabitzer", "minute": "55'", "ownGoal": false, "penalty": false },
-      { "team": "Algeria", "player": "Riyad Mahrez", "minute": "60'", "ownGoal": false, "penalty": false },
-      { "team": "Algeria", "player": "Riyad Mahrez", "minute": "90+3'", "ownGoal": false, "penalty": false },
-      { "team": "Austria", "player": "Saša Kalajdžić", "minute": "90+6'", "ownGoal": false, "penalty": false }
+      {
+        "team": "Austria",
+        "player": "Marko Arnautovic",
+        "minute": "28'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Algeria",
+        "player": "Rafik Belghali",
+        "minute": "45'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Austria",
+        "player": "Marcel Sabitzer",
+        "minute": "55'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Algeria",
+        "player": "Riyad Mahrez",
+        "minute": "60'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Algeria",
+        "player": "Riyad Mahrez",
+        "minute": "90+3'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Austria",
+        "player": "Saša Kalajdžić",
+        "minute": "90+6'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Kansas City",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhmwm3/algeria_33_austria_sa%C5%A1a_kalajd%C5%BEi%C4%87_90_6"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uhmwm3/algeria_33_austria_sa%C5%A1a_kalajd%C5%BEi%C4%87_90_6"
+    ],
     "lastUpdated": "2026-06-28T00:00:00Z"
   },
   {
@@ -2351,15 +3540,91 @@
       "code": "ARG",
       "flag": "🇦🇷"
     },
-    "score": { "home": 1, "away": 3 },
+    "score": {
+      "home": 1,
+      "away": 3
+    },
     "goals": [
-      { "team": "Argentina", "player": "Giovani Lo Celso", "minute": "19'", "ownGoal": false, "penalty": false },
-      { "team": "Argentina", "player": "Lautaro Martínez", "minute": "31'", "ownGoal": false, "penalty": false },
-      { "team": "Jordan", "player": "Mousa Tamari", "minute": "55'", "ownGoal": false, "penalty": false },
-      { "team": "Argentina", "player": "Lionel Messi", "minute": "80'", "ownGoal": false, "penalty": false }
+      {
+        "team": "Argentina",
+        "player": "Giovani Lo Celso",
+        "minute": "19'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Argentina",
+        "player": "Lautaro Martínez",
+        "minute": "31'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Jordan",
+        "player": "Mousa Tamari",
+        "minute": "55'",
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Argentina",
+        "player": "Lionel Messi",
+        "minute": "80'",
+        "ownGoal": false,
+        "penalty": false
+      }
     ],
     "venue": "Dallas (Arlington)",
-    "sourceUrls": ["https://www.reddit.com/r/soccer/comments/1uhml5i/jordan_13_argentina_lionel_messi_freekick_80"],
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uhml5i/jordan_13_argentina_lionel_messi_freekick_80"
+    ],
     "lastUpdated": "2026-06-28T00:00:00Z"
+  },
+  {
+    "matchId": "FRA-ESP-2026-07-14",
+    "stage": "Semi-finals",
+    "group": null,
+    "round": null,
+    "kickoffUtc": "2026-07-14T19:00:00Z",
+    "status": "completed",
+    "homeTeam": {
+      "name": "France",
+      "code": "FRA",
+      "flag": "🇫🇷"
+    },
+    "awayTeam": {
+      "name": "Spain",
+      "code": "ESP",
+      "flag": "🇪🇸"
+    },
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Mikel Oyarzabal",
+        "minute": 22,
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "Spain",
+        "player": "Pedro Porro",
+        "minute": 58,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "venue": "Dallas (Arlington)",
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uwij10/france_0_1_spain_mikel_oyarzabal_penalty_22/",
+      "https://www.reddit.com/r/soccer/comments/1uwk3f6/france_0_2_spain_pedro_porro_58/",
+      "https://www.reddit.com/r/soccer/comments/1uwkpra/france_big_chance_against_spain_82/",
+      "https://www.reddit.com/r/soccer/comments/1uwkw0v/kylian_mbappes_yellow_card_challenge_on_unai_simon/",
+      "https://www.reddit.com/r/soccer/comments/1uwmgbz/de_la_fuente_tonight_we_faced_one_of_the_best/"
+    ],
+    "lastUpdated": "2026-07-15T13:35:00Z"
   }
 ]
