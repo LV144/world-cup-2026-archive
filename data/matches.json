@@ -3626,5 +3626,57 @@
       "https://www.reddit.com/r/soccer/comments/1uwmgbz/de_la_fuente_tonight_we_faced_one_of_the_best/"
     ],
     "lastUpdated": "2026-07-15T13:35:00Z"
+  },
+  {
+    "matchId": "ENG-ARG-2026-07-15",
+    "stage": "Semi-finals",
+    "group": null,
+    "round": null,
+    "kickoffUtc": "2026-07-15T19:00:00Z",
+    "status": "completed",
+    "homeTeam": {
+      "name": "England",
+      "code": "ENG",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "awayTeam": {
+      "name": "Argentina",
+      "code": "ARG",
+      "flag": "🇦🇷"
+    },
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "goals": [
+      {
+        "team": "England",
+        "player": "Anthony Gordon",
+        "minute": 55,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Argentina",
+        "player": "Enzo Fernández",
+        "minute": 85,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "Argentina",
+        "player": "Lautaro Martínez",
+        "minute": 92,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "venue": "Atlanta",
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1uxh3mh/england_1_0_argentina_a_gordon_55/",
+      "https://www.reddit.com/r/soccer/comments/1uxhujg/england_1_1_argentina_enzo_fernandez_85/",
+      "https://www.reddit.com/r/soccer/comments/1uxi04b/england_1_2_argentina_lautaro_mart%C3%ADnez_902/"
+    ],
+    "lastUpdated": "2026-07-17T13:37:43Z"
   }
 ]
