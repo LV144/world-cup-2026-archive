@@ -3678,5 +3678,113 @@
       "https://www.reddit.com/r/soccer/comments/1uxi04b/england_1_2_argentina_lautaro_mart%C3%ADnez_902/"
     ],
     "lastUpdated": "2026-07-17T13:37:43Z"
+  },
+  {
+    "matchId": "FRA-ENG-2026-07-18",
+    "stage": "Third-place play-off",
+    "group": null,
+    "round": null,
+    "kickoffUtc": "2026-07-18T21:00:00Z",
+    "status": "completed",
+    "homeTeam": {
+      "name": "France",
+      "code": "FRA",
+      "flag": "🇫🇷"
+    },
+    "awayTeam": {
+      "name": "England",
+      "code": "ENG",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "score": {
+      "home": 4,
+      "away": 6
+    },
+    "goals": [
+      {
+        "team": "England",
+        "player": "Declan Rice",
+        "minute": 3,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "England",
+        "player": "Ezri Konsa",
+        "minute": 18,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "England",
+        "player": "Bukayo Saka",
+        "minute": 37,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "England",
+        "player": "Bukayo Saka",
+        "minute": 46,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": 48,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Bradley Barcola",
+        "minute": 54,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": 66,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "England",
+        "player": "Bukayo Saka",
+        "minute": 87,
+        "ownGoal": false,
+        "penalty": true
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": 96,
+        "ownGoal": false,
+        "penalty": false
+      },
+      {
+        "team": "England",
+        "player": "Jude Bellingham",
+        "minute": 98,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "venue": "Miami (Miami Gardens)",
+    "sourceUrls": [
+      "https://www.reddit.com/r/soccer/comments/1v07baw/france_0_1_england_declan_rice_goal_3/",
+      "https://www.reddit.com/r/soccer/comments/1v07or8/france_0_2_england_ezri_konsa_18/",
+      "https://www.reddit.com/r/soccer/comments/1v0847v/france_0_3_england_bukayo_saka_37/",
+      "https://www.reddit.com/r/soccer/comments/1v08cco/france_0_4_england_bukayo_saka_451/",
+      "https://www.reddit.com/r/soccer/comments/1v08xf5/france_1_4_england_kylian_mbappe_48/",
+      "https://www.reddit.com/r/soccer/comments/1v092e6/france_2_4_england_bradley_barcola_54/",
+      "https://www.reddit.com/r/soccer/comments/1v09c78/france_3_4_england_kylian_mbappe_66/",
+      "https://www.reddit.com/r/soccer/comments/1v09tci/france_3_5_england_bukayo_saka_penalty_87_hattrick/",
+      "https://www.reddit.com/r/soccer/comments/1v09zry/france_4_5_england_ousmane_dembele_906/",
+      "https://www.reddit.com/r/soccer/comments/1v0a1a5/france_4_6_england_jude_bellingham_908/"
+    ],
+    "lastUpdated": "2026-07-19T12:09:59Z"
   }
 ]
