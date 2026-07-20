@@ -29763,5 +29763,1115 @@
       "score": 1
     },
     "needsReview": false
+  },
+  {
+    "id": "01ae3188497d",
+    "title": "Emiliano Martínez save against Spain 90+8'",
+    "url": "https://www.reddit.com/r/soccer/comments/1v1217g/emiliano_mart%C3%ADnez_save_against_spain_908",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v1217g/emiliano_mart%C3%ADnez_save_against_spain_908/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ganiganiu • 2,176 points and 316 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/4tOPeSMECSEbaYFWSg5TZ8Dt57J7F5i-TPUszFmWPos.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-07-19T21:15:59Z",
+    "dateSaved": "2026-07-20T14:28:54Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Saves",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "b69dcfe9a1d9",
+    "title": "World Cup celebrations in my home-town",
+    "url": "https://www.reddit.com/r/soccer/comments/1v143zq/world_cup_celebrations_in_my_hometown",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v143zq/world_cup_celebrations_in_my_hometown/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Mulderre91 • 2,443 points and 79 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/c3dhbTBpMjhtOWVoMQIXWnI27EJo8qvT2R4U4FkXkM75lPrYEL-od4W6D_RK.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-07-19T22:46:35Z",
+    "dateSaved": "2026-07-20T14:29:16Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
+  },
+  {
+    "id": "7fc3c9d4b7cf",
+    "title": "Enzo Fernandez fallon d'floor yellow card 83'",
+    "url": "https://www.reddit.com/r/soccer/comments/1v11pl5/enzo_fernandez_fallon_dfloor_yellow_card_83",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v11pl5/enzo_fernandez_fallon_dfloor_yellow_card_83/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/50lipaa • 4,512 points and 285 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NjFycDM0MWYzOWVoMRj7cLxc0rcP5x6dYo2QxNkveDiGdlv7DRrEZbj4xTWF.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-07-19T21:01:05Z",
+    "dateSaved": "2026-07-20T14:29:44Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "0e18c158baaa",
+    "title": "Wayne Rooney on the highlight of the half-time show",
+    "url": "https://www.reddit.com/r/soccer/comments/1v10t7v/wayne_rooney_on_the_highlight_of_the_halftime_show",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v10t7v/wayne_rooney_on_the_highlight_of_the_halftime_show/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/xGoneWromg • 6,393 points and 597 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/kY4SG3UKsVfznSyYHkcnT7-eokio7lVfs0XuZKrpFYo.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719220501/https://www.reddit.com/r/soccer/comments/1v10t7v/wayne_rooney_on_the_highlight_of_the_halftime_show/",
+    "postDate": "2026-07-19T20:21:35Z",
+    "dateSaved": "2026-07-20T14:29:47Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "8089fec8b7c3",
+    "title": "Referee spray foam malfunction in front of Spanish players",
+    "url": "https://www.reddit.com/r/soccer/comments/1v11fdh/referee_spray_foam_malfunction_in_front_of",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v11fdh/referee_spray_foam_malfunction_in_front_of/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/aleksandrovsqvist • 6,366 points and 143 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/dGVrMmdlMDYxOWVoMTahRPk5KofGpt0QEzVhOmFHhzBrl07w2KIgf-yxTt-R.png?width=140&height=77&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719210642/https://www.reddit.com/r/soccer/comments/1v11fdh/referee_spray_foam_malfunction_in_front_of/",
+    "postDate": "2026-07-19T20:48:30Z",
+    "dateSaved": "2026-07-20T14:29:50Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "f847b1d6c7cc",
+    "title": "Spanish TV commentary of Ferran Torres winning goal vs Argentina",
+    "url": "https://www.reddit.com/r/soccer/comments/1v1387e/spanish_tv_commentary_of_ferran_torres_winning",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v1387e/spanish_tv_commentary_of_ferran_torres_winning/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Bonus Spanish TV clips: [DAZN](https://streamin.link/v/0215a444) [La 2 Cat (Catalan)](https://streamin.link/v/e6286e3f) [RTVE Play...",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/NzNmcHh2Z2dmOWVoMefcuKfElxuS4zFiacwUAi3SRg_Q9brko5WuAcBm7YLz.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719230455/https://www.reddit.com/r/soccer/comments/1v1387e/spanish_tv_commentary_of_ferran_torres_winning/",
+    "postDate": "2026-07-19T22:10:17Z",
+    "dateSaved": "2026-07-20T14:29:56Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "cee0a9915d85",
+    "title": "Alternate angle of the foul that led to Spain's disallowed goal",
+    "url": "https://www.reddit.com/r/soccer/comments/1v12fne/alternate_angle_of_the_foul_that_led_to_spains",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v12fne/alternate_angle_of_the_foul_that_led_to_spains/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Al3xanderTh3Gr3at • 8,911 points and 2,039 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/bDRxbXg5ZDc5OWVoMQe0PUg3xWhlZBX8pYQQG7rgsN_ePRsCZkz0fXIxBusG.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719215237/https://www.reddit.com/r/soccer/comments/1v12fne/alternate_angle_of_the_foul_that_led_to_spains/",
+    "postDate": "2026-07-19T21:34:32Z",
+    "dateSaved": "2026-07-20T14:30:00Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "78cf4b5aa6be",
+    "title": "Spain disallowed goal against Argentina 96'",
+    "url": "https://www.reddit.com/r/soccer/comments/1v12a65/spain_disallowed_goal_against_argentina_96",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v12a65/spain_disallowed_goal_against_argentina_96/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Gentle_lips • 9,433 points and 2,328 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/gdzNtjTSc9EnhSjLvXv7c7GTHTPygTkLSX6ZuuNlpuU.jpeg?width=140&height=69&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719213716/https://www.reddit.com/r/soccer/comments/1v12a65/spain_disallowed_goal_against_argentina_96/",
+    "postDate": "2026-07-19T21:27:17Z",
+    "dateSaved": "2026-07-20T14:30:03Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "19c5ccd54a54",
+    "title": "Alternate angle of the altercation between Paredes and Spanish players",
+    "url": "https://www.reddit.com/r/soccer/comments/1v14djn/alternate_angle_of_the_altercation_between",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v14djn/alternate_angle_of_the_altercation_between/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Source: [https://bsky.app/profile/foot01.bsky.social/post/3mqzuhg7m2o2k](https://bsky.app/profile/foot01.bsky.social/post/3mqzuhg7m2o2k)",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/bGNld3BrZjJvOWVoMdJfKs3nmzBT7roDe9n_kIp7AhKVloKm2YPK4HEf8ENa.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719230305/https://www.reddit.com/r/soccer/comments/1v14djn/alternate_angle_of_the_altercation_between/",
+    "postDate": "2026-07-19T22:57:37Z",
+    "dateSaved": "2026-07-20T14:30:07Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "b41b471ae654",
+    "title": "Things get chippy between Spain and Argentina post game",
+    "url": "https://www.reddit.com/r/soccer/comments/1v1364m/things_get_chippy_between_spain_and_argentina",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v1364m/things_get_chippy_between_spain_and_argentina/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/BurgerNugget12 • 11,593 points and 1,459 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/eDJwa2gxNWJmOWVoMQONXtkqoQQ0ML39UEC89fyBMt0-8tXoPT4hT8dn2vnB.png?width=140&height=76&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719221540/https://www.reddit.com/r/soccer/comments/1v1364m/things_get_chippy_between_spain_and_argentina/",
+    "postDate": "2026-07-19T22:08:05Z",
+    "dateSaved": "2026-07-20T14:30:11Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "297852c7d357",
+    "title": "Enzo Fernández (Argentina) second yellow card against Spain 90+3'",
+    "url": "https://www.reddit.com/r/soccer/comments/1v11xca/enzo_fern%C3%A1ndez_argentina_second_yellow_card",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v11xca/enzo_fern%C3%A1ndez_argentina_second_yellow_card/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ganiganiu • 17,221 points and 2,140 comments",
+    "thumbnailRemoteUrl": "https://www.redditstatic.com/new-icon.png",
+    "thumbnailLocalPath": "assets/thumbs/297852c7d357.png",
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719211528/https://www.reddit.com/r/soccer/comments/1v11xca/enzo_fern%C3%A1ndez_argentina_second_yellow_card/",
+    "postDate": "2026-07-19T21:10:52Z",
+    "dateSaved": "2026-07-20T14:30:14Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "fa321ee8d471",
+    "title": "Spain crowned 2026 World Cup champions.",
+    "url": "https://www.reddit.com/r/soccer/comments/1v144ih/spain_crowned_2026_world_cup_champions",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v144ih/spain_crowned_2026_world_cup_champions/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Key_Company3196 • 10,729 points and 1,000 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/N2d0bnQzZjhtOWVoMVrhioRGErcHZDo1io5kuU2HJJyCHi5ahkYz0dEdEQkM.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260720045129/https://www.reddit.com/r/soccer/comments/1v144ih/spain_crowned_2026_world_cup_champions/",
+    "postDate": "2026-07-19T22:47:13Z",
+    "dateSaved": "2026-07-20T14:30:18Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "be03ab0fc19c",
+    "title": "Altercation between Paredes and Spain players after the game",
+    "url": "https://www.reddit.com/r/soccer/comments/1v1363p/altercation_between_paredes_and_spain_players",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v1363p/altercation_between_paredes_and_spain_players/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Gato_Puro • 13,428 points and 2,084 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/DDJcj2FoDdmetxk4oZUqWTqtMuwKOk6NdQqxLkE395I.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719221030/https://www.reddit.com/r/soccer/comments/1v1363p/altercation_between_paredes_and_spain_players/",
+    "postDate": "2026-07-19T22:08:04Z",
+    "dateSaved": "2026-07-20T14:30:22Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "110aebbdec51",
+    "title": "Spain [1] - 0 Argentina - Ferran Torres 106'",
+    "url": "https://www.reddit.com/r/soccer/comments/1v12m2u/spain_1_0_argentina_ferran_torres_106",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v12m2u/spain_1_0_argentina_ferran_torres_106/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/ayoefico • 18,836 points and 1,932 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/82WAMDMwR4WeuJ5g5ONSpiWInaCE86TwidzHiA62Pa8.jpeg?width=140&height=78&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-07-19T21:42:56Z",
+    "dateSaved": "2026-07-20T14:31:06Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Goal",
+      "Highlights"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "98601539bdcf",
+    "title": "Lamine Yamal and Lionel Messi share a moment after Spain defeated Argentina in the World Cup Final.",
+    "url": "https://www.reddit.com/r/soccer/comments/1v13dr1/lamine_yamal_and_lionel_messi_share_a_moment",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v13dr1/lamine_yamal_and_lionel_messi_share_a_moment/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/No-Independent2522 • 15,935 points and 750 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/Y242amZuc3RnOWVoMY44fZN4YMS0PUMiUEF7nFKOJzXiwmfv0oZuY3btAxpU.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-07-19T22:16:16Z",
+    "dateSaved": "2026-07-20T14:31:45Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false
+  },
+  {
+    "id": "4bca365f6f3d",
+    "title": "Messi trying to get Cucurella a red card after he touched his mouth",
+    "url": "https://www.reddit.com/r/soccer/comments/1v128cq/messi_trying_to_get_cucurella_a_red_card_after_he",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v128cq/messi_trying_to_get_cucurella_a_red_card_after_he/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Al3xanderTh3Gr3at • 53,269 points and 5,254 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/am4xNWVqamc3OWVoMZGkB_sJ1zgLIE_C9B_Jw5_YAhzlIvvL9LGyLtmpeXDH.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719213600/https://www.reddit.com/r/soccer/comments/1v128cq/messi_trying_to_get_cucurella_a_red_card_after_he/",
+    "postDate": "2026-07-19T21:24:59Z",
+    "dateSaved": "2026-07-20T14:31:48Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "4031c9a1657b",
+    "title": "Messi crying after receiving his runners-up medal",
+    "url": "https://www.reddit.com/r/soccer/comments/1v13zul/messi_crying_after_receiving_his_runnersup_medal",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v13zul/messi_crying_after_receiving_his_runnersup_medal/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/notaghostofreddit • 28,459 points and 3,049 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/ODVnM3RkemJsOWVoMRRK8Pp2-LToU04xXHbLrfBERYUgNPIzyAYdGI9uTqnn.png?width=140&height=79&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260720032620/https://www.reddit.com/r/soccer/comments/1v13zul/messi_crying_after_receiving_his_runnersup_medal/",
+    "postDate": "2026-07-19T22:41:36Z",
+    "dateSaved": "2026-07-20T14:31:51Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "69da7e9d1b69",
+    "title": "Romero completely ignored Trump",
+    "url": "https://www.reddit.com/r/soccer/comments/1v14bce/romero_completely_ignored_trump",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v14bce/romero_completely_ignored_trump/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Righting all his wrongs Edit - he does go back to shake Claudia Sheinbaum's hand, he knew what he was doing",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/M3VhazZqaXJuOWVoMZ5XX49TKU-Bt4FJUI-CVvVC-THv0HDv8xXTwMdu978k.png?width=140&height=63&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719232855/https://www.reddit.com/r/soccer/comments/1v14bce/romero_completely_ignored_trump/",
+    "postDate": "2026-07-19T22:55:09Z",
+    "dateSaved": "2026-07-20T14:31:58Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "a9d69e624605",
+    "title": "Molina punching Rodri that starts the whole altercation between Argetinian and Spanish players",
+    "url": "https://www.reddit.com/r/soccer/comments/1v17nr6/molina_punching_rodri_that_starts_the_whole",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v17nr6/molina_punching_rodri_that_starts_the_whole/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/notpiercedtongue • 11,905 points and 1,684 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/d2hobWxmYTFlYWVoMbY28elOvNw_6FPmeLKxJhYEoC7M-TJhMpyTjLpGVZxT.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-07-20T01:22:22Z",
+    "dateSaved": "2026-07-20T14:32:26Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "d081b9c3bae9",
+    "title": "[DAZN] Lamine Yamal celebrates the World Cup with his little brother Keyne",
+    "url": "https://www.reddit.com/r/soccer/comments/1v17org/dazn_lamine_yamal_celebrates_the_world_cup_with",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v17org/dazn_lamine_yamal_celebrates_the_world_cup_with/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/Mulderre91 • 13,732 points and 267 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/aTJsZXlpdjllYWVoMYdF7-79RTdBmpE7CQto1kEueeUMOqmzlR9dPX1kH1iP.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": null,
+    "postDate": "2026-07-20T01:23:45Z",
+    "dateSaved": "2026-07-20T14:33:05Z",
+    "matchId": "ESP-ARG-2026-07-19",
+    "matchLabel": "🇪🇸 Spain vs 🇦🇷 Argentina",
+    "matchDate": "2026-07-19",
+    "stage": "Final",
+    "group": null,
+    "teams": [
+      "Spain",
+      "Argentina"
+    ],
+    "teamCodes": [
+      "ESP",
+      "ARG"
+    ],
+    "scoreLabel": "🇪🇸 Spain 1–0 🇦🇷 Argentina",
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": 106,
+        "ownGoal": false,
+        "penalty": false
+      }
+    ],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [
+      "Vibes"
+    ],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 1,
+      "teams": 1,
+      "stage": 1,
+      "score": 1
+    },
+    "needsReview": false,
+    "matchLocked": true
+  },
+  {
+    "id": "593694a51e8e",
+    "title": "World Cup Ending Montage [BBC]",
+    "url": "https://www.reddit.com/r/soccer/comments/1v14ok6/world_cup_ending_montage_bbc",
+    "canonicalUrl": "https://www.reddit.com/r/soccer/comments/1v14ok6/world_cup_ending_montage_bbc/",
+    "source": "Reddit",
+    "sourceDetail": "r/soccer",
+    "description": "Posted in r/soccer by u/TIGHazard • 4,991 points and 409 comments",
+    "thumbnailRemoteUrl": "https://external-preview.redd.it/YWFxZG9tdmZxOWVoMbCHJfQOo-iv-zG9gYgF0raeEdT2NzNEvashqU0sAIGw.png?width=140&height=78&format=jpg&auto=webp",
+    "thumbnailLocalPath": null,
+    "externalUrl": null,
+    "archivedUrl": "https://web.archive.org/web/20260719233725/https://www.reddit.com/r/soccer/comments/1v14ok6/world_cup_ending_montage_bbc/",
+    "postDate": "2026-07-19T23:10:07Z",
+    "dateSaved": "2026-07-20T14:33:08Z",
+    "matchId": null,
+    "matchLabel": null,
+    "matchDate": null,
+    "stage": null,
+    "group": null,
+    "teams": [],
+    "teamCodes": [],
+    "scoreLabel": null,
+    "goals": [],
+    "candidateMatches": [],
+    "type": [],
+    "tags": [],
+    "pinnedTags": [],
+    "suppressedTags": [],
+    "importance": null,
+    "note": "",
+    "backup": "",
+    "metadataConfidence": {
+      "match": 0,
+      "teams": 0,
+      "stage": 0,
+      "score": 0
+    },
+    "needsReview": false
   }
 ]
